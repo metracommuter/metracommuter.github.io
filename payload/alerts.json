@@ -11,6 +11,57 @@
           "agency_id": "METRA",
           "route_id": "SWS",
           "route_type": null,
+          "trip": {
+            "trip_id": "SWS_SW822_V3_B",
+            "route_id": "SWS",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/SWS?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "SWS #822 Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "SWS Train #822, scheduled to depart 179th Street/Orland Park at 4:55 PM, is operating 15 to 20 minutes behind schedule due to earlier Freight Train Interference.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "2",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-N",
+          "route_type": null,
           "trip": null,
           "stop_id": null
         }
@@ -20,7 +71,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/SWS?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -28,7 +79,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "SWS Inbound and Outbound Train Delays",
+            "text": "Kenosha Elevator Out Of Service",
             "language": "en"
           }
         ]
@@ -36,7 +87,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "Inbound and outbound trains may be operating 15 to 20 minutes behind schedule due to earlier mechanical problems on train #806 and earlier freight train interference.",
+            "text": "The Kenosha Elevator is out of service. Customers can use Winthrop Harbor as alternate boarding stations. Updates will be provided.",
             "language": "en"
           }
         ]
@@ -44,44 +95,44 @@
     }
   },
   {
-    "id": "cms_alert1548",
+    "id": "3",
     "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
     "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "BNSF",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
       "url": {
         "translation": [
           {
-            "text": "metrarail.com/riding-metra/service-updates?Source=0\u0026Website=1\u0026OnBoard=0\u0026Email=0\u0026Twitter=0"
+            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
           }
         ]
       },
-      "informed_entity": [
-        {
-          "route_id": "MD-N"
-        }
-      ],
-      "active_period": [
-        {
-          "start": {
-            "low": "2023-11-06T16:53:00"
-          },
-          "end": {
-            "low": "2024-06-14T18:00:00"
-          }
-        }
-      ],
       "header_text": {
         "translation": [
           {
-            "text": "Metra Alert MD-N - Track construction at Grayland Station, Rondout and Everett crossing extended through June 2024 ",
-            "language": "en-US"
+            "text": "BNSF #1272 - Delayed/Expressing",
+            "language": "en"
           }
         ]
       },
       "description_text": {
         "translation": [
           {
-            "text": "\u003Cp\u003ETrack construction will be taking place at the Grayland station, Rondout, and the Everett crosssing has been extended through June, 2024. Trains may incur delays enroute up to 15 minutes behind schedule passing through the work zone until the work is complete. Please listen to announcements for any platform changes. For additional information visit \u003Ca href=\u0022https://metra.com/constructionnotices\u0022\u003Emetra.com/constructionnotices\u003C/a\u003E.\u003C/p\u003E",
-            "language": "en-US"
+            "text": "BNSF  #1272, scheduled to arrive Chicago Union Station at 5:12pm, may be operating 15-20 minutes behind schedule and will express from Main St. to Chicago due to freight train interference. Train #1274 will accommodate passengers at intermediate stops.",
+            "language": "en"
           }
         ]
       }
@@ -132,50 +183,6 @@
     }
   },
   {
-    "id": "cms_alert1615",
-    "is_deleted": false,
-    "alert": {
-      "url": {
-        "translation": [
-          {
-            "text": "metrarail.com/riding-metra/service-updates?Source=0\u0026Website=1\u0026OnBoard=0\u0026Email=0\u0026Twitter=0"
-          }
-        ]
-      },
-      "informed_entity": [
-        {
-          "route_id": "ME"
-        }
-      ],
-      "active_period": [
-        {
-          "start": {
-            "low": "2023-11-07T09:45:00"
-          },
-          "end": {
-            "low": "2024-06-07T10:00:00"
-          }
-        }
-      ],
-      "header_text": {
-        "translation": [
-          {
-            "text": "Metra Alert ME - Metra Electric 103rd station to close November 20 - Full Reconstruction",
-            "language": "en-US"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "\u003Cp\u003EAs part of the Metra Electric Community Initiative to transform 13 stations on the district, the 103rd Street/Rosemoor station will be closed beginning November 20 for a full reconstruction. The station is expected to be closed 7 to 12 months. Durng this time, customers can use 107th Street and 95th Street/Chicago State University as alternatives. For additional information click \u003Ca href=\u0022https://metra.com/newsroom/103rd-strosemoor-station-close-rehab\u0022\u003Ehere\u003C/a\u003E.\u003C/p\u003E",
-            "language": "en-US"
-          }
-        ]
-      }
-    }
-  },
-  {
     "id": "cms_alert1673",
     "is_deleted": false,
     "alert": {
@@ -213,50 +220,6 @@
         "translation": [
           {
             "text": "\u003Cp\u003EThe 147th street/Sibley Blvd station is closed for reconstruction until late summer 2024. During this time, trains will not stop at this station. As alternates, please use the nearby Ivanhoe or Harvey stations. Updates will be provided once the rehabiliation is complete and the station is accessible. Metra apologizes for the inconvenience and thank you for your patience.\u003C/p\u003E",
-            "language": "en-US"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "cms_alert1720",
-    "is_deleted": false,
-    "alert": {
-      "url": {
-        "translation": [
-          {
-            "text": "metrarail.com/riding-metra/service-updates?Source=0\u0026Website=1\u0026OnBoard=0\u0026Email=0\u0026Twitter=0"
-          }
-        ]
-      },
-      "informed_entity": [
-        {
-          "route_id": "ME"
-        }
-      ],
-      "active_period": [
-        {
-          "start": {
-            "low": "2024-01-26T09:27:00"
-          },
-          "end": {
-            "low": "2024-06-16T18:00:00"
-          }
-        }
-      ],
-      "header_text": {
-        "translation": [
-          {
-            "text": "Metra Alert ME - Metra Electric District Weekend Track Construction",
-            "language": "en-US"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "\u003Cp\u003ETrack construction will be taking place each weekend until the completion of the 147th street/Sibley and Homewood station rehabs. Trains may incur delays enroute up to 15\u0026nbsp;minutes behind schedule passing through the work zone. Please listen to announcements for any platform changes. For additional information visit\u0026nbsp;\u003Ca href=\u0022https://metra.com/constructionnotices\u0022\u003Emetra.com/constructionnotices.\u003C/a\u003E\u003C/p\u003E",
             "language": "en-US"
           }
         ]
@@ -440,6 +403,138 @@
     }
   },
   {
+    "id": "cms_alert1751",
+    "is_deleted": false,
+    "alert": {
+      "url": {
+        "translation": [
+          {
+            "text": "metrarail.com/riding-metra/service-updates?Source=0\u0026Website=1\u0026OnBoard=0\u0026Email=1\u0026Twitter=1"
+          }
+        ]
+      },
+      "informed_entity": [
+        {
+          "route_id": "UP-N"
+        }
+      ],
+      "active_period": [
+        {
+          "start": {
+            "low": "2024-06-28T06:03:00"
+          },
+          "end": {
+            "low": "2024-06-30T23:56:00"
+          }
+        }
+      ],
+      "header_text": {
+        "translation": [
+          {
+            "text": "Metra Alert UP-N - Track Construction Saturday, June 29 through Sunday, June 30",
+            "language": "en-US"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "\u003Cp\u003ETrack construction will be taking place on Saturday, June 29\u0026nbsp;through Sunday, June 30. Trains may incur delays enroute up to 30 minutes behind schedule passing through the work zone. Please listen to announcements for any platform changes. For additional information visit\u0026nbsp;\u003Ca href=\u0022https://metra.com/constructionnotices\u0022\u003Emetra.com/constructionnotices.\u003C/a\u003E\u003C/p\u003E",
+            "language": "en-US"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "cms_alert1752",
+    "is_deleted": false,
+    "alert": {
+      "url": {
+        "translation": [
+          {
+            "text": "metrarail.com/riding-metra/service-updates?Source=0\u0026Website=1\u0026OnBoard=0\u0026Email=1\u0026Twitter=1"
+          }
+        ]
+      },
+      "informed_entity": [
+        {
+          "route_id": "UP-NW"
+        }
+      ],
+      "active_period": [
+        {
+          "start": {
+            "low": "2024-06-28T06:02:00"
+          },
+          "end": {
+            "low": "2024-06-29T23:57:00"
+          }
+        }
+      ],
+      "header_text": {
+        "translation": [
+          {
+            "text": "Metra Alert UP-NW - Track Construction on Saturday, June 29",
+            "language": "en-US"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "\u003Cp\u003ETrack construction will be taking place on Saturday, June 29. Trains may incur delays enroute up to 20\u0026nbsp;minutes behind schedule passing through the work zone. Please listen to announcements for any platform changes. For additional information visit\u0026nbsp;\u003Ca href=\u0022https://metra.com/constructionnotices\u0022\u003Emetra.com/constructionnotices.\u003C/a\u003E\u003C/p\u003E",
+            "language": "en-US"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "cms_alert1756",
+    "is_deleted": false,
+    "alert": {
+      "url": {
+        "translation": [
+          {
+            "text": "metrarail.com/riding-metra/service-updates?Source=0\u0026Website=1\u0026OnBoard=0\u0026Email=1\u0026Twitter=1"
+          }
+        ]
+      },
+      "informed_entity": [
+        {
+          "route_id": "MD-W"
+        }
+      ],
+      "active_period": [
+        {
+          "start": {
+            "low": "2024-06-28T06:00:00"
+          },
+          "end": {
+            "low": "2024-06-30T23:59:00"
+          }
+        }
+      ],
+      "header_text": {
+        "translation": [
+          {
+            "text": "Metra Alert MD-W - Track Construction Saturday, June 29 through Sunday, June 30",
+            "language": "en-US"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "\u003Cp\u003ETrack construction will be taking place on Saturday, June 29\u0026nbsp;through Sunday, June 30. Trains may incur delays enroute up to 15\u0026nbsp;minutes behind schedule passing through the work zone. Please listen to announcements for any platform changes. For additional information visit\u0026nbsp;\u003Ca href=\u0022https://metra.com/constructionnotices\u0022\u003Emetra.com/constructionnotices.\u003C/a\u003E\u003C/p\u003E",
+            "language": "en-US"
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "cms_alert1758",
     "is_deleted": false,
     "alert": {
@@ -477,6 +572,138 @@
         "translation": [
           {
             "text": "\u003Cp\u003EBeginning Wednesday, May 8, the east half of Platform 2 (island platform) will be closed for rehabilitation.\u0026nbsp;Once completed, the work will move to the west half of Platform 2 to complete the project by the end of November.\u003C/p\u003E\u003Cp\u003EPlease allow additional time to access the in-service platform and exercise caution near the work zones.\u003C/p\u003E",
+            "language": "en-US"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "cms_alert1767",
+    "is_deleted": false,
+    "alert": {
+      "url": {
+        "translation": [
+          {
+            "text": "metrarail.com/riding-metra/service-updates?Source=0\u0026Website=1\u0026OnBoard=0\u0026Email=1\u0026Twitter=1"
+          }
+        ]
+      },
+      "informed_entity": [
+        {
+          "route_id": "BNSF"
+        }
+      ],
+      "active_period": [
+        {
+          "start": {
+            "low": "2024-06-28T06:00:00"
+          },
+          "end": {
+            "low": "2024-06-30T23:59:00"
+          }
+        }
+      ],
+      "header_text": {
+        "translation": [
+          {
+            "text": "Metra Alert BNSF - Track Construction Saturday, June 29 through Sunday, June 30",
+            "language": "en-US"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "\u003Cp\u003ETrack construction will be taking place on Saturday, June 29 through Sunday, June 30. Trains may incur delays enroute up to 20\u0026nbsp;minutes behind schedule passing through the work zone. Please listen to announcements for any platform changes. For additional information visit\u0026nbsp;\u003Ca href=\u0022https://metra.com/constructionnotices\u0022\u003Emetra.com/constructionnotices.\u003C/a\u003E\u003C/p\u003E",
+            "language": "en-US"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "cms_alert1769",
+    "is_deleted": false,
+    "alert": {
+      "url": {
+        "translation": [
+          {
+            "text": "metrarail.com/riding-metra/service-updates?Source=0\u0026Website=1\u0026OnBoard=0\u0026Email=0\u0026Twitter=0"
+          }
+        ]
+      },
+      "informed_entity": [
+        {
+          "route_id": "UP-W"
+        }
+      ],
+      "active_period": [
+        {
+          "start": {
+            "low": "2024-06-26T15:51:00"
+          },
+          "end": {
+            "low": "2024-06-30T16:00:00"
+          }
+        }
+      ],
+      "header_text": {
+        "translation": [
+          {
+            "text": "Metra Alert UP-W - Union Pacific West - Chicago Pride Parade Additional Service, Sunday, June 30",
+            "language": "en-US"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "\u003Cp\u003EUPDATE: Union Pacific Railroad has postponed construction work originally scheduled on the UP-West Line Sunday, June 30 until later this summer. Metra will add trains\u0026nbsp;on the UP-West Line to accommodate passengers planning to attend\u0026nbsp;Chicago\u0026#39;s 53rd Annual Pride Parade. Click\u003Ca href=\u0022https://schedules.metrarail.com/pdf/alternative/UP-W/UPW%20Pride%20Parade%20Service%206/30_202406261542.pdf\u0022\u003E here\u003C/a\u003E for schedule information.\u003C/p\u003E",
+            "language": "en-US"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "cms_alert1770",
+    "is_deleted": false,
+    "alert": {
+      "url": {
+        "translation": [
+          {
+            "text": "metrarail.com/riding-metra/service-updates?Source=0\u0026Website=1\u0026OnBoard=0\u0026Email=1\u0026Twitter=0"
+          }
+        ]
+      },
+      "informed_entity": [
+        {
+          "route_id": "UP-N"
+        }
+      ],
+      "active_period": [
+        {
+          "start": {
+            "low": "2024-06-26T11:34:00"
+          },
+          "end": {
+            "low": "2024-06-30T16:00:00"
+          }
+        }
+      ],
+      "header_text": {
+        "translation": [
+          {
+            "text": "Metra Alert UP-N - Union Pacific North - Chicago Pride Parade Additional Service, Sunday, June 30",
+            "language": "en-US"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "\u003Cp\u003EMetra will add trains\u0026nbsp;on the Union Pacific North\u0026nbsp;line to accommodate passengers planning to attend\u0026nbsp;Chicago\u0026#39;s 53rd Annual Pride Parade Sunday, June 30. Click \u003Ca href=\u0022https://schedules.metrarail.com/pdf/alternative/UP-N/UPN%206/30%20Pride%20Parade%20Service_202406261015.pdf\u0022\u003Ehere\u003C/a\u003E for schedule information.\u0026nbsp;\u003C/p\u003E",
             "language": "en-US"
           }
         ]
