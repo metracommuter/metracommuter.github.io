@@ -28,6 +28,50 @@
       "header_text": {
         "translation": [
           {
+            "text": "ME Ground Level Boarding",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "Inbound and outbound trains may be loading from ground level at 75th, 83rd, 87th , 91st, 95th, 107th and 111th street stations. Please wait on the platform visible to the engineer and follow boarding instructions from the conductor after the train stops.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "2",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "ME",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
             "text": "The Van Buren Michigan Avenue Elevator",
             "language": "en"
           }
@@ -44,7 +88,7 @@
     }
   },
   {
-    "id": "2",
+    "id": "3",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -88,7 +132,7 @@
     }
   },
   {
-    "id": "3",
+    "id": "4",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -97,9 +141,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "MD-W",
+          "route_id": "ME",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "ME_ME214_V3_C",
+            "route_id": "ME",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -108,7 +159,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/MD-W?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -116,7 +167,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "MDW Train #2205 Delayed",
+            "text": "ME train 214 Is Stopped",
             "language": "en"
           }
         ]
@@ -124,7 +175,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "Train #2205 scheduled to arrive Big Timber Road at 8:55 a.m. is on the move and may be operating 15 to 25 minutes behind schedule due to police activity.",
+            "text": "Train #214 scheduled to arrive Millennium station at 9:21 AM is currently stopped at Museum Campus due to switch problems. Delay times are currently unknown. Updates will be provide as soon as information is received.",
             "language": "en"
           }
         ]
@@ -132,7 +183,7 @@
     }
   },
   {
-    "id": "4",
+    "id": "5",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -176,7 +227,7 @@
     }
   },
   {
-    "id": "5",
+    "id": "6",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
