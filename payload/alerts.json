@@ -201,14 +201,7 @@
           "agency_id": "METRA",
           "route_id": "MD-W",
           "route_type": null,
-          "trip": {
-            "trip_id": "MD-W_MW2246_V2_C",
-            "route_id": "MD-W",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
+          "trip": null,
           "stop_id": null
         }
       ],
@@ -217,7 +210,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/MD-W?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-W?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -225,7 +218,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "MDW Train 2246 Stopped",
+            "text": "MDW Train 2246 will not operate past Hanover Park",
             "language": "en"
           }
         ]
@@ -233,7 +226,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "MDW Inbound train number 2246 scheduled to arrive Chicago Union Station at 6:49 PM is stopped at Hanover Park due to ongoing Mechanical Problems. Updated at 6:20 PM",
+            "text": "MDW Inbound train number 2246 scheduled to arrive Chicago Union Station at 6:49 PM, will not operate past Hanover Park due to Mechanical Problems. Train #2248 will be the next train to accommodate passengers to Chicago.",
             "language": "en"
           }
         ]
@@ -242,6 +235,50 @@
   },
   {
     "id": "6",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "MD-W",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-W?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "MDW #2249 will not operate",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "MDW train #2249 scheduled to depart Chicago Union Station at 7:40 pm, will not operate due to an earlier mechanical failure. Train #2251 will be the next train to accommodate passengers to Big Timber.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "7",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
