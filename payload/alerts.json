@@ -55,7 +55,14 @@
           "agency_id": "METRA",
           "route_id": "UP-W",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "UP-W_UW48_V1_B",
+            "route_id": "UP-W",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -64,7 +71,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-W?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-W?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -72,7 +79,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "UPW 48 Delayed Departure",
+            "text": "UPW 48 On The Move and Delayed 17 to 22 Minutes",
             "language": "en"
           }
         ]
@@ -80,7 +87,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "Train 48, scheduled to arrive Chicago at 1:50 p.m., will be a delayed departure due to an earlier vehicle striking abridge and a crew shortage.",
+            "text": "Train 48, scheduled to arrive Chicago at 1:50 p.m., is on the move and operating 17 to 22 minutes behind schedule due to an earlier vehicle striking abridge and a crew shortage.",
             "language": "en"
           }
         ]
@@ -185,57 +192,6 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "UP-NW",
-          "route_type": null,
-          "trip": {
-            "trip_id": "UP-NW_UNW623_V2_B",
-            "route_id": "UP-NW",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "UPNW 623 Delayed 15 to 20 Minutes",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "Union Pacific Northwest Line passengers, Train 623, scheduled to arrive Harvard at 12:25 p.m., is operating 15 to 20 minutes behind schedule due to track construction.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "6",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
           "route_id": "ME",
           "route_type": null,
           "trip": null,
@@ -271,7 +227,7 @@
     }
   },
   {
-    "id": "7",
+    "id": "6",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
