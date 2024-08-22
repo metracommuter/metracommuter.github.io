@@ -53,9 +53,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "BNSF",
+          "route_id": "RI",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "RI_RI703_V1_C",
+            "route_id": "RI",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -64,7 +71,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/RI?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -72,7 +79,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "BNSF Trains stopped",
+            "text": "RID #703 Delayed",
             "language": "en"
           }
         ]
@@ -80,7 +87,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "BNSF inbound and outbound trains will be stopped near Harlem due to Amtrak train striking a pedestrian ongoing investigation. Metra will provide updates as they become available.",
+            "text": "RID train #703, scheduled to arrive Joliet at 5:31 PM, is operating 15 to 20 minutes behind schedule due to Police Activity.",
             "language": "en"
           }
         ]
@@ -221,6 +228,50 @@
   },
   {
     "id": "6",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "BNSF",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "BNSF Trains on the Move",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "BNSF inbound and outbound trains are on the move and may be operating with extensive delays due to an earlier Amtrak pedestrian incident. Visit metratracker.com for the location of your train.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "7",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
