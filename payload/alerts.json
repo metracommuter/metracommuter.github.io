@@ -60,9 +60,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "ME",
+          "route_id": "NCS",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "NCS_NC718_V1_C",
+            "route_id": "NCS",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -71,7 +78,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/NCS?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -79,7 +86,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "ME Van Buren Street Station Elevator Is Out Of Service",
+            "text": "NCS 718 DELAYED",
             "language": "en"
           }
         ]
@@ -87,7 +94,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "The Van Buren Street Station is out of service. Customers can use South Water or Museum Campus as alternate boarding stations. Updates will be provided.",
+            "text": "NCS 718, the 5;24 pm arrival to Chicago, maybe operating 15 to 20 minutes behind schedule due to waiting on other trains",
             "language": "en"
           }
         ]
@@ -123,7 +130,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "UPW #47 Delayed",
+            "text": "UPW Outbound Trains Delayed",
             "language": "en"
           }
         ]
@@ -131,7 +138,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "Outbound train #47 scheduled to depart Ogilvie Transportation Center at 4:50 P.M. is on the move operating 20 to 25 minutes behind schedule due to a mechanical failure.",
+            "text": "UPW outbound trains may be operating up to 25 minutes behind schedule due to an earlier mechanical failure. Visit metratracker.com for the location of your train.",
             "language": "en"
           }
         ]
@@ -140,6 +147,101 @@
   },
   {
     "id": "4",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "ME",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "ME Van Buren Street Station Elevator Is Out Of Service",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "The Van Buren Street Station is out of service. Customers can use South Water or Museum Campus as alternate boarding stations. Updates will be provided.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "5",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-NW",
+          "route_type": null,
+          "trip": {
+            "trip_id": "UP-NW_UNW655_V2_C",
+            "route_id": "UP-NW",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPNW #655 Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "Outbound train #655 scheduled to arrive Harvard at 6:47 P.M. may be operating 15 to 20 minutes behind schedule due to earlier mechanical failure.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "6",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -190,7 +292,7 @@
     }
   },
   {
-    "id": "5",
+    "id": "7",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -241,7 +343,7 @@
     }
   },
   {
-    "id": "6",
+    "id": "8",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
