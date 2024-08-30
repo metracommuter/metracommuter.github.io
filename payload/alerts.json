@@ -35,7 +35,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "RID #411 stopped",
+            "text": "RID #411 Delayed",
             "language": "en"
           }
         ]
@@ -43,7 +43,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "RID #411 Scheduled to arrive Joliet at 12:00 pm is currently stopped due to police activity at Blue Island Vermont.",
+            "text": "RID #411 Scheduled to arrive Joliet at 12:00 pm, may be operating 15 to 20 minutes behind schedule due to police activity.",
             "language": "en"
           }
         ]
@@ -60,16 +60,9 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "RI",
+          "route_id": "BNSF",
           "route_type": null,
-          "trip": {
-            "trip_id": "RI_RI418_V8_B",
-            "route_id": "RI",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
+          "trip": null,
           "stop_id": null
         }
       ],
@@ -78,7 +71,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/RI?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -86,7 +79,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "RID #418 stopped",
+            "text": "BNSF 1254 Delayed",
             "language": "en"
           }
         ]
@@ -94,7 +87,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "RID #418 Scheduled to arrive Chicago at 11:40 am is currently stopped at Blue Island Vermont due to Police activity.",
+            "text": "Train 1254, scheduled to arrive Chicago at 11:20 AM, may be operating 25 to 30 minutes behind schedule due to freight train interference.",
             "language": "en"
           }
         ]
@@ -199,9 +192,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "BNSF",
+          "route_id": "RI",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "RI_RI418_V8_B",
+            "route_id": "RI",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -210,7 +210,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/RI?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -218,7 +218,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "BNSF 1254 Stopped",
+            "text": "RID #418 Delayed",
             "language": "en"
           }
         ]
@@ -226,7 +226,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "Train 1254, scheduled to arrive Chicago at 11:20 AM, is stopped near Cicero due to freight train interference. The duration of this delay is unknown. Metra will update you as information becomes available.",
+            "text": "RID #418 Scheduled to arrive Chicago at 11:40 am may be operating 25 to 30 minutes behind schedule due to police activity.",
             "language": "en"
           }
         ]
