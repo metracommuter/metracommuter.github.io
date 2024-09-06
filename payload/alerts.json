@@ -28,7 +28,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "ME 57TH West Elevator Out Of Service",
+            "text": "ME Train 722 Will Not Operate Today",
             "language": "en"
           }
         ]
@@ -36,7 +36,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "The 57th Street West Elevator is out of service. Customers can use 115th Kensington or 51st/53rd Hyde Park as alternate boarding stations. Updates will be provided.",
+            "text": "Train 722 scheduled to depart Homewood at 6:37AM will not operate today due to police activity. Train 704 scheduled to arrive Chicago at 7:32 a.m., will accommodate passengers.",
             "language": "en"
           }
         ]
@@ -72,7 +72,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "ME Train 103 Stopped",
+            "text": "ME 57TH West Elevator Out Of Service",
             "language": "en"
           }
         ]
@@ -80,7 +80,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "Train 103 scheduled to arrive University Park at 6:33 a.m., is currently stopped due to police activity. Delayed time is unknown at this time. Metra will update when more information is available.",
+            "text": "The 57th Street West Elevator is out of service. Customers can use 115th Kensington or 51st/53rd Hyde Park as alternate boarding stations. Updates will be provided.",
             "language": "en"
           }
         ]
@@ -89,6 +89,50 @@
   },
   {
     "id": "3",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "ME",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "ME Train 103 Is On The Move",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "Train 103 scheduled to arrive University Park at 6:33 a.m., is now on the move operating 25 to 30 minutes delayed due to police activity.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "4",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -125,50 +169,6 @@
         "translation": [
           {
             "text": "Train #2101 scheduled to arrive Lake Forest at 7:29 a.m. will operate ahead of train #2203 at Western avenue. Train #2203 scheduled to arrive Big Timber Road may be operating 10 to 15 minutes behind schedule due to an earlier mechanical problem.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "4",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "ME",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "ME Train 722 Delayed Departure",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "Train 722 scheduled to depart Homewood at 6:37AM will be a delayed departure, due to police activity. Delayed time is unknown at this time. Metra will update when more information is available.",
             "language": "en"
           }
         ]
@@ -829,6 +829,94 @@
         "translation": [
           {
             "text": "\u003Cp\u003EMetra will once again be offering special service on the Heritage Corridor Line on six\u0026nbsp;Saturdays this\u0026nbsp;fall, providing opportunities to explore the bike trails, festivals, craft breweries, restaurants, and vibrant communities along this historic route. Full schedules can be found on \u003Ca href=\u0022https://ridertools.metrarail.com/maps-schedules\u0022\u003Emetra.com\u003C/a\u003E.\u003C/p\u003E",
+            "language": "en-US"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "cms_alert1814",
+    "is_deleted": false,
+    "alert": {
+      "url": {
+        "translation": [
+          {
+            "text": "metrarail.com/riding-metra/service-updates?Source=0\u0026Website=1\u0026OnBoard=0\u0026Email=1\u0026Twitter=1"
+          }
+        ]
+      },
+      "informed_entity": [
+        {
+          "route_id": "ME"
+        }
+      ],
+      "active_period": [
+        {
+          "start": {
+            "low": "2024-09-06T07:00:00"
+          },
+          "end": {
+            "low": "2024-12-27T00:00:00"
+          }
+        }
+      ],
+      "header_text": {
+        "translation": [
+          {
+            "text": "Metra Alert ME - Metra Electric District Extra Service For Chicago Bears Games",
+            "language": "en-US"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "\u003Cp\u003EThe Metra Electric District will run extra train service for anticipation of larger than normal crowds for the Chicago Bears home games. For more information click\u003Ca href=\u0022https://chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://schedules.metrarail.com/pdf/alternative/ME/Bears%20Game%20Day%20Service_202408271019.pdf\u0022\u003E here\u003C/a\u003E and visit metra.com.\u003C/p\u003E",
+            "language": "en-US"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "cms_alert1815",
+    "is_deleted": false,
+    "alert": {
+      "url": {
+        "translation": [
+          {
+            "text": "metrarail.com/riding-metra/service-updates?Source=0\u0026Website=1\u0026OnBoard=0\u0026Email=1\u0026Twitter=1"
+          }
+        ]
+      },
+      "informed_entity": [
+        {
+          "route_id": "UP-N"
+        }
+      ],
+      "active_period": [
+        {
+          "start": {
+            "low": "2024-09-06T07:00:00"
+          },
+          "end": {
+            "low": "2024-12-27T00:00:00"
+          }
+        }
+      ],
+      "header_text": {
+        "translation": [
+          {
+            "text": "Metra Alert UP-N - Metra Union Pacific North Line Extra Service for Chicago Bears Games.",
+            "language": "en-US"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "\u003Cp\u003E\u003Cspan style=\u0022font-size:11pt\u0022\u003E\u003Cspan style=\u0022font-family:Aptos,sans-serif\u0022\u003EThe Metra Union Pacific North Line will run extra train service for anticipation of larger than normal crowds for the Chicago Bears home games.\u0026nbsp;\u003C/span\u003E\u003C/span\u003EFor more information click\u003Ca href=\u0022https://chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://schedules.metrarail.com/pdf/alternative/UP-N/Bears%20Game%20Day%20Service_202408271020.pdf\u0022\u003E here\u003C/a\u003E and visit metra.com.\u003C/p\u003E",
             "language": "en-US"
           }
         ]
