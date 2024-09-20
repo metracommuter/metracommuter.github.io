@@ -9,6 +9,50 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
+          "route_id": "BNSF",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "BNSF Train #1200 Delayed/Operational Change",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "Train #1200, may be operating 45 to 50 minutes behind schedule due to a freight train experiencing mechanical problems. This train will be expressing from Main Street to Chicago. Train #1202 will accommodate passengers.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "2",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
           "route_id": "ME",
           "route_type": null,
           "trip": null,
@@ -37,50 +81,6 @@
         "translation": [
           {
             "text": "The Van Buren Street Station Elevator is out of service. Customers can use South Water or Museum Campus as alternate boarding stations. Updates will be provided.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "2",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "BNSF",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "BNSF #1200 stopped- Freight train interference",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "BNSF train 1200, scheduled to arrive Chicago Union Station at 5:12 AM, is stopped near Route 59 due to Freight Train Interference. The duration of this delay is unknown. Metra will update you as information becomes available.",
             "language": "en"
           }
         ]
@@ -167,7 +167,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "UPNW Train #602 - Stopped",
+            "text": "UPN Train #602 - On The Move",
             "language": "en"
           }
         ]
@@ -175,7 +175,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "UPNW train #602 scheduled to arrive Chicago at 5:42 pm is currently stopped due to freight train interference. Delay times are unknown. Metra will update as information becomes available",
+            "text": "UPN train #602 scheduled to arrive Chicago at 5:42 pm is on the move and operating 15 to 20 minutes behind schedule due to freight train interference.",
             "language": "en"
           }
         ]
@@ -192,9 +192,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "BNSF",
+          "route_id": "UP-NW",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "UP-NW_UNW602_V1_G",
+            "route_id": "UP-NW",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -203,7 +210,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -211,7 +218,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "BNSF Train #1202 Stopped",
+            "text": "UPNW Train #602 - Stopped",
             "language": "en"
           }
         ]
@@ -219,7 +226,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "Train #1202, scheduled to arrive Chicago at 5:52 a.m., is stopped near Route 59 due to a freight train experiencing mechanical problems.  The estimated time of the delay is unknown.  We will update this information as soon as it becomes available.",
+            "text": "UPNW train #602 scheduled to arrive Chicago at 5:42 pm is currently stopped due to freight train interference. Delay times are unknown. Metra will update as information becomes available",
             "language": "en"
           }
         ]
