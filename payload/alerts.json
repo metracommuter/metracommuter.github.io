@@ -9,6 +9,94 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
+          "route_id": "BNSF",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "BNSF 1201 On the Move, Operational Change",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "Train #1201, scheduled to depart Chicago at 5:33 AM, is on the move and operating 15 to 20 minutes behind schedule. It will also express from Berwyn to Westmont due to earlier freight train interference. Trains #1203 and #1207 will accommodate.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "2",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "MD-W",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-W?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "MDW Train #2204 Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "Train #2204  scheduled to arrive at Chicago at 7:03 am may be operating 15 to 25 minutes behind schedule due to signal problems.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "3",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
           "route_id": "ME",
           "route_type": null,
           "trip": null,
@@ -44,7 +132,7 @@
     }
   },
   {
-    "id": "2",
+    "id": "4",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -88,51 +176,7 @@
     }
   },
   {
-    "id": "3",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "BNSF",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "BNSF 1201 Delayed Departure",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "Train #1201, scheduled to depart Chicago at 5:33 AM, will be a delayed departure due to an earlier freight train experiencing mechanical problems.  The duration of this delay is unknown, Metra will provide updates once this train begins to move.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "4",
+    "id": "5",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -176,7 +220,7 @@
     }
   },
   {
-    "id": "5",
+    "id": "6",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -315,6 +359,50 @@
     }
   },
   {
+    "id": "cms_alert1741",
+    "is_deleted": false,
+    "alert": {
+      "url": {
+        "translation": [
+          {
+            "text": "metrarail.com/riding-metra/service-updates?Source=0\u0026Website=1\u0026OnBoard=0\u0026Email=1\u0026Twitter=1"
+          }
+        ]
+      },
+      "informed_entity": [
+        {
+          "route_id": "ME"
+        }
+      ],
+      "active_period": [
+        {
+          "start": {
+            "low": "2024-09-20T06:00:00"
+          },
+          "end": {
+            "low": "2024-09-22T23:59:00"
+          }
+        }
+      ],
+      "header_text": {
+        "translation": [
+          {
+            "text": "Metra Alert ME - Track Construction Saturday, September 21 through Sunday, September 22",
+            "language": "en-US"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "\u003Cp\u003ETrack construction will be taking place on Saturday, September 21\u0026nbsp;through Sunday, September 22. Trains may incur delays enroute up to 20\u0026nbsp;minutes behind schedule passing through the work zone. Please listen to announcements for any platform changes. For additional information visit\u0026nbsp;\u003Ca href=\u0022https://metra.com/constructionnotices\u0022\u003Emetra.com/constructionnotices.\u003C/a\u003E\u003C/p\u003E",
+            "language": "en-US"
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "cms_alert1749",
     "is_deleted": false,
     "alert": {
@@ -352,6 +440,50 @@
         "translation": [
           {
             "text": "\u003Cp\u003E\u003Cspan style=\u0022font-size:11pt\u0022\u003E\u003Cspan style=\u0022font-family:\u0026quot;Calibri\u0026quot;,sans-serif\u0022\u003EThe Millennium Station elevator is out of service until further notice.\u0026nbsp; Customers can use the elevator located at 205 N Michigan, which leads to the South Water entrance to Millennium Station\u003C/span\u003E\u003C/span\u003E\u003C/p\u003E",
+            "language": "en-US"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "cms_alert1750",
+    "is_deleted": false,
+    "alert": {
+      "url": {
+        "translation": [
+          {
+            "text": "metrarail.com/riding-metra/service-updates?Source=0\u0026Website=1\u0026OnBoard=0\u0026Email=1\u0026Twitter=1"
+          }
+        ]
+      },
+      "informed_entity": [
+        {
+          "route_id": "UP-NW"
+        }
+      ],
+      "active_period": [
+        {
+          "start": {
+            "low": "2024-09-20T06:00:00"
+          },
+          "end": {
+            "low": "2024-09-22T23:59:00"
+          }
+        }
+      ],
+      "header_text": {
+        "translation": [
+          {
+            "text": "Metra Alert UP-NW - Track Construction Saturday, September 21 through Sunday, September 22",
+            "language": "en-US"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "\u003Cp\u003ETrack construction will be taking place Saturday, September 21 through Sunday, September 22. Trains may incur delays enroute up to 20\u0026nbsp;minutes behind schedule passing through the work zone. Please listen to announcements for any platform changes. For additional information visit\u0026nbsp;\u003Ca href=\u0022https://metra.com/constructionnotices\u0022\u003Emetra.com/constructionnotices.\u003C/a\u003E\u003C/p\u003E",
             "language": "en-US"
           }
         ]
@@ -403,6 +535,50 @@
     }
   },
   {
+    "id": "cms_alert1752",
+    "is_deleted": false,
+    "alert": {
+      "url": {
+        "translation": [
+          {
+            "text": "metrarail.com/riding-metra/service-updates?Source=0\u0026Website=1\u0026OnBoard=0\u0026Email=1\u0026Twitter=1"
+          }
+        ]
+      },
+      "informed_entity": [
+        {
+          "route_id": "UP-W"
+        }
+      ],
+      "active_period": [
+        {
+          "start": {
+            "low": "2024-09-20T06:00:00"
+          },
+          "end": {
+            "low": "2024-09-22T23:59:00"
+          }
+        }
+      ],
+      "header_text": {
+        "translation": [
+          {
+            "text": "Metra Alert UP-W - Track Construction Saturday, September 21 through Sunday, September 22",
+            "language": "en-US"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "\u003Cp\u003ETrack construction will be taking place\u0026nbsp;Saturday, September 21 through Sunday, September 22. Trains may incur delays enroute up to 20\u0026nbsp;minutes behind schedule passing through the work zone. Please listen to announcements for any platform changes. For additional information visit\u0026nbsp;\u003Ca href=\u0022https://metra.com/constructionnotices\u0022\u003Emetra.com/constructionnotices.\u003C/a\u003E\u003C/p\u003E",
+            "language": "en-US"
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "cms_alert1758",
     "is_deleted": false,
     "alert": {
@@ -440,6 +616,50 @@
         "translation": [
           {
             "text": "\u003Cp\u003EBeginning Wednesday, May 8, the east half of Platform 2 (island platform) will be closed for rehabilitation.\u0026nbsp;Once completed, the work will move to the west half of Platform 2 to complete the project by the end of November.\u003C/p\u003E\u003Cp\u003EPlease allow additional time to access the in-service platform and exercise caution near the work zones.\u003C/p\u003E",
+            "language": "en-US"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "cms_alert1767",
+    "is_deleted": false,
+    "alert": {
+      "url": {
+        "translation": [
+          {
+            "text": "metrarail.com/riding-metra/service-updates?Source=0\u0026Website=1\u0026OnBoard=0\u0026Email=1\u0026Twitter=1"
+          }
+        ]
+      },
+      "informed_entity": [
+        {
+          "route_id": "MD-N"
+        }
+      ],
+      "active_period": [
+        {
+          "start": {
+            "low": "2024-09-20T06:00:00"
+          },
+          "end": {
+            "low": "2024-09-22T23:59:00"
+          }
+        }
+      ],
+      "header_text": {
+        "translation": [
+          {
+            "text": "Metra Alert MD-N - Track Construction Saturday, September 21 through Sunday, September 22",
+            "language": "en-US"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "\u003Cp\u003ETrack construction will be taking place on Saturday, September 21\u0026nbsp;through Sunday, September 22. Trains may incur delays enroute up to 30\u0026nbsp;minutes behind schedule passing through the work zone. Please listen to announcements for any platform changes. For additional information visit\u0026nbsp;\u003Ca href=\u0022https://metra.com/constructionnotices\u0022\u003Emetra.com/constructionnotices.\u003C/a\u003E\u003C/p\u003E",
             "language": "en-US"
           }
         ]
