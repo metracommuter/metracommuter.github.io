@@ -97,9 +97,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": null,
+          "route_id": "MD-N",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "MD-N_MN2615_V7_D",
+            "route_id": "MD-N",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -108,7 +115,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -124,7 +131,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "MDN Inbound train 2615 due to arrive Chicago Union Station at 6:12 PM may be operating 35 to 40 minutes behind schedule due to track construction.",
+            "text": "MDN Outbound train 2615 due to arrive Fox Lake at 6:12 PM may be operating 40 to 45 minutes behind schedule due to track construction.",
             "language": "en"
           }
         ]
@@ -133,6 +140,57 @@
   },
   {
     "id": "4",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "MD-N",
+          "route_type": null,
+          "trip": {
+            "trip_id": "MD-N_MN2616_V7_D",
+            "route_id": "MD-N",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "MDN Inbound Train 2616-Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "MDN Inbound train 2616 due to arrive Chicago Union Station at 6:22 PM may be operating 30 to 35 minutes behind schedule due to track construction.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "5",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -873,50 +931,6 @@
         "translation": [
           {
             "text": "\u003Cp\u003EThe Metra Electric District and Union Pacific North Line will run extra train service for anticipation of larger than normal crowds for the Chicago Bears home games. For more information click\u003Ca href=\u0022https://ridertools.metrarail.com/maps-schedules\u0022\u003E here\u003C/a\u003E and visit metra.com.\u003C/p\u003E",
-            "language": "en-US"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "cms_alert1823",
-    "is_deleted": false,
-    "alert": {
-      "url": {
-        "translation": [
-          {
-            "text": "metrarail.com/riding-metra/service-updates?Source=0\u0026Website=1\u0026OnBoard=0\u0026Email=1\u0026Twitter=1"
-          }
-        ]
-      },
-      "informed_entity": [
-        {
-          "route_id": "MD-N"
-        }
-      ],
-      "active_period": [
-        {
-          "start": {
-            "low": "2024-09-21T06:00:00"
-          },
-          "end": {
-            "low": "2024-09-22T18:15:00"
-          }
-        }
-      ],
-      "header_text": {
-        "translation": [
-          {
-            "text": "Metra Alert MD-N - Milwaukee North Line Construction Project require Busing on September 21-22",
-            "language": "en-US"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "\u003Cp\u003EOn both Saturday, September 21 and Sunday, September 22 passengers will be bused from 9 a.m. to 6 p.m. between the Libertyville and Lake Forest stations due to crossing work at Milwaukee Avenue in Libertyville. This will affect inbound trains 2604 through 2616 and outbound trains 2601 through 2615.\u003C/p\u003E",
             "language": "en-US"
           }
         ]
