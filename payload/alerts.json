@@ -9,9 +9,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "ME",
+          "route_id": "BNSF",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "BNSF_BN1260_V2_F",
+            "route_id": "BNSF",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -20,7 +27,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -28,7 +35,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "MED Ground Level Loading",
+            "text": "BNSF 1260 DELAYED",
             "language": "en"
           }
         ]
@@ -36,7 +43,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "Inbound and outbound trains may be loading from ground level at 75th, 83rd, 87th ,91st, 95th, 107th and 111th street stations. Please wait on the platform visible to the engineer and follow boarding instructions from the conductor after the train stops.",
+            "text": "BNSF 1260, the 2:20 pm arrival to Chicago, maybe operating 15 to 20 minutes behind schedule due to track construction",
             "language": "en"
           }
         ]
@@ -80,7 +87,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "UPN train 335, scheduled to arrive Waukegan at 2:54 PM, is stopped near Clybourn due to Operational Issues. The duration of this delay is unknown. Metra will update you as information becomes available.",
+            "text": "UPN train 335, scheduled to arrive Waukegan at 2:54 PM, is stopped near Clybourn due to problems with the dispatching department. The duration of this delay is unknown. Metra will update you as information becomes available.",
             "language": "en"
           }
         ]
@@ -89,6 +96,50 @@
   },
   {
     "id": "3",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "ME",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "MED Ground Level Loading",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "Inbound and outbound trains may be loading from ground level at 75th, 83rd, 87th ,91st, 95th, 107th and 111th street stations. Please wait on the platform visible to the engineer and follow boarding instructions from the conductor after the train stops.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "4",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -132,7 +183,7 @@
     }
   },
   {
-    "id": "4",
+    "id": "5",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -176,7 +227,7 @@
     }
   },
   {
-    "id": "5",
+    "id": "6",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -220,50 +271,6 @@
         "translation": [
           {
             "text": "SWS Train #818, scheduled to depart 179th Street/Orland Park at 1:12 PM, will be a delayed departure due to a Mechanical Failure.  The duration of this delay is unknown, Metra will provide updates once this train begins to move.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "6",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "UP-NW",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "UPNW Train #629 Stopped",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "UPNW train 629, scheduled to arrive Harvard at 3:25 PM, is stopped near Clybourn due to Operational Issues. The duration of this delay is unknown. Metra will update you as information becomes available.",
             "language": "en"
           }
         ]
