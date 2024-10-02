@@ -72,7 +72,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "The Harvey Station Elevator",
+            "text": "Inbound and Outbound Trains Delayed",
             "language": "en"
           }
         ]
@@ -80,7 +80,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "The Harvey station elevator is back in service. Updated 10:03 AM",
+            "text": "Inbound and Outbound trains are currently operating 10 to 45 minutes behind scheduled due to signal problems.",
             "language": "en"
           }
         ]
@@ -89,6 +89,57 @@
   },
   {
     "id": "3",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "ME",
+          "route_type": null,
+          "trip": {
+            "trip_id": "ME_ME219_V2_G",
+            "route_id": "ME",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "Train 219 Is Annulled",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "Train #219 scheduled to depart Millennium at 11:00 AM will no longer operate due to earlier wire problems. Train #223 scheduled to depart from Millennium at 1 PM will accommodate passengers.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "4",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -116,7 +167,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "Inbound and outbound trains",
+            "text": "The Harvey Station Elevator",
             "language": "en"
           }
         ]
@@ -124,7 +175,51 @@
       "description_text": {
         "translation": [
           {
-            "text": "Inbound and Outbound trains are currently operating 10 to 20 minutes behind scheduled due to signal problems",
+            "text": "The Harvey station elevator is back in service. Updated 10:03 AM",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "5",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "ME",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "MED Train #319 Will Not Operate",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "Train #319 scheduled to arrive 93rd street South Chicago at 11:34 a.m. will not operate due to earlier wire problems. Train #321 will accommodate passengers.",
             "language": "en"
           }
         ]
