@@ -55,14 +55,7 @@
           "agency_id": "METRA",
           "route_id": "UP-NW",
           "route_type": null,
-          "trip": {
-            "trip_id": "UP-NW_UNW670_V3_E",
-            "route_id": "UP-NW",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
+          "trip": null,
           "stop_id": null
         }
       ],
@@ -71,7 +64,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -79,7 +72,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "UPNW #670 Delayed in Departure",
+            "text": "UPNW #670 Will Not Operate",
             "language": "en"
           }
         ]
@@ -87,7 +80,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "Inbound train #670 scheduled to depart Crystal Lake at 7:15 P.M. will be delayed in departure due to positive train control issues. The duration of this delay is unknown. Metra will update as information becomes available.",
+            "text": "UPNW Inbound train #670 scheduled to depart Crystal Lake at 7:15 P.M. will not operate due to positive train control issues. Train #672 will accommodate passengers.",
             "language": "en"
           }
         ]
@@ -140,6 +133,57 @@
   },
   {
     "id": "4",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-NW",
+          "route_type": null,
+          "trip": {
+            "trip_id": "UP-NW_UNW672_V3_E",
+            "route_id": "UP-NW",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPNW #672 Stopped",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "UPNW #672 is stopped near Crystal Lake due to earlier positive train control issues. The duration of this delay is unknown. Metra will update as information becomes available.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "5",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
