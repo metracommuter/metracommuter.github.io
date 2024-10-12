@@ -141,7 +141,7 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "HC",
+          "route_id": "SWS",
           "route_type": null,
           "trip": null,
           "stop_id": null
@@ -152,7 +152,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/HC?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/SWS?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -160,7 +160,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "HCD Train #919 Delayed",
+            "text": "SWS Train #824 Stopped",
             "language": "en"
           }
         ]
@@ -168,7 +168,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "HCD train 919, scheduled to arrive Joliet at 6:36 PM, is back on the move and may be operating 25 to 30 minutes behind schedule due to freight train interference.",
+            "text": "SWS train 824, scheduled to arrive Chicago Union Station at 7:20 PM, is stopped near Chicago Ridge due to Freight Train Interference. The duration of this delay is unknown. Metra will update you as information becomes available.",
             "language": "en"
           }
         ]
@@ -221,50 +221,6 @@
   },
   {
     "id": "6",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "UP-W",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-W?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "UPW Service operational change",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "UPW train service will resume between Elburn to Maywood. Train service between Maywood to Chicago remains suspended due to ongoing police activity near Kedzie. Visit metra.com for delay information or Metra Tracker for the location of your train.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "7",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -1049,6 +1005,50 @@
         "translation": [
           {
             "text": "\u003Cp\u003E\u003Cspan style=\u0022font-size:11pt\u0022\u003E\u003Cspan style=\u0022font-family:\u0026quot;Aptos\u0026quot;,sans-serif\u0022\u003EDue to a NICTD rail project, passengers at 47\u003Csup\u003Eth\u003C/sup\u003E, 27\u003Csup\u003Eth\u003C/sup\u003E, McCormick, 18\u003Csup\u003Eth\u003C/sup\u003E and Van Buren, will board trains utilizing temporary platform extenders.\u0026nbsp; We ask that customers at these locations wait behind the yellow line and listen for boarding instructions from the conductors.\u0026nbsp; Additionally, all Saturday trains will operate on a Sunday schedule on Oct. 12, 19, and 26, and all service may be delayed up to 20 minutes during this phase of construction, click \u003Ca href=\u0022https://metra.com/newsroom/temporary-platforms-be-used-five-metra-electric-stations-during-project\u0022\u003Ehere\u003C/a\u003E.\u003C/span\u003E\u003C/span\u003E\u003C/p\u003E\u003Cp\u003E\u0026nbsp;\u003C/p\u003E",
+            "language": "en-US"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "cms_alert1829",
+    "is_deleted": false,
+    "alert": {
+      "url": {
+        "translation": [
+          {
+            "text": "metrarail.com/riding-metra/service-updates?Source=0\u0026Website=1\u0026OnBoard=0\u0026Email=1\u0026Twitter=1"
+          }
+        ]
+      },
+      "informed_entity": [
+        {
+          "route_id": "UP-W"
+        }
+      ],
+      "active_period": [
+        {
+          "start": {
+            "low": "2024-10-11T18:51:00"
+          },
+          "end": {
+            "low": "2024-10-12T03:00:00"
+          }
+        }
+      ],
+      "header_text": {
+        "translation": [
+          {
+            "text": "Metra Alert UP-W - UPW trains  operational change",
+            "language": "en-US"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "\u003Cp\u003E\u003Cspan style=\u0022font-size:10.0pt\u0022\u003E\u003Cspan style=\u0022font-family:\u0026quot;Arial\u0026quot;,sans-serif\u0022\u003E\u003Cspan style=\u0022color:black\u0022\u003EUPW train service will resume between Elburn to Maywood. Train service between Maywood to Chicago remains suspended due to ongoing police activity near Kedzie. Some trains may be expressing, making additional stops, delayed in departure, operating out of sequence or annulled.\u0026nbsp;\u0026nbsp;Visit metra.com for delay information or Metra Tracker for the location of your train. Please listen to platform announcements for additional information.\u003C/span\u003E\u003C/span\u003E\u003C/span\u003E\u003C/p\u003E",
             "language": "en-US"
           }
         ]
