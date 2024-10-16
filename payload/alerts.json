@@ -99,14 +99,7 @@
           "agency_id": "METRA",
           "route_id": "ME",
           "route_type": null,
-          "trip": {
-            "trip_id": "ME_ME725_V2_C",
-            "route_id": "ME",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
+          "trip": null,
           "stop_id": null
         }
       ],
@@ -115,7 +108,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -123,7 +116,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "ME725- Delayed Departure",
+            "text": "MED Trains Halted",
             "language": "en"
           }
         ]
@@ -131,7 +124,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "Metra Electric train #725, scheduled to depart Millennium Station at 5:21 p.m., will be delayed in departure due to a power outage. Metra will notify you once this train is on the move.",
+            "text": "Metra Electric inbound and outbound trains are halted near Millennium Station due to a power outage. Delay times are unknown. Metra will provide updates as information becomes available.",
             "language": "en"
           }
         ]
@@ -140,6 +133,50 @@
   },
   {
     "id": "4",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-NW",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPNW outbound trains delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "UPNW outbound trains may be operating with an extensive delay due to train #637 mechanical failure. Visit metra.com for delay information or Metra Tracker for the location of your train.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "5",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -190,7 +227,58 @@
     }
   },
   {
-    "id": "5",
+    "id": "6",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "NCS",
+          "route_type": null,
+          "trip": {
+            "trip_id": "NCS_NC113_V3_C",
+            "route_id": "NCS",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/NCS?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "NCS 113 DELAYED",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "NCS 113, the 6:28 pm arrival to Antioch, maybe operating 15 to 25 minutes behind schedule due to track construction",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "7",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -241,7 +329,7 @@
     }
   },
   {
-    "id": "6",
+    "id": "8",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -292,51 +380,7 @@
     }
   },
   {
-    "id": "7",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "UP-NW",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "UPNW outbound trains remain stopped",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "UPNW outbound trains will be halted near Barrington due to train #637 mechanical failure. Extensive delays anticipated.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "8",
+    "id": "9",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
