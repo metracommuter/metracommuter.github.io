@@ -9,11 +9,11 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "RI",
+          "route_id": "UP-N",
           "route_type": null,
           "trip": {
-            "trip_id": "RI_RI512_V2_F",
-            "route_id": "RI",
+            "trip_id": "UP-N_UN366_V2_F",
+            "route_id": "UP-N",
             "direction_id": null,
             "start_time": null,
             "start_date": null,
@@ -27,7 +27,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/RI?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -35,7 +35,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "RID #512 Delayed Departure",
+            "text": "UPN 366 operational issues",
             "language": "en"
           }
         ]
@@ -43,7 +43,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "RID train #512, scheduled to depart Joliet at 6:30 PM, will be a delayed departure due to a Vehicle stuck on the tracks.  The duration of this delay is unknown, Metra will provide updates once this train begins to move.",
+            "text": "UPN train 366 scheduled to depart Kenosha at 6:08 pm, will originate at Highland Park due to an earlier vehicle being struck by train 349 equipment.",
             "language": "en"
           }
         ]
@@ -206,6 +206,57 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
+          "route_id": "RI",
+          "route_type": null,
+          "trip": {
+            "trip_id": "RI_RI512_V2_F",
+            "route_id": "RI",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/RI?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "RID #512 Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "RID train #512, scheduled to depart Joliet at 6:30 PM, is operating 20 to 25 minutes behind schedule due to a Vehicle stuck on the tracks.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "6",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
           "route_id": "ME",
           "route_type": null,
           "trip": null,
@@ -241,7 +292,7 @@
     }
   },
   {
-    "id": "6",
+    "id": "7",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -278,6 +329,50 @@
         "translation": [
           {
             "text": "The Van Buren Street Station elevator is out of service. Customers can use South water elevator or Museum Campus elevator as alternate boarding stations. Updates will be provided.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "8",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "RI",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/RI?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "RID train 631 will not operate",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "RID train #631 scheduled to depart LaSalle Street Station at 6:40 pm, will not operate due to an earlier vehicle stuck on the tracks. Train #433 will accommodate passengers and will make all stops down the Beverly branch to Joliet.",
             "language": "en"
           }
         ]
