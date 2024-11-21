@@ -97,7 +97,7 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "MD-W",
+          "route_id": "MD-N",
           "route_type": null,
           "trip": null,
           "stop_id": null
@@ -108,7 +108,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/MD-W?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -116,7 +116,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "MDW Train #2230 Remains Stopped",
+            "text": "MDN Trains Delayed",
             "language": "en"
           }
         ]
@@ -124,7 +124,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "MDW train #2230, scheduled to arrive Chicago Union Station, at 10:45 AM, remains stopped near Western Avenue due to  switch problems. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
+            "text": "Inbound and outbound trains may be operating with moderate to extensive delays due to switch problems near Chicago Union Station. Please listen to platform announcements and visit metra.com for delay times and train locations.",
             "language": "en"
           }
         ]
@@ -133,50 +133,6 @@
   },
   {
     "id": "4",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "UP-W",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-W?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "UPW 31 Delayed Departure",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "UPW train #31, scheduled to depart Ogilvie Transportation Center at 11:40 AM, will be delayed in departure due to  switch problems. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "5",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -220,7 +176,7 @@
     }
   },
   {
-    "id": "6",
+    "id": "5",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -264,7 +220,7 @@
     }
   },
   {
-    "id": "7",
+    "id": "6",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -301,6 +257,57 @@
         "translation": [
           {
             "text": "RID #409 scheduled to arrive Joliet at 11:00 am is on the move delayed 40 minutes due to an earlier switch failure and police activity.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "7",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-W",
+          "route_type": null,
+          "trip": {
+            "trip_id": "UP-W_UW31_V2_C",
+            "route_id": "UP-W",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-W?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPW 31 On The Move",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "UPW train #31, scheduled to arrive Elburn at 1:08 PM, may be operating 10 to 15 minutes behind schedule due to earlier switch problems. Visit MetraTracker.com for the location of your train.",
             "language": "en"
           }
         ]
@@ -405,6 +412,50 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
+          "route_id": "MD-W",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-W?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "MDW Train #2215 Delayed Departure",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "MDW train #2215, scheduled to depart Chicago Union Station at 11:30 AM, will be delayed in departure due to switch problems. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "11",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
           "route_id": "HC",
           "route_type": null,
           "trip": null,
@@ -440,7 +491,7 @@
     }
   },
   {
-    "id": "11",
+    "id": "12",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -484,7 +535,7 @@
     }
   },
   {
-    "id": "12",
+    "id": "13",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -528,7 +579,51 @@
     }
   },
   {
-    "id": "13",
+    "id": "14",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "MD-W",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-W?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "MDW Trains Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "Inbound and outbound trains may be operating with moderate to extensive delays due to switch problems near Chicago Union Station. Please listen to platform announcements and visit metra.com for delay times and train locations.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "15",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -572,7 +667,7 @@
     }
   },
   {
-    "id": "14",
+    "id": "16",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -584,7 +679,7 @@
           "route_id": "ME",
           "route_type": null,
           "trip": {
-            "trip_id": "ME_ME318_V3_C",
+            "trip_id": "ME_ME620_V2_C",
             "route_id": "ME",
             "direction_id": null,
             "start_time": null,
@@ -607,7 +702,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "MED Train 318 Is On The Move",
+            "text": "ME Train 620 Delayed in Departure",
             "language": "en"
           }
         ]
@@ -615,7 +710,58 @@
       "description_text": {
         "translation": [
           {
-            "text": "MED train #318, scheduled to arrive Millennium Station at 11:45 AM, is on the move and may be operating 25 to 30 minutes behind schedule due to  switch problems.",
+            "text": "ME Inbound train #620, scheduled to depart 115th Kensington at 11:33 am, will be delayed in departure due to earlier switch problems. The duration of this delay is unknown. Metra will provide updates as information becomes available",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "17",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "ME",
+          "route_type": null,
+          "trip": {
+            "trip_id": "ME_ME219_V2_C",
+            "route_id": "ME",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "ME Train 219 Is Stopped",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "MED train #219, scheduled to arrive Blue Island at 12:12 PM, is stopped near 111th Street/Pullman due to  switch problems. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
             "language": "en"
           }
         ]
