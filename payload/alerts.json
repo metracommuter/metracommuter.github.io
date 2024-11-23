@@ -141,9 +141,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "UP-W",
+          "route_id": "ME",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "ME_ME142_V2_B",
+            "route_id": "ME",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -152,7 +159,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-W?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -160,7 +167,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "UPW #59 will not operate",
+            "text": "ME Train 142 is stopped",
             "language": "en"
           }
         ]
@@ -168,7 +175,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "Correction-UPW train #59 scheduled to depart Ogilvie Transportation Center at 6:10 pm, will not operate due to an earlier mechanical failure on train #35. Train #61 will be the next train to accommodate passenger and make all stops to Elburn.",
+            "text": "MED train #146, scheduled to arrive Millennium Station at 11:28 PM, is stopped near 63rd Street due to track construction. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
             "language": "en"
           }
         ]
@@ -213,6 +220,57 @@
         "translation": [
           {
             "text": "The Hazel Crest elevator is out of service. Customers can use Calumet or Harvey as alternate boarding stations. Updates will be provided.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "6",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "ME",
+          "route_type": null,
+          "trip": {
+            "trip_id": "ME_ME145_V2_B",
+            "route_id": "ME",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "ME Train 145 is delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "MEd train #145, scheduled to arrive University Park at 10:04 PM, may be operating 15 to 20 minutes behind schedule due to track construction. Visit MetraTracker.com for the location of your train.",
             "language": "en"
           }
         ]
