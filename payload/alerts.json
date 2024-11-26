@@ -97,50 +97,6 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "BNSF",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "BNSF Train 1225 Will Not Operate",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "Train 1225 scheduled to depart Aurora at 10:33 a.m. is canceled today due to earlier mechanical problems. Train 1227 scheduled to depart Aurora at 11:33 a.m. will accommodate passengers.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "4",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
           "route_id": "ME",
           "route_type": null,
           "trip": null,
@@ -176,7 +132,7 @@
     }
   },
   {
-    "id": "5",
+    "id": "4",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -213,6 +169,57 @@
         "translation": [
           {
             "text": "ME The 51st/53rd East Elevator is currently out of service. Customers can use McCormick or 55th/56th/57th as alternate boarding stations. Updates will be provided.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "5",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "SWS",
+          "route_type": null,
+          "trip": {
+            "trip_id": "SWS_SW809_V2_C",
+            "route_id": "SWS",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/SWS?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "SWS #809 delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "SWS #809 Scheduled to departure Chicago at 11:42 am is currently operating 15 to 20 minutes behind schedule due to a signal problem.",
             "language": "en"
           }
         ]
@@ -1005,6 +1012,94 @@
         "translation": [
           {
             "text": "\u003Cp\u003EOn Thursday, November 28, Metra will be operating a Sunday/Holiday schedule for Thanksgiving Day. There will be no service on the Heritage Corridor, Southwest Service, or North Central Service. On Friday, November 29, all lines will operate their normal weekday schedules.\u003C/p\u003E",
+            "language": "en-US"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "cms_alert1851",
+    "is_deleted": false,
+    "alert": {
+      "url": {
+        "translation": [
+          {
+            "text": "metrarail.com/riding-metra/service-updates?Source=0\u0026Website=1\u0026OnBoard=0\u0026Email=1\u0026Twitter=0"
+          }
+        ]
+      },
+      "informed_entity": [
+        {
+          "route_id": "BNSF"
+        }
+      ],
+      "active_period": [
+        {
+          "start": {
+            "low": "2024-11-26T12:00:00"
+          },
+          "end": {
+            "low": "2024-11-26T20:00:00"
+          }
+        }
+      ],
+      "header_text": {
+        "translation": [
+          {
+            "text": "Metra Alert BNSF - Track Changes On South Concourse At Chicago Union Station ",
+            "language": "en-US"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "\u003Cp\u003ESome Southwest Service and BNSF trains will depart from different tracks this evening due to Amtrak switch repairs. Passengers should check gate boards prior to boarding their trains. If you need assistance please contact Metra personnel for help.\u003C/p\u003E",
+            "language": "en-US"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "cms_alert1852",
+    "is_deleted": false,
+    "alert": {
+      "url": {
+        "translation": [
+          {
+            "text": "metrarail.com/riding-metra/service-updates?Source=0\u0026Website=1\u0026OnBoard=0\u0026Email=1\u0026Twitter=0"
+          }
+        ]
+      },
+      "informed_entity": [
+        {
+          "route_id": "SWS"
+        }
+      ],
+      "active_period": [
+        {
+          "start": {
+            "low": "2024-11-26T12:01:00"
+          },
+          "end": {
+            "low": "2024-11-26T20:00:00"
+          }
+        }
+      ],
+      "header_text": {
+        "translation": [
+          {
+            "text": "Metra Alert SWS - Track Changes On South Concourse At Chicago Union Station ",
+            "language": "en-US"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "\u003Cp\u003ESome Southwest Service and BNSF trains will depart from different tracks this evening due to Amtrak switch repairs. Passengers should check gate boards prior to boarding their trains. If you need assistance please contact Metra personnel for help.\u003C/p\u003E",
             "language": "en-US"
           }
         ]
