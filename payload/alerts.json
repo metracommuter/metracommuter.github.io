@@ -79,7 +79,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "RID #701 Stopped",
+            "text": "RID #701 Delayed",
             "language": "en"
           }
         ]
@@ -87,7 +87,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "RID train #701, scheduled to arrive Joliet at 4:56 PM, is stopped at Tinley - 80th due to mechanical problems. Expected delay times are unknown.",
+            "text": "RID train #701, scheduled to arrive Joliet at 4:56 PM, is operating 25 to 30 minutes behind schedule due to earlier mechanical problems.",
             "language": "en"
           }
         ]
@@ -192,6 +192,50 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
+          "route_id": "MD-W",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-W?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "MDW Train #2244 Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "MDW train #2244, scheduled to arrive Chicago Union Station at 5:40 PM, may be operating 10 to 15 minutes behind schedule due to freight train interference . Visit MetraTracker.com for the location of your train.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "6",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
           "route_id": "ME",
           "route_type": null,
           "trip": null,
@@ -220,57 +264,6 @@
         "translation": [
           {
             "text": "ME The 51st/53rd East Elevator is currently out of service. Customers can use McCormick or 55th/56th/57th as alternate boarding stations. Updates will be provided.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "6",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "SWS",
-          "route_type": null,
-          "trip": {
-            "trip_id": "SWS_SW813_V2_D",
-            "route_id": "SWS",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/SWS?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "SWS #813 Delayed",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "SWS train #813, scheduled to arrive 179th Street/Orland Park at 4:42 PM, may be operating 15 to 20 minutes behind schedule due to freight train interference . Visit MetraTracker.com for the location of your train.",
             "language": "en"
           }
         ]
