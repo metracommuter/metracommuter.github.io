@@ -185,50 +185,6 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "UP-N",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "UPN outbound trains delayed",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "UPN outbound trains are back on the move and may be operating up to 35 minutes behind schedule due to a downed light pole on the tracks. Visit metratracker.com for the location of your train.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "6",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
           "route_id": "ME",
           "route_type": null,
           "trip": null,
@@ -264,7 +220,7 @@
     }
   },
   {
-    "id": "7",
+    "id": "6",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -315,7 +271,7 @@
     }
   },
   {
-    "id": "8",
+    "id": "7",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -324,9 +280,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "ME",
+          "route_id": "UP-W",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "UP-W_UW49_V2_D",
+            "route_id": "UP-W",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -335,7 +298,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-W?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -343,7 +306,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "The 51st/53rd Hyde Park East Elevator Is Out Of Service",
+            "text": "UPW #49 Stopped",
             "language": "en"
           }
         ]
@@ -351,7 +314,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "ME The 51st/53rd East Elevator is currently out of service. Customers can use McCormick or 55th/56th/57th as alternate boarding stations. Updates will be provided.",
+            "text": "UPW outbound train #49 scheduled to arrive Elburn at 6:30 P.M is stopped near Elburn due to earlier mechanical problems. The duration of this delay is unknown. Metra will update as information becomes available.",
             "language": "en"
           }
         ]
@@ -359,7 +322,7 @@
     }
   },
   {
-    "id": "9",
+    "id": "8",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -403,58 +366,7 @@
     }
   },
   {
-    "id": "10",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "NCS",
-          "route_type": null,
-          "trip": {
-            "trip_id": "NCS_NC113_V3_D",
-            "route_id": "NCS",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/NCS?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "NCS 113 delayed",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "NCS train # 113, scheduled to arrive Antioch at 6:28 PM, may be operating 15 to 20 minutes behind schedule due to waiting on other trains. Visit MetraTracker.com for the location of your train.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "11",
+    "id": "9",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -505,7 +417,7 @@
     }
   },
   {
-    "id": "12",
+    "id": "10",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -549,6 +461,145 @@
         "translation": [
           {
             "text": "UPW train #62 scheduled to depart West Chicago at 6:13 pm, will originate at Elmhurst due to a mechanical failure. Train #64 will accommodate passengers making all stops from Elburn to Chicago.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "11",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-W",
+          "route_type": null,
+          "trip": {
+            "trip_id": "UP-W_UW64_V2_D",
+            "route_id": "UP-W",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-W?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPW #64 Delayed in Departure",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "UPW inbound train #64 scheduled to depart Elburn at 6:25 P.M. will be delayed in departure due to earlier mechanical problems. The duration of this delay is unknown. Metra will update as information becomes available.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "12",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-N",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPN trains delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "UPN inbound and outbound trains may be operating up to 35 minutes behind schedule due to a downed light pole on the tracks. Visit metratracker.com for the location of your train.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "13",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "ME",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "The 51st/53rd Hyde Park East Elevator Is Out Of Service",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "ME The 51st/53rd East Elevator is currently out of service. Customers can use McCormick or 55th/56th/57th as alternate boarding stations. Updates will be provided.",
             "language": "en"
           }
         ]
