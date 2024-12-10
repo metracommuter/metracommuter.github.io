@@ -97,16 +97,9 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "ME",
+          "route_id": "BNSF",
           "route_type": null,
-          "trip": {
-            "trip_id": "ME_ME123_V2_C",
-            "route_id": "ME",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
+          "trip": null,
           "stop_id": null
         }
       ],
@@ -115,7 +108,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -123,7 +116,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "ME Train #123- Delayed",
+            "text": "BNSF #1233 - Delayed/Expressing",
             "language": "en"
           }
         ]
@@ -131,7 +124,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "ME train #123, scheduled to arrive University Park at 2:22 PM, may be operating 25 to 30 minutes behind schedule due to  positive train control issues. Visit MetraTracker.com for the location of your train.",
+            "text": "BNSF #1233, scheduled to depart Chicago Union Station at 2:33pm, maybe operating 10 to 15 minutes behind schedule due to earlier freight train interference and will express to LaGrange Rd. Train #1239 will accommodate passengers at intermediate stops",
             "language": "en"
           }
         ]
@@ -272,6 +265,57 @@
   },
   {
     "id": "7",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "RI",
+          "route_type": null,
+          "trip": {
+            "trip_id": "RI_RI617_V2_C",
+            "route_id": "RI",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/RI?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "RID #617 Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "RID train #617, scheduled to arrive Blue Island/Vermont Street at 3:11 PM, may be operating 15 to 20 minutes behind schedule due to  positive train control issues. Visit MetraTracker.com for the location of your train.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "8",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
