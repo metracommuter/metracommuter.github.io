@@ -13,63 +13,17 @@
       },
       "vehicle": {
         "id": "1277",
-        "label": "150",
+        "label": null,
         "license_plate": null
       },
       "stop_time_update": [
-        {
-          "stop_sequence": 52,
-          "stop_id": "MUSEUM",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:01:13.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:01:13.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 53,
-          "stop_id": "VANBUREN",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:03:13.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:03:13.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
         {
           "stop_sequence": 54,
           "stop_id": "MILLENNIUM",
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:37:13.000Z",
+              "low": "2024-12-11T07:16:54.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -78,7 +32,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:37:13.000Z",
+              "low": "2024-12-11T07:16:54.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -88,49 +42,11 @@
         }
       ],
       "timestamp": {
-        "low": "2024-12-11T06:59:51.000Z",
+        "low": "2024-12-11T07:06:04.000Z",
         "high": 0,
         "unsigned": true
       },
-      "delay": null,
-      "position": {
-        "id": "128",
-        "is_deleted": false,
-        "trip_update": null,
-        "vehicle": {
-          "trip": {
-            "trip_id": "ME_ME150_V2_C",
-            "route_id": "ME",
-            "direction_id": null,
-            "start_time": "23:50:00",
-            "start_date": "20241210",
-            "schedule_relationship": 0
-          },
-          "vehicle": {
-            "id": "1277",
-            "label": "150",
-            "license_plate": null
-          },
-          "position": {
-            "latitude": 41.860191345214844,
-            "longitude": -87.61832427978516,
-            "bearing": 357,
-            "odometer": null,
-            "speed": null
-          },
-          "current_stop_sequence": null,
-          "stop_id": null,
-          "current_status": 2,
-          "timestamp": {
-            "low": "2024-12-11T06:59:33.000Z",
-            "high": 0,
-            "unsigned": true
-          },
-          "congestion_level": null,
-          "occupancy_status": null
-        },
-        "alert": null
-      }
+      "delay": null
     },
     "vehicle": null,
     "alert": null
@@ -140,71 +56,258 @@
     "is_deleted": false,
     "trip_update": {
       "trip": {
-        "trip_id": "UP-NW_UNW680_V3_C",
-        "route_id": "UP-NW",
+        "trip_id": "ME_ME153_V2_C",
+        "route_id": "ME",
         "direction_id": null,
-        "start_time": "23:20:00",
+        "start_time": "Invalid date",
         "start_date": "20241210",
         "schedule_relationship": 0
       },
       "vehicle": {
-        "id": "8457",
-        "label": "680",
+        "id": "1329",
+        "label": "153",
         "license_plate": null
       },
       "stop_time_update": [
         {
+          "stop_sequence": 3,
+          "stop_id": "MUSEUM",
+          "arrival": null,
+          "departure": null,
+          "schedule_relationship": 2
+        },
+        {
+          "stop_sequence": 4,
+          "stop_id": "18TH-UP",
+          "arrival": null,
+          "departure": null,
+          "schedule_relationship": 2
+        },
+        {
+          "stop_sequence": 5,
+          "stop_id": "MCCORMICK",
+          "arrival": null,
+          "departure": null,
+          "schedule_relationship": 2
+        },
+        {
+          "stop_sequence": 6,
+          "stop_id": "27TH-UP",
+          "arrival": null,
+          "departure": null,
+          "schedule_relationship": 2
+        },
+        {
+          "stop_sequence": 7,
+          "stop_id": "47TH-UP",
+          "arrival": null,
+          "departure": null,
+          "schedule_relationship": 2
+        },
+        {
+          "stop_sequence": 8,
+          "stop_id": "51ST-53RD",
+          "arrival": null,
+          "departure": null,
+          "schedule_relationship": 2
+        },
+        {
+          "stop_sequence": 9,
+          "stop_id": "55-56-57TH",
+          "arrival": null,
+          "departure": null,
+          "schedule_relationship": 2
+        },
+        {
+          "stop_sequence": 10,
+          "stop_id": "59TH-UP",
+          "arrival": null,
+          "departure": null,
+          "schedule_relationship": 2
+        },
+        {
+          "stop_sequence": 11,
+          "stop_id": "63RD-UP",
+          "arrival": null,
+          "departure": null,
+          "schedule_relationship": 2
+        },
+        {
+          "stop_sequence": 13,
+          "stop_id": "75TH-UP",
+          "arrival": null,
+          "departure": null,
+          "schedule_relationship": 2
+        },
+        {
+          "stop_sequence": 15,
+          "stop_id": "83RD-UP",
+          "arrival": null,
+          "departure": null,
+          "schedule_relationship": 2
+        },
+        {
+          "stop_sequence": 16,
+          "stop_id": "87TH-UP",
+          "arrival": null,
+          "departure": null,
+          "schedule_relationship": 2
+        },
+        {
+          "stop_sequence": 17,
+          "stop_id": "91ST-UP",
+          "arrival": null,
+          "departure": null,
+          "schedule_relationship": 2
+        },
+        {
+          "stop_sequence": 18,
+          "stop_id": "95TH-UP",
+          "arrival": null,
+          "departure": null,
+          "schedule_relationship": 2
+        },
+        {
+          "stop_sequence": 20,
+          "stop_id": "107TH-UP",
+          "arrival": null,
+          "departure": null,
+          "schedule_relationship": 2
+        },
+        {
+          "stop_sequence": 21,
+          "stop_id": "111TH-UP",
+          "arrival": null,
+          "departure": null,
+          "schedule_relationship": 2
+        },
+        {
+          "stop_sequence": 22,
+          "stop_id": "KENSINGTN",
+          "arrival": null,
+          "departure": null,
+          "schedule_relationship": 2
+        },
+        {
+          "stop_sequence": 25,
+          "stop_id": "RIVERDALE",
+          "arrival": null,
+          "departure": null,
+          "schedule_relationship": 2
+        },
+        {
+          "stop_sequence": 26,
+          "stop_id": "IVANHOE",
+          "arrival": null,
+          "departure": null,
+          "schedule_relationship": 2
+        },
+        {
+          "stop_sequence": 27,
+          "stop_id": "147TH-UP",
+          "arrival": null,
+          "departure": null,
+          "schedule_relationship": 2
+        },
+        {
+          "stop_sequence": 28,
+          "stop_id": "HARVEY",
+          "arrival": null,
+          "departure": null,
+          "schedule_relationship": 2
+        },
+        {
+          "stop_sequence": 29,
+          "stop_id": "HAZELCREST",
+          "arrival": null,
+          "departure": null,
+          "schedule_relationship": 2
+        },
+        {
+          "stop_sequence": 30,
+          "stop_id": "CALUMET",
+          "arrival": null,
+          "departure": null,
+          "schedule_relationship": 2
+        },
+        {
+          "stop_sequence": 31,
+          "stop_id": "HOMEWOOD",
+          "arrival": null,
+          "departure": null,
+          "schedule_relationship": 2
+        },
+        {
           "stop_sequence": 32,
-          "stop_id": "OTC",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:07:30.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:07:30.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
+          "stop_id": "FLOSSMOOR",
+          "arrival": null,
+          "departure": null,
+          "schedule_relationship": 2
+        },
+        {
+          "stop_sequence": 33,
+          "stop_id": "OLYMPIA",
+          "arrival": null,
+          "departure": null,
+          "schedule_relationship": 2
+        },
+        {
+          "stop_sequence": 34,
+          "stop_id": "211TH-UP",
+          "arrival": null,
+          "departure": null,
+          "schedule_relationship": 2
+        },
+        {
+          "stop_sequence": 35,
+          "stop_id": "MATTESON",
+          "arrival": null,
+          "departure": null,
+          "schedule_relationship": 2
+        },
+        {
+          "stop_sequence": 36,
+          "stop_id": "RICHTON",
+          "arrival": null,
+          "departure": null,
+          "schedule_relationship": 2
+        },
+        {
+          "stop_sequence": 37,
+          "stop_id": "UNIVERSITY",
+          "arrival": null,
+          "departure": null,
+          "schedule_relationship": 2
         }
       ],
       "timestamp": {
-        "low": "2024-12-11T06:59:51.000Z",
+        "low": "2024-12-11T07:09:56.000Z",
         "high": 0,
         "unsigned": true
       },
       "delay": null,
       "position": {
-        "id": "80",
+        "id": "176",
         "is_deleted": false,
         "trip_update": null,
         "vehicle": {
           "trip": {
-            "trip_id": "UP-NW_UNW680_V3_C",
-            "route_id": "UP-NW",
+            "trip_id": "ME_ME153_V2_C",
+            "route_id": "ME",
             "direction_id": null,
-            "start_time": "23:20:00",
+            "start_time": "24:50:00",
             "start_date": "20241210",
             "schedule_relationship": 0
           },
           "vehicle": {
-            "id": "8457",
-            "label": "680",
+            "id": "1329",
+            "label": "153",
             "license_plate": null
           },
           "position": {
-            "latitude": 41.90729904174805,
-            "longitude": -87.66117858886719,
-            "bearing": 144,
+            "latitude": 41.87870788574219,
+            "longitude": -87.62299346923828,
+            "bearing": 178,
             "odometer": null,
             "speed": null
           },
@@ -212,7 +315,7 @@
           "stop_id": null,
           "current_status": 2,
           "timestamp": {
-            "low": "2024-12-11T06:59:35.000Z",
+            "low": "2024-12-11T07:09:56.000Z",
             "high": 0,
             "unsigned": true
           },
@@ -230,6 +333,58 @@
     "is_deleted": false,
     "trip_update": {
       "trip": {
+        "trip_id": "UP-NW_UNW680_V3_C",
+        "route_id": "UP-NW",
+        "direction_id": null,
+        "start_time": "23:20:00",
+        "start_date": "20241210",
+        "schedule_relationship": 0
+      },
+      "vehicle": {
+        "id": "8457",
+        "label": null,
+        "license_plate": null
+      },
+      "stop_time_update": [
+        {
+          "stop_sequence": 32,
+          "stop_id": "OTC",
+          "arrival": {
+            "delay": 0,
+            "time": {
+              "low": "2024-12-11T07:05:37.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "departure": {
+            "delay": 0,
+            "time": {
+              "low": "2024-12-11T07:05:37.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "schedule_relationship": 0
+        }
+      ],
+      "timestamp": {
+        "low": "2024-12-11T07:05:04.000Z",
+        "high": 0,
+        "unsigned": true
+      },
+      "delay": null
+    },
+    "vehicle": null,
+    "alert": null
+  },
+  {
+    "id": "4",
+    "is_deleted": false,
+    "trip_update": {
+      "trip": {
         "trip_id": "SWS_SW841_V3_C",
         "route_id": "SWS",
         "direction_id": null,
@@ -244,21 +399,60 @@
       },
       "stop_time_update": [
         {
+          "stop_sequence": 18,
+          "stop_id": "LARAWAY",
+          "arrival": {
+            "delay": 0,
+            "time": {
+              "low": "2024-12-11T07:18:48.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "departure": {
+            "delay": 0,
+            "time": {
+              "low": "2024-12-11T07:18:48.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "schedule_relationship": 0
+        },
+        {
           "stop_sequence": 19,
           "stop_id": "MANHATTAN",
-          "arrival": null,
-          "departure": null,
-          "schedule_relationship": 2
+          "arrival": {
+            "delay": 0,
+            "time": {
+              "low": "2024-12-11T07:28:48.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "departure": {
+            "delay": 0,
+            "time": {
+              "low": "2024-12-11T07:28:48.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "schedule_relationship": 0
         }
       ],
       "timestamp": {
-        "low": "2024-12-11T06:57:17.000Z",
+        "low": "2024-12-11T07:09:48.000Z",
         "high": 0,
         "unsigned": true
       },
       "delay": null,
       "position": {
-        "id": "97",
+        "id": "117",
         "is_deleted": false,
         "trip_update": null,
         "vehicle": {
@@ -276,9 +470,9 @@
             "license_plate": null
           },
           "position": {
-            "latitude": 41.50430679321289,
-            "longitude": -87.96265411376953,
-            "bearing": 0,
+            "latitude": 41.562713623046875,
+            "longitude": -87.90457916259766,
+            "bearing": 235,
             "odometer": null,
             "speed": null
           },
@@ -286,442 +480,7 @@
           "stop_id": null,
           "current_status": 2,
           "timestamp": {
-            "low": "2024-12-11T06:59:22.000Z",
-            "high": 0,
-            "unsigned": true
-          },
-          "congestion_level": null,
-          "occupancy_status": null
-        },
-        "alert": null
-      }
-    },
-    "vehicle": null,
-    "alert": null
-  },
-  {
-    "id": "4",
-    "is_deleted": false,
-    "trip_update": {
-      "trip": {
-        "trip_id": "UP-NW_UNW601_V3_C",
-        "route_id": "UP-NW",
-        "direction_id": null,
-        "start_time": "Invalid date",
-        "start_date": "20241210",
-        "schedule_relationship": 0
-      },
-      "vehicle": {
-        "id": "8411",
-        "label": "601",
-        "license_plate": null
-      },
-      "stop_time_update": [
-        {
-          "stop_sequence": 9,
-          "stop_id": "EDISONPK",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:01:14.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:01:14.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 10,
-          "stop_id": "PARKRIDGE",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:04:14.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:04:14.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 11,
-          "stop_id": "DEEROAD",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:06:14.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:06:14.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 12,
-          "stop_id": "DESPLAINES",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:10:14.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:10:14.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 15,
-          "stop_id": "CUMBERLAND",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:13:14.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:13:14.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 17,
-          "stop_id": "MTPROSPECT",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:17:14.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:17:14.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 18,
-          "stop_id": "ARLINGTNHT",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:22:14.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:22:14.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 19,
-          "stop_id": "ARLINGTNPK",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:26:14.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:26:14.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 20,
-          "stop_id": "PALATINE",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:30:14.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:30:14.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 21,
-          "stop_id": "BARRINGTON",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:38:14.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:38:14.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 22,
-          "stop_id": "FOXRG",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:46:14.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:46:14.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 23,
-          "stop_id": "CARY",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:49:14.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:49:14.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 24,
-          "stop_id": "PINGREE",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:54:14.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:54:14.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 26,
-          "stop_id": "CRYSTAL",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:57:14.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:57:14.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 27,
-          "stop_id": "WOODSTOCK",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T08:07:14.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T08:07:14.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 32,
-          "stop_id": "HARVARD",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T08:26:14.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T08:26:14.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        }
-      ],
-      "timestamp": {
-        "low": "2024-12-11T06:59:48.000Z",
-        "high": 0,
-        "unsigned": true
-      },
-      "delay": null,
-      "position": {
-        "id": "6",
-        "is_deleted": false,
-        "trip_update": null,
-        "vehicle": {
-          "trip": {
-            "trip_id": "UP-NW_UNW601_V3_C",
-            "route_id": "UP-NW",
-            "direction_id": null,
-            "start_time": "24:35:00",
-            "start_date": "20241210",
-            "schedule_relationship": 0
-          },
-          "vehicle": {
-            "id": "8411",
-            "label": "601",
-            "license_plate": null
-          },
-          "position": {
-            "latitude": 41.99592208862305,
-            "longitude": -87.80659484863281,
-            "bearing": 307,
-            "odometer": null,
-            "speed": null
-          },
-          "current_stop_sequence": null,
-          "stop_id": null,
-          "current_status": 2,
-          "timestamp": {
-            "low": "2024-12-11T06:59:33.000Z",
+            "low": "2024-12-11T07:09:48.000Z",
             "high": 0,
             "unsigned": true
           },
@@ -739,26 +498,26 @@
     "is_deleted": false,
     "trip_update": {
       "trip": {
-        "trip_id": "ME_ME151_V2_C",
-        "route_id": "ME",
+        "trip_id": "UP-NW_UNW601_V3_C",
+        "route_id": "UP-NW",
         "direction_id": null,
-        "start_time": "23:30:00",
+        "start_time": "Invalid date",
         "start_date": "20241210",
         "schedule_relationship": 0
       },
       "vehicle": {
-        "id": "1259",
-        "label": null,
+        "id": "8411",
+        "label": "601",
         "license_plate": null
       },
       "stop_time_update": [
         {
-          "stop_sequence": 37,
-          "stop_id": "UNIVERSITY",
+          "stop_sequence": 12,
+          "stop_id": "DESPLAINES",
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T06:54:22.000Z",
+              "low": "2024-12-11T07:10:51.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -767,7 +526,283 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T06:54:22.000Z",
+              "low": "2024-12-11T07:10:51.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "schedule_relationship": 0
+        },
+        {
+          "stop_sequence": 15,
+          "stop_id": "CUMBERLAND",
+          "arrival": {
+            "delay": 0,
+            "time": {
+              "low": "2024-12-11T07:13:51.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "departure": {
+            "delay": 0,
+            "time": {
+              "low": "2024-12-11T07:13:51.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "schedule_relationship": 0
+        },
+        {
+          "stop_sequence": 17,
+          "stop_id": "MTPROSPECT",
+          "arrival": {
+            "delay": 0,
+            "time": {
+              "low": "2024-12-11T07:17:51.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "departure": {
+            "delay": 0,
+            "time": {
+              "low": "2024-12-11T07:17:51.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "schedule_relationship": 0
+        },
+        {
+          "stop_sequence": 18,
+          "stop_id": "ARLINGTNHT",
+          "arrival": {
+            "delay": 0,
+            "time": {
+              "low": "2024-12-11T07:22:51.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "departure": {
+            "delay": 0,
+            "time": {
+              "low": "2024-12-11T07:22:51.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "schedule_relationship": 0
+        },
+        {
+          "stop_sequence": 19,
+          "stop_id": "ARLINGTNPK",
+          "arrival": {
+            "delay": 0,
+            "time": {
+              "low": "2024-12-11T07:26:51.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "departure": {
+            "delay": 0,
+            "time": {
+              "low": "2024-12-11T07:26:51.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "schedule_relationship": 0
+        },
+        {
+          "stop_sequence": 20,
+          "stop_id": "PALATINE",
+          "arrival": {
+            "delay": 0,
+            "time": {
+              "low": "2024-12-11T07:30:51.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "departure": {
+            "delay": 0,
+            "time": {
+              "low": "2024-12-11T07:30:51.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "schedule_relationship": 0
+        },
+        {
+          "stop_sequence": 21,
+          "stop_id": "BARRINGTON",
+          "arrival": {
+            "delay": 0,
+            "time": {
+              "low": "2024-12-11T07:38:51.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "departure": {
+            "delay": 0,
+            "time": {
+              "low": "2024-12-11T07:38:51.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "schedule_relationship": 0
+        },
+        {
+          "stop_sequence": 22,
+          "stop_id": "FOXRG",
+          "arrival": {
+            "delay": 0,
+            "time": {
+              "low": "2024-12-11T07:46:51.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "departure": {
+            "delay": 0,
+            "time": {
+              "low": "2024-12-11T07:46:51.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "schedule_relationship": 0
+        },
+        {
+          "stop_sequence": 23,
+          "stop_id": "CARY",
+          "arrival": {
+            "delay": 0,
+            "time": {
+              "low": "2024-12-11T07:49:51.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "departure": {
+            "delay": 0,
+            "time": {
+              "low": "2024-12-11T07:49:51.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "schedule_relationship": 0
+        },
+        {
+          "stop_sequence": 24,
+          "stop_id": "PINGREE",
+          "arrival": {
+            "delay": 0,
+            "time": {
+              "low": "2024-12-11T07:54:51.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "departure": {
+            "delay": 0,
+            "time": {
+              "low": "2024-12-11T07:54:51.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "schedule_relationship": 0
+        },
+        {
+          "stop_sequence": 26,
+          "stop_id": "CRYSTAL",
+          "arrival": {
+            "delay": 0,
+            "time": {
+              "low": "2024-12-11T07:57:51.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "departure": {
+            "delay": 0,
+            "time": {
+              "low": "2024-12-11T07:57:51.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "schedule_relationship": 0
+        },
+        {
+          "stop_sequence": 27,
+          "stop_id": "WOODSTOCK",
+          "arrival": {
+            "delay": 0,
+            "time": {
+              "low": "2024-12-11T08:07:51.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "departure": {
+            "delay": 0,
+            "time": {
+              "low": "2024-12-11T08:07:51.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "schedule_relationship": 0
+        },
+        {
+          "stop_sequence": 32,
+          "stop_id": "HARVARD",
+          "arrival": {
+            "delay": 0,
+            "time": {
+              "low": "2024-12-11T08:26:51.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "departure": {
+            "delay": 0,
+            "time": {
+              "low": "2024-12-11T08:26:51.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -777,11 +812,49 @@
         }
       ],
       "timestamp": {
-        "low": "2024-12-11T06:52:13.000Z",
+        "low": "2024-12-11T07:09:56.000Z",
         "high": 0,
         "unsigned": true
       },
-      "delay": null
+      "delay": null,
+      "position": {
+        "id": "8",
+        "is_deleted": false,
+        "trip_update": null,
+        "vehicle": {
+          "trip": {
+            "trip_id": "UP-NW_UNW601_V3_C",
+            "route_id": "UP-NW",
+            "direction_id": null,
+            "start_time": "24:35:00",
+            "start_date": "20241210",
+            "schedule_relationship": 0
+          },
+          "vehicle": {
+            "id": "8411",
+            "label": "601",
+            "license_plate": null
+          },
+          "position": {
+            "latitude": 42.03746032714844,
+            "longitude": -87.880126953125,
+            "bearing": 308,
+            "odometer": null,
+            "speed": null
+          },
+          "current_stop_sequence": null,
+          "stop_id": null,
+          "current_status": 2,
+          "timestamp": {
+            "low": "2024-12-11T07:09:55.000Z",
+            "high": 0,
+            "unsigned": true
+          },
+          "congestion_level": null,
+          "occupancy_status": null
+        },
+        "alert": null
+      }
     },
     "vehicle": null,
     "alert": null
@@ -805,173 +878,12 @@
       },
       "stop_time_update": [
         {
-          "stop_sequence": 15,
-          "stop_id": "103RD-BEV",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:00:31.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:00:31.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 16,
-          "stop_id": "107TH-BEV",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:02:31.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:02:31.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 17,
-          "stop_id": "111TH-BEV",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:04:31.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:04:31.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 18,
-          "stop_id": "115TH-BEV",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:06:31.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:06:31.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 19,
-          "stop_id": "119TH-BEV",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:08:31.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:08:31.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 20,
-          "stop_id": "123RD-BEV",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:10:31.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:10:31.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 21,
-          "stop_id": "PRAIRIEST",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:12:31.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:12:31.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
           "stop_sequence": 22,
           "stop_id": "VERMONT",
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:15:31.000Z",
+              "low": "2024-12-11T07:12:44.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -980,7 +892,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:15:31.000Z",
+              "low": "2024-12-11T07:12:44.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -994,7 +906,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:19:31.000Z",
+              "low": "2024-12-11T07:16:44.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1003,7 +915,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:19:31.000Z",
+              "low": "2024-12-11T07:16:44.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1017,7 +929,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:22:31.000Z",
+              "low": "2024-12-11T07:19:44.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1026,7 +938,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:22:31.000Z",
+              "low": "2024-12-11T07:19:44.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1040,7 +952,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:26:31.000Z",
+              "low": "2024-12-11T07:23:44.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1049,7 +961,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:26:31.000Z",
+              "low": "2024-12-11T07:23:44.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1063,7 +975,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:31:31.000Z",
+              "low": "2024-12-11T07:28:44.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1072,7 +984,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:31:31.000Z",
+              "low": "2024-12-11T07:28:44.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1086,7 +998,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:34:31.000Z",
+              "low": "2024-12-11T07:31:44.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1095,7 +1007,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:34:31.000Z",
+              "low": "2024-12-11T07:31:44.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1109,7 +1021,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:38:31.000Z",
+              "low": "2024-12-11T07:35:44.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1118,7 +1030,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:38:31.000Z",
+              "low": "2024-12-11T07:35:44.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1132,7 +1044,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:42:31.000Z",
+              "low": "2024-12-11T07:39:44.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1141,7 +1053,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:42:31.000Z",
+              "low": "2024-12-11T07:39:44.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1155,7 +1067,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:48:31.000Z",
+              "low": "2024-12-11T07:45:44.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1164,7 +1076,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:48:31.000Z",
+              "low": "2024-12-11T07:45:44.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1178,7 +1090,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T08:04:31.000Z",
+              "low": "2024-12-11T08:01:44.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1187,7 +1099,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T08:04:31.000Z",
+              "low": "2024-12-11T08:01:44.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1197,13 +1109,13 @@
         }
       ],
       "timestamp": {
-        "low": "2024-12-11T06:59:52.000Z",
+        "low": "2024-12-11T07:09:44.000Z",
         "high": 0,
         "unsigned": true
       },
       "delay": null,
       "position": {
-        "id": "45",
+        "id": "56",
         "is_deleted": false,
         "trip_update": null,
         "vehicle": {
@@ -1221,9 +1133,9 @@
             "license_plate": null
           },
           "position": {
-            "latitude": 41.71017074584961,
-            "longitude": -87.66832733154297,
-            "bearing": 196,
+            "latitude": 41.66167449951172,
+            "longitude": -87.6751937866211,
+            "bearing": 187,
             "odometer": null,
             "speed": null
           },
@@ -1231,7 +1143,7 @@
           "stop_id": null,
           "current_status": 2,
           "timestamp": {
-            "low": "2024-12-11T06:59:34.000Z",
+            "low": "2024-12-11T07:09:44.000Z",
             "high": 0,
             "unsigned": true
           },
@@ -1263,104 +1175,12 @@
       },
       "stop_time_update": [
         {
-          "stop_sequence": 9,
-          "stop_id": "MAYWOOD",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T06:59:08.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T06:59:08.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 10,
-          "stop_id": "MELROSEPK",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:01:50.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:01:50.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 12,
-          "stop_id": "BELLWOOD",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:04:50.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:04:50.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 13,
-          "stop_id": "BERKELEY",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:07:50.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:07:50.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
           "stop_sequence": 15,
           "stop_id": "ELMHURST",
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:12:50.000Z",
+              "low": "2024-12-11T07:11:43.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1369,7 +1189,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:12:50.000Z",
+              "low": "2024-12-11T07:11:43.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1383,7 +1203,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:16:50.000Z",
+              "low": "2024-12-11T07:15:43.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1392,7 +1212,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:16:50.000Z",
+              "low": "2024-12-11T07:15:43.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1406,7 +1226,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:20:50.000Z",
+              "low": "2024-12-11T07:19:43.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1415,7 +1235,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:20:50.000Z",
+              "low": "2024-12-11T07:19:43.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1429,7 +1249,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:25:50.000Z",
+              "low": "2024-12-11T07:24:43.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1438,7 +1258,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:25:50.000Z",
+              "low": "2024-12-11T07:24:43.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1452,7 +1272,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:28:50.000Z",
+              "low": "2024-12-11T07:27:43.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1461,7 +1281,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:28:50.000Z",
+              "low": "2024-12-11T07:27:43.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1475,7 +1295,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:31:50.000Z",
+              "low": "2024-12-11T07:30:43.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1484,7 +1304,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:31:50.000Z",
+              "low": "2024-12-11T07:30:43.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1498,7 +1318,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:35:50.000Z",
+              "low": "2024-12-11T07:34:43.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1507,7 +1327,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:35:50.000Z",
+              "low": "2024-12-11T07:34:43.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1521,7 +1341,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:39:50.000Z",
+              "low": "2024-12-11T07:38:43.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1530,7 +1350,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:39:50.000Z",
+              "low": "2024-12-11T07:38:43.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1544,7 +1364,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:48:50.000Z",
+              "low": "2024-12-11T07:47:43.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1553,7 +1373,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:48:50.000Z",
+              "low": "2024-12-11T07:47:43.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1567,7 +1387,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:56:50.000Z",
+              "low": "2024-12-11T07:55:43.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1576,7 +1396,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:56:50.000Z",
+              "low": "2024-12-11T07:55:43.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1590,7 +1410,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T08:06:50.000Z",
+              "low": "2024-12-11T08:05:43.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1599,7 +1419,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T08:06:50.000Z",
+              "low": "2024-12-11T08:05:43.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1609,13 +1429,13 @@
         }
       ],
       "timestamp": {
-        "low": "2024-12-11T06:59:50.000Z",
+        "low": "2024-12-11T07:09:46.000Z",
         "high": 0,
         "unsigned": true
       },
       "delay": null,
       "position": {
-        "id": "79",
+        "id": "94",
         "is_deleted": false,
         "trip_update": null,
         "vehicle": {
@@ -1633,9 +1453,9 @@
             "license_plate": null
           },
           "position": {
-            "latitude": 41.888343811035156,
-            "longitude": -87.83873748779297,
-            "bearing": 280,
+            "latitude": 41.89856719970703,
+            "longitude": -87.93099975585938,
+            "bearing": 277,
             "odometer": null,
             "speed": null
           },
@@ -1643,7 +1463,7 @@
           "stop_id": null,
           "current_status": 2,
           "timestamp": {
-            "low": "2024-12-11T06:59:29.000Z",
+            "low": "2024-12-11T07:09:46.000Z",
             "high": 0,
             "unsigned": true
           },
@@ -1675,81 +1495,12 @@
       },
       "stop_time_update": [
         {
-          "stop_sequence": 11,
-          "stop_id": "BROOKFIELD",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T06:58:52.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T06:58:52.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 13,
-          "stop_id": "LAGRANGE",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:03:53.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:03:53.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 15,
-          "stop_id": "WESTSPRING",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:07:53.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:07:53.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
           "stop_sequence": 17,
           "stop_id": "HINSDALE",
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:10:53.000Z",
+              "low": "2024-12-11T07:08:44.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1758,7 +1509,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:10:53.000Z",
+              "low": "2024-12-11T07:08:44.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1772,7 +1523,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:14:53.000Z",
+              "low": "2024-12-11T07:13:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1781,7 +1532,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:14:53.000Z",
+              "low": "2024-12-11T07:13:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1795,7 +1546,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:17:53.000Z",
+              "low": "2024-12-11T07:16:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1804,7 +1555,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:17:53.000Z",
+              "low": "2024-12-11T07:16:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1818,7 +1569,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:20:53.000Z",
+              "low": "2024-12-11T07:19:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1827,7 +1578,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:20:53.000Z",
+              "low": "2024-12-11T07:19:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1841,7 +1592,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:22:53.000Z",
+              "low": "2024-12-11T07:21:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1850,7 +1601,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:22:53.000Z",
+              "low": "2024-12-11T07:21:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1864,7 +1615,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:25:53.000Z",
+              "low": "2024-12-11T07:24:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1873,7 +1624,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:25:53.000Z",
+              "low": "2024-12-11T07:24:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1887,7 +1638,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:28:53.000Z",
+              "low": "2024-12-11T07:27:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1896,7 +1647,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:28:53.000Z",
+              "low": "2024-12-11T07:27:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1910,7 +1661,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:34:53.000Z",
+              "low": "2024-12-11T07:33:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1919,7 +1670,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:34:53.000Z",
+              "low": "2024-12-11T07:33:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1933,7 +1684,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:38:53.000Z",
+              "low": "2024-12-11T07:37:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1942,7 +1693,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:38:53.000Z",
+              "low": "2024-12-11T07:37:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1956,7 +1707,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:50:53.000Z",
+              "low": "2024-12-11T07:49:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1965,7 +1716,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:50:53.000Z",
+              "low": "2024-12-11T07:49:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1975,13 +1726,13 @@
         }
       ],
       "timestamp": {
-        "low": "2024-12-11T06:59:53.000Z",
+        "low": "2024-12-11T07:09:56.000Z",
         "high": 0,
         "unsigned": true
       },
       "delay": null,
       "position": {
-        "id": "89",
+        "id": "108",
         "is_deleted": false,
         "trip_update": null,
         "vehicle": {
@@ -1999,9 +1750,9 @@
             "license_plate": null
           },
           "position": {
-            "latitude": 41.822181701660156,
-            "longitude": -87.84298706054688,
-            "bearing": 251,
+            "latitude": 41.802249908447266,
+            "longitude": -87.93152618408203,
+            "bearing": 253,
             "odometer": null,
             "speed": null
           },
@@ -2009,7 +1760,7 @@
           "stop_id": null,
           "current_status": 2,
           "timestamp": {
-            "low": "2024-12-11T06:59:21.000Z",
+            "low": "2024-12-11T07:09:55.000Z",
             "high": 0,
             "unsigned": true
           },
@@ -2041,58 +1792,12 @@
       },
       "stop_time_update": [
         {
-          "stop_sequence": 12,
-          "stop_id": "EDGEBROOK",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:02:52.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:02:52.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 13,
-          "stop_id": "MORTONGRV",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:06:52.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:06:52.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
           "stop_sequence": 14,
           "stop_id": "GOLF",
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:10:52.000Z",
+              "low": "2024-12-11T07:10:04.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2101,7 +1806,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:10:52.000Z",
+              "low": "2024-12-11T07:10:04.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2115,7 +1820,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:13:52.000Z",
+              "low": "2024-12-11T07:13:04.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2124,7 +1829,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:13:52.000Z",
+              "low": "2024-12-11T07:13:04.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2138,7 +1843,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:17:52.000Z",
+              "low": "2024-12-11T07:17:04.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2147,7 +1852,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:17:52.000Z",
+              "low": "2024-12-11T07:17:04.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2161,7 +1866,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:21:52.000Z",
+              "low": "2024-12-11T07:21:04.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2170,7 +1875,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:21:52.000Z",
+              "low": "2024-12-11T07:21:04.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2184,7 +1889,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:25:52.000Z",
+              "low": "2024-12-11T07:25:04.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2193,7 +1898,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:25:52.000Z",
+              "low": "2024-12-11T07:25:04.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2207,7 +1912,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:28:52.000Z",
+              "low": "2024-12-11T07:28:04.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2216,7 +1921,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:28:52.000Z",
+              "low": "2024-12-11T07:28:04.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2230,7 +1935,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:34:52.000Z",
+              "low": "2024-12-11T07:34:04.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2239,7 +1944,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:34:52.000Z",
+              "low": "2024-12-11T07:34:04.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2253,7 +1958,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:45:52.000Z",
+              "low": "2024-12-11T07:45:04.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2262,7 +1967,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:45:52.000Z",
+              "low": "2024-12-11T07:45:04.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2276,7 +1981,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:51:52.000Z",
+              "low": "2024-12-11T07:51:04.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2285,7 +1990,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:51:52.000Z",
+              "low": "2024-12-11T07:51:04.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2299,7 +2004,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:55:52.000Z",
+              "low": "2024-12-11T07:55:04.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2308,7 +2013,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:55:52.000Z",
+              "low": "2024-12-11T07:55:04.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2322,7 +2027,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T08:02:52.000Z",
+              "low": "2024-12-11T08:02:04.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2331,7 +2036,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T08:02:52.000Z",
+              "low": "2024-12-11T08:02:04.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2345,7 +2050,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T08:05:52.000Z",
+              "low": "2024-12-11T08:05:04.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2354,7 +2059,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T08:05:52.000Z",
+              "low": "2024-12-11T08:05:04.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2368,7 +2073,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T08:08:52.000Z",
+              "low": "2024-12-11T08:08:04.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2377,7 +2082,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T08:08:52.000Z",
+              "low": "2024-12-11T08:08:04.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2391,7 +2096,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T08:15:52.000Z",
+              "low": "2024-12-11T08:15:04.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2400,7 +2105,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T08:15:52.000Z",
+              "low": "2024-12-11T08:15:04.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2410,13 +2115,13 @@
         }
       ],
       "timestamp": {
-        "low": "2024-12-11T06:59:52.000Z",
+        "low": "2024-12-11T07:09:47.000Z",
         "high": 0,
         "unsigned": true
       },
       "delay": null,
       "position": {
-        "id": "16",
+        "id": "18",
         "is_deleted": false,
         "trip_update": null,
         "vehicle": {
@@ -2434,8 +2139,8 @@
             "license_plate": null
           },
           "position": {
-            "latitude": 41.97747802734375,
-            "longitude": -87.75515747070312,
+            "latitude": 42.0567626953125,
+            "longitude": -87.79635620117188,
             "bearing": 338,
             "odometer": null,
             "speed": null
@@ -2444,7 +2149,7 @@
           "stop_id": null,
           "current_status": 2,
           "timestamp": {
-            "low": "2024-12-11T06:59:23.000Z",
+            "low": "2024-12-11T07:09:46.000Z",
             "high": 0,
             "unsigned": true
           },
@@ -2476,104 +2181,12 @@
       },
       "stop_time_update": [
         {
-          "stop_sequence": 9,
-          "stop_id": "CENTRALST",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T06:59:37.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T06:59:37.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 10,
-          "stop_id": "WILMETTE",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:02:44.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:02:44.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 11,
-          "stop_id": "KENILWORTH",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:04:44.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:04:44.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 12,
-          "stop_id": "INDIANHILL",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:06:44.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T07:06:44.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
           "stop_sequence": 13,
           "stop_id": "WINNETKA",
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:08:44.000Z",
+              "low": "2024-12-11T07:09:25.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2582,7 +2195,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:08:44.000Z",
+              "low": "2024-12-11T07:09:25.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2596,7 +2209,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:11:44.000Z",
+              "low": "2024-12-11T07:12:48.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2605,7 +2218,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:11:44.000Z",
+              "low": "2024-12-11T07:12:48.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2619,7 +2232,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:14:44.000Z",
+              "low": "2024-12-11T07:15:48.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2628,7 +2241,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:14:44.000Z",
+              "low": "2024-12-11T07:15:48.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2642,7 +2255,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:18:44.000Z",
+              "low": "2024-12-11T07:19:48.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2651,7 +2264,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:18:44.000Z",
+              "low": "2024-12-11T07:19:48.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2665,7 +2278,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:21:44.000Z",
+              "low": "2024-12-11T07:22:48.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2674,7 +2287,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:21:44.000Z",
+              "low": "2024-12-11T07:22:48.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2688,7 +2301,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:24:44.000Z",
+              "low": "2024-12-11T07:25:48.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2697,7 +2310,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:24:44.000Z",
+              "low": "2024-12-11T07:25:48.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2711,7 +2324,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:27:44.000Z",
+              "low": "2024-12-11T07:28:48.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2720,7 +2333,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:27:44.000Z",
+              "low": "2024-12-11T07:28:48.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2734,7 +2347,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:29:44.000Z",
+              "low": "2024-12-11T07:30:48.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2743,7 +2356,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:29:44.000Z",
+              "low": "2024-12-11T07:30:48.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2757,7 +2370,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:33:44.000Z",
+              "low": "2024-12-11T07:34:48.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2766,7 +2379,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:33:44.000Z",
+              "low": "2024-12-11T07:34:48.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2780,7 +2393,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:37:44.000Z",
+              "low": "2024-12-11T07:38:48.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2789,7 +2402,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:37:44.000Z",
+              "low": "2024-12-11T07:38:48.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2803,7 +2416,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:41:44.000Z",
+              "low": "2024-12-11T07:42:48.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2812,7 +2425,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:41:44.000Z",
+              "low": "2024-12-11T07:42:48.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2826,7 +2439,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:46:44.000Z",
+              "low": "2024-12-11T07:47:48.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2835,7 +2448,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:46:44.000Z",
+              "low": "2024-12-11T07:47:48.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2849,7 +2462,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:52:44.000Z",
+              "low": "2024-12-11T07:53:48.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2858,7 +2471,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2024-12-11T07:52:44.000Z",
+              "low": "2024-12-11T07:53:48.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2868,13 +2481,13 @@
         }
       ],
       "timestamp": {
-        "low": "2024-12-11T06:59:44.000Z",
+        "low": "2024-12-11T07:09:48.000Z",
         "high": 0,
         "unsigned": true
       },
       "delay": null,
       "position": {
-        "id": "134",
+        "id": "162",
         "is_deleted": false,
         "trip_update": null,
         "vehicle": {
@@ -2892,8 +2505,8 @@
             "license_plate": null
           },
           "position": {
-            "latitude": 42.062923431396484,
-            "longitude": -87.69725036621094,
+            "latitude": 42.10491180419922,
+            "longitude": -87.73239135742188,
             "bearing": 328,
             "odometer": null,
             "speed": null
@@ -2902,7 +2515,7 @@
           "stop_id": null,
           "current_status": 2,
           "timestamp": {
-            "low": "2024-12-11T06:59:28.000Z",
+            "low": "2024-12-11T07:09:48.000Z",
             "high": 0,
             "unsigned": true
           },
@@ -2911,110 +2524,6 @@
         },
         "alert": null
       }
-    },
-    "vehicle": null,
-    "alert": null
-  },
-  {
-    "id": "11",
-    "is_deleted": false,
-    "trip_update": {
-      "trip": {
-        "trip_id": "UP-NW_UNW677_V3_C",
-        "route_id": "UP-NW",
-        "direction_id": null,
-        "start_time": "23:35:00",
-        "start_date": "20241210",
-        "schedule_relationship": 0
-      },
-      "vehicle": {
-        "id": "8414",
-        "label": null,
-        "license_plate": null
-      },
-      "stop_time_update": [
-        {
-          "stop_sequence": 26,
-          "stop_id": "CRYSTAL",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T06:56:03.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T06:56:03.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        }
-      ],
-      "timestamp": {
-        "low": "2024-12-11T06:55:01.000Z",
-        "high": 0,
-        "unsigned": true
-      },
-      "delay": null
-    },
-    "vehicle": null,
-    "alert": null
-  },
-  {
-    "id": "12",
-    "is_deleted": false,
-    "trip_update": {
-      "trip": {
-        "trip_id": "UP-W_UW73_V2_C",
-        "route_id": "UP-W",
-        "direction_id": null,
-        "start_time": "23:40:00",
-        "start_date": "20241210",
-        "schedule_relationship": 0
-      },
-      "vehicle": {
-        "id": "8449",
-        "label": null,
-        "license_plate": null
-      },
-      "stop_time_update": [
-        {
-          "stop_sequence": 28,
-          "stop_id": "ELBURN",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T06:56:11.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2024-12-11T06:56:11.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        }
-      ],
-      "timestamp": {
-        "low": "2024-12-11T06:55:27.000Z",
-        "high": 0,
-        "unsigned": true
-      },
-      "delay": null
     },
     "vehicle": null,
     "alert": null
