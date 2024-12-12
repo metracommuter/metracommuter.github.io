@@ -9,7 +9,7 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "ME",
+          "route_id": "NCS",
           "route_type": null,
           "trip": null,
           "stop_id": null
@@ -20,7 +20,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/NCS?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -28,7 +28,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "ME Ivanhoe Elevator Is Out Of Service",
+            "text": "NCS Train 101 is Delayed",
             "language": "en"
           }
         ]
@@ -36,7 +36,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "ME The Ivanhoe elevator is out of service. Customers can use 115th or 147th Sibley Blvd as alternate boarding stations. Updates will be provided.",
+            "text": "Train 101 scheduled to arrive Antioch at 8:55 a.m. is operating 15 to 25 minute behind due to earlier switch failure",
             "language": "en"
           }
         ]
@@ -53,9 +53,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "ME",
+          "route_id": "RI",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "RI_RI608_V8_C",
+            "route_id": "RI",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -64,7 +71,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/RI?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -72,7 +79,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "ME Flossmoor Elevator Is Out Of Service",
+            "text": "Rock Island Train 608 On The Move",
             "language": "en"
           }
         ]
@@ -80,7 +87,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "ME The Flossmoor elevator is out of service. Customers can use Homewood or 211th St (Lincoln Highway) as alternate boarding stations. Updates will be provided.",
+            "text": "Outbound train number 608 scheduled to arrive LaSalle Street at 8:16 AM is on the move and may be operating 15 to 20 minutes behind schedule due to Mechanical Problems. Updated at 7:52 AM",
             "language": "en"
           }
         ]
@@ -89,94 +96,6 @@
   },
   {
     "id": "3",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "MD-N",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "MDN Train #2103 Will Not Operate",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "Train #2103, scheduled to depart Chicago at 6:48 a.m., will not operate due to mechanical problems.  Train #2105, scheduled to depart Chicago at 7:05 a.m., will accommodate passengers.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "4",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "ME",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "ME Van Buren Street Station Elevator Is Out Of Service",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "The Van Buren Street Station elevator is out of service. Customers can use Millennium Station\u0027s South Water elevator or the McCormick Place elevator as alternate boarding stations. Updates will be provided.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "5",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -204,7 +123,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "BNSF Train 1215 Delayed",
+            "text": "BNSF Trains Delayed",
             "language": "en"
           }
         ]
@@ -212,7 +131,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "Outbound train #1215, scheduled to Arrive Downer Grove at 7:15 a.m. is operating 20 to 30 minutes behind  due to earlier switch problems.",
+            "text": "Some BNSF inbound and outbound trains may be operating up to 20 minutes behind schedule due to  switch problems. Please visit MetraTracker.com for the location of your train.",
             "language": "en"
           }
         ]
@@ -220,7 +139,7 @@
     }
   },
   {
-    "id": "6",
+    "id": "4",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -264,102 +183,7 @@
     }
   },
   {
-    "id": "7",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "BNSF",
-          "route_type": null,
-          "trip": {
-            "trip_id": "BNSF_BN1236_V2_C",
-            "route_id": "BNSF",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "BNSF #1236 Operational Change/Originating At Lisle",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "BNSF #1236 scheduled to depart Aurora at 7:32 AM, will originate from Lisle due to switch problems. Train #1246 scheduled to depart Aurora at 8:02 AM, will accommodate passengers. Please listen to announcements for updates.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "8",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "UP-W",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-W?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "UPW 15 Delayed/ Operational Change",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "UPW train #15, scheduled to arrive La Fox at 7:08 AM, may be operating 40 to 45 minutes behind schedule due to earlier switch problems. This train will be terminating at Elburn this morning. Updated at 6:38a.m.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "9",
+    "id": "5",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -403,7 +227,7 @@
     }
   },
   {
-    "id": "10",
+    "id": "6",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -447,7 +271,7 @@
     }
   },
   {
-    "id": "11",
+    "id": "7",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -456,7 +280,7 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "MD-W",
+          "route_id": "MD-N",
           "route_type": null,
           "trip": null,
           "stop_id": null
@@ -467,7 +291,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/MD-W?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -475,7 +299,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "MDW Train #2403 Delayed",
+            "text": "MDN Train #2103 Will Not Operate.  Train #2105, #2107 and #2109 Accommodating Passengers.",
             "language": "en"
           }
         ]
@@ -483,7 +307,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "MDW train #2403, scheduled to arrive Franklin Park at 7:25AM, is on the move and may be operating 15 to 25 minutes behind schedule due to earlier switch problems. Visit MetraTracker.com for the location of your train.",
+            "text": "Train #2103, scheduled to depart Chicago at 6:48 a.m., will not operate due to mechanical problems.  Train #2105, train #2107 and #2109, will accommodate passengers.   Updated at 7:52 a.m.",
             "language": "en"
           }
         ]
@@ -491,7 +315,139 @@
     }
   },
   {
-    "id": "12",
+    "id": "8",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "ME",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "ME Ivanhoe Elevator Is Out Of Service",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "ME The Ivanhoe elevator is out of service. Customers can use 115th or 147th Sibley Blvd as alternate boarding stations. Updates will be provided.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "9",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "ME",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "ME Flossmoor Elevator Is Out Of Service",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "ME The Flossmoor elevator is out of service. Customers can use Homewood or 211th St (Lincoln Highway) as alternate boarding stations. Updates will be provided.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "10",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "ME",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "ME Van Buren Street Station Elevator Is Out Of Service",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "The Van Buren Street Station elevator is out of service. Customers can use Millennium Station\u0027s South Water elevator or the McCormick Place elevator as alternate boarding stations. Updates will be provided.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "11",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -519,7 +475,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "BN Train #1213 On The Move",
+            "text": "BNSF Train 1215 Delayed",
             "language": "en"
           }
         ]
@@ -527,7 +483,109 @@
       "description_text": {
         "translation": [
           {
-            "text": "Outbound train #1213, scheduled to depart Chicago at 7:05 a.m., is on the move delayed 15 to 20 minutes due to switch problems. Please listen to announcements for delay times and the location of your train.",
+            "text": "Outbound train #1215, scheduled to Arrive Downer Grove at 7:15 a.m. is operating 20 to 30 minutes behind  due to earlier switch problems.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "12",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "RI",
+          "route_type": null,
+          "trip": {
+            "trip_id": "RI_RI403_V4_C",
+            "route_id": "RI",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/RI?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "Rock Island 403 Stopped",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "Rock Island Outbound train number 403 scheduled to arrive Joliet at 8:07 AM is stopped at Robbins due to track construction.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "13",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "BNSF",
+          "route_type": null,
+          "trip": {
+            "trip_id": "BNSF_BN1236_V2_C",
+            "route_id": "BNSF",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "BNSF #1236 Will Not Operate (UPDATE)",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "BNSF #1236 scheduled to depart Aurora at 7:32 AM, will not operate due to switch problems. Train #1246 scheduled to depart Aurora at 8:02 AM, will accommodate passengers.",
             "language": "en"
           }
         ]
