@@ -9,6 +9,50 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
+          "route_id": "MD-N",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "MDN Train #2105 Stopped",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "MDN train #2105, scheduled to arrive Lake Forest at 8:09 AM, is stopped near Deerfield due to emergency track repairs. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "2",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
           "route_id": "NCS",
           "route_type": null,
           "trip": null,
@@ -44,7 +88,7 @@
     }
   },
   {
-    "id": "2",
+    "id": "3",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -95,50 +139,6 @@
     }
   },
   {
-    "id": "3",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "BNSF",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "BNSF Train 1232 Delayed Departure",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "Train 1232 scheduled to arrive in Chicago at 8:22 a.m. is a delayed departure due to earlier switch failure.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
     "id": "4",
     "is_deleted": false,
     "trip_update": null,
@@ -148,7 +148,7 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "MD-W",
+          "route_id": "UP-W",
           "route_type": null,
           "trip": null,
           "stop_id": null
@@ -159,7 +159,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/MD-W?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-W?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -167,7 +167,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "MDW Train #2203 Delayed",
+            "text": "UPW Trains Delayed",
             "language": "en"
           }
         ]
@@ -175,7 +175,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "MDW train #2203, scheduled to arrive Big Timber Road/Elgin at 7:48 AM, is on the move and may be operating 40 to 50 minutes behind schedule due to earlier switch problems. Visit MetraTracker.com for the location of your train.",
+            "text": "Some UPW inbound and outbound trains may be operating up to 30 minutes behind schedule due to earlier switch problems and positive train control issues. Please visit MetraTracker.com for the location of your train.",
             "language": "en"
           }
         ]
@@ -184,6 +184,57 @@
   },
   {
     "id": "5",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-W",
+          "route_type": null,
+          "trip": {
+            "trip_id": "UP-W_UW30_V2_C",
+            "route_id": "UP-W",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-W?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPW 30 On The Move",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "UPW train #30, scheduled to arrive Ogilvie Transportation Center at 8:30 AM, is on the move delayed 25 to 30 minutes due to positive train control issues.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "6",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -227,7 +278,7 @@
     }
   },
   {
-    "id": "6",
+    "id": "7",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -264,57 +315,6 @@
         "translation": [
           {
             "text": "Train #2103, scheduled to depart Chicago at 6:48 a.m., will not operate due to mechanical problems.  Train #2105, train #2107 and #2109, will accommodate passengers.   Updated at 7:52 a.m.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "7",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "UP-W",
-          "route_type": null,
-          "trip": {
-            "trip_id": "UP-W_UW30_V2_C",
-            "route_id": "UP-W",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-W?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "UPW 30 Stopped Near Elmhurst",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "UPW train #30, scheduled to arrive Ogilvie Transportation Center at 8:30 AM, is stopped near Elmhurst due to  positive train control issues. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
             "language": "en"
           }
         ]
@@ -551,67 +551,9 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "UP-W",
-          "route_type": null,
-          "trip": {
-            "trip_id": "UP-W_UW19_V2_C",
-            "route_id": "UP-W",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-W?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "UPW 19 On The Move",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "UPW train #19, scheduled to arrive Elburn at 8:13 AM, is on the move delayed 15 to 20 minutes due to earlier switch problems.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "14",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
           "route_id": "BNSF",
           "route_type": null,
-          "trip": {
-            "trip_id": "BNSF_BN1236_V2_C",
-            "route_id": "BNSF",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
+          "trip": null,
           "stop_id": null
         }
       ],
@@ -628,7 +570,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "BNSF #1236 Will Not Operate (UPDATE)",
+            "text": "BNSF Train 1232 is Moving",
             "language": "en"
           }
         ]
@@ -636,7 +578,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "BNSF #1236 scheduled to depart Aurora at 7:32 AM, will not operate due to switch problems. Train #1246 scheduled to depart Aurora at 8:02 AM, will accommodate passengers.",
+            "text": "Train 1232 scheduled to arrive in Chicago at 8:22 a.m. is operating 15 to 25 minutes behind due to earlier switch failure.",
             "language": "en"
           }
         ]
@@ -644,7 +586,7 @@
     }
   },
   {
-    "id": "15",
+    "id": "14",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -681,6 +623,50 @@
         "translation": [
           {
             "text": "Outbound train number 403 scheduled to arrive Joliet at 8:07 AM may be operating 25 to 30 minutes behind schedule due to emergency track repairs.  Updated at 8:04 a.m.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "15",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "ME",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=0\u0026Email=0\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "Attention Metra Electric Line will be partially shut down December 14-15.",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "The Metra Electric Line will be partially shut down Dec. 14-15, due to extensive construction associated with the South Shore Line?s expansion plans, work that will also benefit  Metra Electric riders. Train service will terminate and originate from the 18th Street Station, with buses replacing trains between Millennium and 18th, and the line will use a Sunday schedule both Saturday and Sunday.",
             "language": "en"
           }
         ]
@@ -1253,94 +1239,6 @@
         "translation": [
           {
             "text": "\u003Cp\u003EFollowing the morning rush on Wednesday, Dec. 4, the temporary outbound platform at the Geneva Station will move to the southwest side of Third Street. All trains will board passengers from the rear cars on this platform. Please allow additional time to access the in-service platform and exercise caution near the work zones.\u003C/p\u003E",
-            "language": "en-US"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "cms_alert1855",
-    "is_deleted": false,
-    "alert": {
-      "url": {
-        "translation": [
-          {
-            "text": "metrarail.com/riding-metra/service-updates?Source=0\u0026Website=1\u0026OnBoard=0\u0026Email=0\u0026Twitter=0"
-          }
-        ]
-      },
-      "informed_entity": [
-        {
-          "route_id": "ME"
-        }
-      ],
-      "active_period": [
-        {
-          "start": {
-            "low": "2024-12-12T08:16:00"
-          },
-          "end": {
-            "low": "2024-12-13T05:59:00"
-          }
-        }
-      ],
-      "header_text": {
-        "translation": [
-          {
-            "text": "Metra Alert ME -  Metra Electric Line will be partially shut down December 14-15. ",
-            "language": "en-US"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "\u003Cp\u003EThe Metra Electric Line will be partially shut down Dec. 14-15, due to extensive construction associated with the South Shore Line\u0026rsquo;s expansion plans, work that will also benefit\u0026nbsp; Metra Electric riders. Train service will terminate and originate from the 18th Street Station, with buses replacing trains between Millennium and 18th, and the line will use a Sunday schedule both Saturday and Sunday.\u0026nbsp; For more information click \u003Ca href=\u0022https://metra.com/newsroom/work-impact-metra-electric-south-shore-service-two-december-weekends\u0022\u003Ehere\u003C/a\u003E.\u003C/p\u003E",
-            "language": "en-US"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "cms_alert1858",
-    "is_deleted": false,
-    "alert": {
-      "url": {
-        "translation": [
-          {
-            "text": "metrarail.com/riding-metra/service-updates?Source=0\u0026Website=1\u0026OnBoard=0\u0026Email=0\u0026Twitter=0"
-          }
-        ]
-      },
-      "informed_entity": [
-        {
-          "route_id": "ME"
-        }
-      ],
-      "active_period": [
-        {
-          "start": {
-            "low": "2024-12-12T08:17:00"
-          },
-          "end": {
-            "low": "2024-12-12T23:59:00"
-          }
-        }
-      ],
-      "header_text": {
-        "translation": [
-          {
-            "text": "Metra Alert ME - Attention Metra Electric Line will be partially shut down December 14-15. ",
-            "language": "en-US"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "\u003Cp\u003E\u0026nbsp;The Metra Electric Line will be partially shut down Dec. 14-15, due to extensive construction associated with the South Shore Line\u0026rsquo;s expansion plans, work that will also benefit\u0026nbsp; Metra Electric riders. Train service will terminate and originate from the 18th Street Station, with buses replacing trains between Millennium and 18th, and the line will use a Sunday schedule both Saturday and Sunday.\u0026nbsp; For more information click \u003Ca href=\u0022https://metra.com/newsroom/work-impact-metra-electric-south-shore-service-two-december-weekends\u0022\u003Ehere\u003C/a\u003E.\u003C/p\u003E",
             "language": "en-US"
           }
         ]
