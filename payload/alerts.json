@@ -231,6 +231,101 @@
           "agency_id": "METRA",
           "route_id": "ME",
           "route_type": null,
+          "trip": {
+            "trip_id": "ME_ME102_V2_B",
+            "route_id": "ME",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "ME Train 102 Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "Metra Electric Inbound train number 102 scheduled to arrive Millennium Station at 6:51 AM  may be operating 15 to 20 minutes behind schedule due to track construction.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "7",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-N",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPN Train #309 and #316 Will Not Operate Today",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "Train #309, scheduled to depart Chicago at 6:40 a.m., and train #316, scheduled to depart Highland Park at 8:01 a.m., will not operate.  Train #391 and #311 will accommodate outbound passengers and train #318 and #320 will accommodate inbound passengers.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "8",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "ME",
+          "route_type": null,
           "trip": null,
           "stop_id": null
         }
@@ -264,7 +359,7 @@
     }
   },
   {
-    "id": "7",
+    "id": "9",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -308,7 +403,7 @@
     }
   },
   {
-    "id": "8",
+    "id": "10",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -880,6 +975,50 @@
     }
   },
   {
+    "id": "cms_alert1842",
+    "is_deleted": false,
+    "alert": {
+      "url": {
+        "translation": [
+          {
+            "text": "metrarail.com/riding-metra/service-updates?Source=0\u0026Website=1\u0026OnBoard=0\u0026Email=1\u0026Twitter=1"
+          }
+        ]
+      },
+      "informed_entity": [
+        {
+          "route_id": "UP-N"
+        }
+      ],
+      "active_period": [
+        {
+          "start": {
+            "low": "2024-12-13T06:00:00"
+          },
+          "end": {
+            "low": "2024-12-15T23:59:00"
+          }
+        }
+      ],
+      "header_text": {
+        "translation": [
+          {
+            "text": "Metra Alert UP-N - Track Construction on Sunday, December 15",
+            "language": "en-US"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "\u003Cp\u003ETrack construction will be taking place on Sunday, December 15. Trains may incur delays enroute up to 20\u0026nbsp;minutes behind schedule passing through the work zone. Please listen to announcements for any platform changes. For additional information visit\u0026nbsp;\u003Ca href=\u0022https://metra.com/constructionnotices\u0022\u003Emetra.com/constructionnotices.\u003C/a\u003E\u003C/p\u003E",
+            "language": "en-US"
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "cms_alert1844",
     "is_deleted": false,
     "alert": {
@@ -1012,6 +1151,50 @@
     }
   },
   {
+    "id": "cms_alert1856",
+    "is_deleted": false,
+    "alert": {
+      "url": {
+        "translation": [
+          {
+            "text": "metrarail.com/riding-metra/service-updates?Source=0\u0026Website=1\u0026OnBoard=0\u0026Email=1\u0026Twitter=0"
+          }
+        ]
+      },
+      "informed_entity": [
+        {
+          "route_id": "ME"
+        }
+      ],
+      "active_period": [
+        {
+          "start": {
+            "low": "2024-12-13T06:00:00"
+          },
+          "end": {
+            "low": "2024-12-17T02:00:00"
+          }
+        }
+      ],
+      "header_text": {
+        "translation": [
+          {
+            "text": "Metra Alert ME -   Metra Electric Line will be partially shut down December 14-15. ",
+            "language": "en-US"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "\u003Cp\u003E\u0026nbsp;The Metra Electric Line will be partially shut down Dec. 14-15, due to extensive construction associated with the South Shore Line\u0026rsquo;s expansion plans, work that will also benefit\u0026nbsp; Metra Electric riders. Train service will terminate and originate from the 18th Street Station, with buses replacing trains between Millennium and 18th, and the line will use a Sunday schedule both Saturday and Sunday.\u0026nbsp; For more information click \u003Ca href=\u0022https://metra.com/newsroom/work-impact-metra-electric-south-shore-service-two-december-weekends\u0022\u003Ehere\u003C/a\u003E.\u003C/p\u003E",
+            "language": "en-US"
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "cms_alert1857",
     "is_deleted": false,
     "alert": {
@@ -1049,6 +1232,50 @@
         "translation": [
           {
             "text": "\u003Cp\u003EThe 79th Street/Chatam station on the Metra Electric will reopen to the public on Monday, December 16, 2024.\u0026nbsp; Please note that the station may not be fully ADA accessible Monday through Friday from 9:00 AM to 4:00 PM.\u0026nbsp;\u0026nbsp; Click \u003Ca href=\u0022https://metra.com/newsroom/metra-open-new-79th-stchatham-station-dec-16-close-87th-stwoodruff-same-day-similar-rehab\u0022\u003Ehere \u003C/a\u003Efor more information.\u003C/p\u003E",
+            "language": "en-US"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "cms_alert1860",
+    "is_deleted": false,
+    "alert": {
+      "url": {
+        "translation": [
+          {
+            "text": "metrarail.com/riding-metra/service-updates?Source=0\u0026Website=1\u0026OnBoard=0\u0026Email=1\u0026Twitter=1"
+          }
+        ]
+      },
+      "informed_entity": [
+        {
+          "route_id": "MD-N"
+        }
+      ],
+      "active_period": [
+        {
+          "start": {
+            "low": "2024-12-13T06:00:00"
+          },
+          "end": {
+            "low": "2025-01-01T23:59:00"
+          }
+        }
+      ],
+      "header_text": {
+        "translation": [
+          {
+            "text": "Metra Alert MD-N - Forest Glen - Pedestrian Crossing to Close Dec. 20",
+            "language": "en-US"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "\u003Cp\u003EThe Forest Glen track-level pedestrian crossing is closing on December 20, 2024. Customers must use the pedestrian tunnel at Forest Glen Ave. or stairs via Elston Ave. to access platforms.\u0026nbsp;\u003C/p\u003E",
             "language": "en-US"
           }
         ]
