@@ -273,16 +273,9 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "MD-W",
+          "route_id": "UP-W",
           "route_type": null,
-          "trip": {
-            "trip_id": "MD-W_MW2235_V4_B",
-            "route_id": "MD-W",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
+          "trip": null,
           "stop_id": null
         }
       ],
@@ -291,7 +284,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/MD-W?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-W?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -299,7 +292,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "MDW 2235 - Will Not Operate",
+            "text": "UPW outbound trains delayed",
             "language": "en"
           }
         ]
@@ -307,7 +300,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "MDW train #2235, scheduled to depart Chicago Union Station at 5:10 PM, will not operate due to a crew shortage. Train #2237 will accommodate passengers.",
+            "text": "UPW outbound trains may be operating up to 30 minutes behind schedule due to an earlier vehicle stuck on the tracks. Visit metratracker.com for the location of your train.",
             "language": "en"
           }
         ]
@@ -377,6 +370,57 @@
           "agency_id": "METRA",
           "route_id": "ME",
           "route_type": null,
+          "trip": {
+            "trip_id": "ME_ME224_V3_B",
+            "route_id": "ME",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "ME Train 224 Is Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "MED train #224, scheduled to arrive Millennium Station at 6:38 PM, may be operating 15 to 20 minutes behind schedule due to  positive train control issues. Visit MetraTracker.com for the location of your train.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "10",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "ME",
+          "route_type": null,
           "trip": null,
           "stop_id": null
         }
@@ -403,50 +447,6 @@
         "translation": [
           {
             "text": "ME The Ivanhoe elevator is out of service. Customers can use 115th or 147th Sibley Blvd as alternate boarding stations. Updates will be provided.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "10",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "UP-W",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-W?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "UPW outbound trains delayed",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "UPW outbound trains may be operating up to 25 minutes behind schedule due to an earlier vehicle stuck on the tracks. Visit metratracker.com for the location of your train.",
             "language": "en"
           }
         ]
