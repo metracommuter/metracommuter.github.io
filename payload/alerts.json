@@ -308,6 +308,50 @@
     }
   },
   {
+    "id": "8",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "ME",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=0\u0026Email=0\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "MED #327 operational change",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "MED train #327, scheduled to arrive 93rd Street/South Chicago at 3:34 PM, will not operate past 63rd Street due to switch problems. Train #363 will accommodate customers.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "cms_alert1615",
     "is_deleted": false,
     "alert": {
@@ -469,6 +513,50 @@
         "translation": [
           {
             "text": "Metra Alert RI - Track Construction Saturday, January 11 through Sunday, January 12",
+            "language": "en-US"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "\u003Cp\u003ETrack construction will be taking place on Saturday, January 11 through Sunday, January 12. Trains may incur delays enroute up to 20\u0026nbsp;minutes behind schedule passing through the work zone. Please listen to announcements for any platform changes. For additional information visit\u0026nbsp;\u003Ca href=\u0022https://metra.com/constructionnotices\u0022\u003Emetra.com/constructionnotices.\u003C/a\u003E\u003C/p\u003E",
+            "language": "en-US"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "cms_alert1841",
+    "is_deleted": false,
+    "alert": {
+      "url": {
+        "translation": [
+          {
+            "text": "metrarail.com/riding-metra/service-updates?Source=0\u0026Website=1\u0026OnBoard=0\u0026Email=1\u0026Twitter=1"
+          }
+        ]
+      },
+      "informed_entity": [
+        {
+          "route_id": "UP-W"
+        }
+      ],
+      "active_period": [
+        {
+          "start": {
+            "low": "2025-01-10T16:15:00"
+          },
+          "end": {
+            "low": "2025-01-12T23:59:00"
+          }
+        }
+      ],
+      "header_text": {
+        "translation": [
+          {
+            "text": "Metra Alert UP-W - Track Construction on Saturday, January 11 through Sunday, January 12",
             "language": "en-US"
           }
         ]
