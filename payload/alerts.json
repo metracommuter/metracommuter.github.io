@@ -9,9 +9,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "ME",
+          "route_id": "HC",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "HC_HC916_V1_B",
+            "route_id": "HC",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -20,7 +27,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=0\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/HC?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -28,7 +35,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "The Flossmoor elevator is out of service.",
+            "text": "HC #916 stopped",
             "language": "en"
           }
         ]
@@ -36,7 +43,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "The Flossmoor elevator is out of service. Customers can use Calumet as alternate boarding station. Updates will be provided.",
+            "text": "HC #916 Scheduled to arrive Chicago at 7:32 am is currently stopped at Brighton Park due to freight train interference.",
             "language": "en"
           }
         ]
@@ -45,94 +52,6 @@
   },
   {
     "id": "2",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "UP-NW",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "UPNW Train #609 Operational Change",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "Train #609, sched. to arrive Des Plaines at 6:40 a.m., will make additional stops from Cumberland to Harvard.  This train may incur a delay of up to 25 minutes.  Updated at 6:57 a.m.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "3",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "ME",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "ME Ivanhoe Elevator Is Out Of Service",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "The Ivanhoe elevator is out of service. Customers can use Harvey or 115th Street/Kensington as alternate boarding stations. Updates will be provided.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "4",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -176,51 +95,7 @@
     }
   },
   {
-    "id": "5",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "UP-N",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "UPN 392 Will Not Operate Today",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "UPN Train 392, scheduled to depart Winnetka at 7:53 a.m., will not operate due to mechanical problems. Train 316, scheduled to depart Highland Park at 8:01 a.m. will accommodate passengers.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "6",
+    "id": "3",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -264,7 +139,7 @@
     }
   },
   {
-    "id": "7",
+    "id": "4",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -308,7 +183,7 @@
     }
   },
   {
-    "id": "8",
+    "id": "5",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -317,9 +192,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "UP-NW",
+          "route_id": "UP-W",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "UP-W_UW19_V2_B",
+            "route_id": "UP-W",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -328,7 +210,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-W?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -336,7 +218,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "UPNW Train 611 Will Not Operate Today",
+            "text": "UPW 19 Delayed 15 to 20 Minutes",
             "language": "en"
           }
         ]
@@ -344,7 +226,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "Train #611, scheduled to depart Chicago at 6:35 AM, will not operate due to mechanical problems. Train #609, scheduled to depart Chicago at 6:05 a.m., will accommodate passengers and make all stops to Harvard",
+            "text": "Train 19, scheduled to arrive Elburn at 8:13 a.m., is operating 15 to 20 minutes behind schedule due to earlier positive train control issues.",
             "language": "en"
           }
         ]
@@ -352,7 +234,7 @@
     }
   },
   {
-    "id": "9",
+    "id": "6",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -396,51 +278,7 @@
     }
   },
   {
-    "id": "10",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "ME",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "ME Van Buren Michigan Elevator Is Out Of Service",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "The Van Buren Street Michigan Avenue elevator is out of service. Customers can use Millennium Station South Water or Museum Campus as alternate boarding stations. Updates will be provided.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "11",
+    "id": "7",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -477,6 +315,314 @@
         "translation": [
           {
             "text": "UPN Train 391, scheduled to depart Chicago at 7:02 a.m., will not operate due to mechanical problems. Train 311, scheduled to depart Chicago at 7:32 a.m., will accommodate passengers.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "8",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-NW",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPNW Train 617 Delayed Departure",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "UPNW train #617, scheduled to depart Ogilvie Transportation Center at 7:35 AM, will be delayed in departure due to mechanical problems. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "9",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "ME",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=0\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "The Flossmoor elevator is out of service.",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "The Flossmoor elevator is out of service. Customers can use Calumet as alternate boarding station. Updates will be provided.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "10",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-NW",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPNW Train #609 Operational Change",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "Train #609, sched. to arrive Des Plaines at 6:40 a.m., will make additional stops from Cumberland to Harvard.  This train may incur a delay of up to 25 minutes.  Updated at 6:57 a.m.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "11",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "ME",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "ME Ivanhoe Elevator Is Out Of Service",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "The Ivanhoe elevator is out of service. Customers can use Harvey or 115th Street/Kensington as alternate boarding stations. Updates will be provided.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "12",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-N",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPN 392 Will Not Operate Today",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "UPN Train 392, scheduled to depart Winnetka at 7:53 a.m., will not operate due to mechanical problems. Train 316, scheduled to depart Highland Park at 8:01 a.m. will accommodate passengers.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "13",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-NW",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPNW Train 611 Will Not Operate Today",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "Train #611, scheduled to depart Chicago at 6:35 AM, will not operate due to mechanical problems. Train #609, scheduled to depart Chicago at 6:05 a.m., will accommodate passengers and make all stops to Harvard",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "14",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "ME",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "ME Van Buren Michigan Elevator Is Out Of Service",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "The Van Buren Street Michigan Avenue elevator is out of service. Customers can use Millennium Station South Water or Museum Campus as alternate boarding stations. Updates will be provided.",
             "language": "en"
           }
         ]
