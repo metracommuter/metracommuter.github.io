@@ -1,5 +1,49 @@
 [
   {
+    "id": "DevAPI-6652CF24-4974-4D1A-BA7A-04C4F851DE92",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "BNSF",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "BNSF #1245 - Will Not Operate",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "BNSF train #1245, scheduled to arrive Brookfield at 4:10 PM, will not operate past Riverside due to earlier freight train interference. Train #1251 will accommodate customers.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "DevAPI-6B2FEC44-7658-4939-AB2C-F20A1F2DC41E",
     "is_deleted": false,
     "trip_update": null,
@@ -37,50 +81,6 @@
         "translation": [
           {
             "text": "The Museum Campus/11th St West elevator is out of service. Customers can use Millennium Station South Water or McCormick Place as alternate boarding stations. Updates will be provided.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "DevAPI-4D20B349-F281-480A-8B9B-8EAC51DB5484",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "BNSF",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "BNSF #1231 - Delayed/Expressing",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "BNSF train #1231, scheduled to arrive Aurora at 3:01 PM, will express from Berwyn to Main Street/Downers Grove due to freight train interference . Train #1233 will accommodate customers at intermediate stops.",
             "language": "en"
           }
         ]
@@ -176,7 +176,7 @@
     }
   },
   {
-    "id": "DevAPI-73C2DF9B-ED78-427A-93C4-9901AD25ED7B",
+    "id": "DevAPI-11D8BF4B-3B32-45AF-80EB-5C588F3039C4",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -185,9 +185,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "MD-W",
+          "route_id": "BNSF",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "BNSF_BN1239_V2_C",
+            "route_id": "BNSF",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -196,7 +203,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/MD-W?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -204,7 +211,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "MDW Grand/Cicero South Elevator",
+            "text": "BNSF 1239 delayed",
             "language": "en"
           }
         ]
@@ -212,7 +219,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "The Grand/Cicero elevator is back in service",
+            "text": "BNSF train #1239, scheduled to arrive Aurora at 4:35 PM, may be operating 15 to 20 minutes behind schedule due to earlier freight train interference. Visit MetraTracker.com for the location of your train.",
             "language": "en"
           }
         ]
