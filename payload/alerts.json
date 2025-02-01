@@ -234,7 +234,7 @@
     }
   },
   {
-    "id": "DevAPI-2C34C05E-6C66-4FDE-94B1-30AE60485349",
+    "id": "DevAPI-56EE3F16-34D2-4298-B318-ABF48DC85031",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -245,14 +245,7 @@
           "agency_id": "METRA",
           "route_id": "SWS",
           "route_type": null,
-          "trip": {
-            "trip_id": "SWS_SW822_V3_B",
-            "route_id": "SWS",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
+          "trip": null,
           "stop_id": null
         }
       ],
@@ -261,7 +254,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/SWS?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/SWS?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -269,7 +262,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "SWS #822 Delayed",
+            "text": "SWS #822 Stopped",
             "language": "en"
           }
         ]
@@ -277,7 +270,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "SWS train #822, scheduled to arrive Chicago Union Station at 4:55 PM, may be operating 15 to 20 minutes behind schedule due to a medical emergency . Visit MetraTracker.com for the location of your train.",
+            "text": "SWS train #822, scheduled to arrive Chicago Union Station at 4:55 PM, is stopped near Ashburn due to freight interference. Expected delay times are unknown.",
             "language": "en"
           }
         ]
@@ -424,6 +417,57 @@
         "translation": [
           {
             "text": "HCD train #917, scheduled to depart Chicago Union Station at 4:50 PM, is operating 10 to15 minuets behind schedule  due to earlier signal problems.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-4C7ABBE4-2B1F-4A50-B982-2BAB9E092DE6",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "SWS",
+          "route_type": null,
+          "trip": {
+            "trip_id": "SWS_SW819_V3_B",
+            "route_id": "SWS",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/SWS?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "SWS #819 Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "SWS  train #819, scheduled to arrive 179th Street/Orland Park at 6:17 PM, is operating 20 to 25 minutes behind schedule due to earlier freight train interference.",
             "language": "en"
           }
         ]
