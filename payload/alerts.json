@@ -44,7 +44,7 @@
     }
   },
   {
-    "id": "DevAPI-E8ABFF9B-D553-4E99-A608-D607F6BF3528",
+    "id": "DevAPI-DC79A3CD-F45C-4AA3-8681-7517D6E62818",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -53,7 +53,7 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "UP-NW",
+          "route_id": "ME",
           "route_type": null,
           "trip": null,
           "stop_id": null
@@ -64,7 +64,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -72,7 +72,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "UPNW Train #648- Delayed",
+            "text": "ME Flossmoor Elevator is Back in Service",
             "language": "en"
           }
         ]
@@ -80,7 +80,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "UPNW  train #648, scheduled to arrive Ogilvie Transportation Center at 1:10 PM, may be operating 15 to 20 minutes behind schedule due to mechanical problems. Visit MetraTracker.com for the location of your train.",
+            "text": "The Flossmoor Elevator is Back in Service.",
             "language": "en"
           }
         ]
@@ -125,50 +125,6 @@
         "translation": [
           {
             "text": "The Hazel Crest elevator is out of service.  Customers can use Calumet or Harvey as alternate boarding stations.  Updates will be provided.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "DevAPI-CE57EA0D-25A4-4FEB-996D-A0ED6AF4898E",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "ME",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "Flossmoor Elevator Out of Service",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "The Flossmoor elevator is out of service. Customers can use Calumet as alternate boarding station. Updates will be provided.",
             "language": "en"
           }
         ]
@@ -301,6 +257,57 @@
         "translation": [
           {
             "text": "ME All trains will ground load at 111th, 107th, 103rd, 95th, 91st, 87th, 83rd, 79th, and 75th Street. Please wait visible to the engineer, do not operate chains or gates in ground load areas, follow train crew\u0027s instructions after the train stops",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-ECA17736-9A86-4795-BB23-5D2AFB2AC6A2",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-NW",
+          "route_type": null,
+          "trip": {
+            "trip_id": "UP-NW_UNW648_V2_C",
+            "route_id": "UP-NW",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=0\u0026Email=0\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPNW Train #648 - Stopped",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "UPNW train #648, scheduled to arrive Ogilvie Transportation Center at 1:10 PM, is stopped near Clybourn due to mechanical problems. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
             "language": "en"
           }
         ]
