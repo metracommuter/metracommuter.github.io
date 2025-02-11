@@ -220,6 +220,50 @@
     }
   },
   {
+    "id": "DevAPI-7065D5BF-26AF-4B33-B413-4F98B4A0CD0C",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "MD-W",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-W?Twitter=0\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "MDW Train #2238 Operating 20 to 25 Minutes Behind Schedule",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "MDW train #2238, scheduled to arrive Chicago at 2:45 PM, is on the move and operating 20 to 25 minutes behind schedule due to a freight train striking a vehicle.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "DevAPI-C4DE6136-7450-4A00-82BF-6E9E307DDF7C",
     "is_deleted": false,
     "trip_update": null,
@@ -264,7 +308,7 @@
     }
   },
   {
-    "id": "DevAPI-FB3911B9-BAE0-47BD-A63C-8BBCE0AA7A60",
+    "id": "DevAPI-1A243F99-E0CD-4C99-875C-3BDAB4018142",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -275,7 +319,14 @@
           "agency_id": "METRA",
           "route_id": "UP-W",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "UP-W_UW33_V2_C",
+            "route_id": "UP-W",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -284,7 +335,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-W?Twitter=0\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-W?Twitter=0\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -292,7 +343,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "UPW Trains On The Move",
+            "text": "UPW Train #33 - Delayed",
             "language": "en"
           }
         ]
@@ -300,7 +351,58 @@
       "description_text": {
         "translation": [
           {
-            "text": "UPW inbound and outbound trains are on the move delayed up to 35 minutes due to earlier problems with the dispatching department. Visit metratracker.com for the location of your train.",
+            "text": "UPW train #33, scheduled to arrive Elburn at 2:08 PM, may be operating 25 to 30 minutes behind schedule due to problems with the dispatching department. Visit MetraTracker.com for the location of your train.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-9E165EF5-DB45-4EDD-B2D1-824FE45CF019",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-W",
+          "route_type": null,
+          "trip": {
+            "trip_id": "UP-W_UW50_V2_C",
+            "route_id": "UP-W",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-W?Twitter=0\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPW Train #50 - Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "UPW train #50, scheduled to arrive Chicago at 2:50 PM, may be operating 15 to 20 minutes behind schedule due to earlier  problems with the dispatching department. Visit MetraTracker.com for the location of your train.",
             "language": "en"
           }
         ]
