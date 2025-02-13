@@ -1,6 +1,6 @@
 [
   {
-    "id": "DevAPI-406633AD-8C70-49B6-952F-10E5D352F0A2",
+    "id": "DevAPI-1B95889B-212B-4EF2-A311-B22D22BB8741",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -9,9 +9,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "MD-N",
+          "route_id": "ME",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "ME_ME706_V3_C",
+            "route_id": "ME",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -20,7 +27,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -28,7 +35,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "MDN Train #2106 Operational Change/Delayed",
+            "text": "MED Train 706 On The Move",
             "language": "en"
           }
         ]
@@ -36,7 +43,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "Train #2106, scheduled to arrive Chicago at 7:16 a.m., may be operating 20 to 25 minutes behind schedule and will be making additional stops from Long Lake to Libertyville to accommodate passengers off train #2104.  Updated at 6:12 a.m.",
+            "text": "Metra Electric train #706, scheduled to depart University Park at 6:55 AM, is on the move and may be operating 15 to 25 minutes behind schedule due to earlier mechanical problems.",
             "language": "en"
           }
         ]
@@ -301,6 +308,50 @@
         "translation": [
           {
             "text": "Some inbound trains may be operating up to 30 minutes behind schedule due to earlier mechanical problems with train #2104 and #2112. Updated at 7:07 a.m.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-D5D77294-3123-400F-AD9D-AE8C8F78A3F3",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "MD-N",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "MDN Train #2106 Operational Change/Delayed (UPDATE)",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "Train #2106, scheduled to arrive Chicago at 7:16 a.m., may be operating 20 to 25 minutes behind schedule and will express from Morton Grove to Western Ave due to earlier mechanical issues. Train #2108 will accommodate passengers.",
             "language": "en"
           }
         ]
