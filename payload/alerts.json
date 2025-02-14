@@ -88,7 +88,7 @@
     }
   },
   {
-    "id": "DevAPI-C7C2DB1B-A25D-436E-B2FC-48B6B1251D51",
+    "id": "DevAPI-B8AF5387-3848-4108-A2E6-A41375990133",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -97,9 +97,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "UP-NW",
+          "route_id": "SWS",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "SWS_SW825_V3_C",
+            "route_id": "SWS",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -108,7 +115,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/SWS?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -116,7 +123,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "UPNW Trains On The Move",
+            "text": "SWS #825 Delayed Departure",
             "language": "en"
           }
         ]
@@ -124,7 +131,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "UPNW inbound and outbound trains are back on the move and may be operating up to 45 minutes behind schedule due to police activity. Visit MetraTracker.com for the location of your train.",
+            "text": "SWS train #825, scheduled to depart Chicago Union Station at 7:42 PM, will be delayed in departure due to earlier freight train interference. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
             "language": "en"
           }
         ]
@@ -213,6 +220,50 @@
         "translation": [
           {
             "text": "The Van Buren Michigan Street Station elevator is out of service. Customers can use Millennium Station South Water or Museum Campus as alternate boarding stations. Updates will be provided.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-C190E6B4-54E5-434F-AFCD-409B69BAF789",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-NW",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPNW Trains Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "UPNW inbound and outbound trains may be operating up to 35 minutes behind schedule due to earlier police activity. Visit MetraTracker.com for the location of your train.",
             "language": "en"
           }
         ]
