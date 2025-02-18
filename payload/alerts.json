@@ -1,6 +1,6 @@
 [
   {
-    "id": "DevAPI-B47EF097-2958-4F9B-8D04-01DD0E19FC7B",
+    "id": "DevAPI-B5FF9FBD-46A7-4F01-B4DA-BAA49EE787FC",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -28,7 +28,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "UPW Train #32 Delayed Departure",
+            "text": "UPW #26 Will Not Operate Past Winfield",
             "language": "en"
           }
         ]
@@ -36,7 +36,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "Train #32, scheduled to depart Elburn at 7:25 a.m., will be a delayed departure due to a freight train experiencing mechanical problems.  The estimated time of the delay is unknown.  We will update this information as soon as it becomes available.",
+            "text": "Train #26 scheduled to arrive Chicago at 8:00 AM, will not operate past Winfield due to striking a pedestrian. Train #30 will accommodate passengers.",
             "language": "en"
           }
         ]
@@ -125,6 +125,50 @@
         "translation": [
           {
             "text": "The Ivanhoe elevator is out of service. Customers can use Harvey or 115th Street/Kensington as alternate boarding stations. Updates will be provided.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-E14B817E-ED55-447D-BF3F-B7CFC325A72B",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-W",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-W?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPW Train #32 Will Not Operate",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "Train #32, scheduled to depart Elburn at 7:25 a.m., will not operate due to an earlier pedestrian incident. An extra train will accommodate passengers from Elburn.",
             "language": "en"
           }
         ]
