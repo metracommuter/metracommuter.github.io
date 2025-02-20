@@ -44,7 +44,7 @@
     }
   },
   {
-    "id": "DevAPI-188C7001-EB75-41C2-8DEA-9A75CCC11E15",
+    "id": "DevAPI-FC83C6AF-338D-448F-891B-29D192A77BC7",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -53,9 +53,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "NCS",
+          "route_id": "MD-N",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "MD-N_MN2147_V2_C",
+            "route_id": "MD-N",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -64,7 +71,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/NCS?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -72,7 +79,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "NCS Train #117- Delayed",
+            "text": "MDN 2147 - Delayed",
             "language": "en"
           }
         ]
@@ -80,7 +87,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "NCS  train #117, scheduled to arrive Antioch at 7:40 PM, may be operating 15 to 20 minutes behind schedule due to a gate malfunction. Visit MetraTracker.com for the location of your train.",
+            "text": "MDN  train #2147, scheduled to arrive Fox Lake at 8:15 PM, may be operating 15 to 20 minutes behind schedule due to a gate malfunction. Visit MetraTracker.com for the location of your train.",
             "language": "en"
           }
         ]
@@ -125,50 +132,6 @@
         "translation": [
           {
             "text": "The Millennium Station elevator is out of service. Customers can use the Museum Campus or McCormick Place elevator as alternate boarding stations. Updates will be provided.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "DevAPI-53C23099-7BF7-4FAD-9F53-BC2BE54A9FF2",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "ME",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=0\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "ME Ivanhoe Elevator Is Out Of Service",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "The Ivanhoe elevator is out of service. Customers can use Harvey or 115th Street/Kensington as alternate boarding stations. Updates will be provided.",
             "language": "en"
           }
         ]
@@ -301,6 +264,50 @@
         "translation": [
           {
             "text": "The Hazel Crest elevator is out of service.  Customers can use Calumet or Harvey as alternate boarding stations.  Updates will be provided.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-7167BCB3-307B-45E5-8FBD-D391652588E0",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "ME",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=0\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "ME Ivanhoe Elevator Is Out Of Service",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "The Ivanhoe elevator is out of service. Customers can use Harvey or 115th Street/Kensington as alternate boarding stations. Updates will be provided.",
             "language": "en"
           }
         ]
