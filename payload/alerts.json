@@ -1,6 +1,6 @@
 [
   {
-    "id": "DevAPI-B0C767E5-6465-4A50-AAF7-FFDD8D400F40",
+    "id": "DevAPI-2E7EB6CE-401D-4BF7-BDAB-4ADA353D25C5",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -9,16 +9,9 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "RI",
+          "route_id": "MD-W",
           "route_type": null,
-          "trip": {
-            "trip_id": "RI_RI514_V3_C",
-            "route_id": "RI",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
+          "trip": null,
           "stop_id": null
         }
       ],
@@ -27,7 +20,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/RI?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-W?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -35,7 +28,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "RID #514 Delayed",
+            "text": "Grand/Cicero elevator out of service",
             "language": "en"
           }
         ]
@@ -43,7 +36,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "RID train #514, scheduled to depart Joliet at 7:30 PM, is operating 15 to 20 minutes behind schedule due to earlier mechanical problems.",
+            "text": "The Grand/Cicero elevator is out of service.  Customers can use Western Avenue or Hanson Park as alternate boarding stations.  Updates will be provided.",
             "language": "en"
           }
         ]
@@ -88,6 +81,50 @@
         "translation": [
           {
             "text": "The Ivanhoe elevator is out of service. Customers can use Harvey or 115th Street/Kensington as alternate boarding stations. Updates will be provided.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-CB7628A2-FCD3-4CED-A0E8-5A0D6E2442FE",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "MD-N",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "MDN Trains delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "MDN inbound and outbound trains may be operating up to 30 minutes behind schedule due to a mechanical failure on train #2127. Visit MetraTracker.com for the location of your train.",
             "language": "en"
           }
         ]
@@ -264,50 +301,6 @@
         "translation": [
           {
             "text": "UPW train #66, scheduled to depart Elburn at 7:25pm, will not operate due to an earlier vehicle struck by a train. Trains #64 and #68 will accommodate passengers.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "DevAPI-3302CEEB-CAA5-4E7A-A0C9-3CDE3A7BF3E6",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "MD-N",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "MDN Trains On The Move",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "MDN inbound and outbound trains are back on the move and may be operating with an extensive delay due to a mechanical failure on train #2127. Visit MetraTracker.com for the location of your train.",
             "language": "en"
           }
         ]
