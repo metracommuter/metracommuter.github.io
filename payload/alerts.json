@@ -1,5 +1,49 @@
 [
   {
+    "id": "DevAPI-B195A1B9-6B90-4E73-A877-1F0537ECCF9C",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "BNSF",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "BNSF #1274 operational change",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "BNSF train #1274 scheduled to arrive Chicago at 5:32 pm, will express from Western Springs to Chicago and is operating 20 to 25 minutes behind schedule due to a mechanical failure. Train #1282 will accommodate passengers to at intermediate stops.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "DevAPI-80C58466-8417-4DAD-A061-84CC0A45B51A",
     "is_deleted": false,
     "trip_update": null,
@@ -285,7 +329,7 @@
     }
   },
   {
-    "id": "DevAPI-0B7DD669-71E2-4E54-9D0E-9712FFCB45E1",
+    "id": "DevAPI-4ECA53B4-5FC5-4616-B0F8-5726771C35A9",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -294,9 +338,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "BNSF",
+          "route_id": "UP-NW",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "UP-NW_UNW653_V3_C",
+            "route_id": "UP-NW",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -305,7 +356,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -313,7 +364,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "BNSF #1274 express from Western Springs to Chicago",
+            "text": "UPNW Train #653 Delayed Departure",
             "language": "en"
           }
         ]
@@ -321,7 +372,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "BNSF train #1274 scheduled to arrive Chicago Union Station at 5:32 pm, will express from Western Springs to Chicago due to a mechanical failure. Train #1282 will accommodate passengers to at intermediate stops.",
+            "text": "UPNW train #653, scheduled to depart Palatine at 5:47 PM, will be delayed in departure due to positive train control issues. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
             "language": "en"
           }
         ]
@@ -410,6 +461,57 @@
         "translation": [
           {
             "text": "The Hazel Crest elevator is out of service.  Customers can use Calumet or Harvey as alternate boarding stations.  Updates will be provided.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-853FB251-09EE-4E9F-9981-F47129E5566F",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-W",
+          "route_type": null,
+          "trip": {
+            "trip_id": "UP-W_UW45_V3_C",
+            "route_id": "UP-W",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-W?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPW Train #45 - Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "UPW train #45, scheduled to arrive La Fox at 5:50 PM, may be operating 15 to 20 minutes behind schedule due to freight train interference . Visit MetraTracker.com for the location of your train.",
             "language": "en"
           }
         ]
