@@ -220,7 +220,7 @@
     }
   },
   {
-    "id": "DevAPI-864476BE-9D8A-43FA-989B-F121EDD4EEE5",
+    "id": "DevAPI-53AE0035-371E-4939-8AB4-78D430AA8220",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -229,16 +229,9 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "SWS",
+          "route_id": "BNSF",
           "route_type": null,
-          "trip": {
-            "trip_id": "SWS_SW803_V2_C",
-            "route_id": "SWS",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
+          "trip": null,
           "stop_id": null
         }
       ],
@@ -247,7 +240,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/SWS?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -255,7 +248,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "SWS #803 delayed",
+            "text": "BNSF Train #1244 Will Not Operate",
             "language": "en"
           }
         ]
@@ -263,7 +256,51 @@
       "description_text": {
         "translation": [
           {
-            "text": "SWS #403 Scheduled to arrive Orland Park 179th street at 8:27 am is currently operating 15 to 20 minutes behind schedule due to speed restrictions.",
+            "text": "Train #1244, scheduled to depart Fairview Ave/Downers Grove, at 8:12 a.m., will not operate due to a pedestrian being struck by train 1228.  An extra train will be accommodating passengers and will be expressing from Lisle to Chicago.  Updated at 8:38 a.m.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-4906A84A-83F3-4ED9-A407-C785B18A8CCD",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "BNSF",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "BNSF Train 1242 and 1246 Expressing",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "BNSF Train 1242 scheduled to arrive Chicago art 8:52 a.m., will express from Lisle to Chicago. Train 1246 scheduled to arrive Chicago at 9:00 a.m., will express from lisle to Chicago. Train 1250 will accommodate passengers.",
             "language": "en"
           }
         ]
