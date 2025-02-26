@@ -132,7 +132,7 @@
     }
   },
   {
-    "id": "DevAPI-F8319852-A0CE-4DB4-BD21-08C25E07465F",
+    "id": "DevAPI-225BF577-1289-4386-8E2E-DD5F960AEB72",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -160,7 +160,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "ME Train #142 remains stopped",
+            "text": "ME Train #142 delayed",
             "language": "en"
           }
         ]
@@ -168,7 +168,51 @@
       "description_text": {
         "translation": [
           {
-            "text": "ME train #142, scheduled to arrive Millennium Station at 9:30 PM, remains stopped near 91st Street due to police activity. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
+            "text": "ME train #142, scheduled to arrive Millennium Station at 9:30 PM, is back on the move and may be operating 50 to 55 minutes behind schedule due to police activity. Visit metratracker.com for the location of your train.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-AF8E6BD8-3A12-4DAC-80AB-C8A0032BA7B6",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "ME",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "MED Train 145 On The Move",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "MED train #145, scheduled to arrive University Park, at 10:04 PM, is on the move and may be delayed 40 to 45 minutes due to earlier police activity. Visit metratracker.com for the location of your train.",
             "language": "en"
           }
         ]
@@ -213,57 +257,6 @@
         "translation": [
           {
             "text": "The Ivanhoe elevator is out of service. Customers can use Harvey or 115th Street/Kensington as alternate boarding stations. Updates will be provided.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "DevAPI-12547A17-F486-44D7-A272-BF902BAD9041",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "UP-W",
-          "route_type": null,
-          "trip": {
-            "trip_id": "UP-W_UW65_V1_C",
-            "route_id": "UP-W",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-W?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "UPW Train #65 - On The Move",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "UPW train #65, scheduled to arrive Elburn at 9:08 PM, may be operating 25 to 30 minutes behind schedule due to earlier freight train interference. Visit MetraTracker.com for the location of your train.",
             "language": "en"
           }
         ]
