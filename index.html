@@ -2,36 +2,59 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-	<meta name="theme-color" content="#0052a7">
-	<title>Metra Commuter</title>
-	<base href="/" />
-	<!--<base href="https://metracommuter.com/" />-->
-	<link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
-	<link href="css/app.css" rel="stylesheet" />
-	<link href="MetraCommuter.Web.styles.css" rel="stylesheet" />
-	<link href="manifest.json" rel="manifest" />
-	<link rel="apple-touch-icon" sizes="512x512" href="images/icons/icon-512.png" />
-	<link rel="apple-touch-icon" sizes="192x192" href="images/icons/icon-192.png" />
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-	<!--<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7921317271663008" crossorigin="anonymous"></script>-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PwaCopilotDemo</title>
+    <base href="/" />
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link href="PwaCopilotDemo.styles.css" rel="stylesheet" />
+    <link href="manifest.webmanifest" rel="manifest" />
+    <link rel="apple-touch-icon" sizes="512x512" href="icon-512.png" />
+    <link rel="apple-touch-icon" sizes="192x192" href="icon-192.png" />
 </head>
 
 <body>
-	<div id="app">
-		<div id="loading">
-			<!--<p class="loading">Loading...</p>-->
-		</div>
-	</div>
+    <div id="app">
+        <svg class="loading-progress">
+            <circle r="40%" cx="50%" cy="50%" />
+            <circle r="40%" cx="50%" cy="50%" />
+        </svg>
+        <div class="loading-progress-text"></div>
+    </div>
 
-	<div id="blazor-error-ui">
-		An unhandled error has occurred.
-		<a href="" class="reload">Reload</a>
-		<a class="dismiss">🗙</a>
-	</div>
-	<script src="_framework/blazor.webassembly.js"></script>
-	<script>navigator.serviceWorker.register('service-worker.js');</script>
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="." class="reload">Reload</a>
+        <span class="dismiss">🗙</span>
+    </div>
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script>navigator.serviceWorker.register('service-worker.js');</script>
+    <script>
+        window.scrollToTableRow = function (rowIndex) {
+            setTimeout(() => {
+                const tableContainer = document.querySelector('.table-container');
+                if (!tableContainer) return;
+
+                const rows = tableContainer.querySelectorAll('tbody tr');
+                if (rowIndex >= 0 && rowIndex < rows.length) {
+                    const targetRow = rows[rowIndex];
+                    const containerRect = tableContainer.getBoundingClientRect();
+                    const rowRect = targetRow.getBoundingClientRect();
+                    
+                    // Calculate scroll position to center the row in the container
+                    const scrollTop = rowRect.top - containerRect.top - (containerRect.height / 2) + (rowRect.height / 2);
+                    tableContainer.scrollTop += scrollTop;
+
+                    // Briefly highlight the row
+                    targetRow.classList.add('highlight-row');
+                    setTimeout(() => targetRow.classList.remove('highlight-row'), 2000);
+                }
+            }, 100); // Small delay to ensure table is rendered
+        };
+    </script>
 </body>
 
 </html>
