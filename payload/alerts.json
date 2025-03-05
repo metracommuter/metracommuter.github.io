@@ -1,56 +1,5 @@
 [
   {
-    "id": "DevAPI-2C430638-A52D-404A-B7AE-417F3DDDBB37",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "SWS",
-          "route_type": null,
-          "trip": {
-            "trip_id": "SWS_SW814_V2_F",
-            "route_id": "SWS",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/SWS?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "SWS Train 814 Remains Stopped",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "Inbound train #814, scheduled to arrive Chicago Union Station at 11:22 AM, Remains stopped near Wrightwood due to freight train interference . The duration of this delay is unknown. Metra will provide updates as information becomes available.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
     "id": "DevAPI-51813182-C175-4296-BFEB-58213D8A0472",
     "is_deleted": false,
     "trip_update": null,
@@ -139,7 +88,7 @@
     }
   },
   {
-    "id": "DevAPI-47D88EC4-3C25-4C14-8DB7-1B117E33CE90",
+    "id": "DevAPI-6D57E7C3-7F49-4B77-80DE-4BF6E3BB2BE4",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -148,9 +97,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "NCS",
+          "route_id": "SWS",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "SWS_SW814_V2_F",
+            "route_id": "SWS",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -159,7 +115,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/NCS?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/SWS?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -167,7 +123,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "NCS Train 114 is Moving",
+            "text": "SWS Train 814 Is On The Move",
             "language": "en"
           }
         ]
@@ -175,7 +131,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "NCS  train #114, scheduled to depart Antioch at 9:10 AM, is operating 20 to 30 minutes behind due to earlier mechanical problems.",
+            "text": "Inbound train #814, scheduled to arrive Chicago Union Station at 11:22 AM, is on the move and may be operating 35 to 40 minutes behind schedule due to freight train interference. Updated at 11:31AM",
             "language": "en"
           }
         ]
