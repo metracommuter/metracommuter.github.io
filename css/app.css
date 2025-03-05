@@ -1,3 +1,17 @@
+.highlight-row {
+	animation: highlight-fade 2s !important;
+}
+
+@keyframes highlight-fade {
+	0% {
+		background-color: #ffffcc !important;
+	}
+
+	100% {
+		background-color: transparent !important;
+	}
+}
+
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
