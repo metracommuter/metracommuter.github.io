@@ -1,17 +1,3 @@
-.highlight-row {
-	animation: highlight-fade 2s !important;
-}
-
-@keyframes highlight-fade {
-	0% {
-		background-color: #ffffcc !important;
-	}
-
-	100% {
-		background-color: transparent !important;
-	}
-}
-
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -125,17 +111,4 @@ code {
 
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
     text-align: start;
-}
-
-.highlight-row {
-    animation: highlight-fade 2s ease-out;
-}
-
-@keyframes highlight-fade {
-    0% {
-        background-color: #fff3cd;
-    }
-    100% {
-        background-color: transparent;
-    }
 }
