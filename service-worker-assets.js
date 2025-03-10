@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "AwjB4ICE",
+  "version": "b1dHRjR2",
   "assets": [
     {
       "hash": "sha256-FuZ+0ZLojJv1Io6iTkFa1R0vpzu19WcGpzSfC66m81c=",
@@ -62,8 +62,8 @@ self.assetsManifest = {
       "url": "_framework/Microsoft.JSInterop.bdr89uoxtd.wasm"
     },
     {
-      "hash": "sha256-KJoio5YD14lo/TKGqQ5o+6q44TgAltFwbJBDNMBp/UE=",
-      "url": "_framework/PwaCopilotDemo.snhnlvl2h5.wasm"
+      "hash": "sha256-TaddU/4PAl5hGM0H4hMVMJaz/hq65T0l+qyXvFuCbSY=",
+      "url": "_framework/PwaCopilotDemo.lm67mhdg8k.wasm"
     },
     {
       "hash": "sha256-1M20Z8743gs4cYufWe5bRdYFdmvXdZ/nkCuHO9zGzNY=",
@@ -114,20 +114,20 @@ self.assetsManifest = {
       "url": "_framework/System.Net.Primitives.3uow9zd1kc.wasm"
     },
     {
-      "hash": "sha256-DOcZH9TVRkueBZ9BW0rgHQHWT44ujebl0/c6h0dN05c=",
-      "url": "_framework/System.Private.CoreLib.cyetwamxdl.wasm"
+      "hash": "sha256-JdD4aSbpk5oOMJlqMIcoyichEfeXLNiM5zxvwR8s/gA=",
+      "url": "_framework/System.Private.CoreLib.h1zn7il2ky.wasm"
     },
     {
       "hash": "sha256-t01gtK8hlN5/sZS2zCYQzCfNca/CdyMrlH0l8rT84DA=",
       "url": "_framework/System.Private.Uri.nsfj740ux6.wasm"
     },
     {
-      "hash": "sha256-rlA6dPM0uyBx2eAujK/xU4wcvviABSxy9pdOZc1LsZc=",
-      "url": "_framework/System.Runtime.2nj1r7oxb4.wasm"
-    },
-    {
       "hash": "sha256-r+LQmgoVdHgFKWJvUNAR7HQZAtSw+xvBIQ6siSPsBNM=",
       "url": "_framework/System.Runtime.InteropServices.JavaScript.f4ln4hfftw.wasm"
+    },
+    {
+      "hash": "sha256-HFN1FbmBwKmkPWoyy4X6w3/fUfuJ3ryrAaoljnl1+Zw=",
+      "url": "_framework/System.Runtime.kob3bx489a.wasm"
     },
     {
       "hash": "sha256-gAQK1aO5MWD0GwIAc812qHpnec5wlHwgnyaZ9RGOUOg=",
@@ -142,7 +142,7 @@ self.assetsManifest = {
       "url": "_framework/System.Text.RegularExpressions.rudvhc6use.wasm"
     },
     {
-      "hash": "sha256-Q5cFBkb45oYjvkykQJQZ6w0I24+IgxEDduQ/KGQBHRg=",
+      "hash": "sha256-jDjfepEQEa9cHS/vMDCXGdgPyKYVxxCXbUDMTJx7sSs=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -382,7 +382,7 @@ self.assetsManifest = {
       "url": "payload/agency.json"
     },
     {
-      "hash": "sha256-5Dg8Qx0RUdgmllO3FQjMiPRPVttG5jc1QUFKLo5DbRw=",
+      "hash": "sha256-Gm79K/oRXrETffiFDE/yx/hPDCH1Smj6q3sws1Jp1R4=",
       "url": "payload/alerts.json"
     },
     {
@@ -406,7 +406,7 @@ self.assetsManifest = {
       "url": "payload/fare_rules.json"
     },
     {
-      "hash": "sha256-chMxKP3U1e91SF4A7M7c2Wz+PZ0UMiD3PEkg2O+eWi8=",
+      "hash": "sha256-XMv3HJ+kWYzVvJ552tUHiHkhKODFkucNwHN2E7l5Hyc=",
       "url": "payload/positions.json"
     },
     {
@@ -470,7 +470,7 @@ self.assetsManifest = {
       "url": "payload/stops.json"
     },
     {
-      "hash": "sha256-iLbU2eJo4HWBQIbN6SMWfyVmv5Q2Y7jv23ncLgdD2bI=",
+      "hash": "sha256-d5w6EavIg+EfSTLVfqtHtDEU1t9iSfR5MyWENXYBr/k=",
       "url": "payload/tripUpdates.json"
     },
     {
