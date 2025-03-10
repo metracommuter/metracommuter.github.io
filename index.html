@@ -14,6 +14,43 @@
 	<link href="manifest.webmanifest" rel="manifest" />
 	<link rel="apple-touch-icon" sizes="512x512" href="icon-512.png" />
 	<link rel="apple-touch-icon" sizes="192x192" href="icon-192.png" />
+	<script>
+		// Function to get user location and store it
+		window.getUserLocation = function() {
+			return new Promise((resolve, reject) => {
+				if (!navigator.geolocation) {
+					reject(new Error("Geolocation is not supported by this browser."));
+					return;
+				}
+				
+				navigator.geolocation.getCurrentPosition(
+					position => {
+						const location = {
+							latitude: position.coords.latitude,
+							longitude: position.coords.longitude
+						};
+						localStorage.setItem('userLocation', JSON.stringify(location));
+						resolve(location);
+					},
+					error => {
+						console.error("Error getting location:", error.message);
+						reject(error);
+					},
+					{
+						enableHighAccuracy: true,
+						timeout: 10000,
+						maximumAge: 300000 // 5 minutes
+					}
+				);
+			});
+		};
+		
+		// Function to get stored location or null if not available
+		window.getStoredLocation = function() {
+			const locationData = localStorage.getItem('userLocation');
+			return locationData ? JSON.parse(locationData) : null;
+		};
+	</script>
 </head>
 
 <body>
