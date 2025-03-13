@@ -1,6 +1,6 @@
 [
   {
-    "id": "DevAPI-61ACD307-E560-4200-BD46-0F8F21EA1D0F",
+    "id": "DevAPI-00A9109D-2905-45BA-B1EC-88BBDB9DAE19",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -11,7 +11,14 @@
           "agency_id": "METRA",
           "route_id": "ME",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "ME_ME116_V2_C",
+            "route_id": "ME",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -28,7 +35,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "MED Trains #205 and #214 Will Not Operate",
+            "text": "MED Train 116 Is Delay In Departure",
             "language": "en"
           }
         ]
@@ -36,7 +43,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "MED trains #205 scheduled to depart Millennium station at 7:09 AM and #214 scheduled to depart Blue Island at 8:06 AM will not operate due to a mechanical failure. Trains #207 and #226 will accommodate passengers.",
+            "text": "Inbound train #116, scheduled to depart University Park at 9:00 AM, will be delayed in departure due to earlier mechanical problems. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
             "language": "en"
           }
         ]
@@ -169,50 +176,6 @@
         "translation": [
           {
             "text": "The Van Buren Michigan Street Station elevator is out of service. Customers can use Millennium Station South Water or Museum Campus as alternate boarding stations. Updates will be provided.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "DevAPI-DA026453-9183-4DA2-AFD1-CF12229C0713",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "ME",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "MED Trains #309 and #312 Will Not Operate",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "MED trains #309 scheduled to depart Millennium station at 7:10 AM and #312 scheduled to depart 93rd street at 8:04 AM, will not operate due to a mechanical failure. Trains #311 and #314 will accommodate passengers.",
             "language": "en"
           }
         ]
