@@ -132,7 +132,7 @@
     }
   },
   {
-    "id": "DevAPI-7533B533-4183-4623-B952-D7B2D88B5551",
+    "id": "DevAPI-8DE98F35-1319-42E5-AF08-6EC4E7E0C64C",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -141,9 +141,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "ME",
+          "route_id": "MD-N",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "MD-N_MN2134_V2_B",
+            "route_id": "MD-N",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -152,7 +159,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -160,7 +167,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "Metra Electric All Trains will board from the North end of the Platform from 18th to 47th",
+            "text": "MDN #2134 Operational Change/Expressing",
             "language": "en"
           }
         ]
@@ -168,7 +175,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "MED All trains will board from the north end of the platform at 47th, 27th, 23rd McCormick Place and 18th Street.  Please be visible on the platform to the engineer, do not operate chains or gates, follow boarding instructions from the conductor.",
+            "text": "MDN train #2134, scheduled to arrive Chicago Union Station at 1:38 PM, will express from Deerfield to Western Avenue due to an earlier pedestrian incident. Train #2136 will accommodate customers at intermediate stops.",
             "language": "en"
           }
         ]
@@ -220,50 +227,6 @@
         "translation": [
           {
             "text": "BNSF Train #1258, scheduled to arrive Chicago at 1:20 PM, may be operating 10 to 15 minutes behind schedule due to earlier freight train interference. Visit MetraTracker.com for the location of your train.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "DevAPI-530EA9A8-BBE5-47FD-9E23-89752F9707C0",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "UP-N",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=0\u0026Email=0\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "UPN Trains Delayed",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "UPN inbound and outbound trains may be delayed up to 50 minutes due to a disabled freight train near Waukegan. Please listen to platform announcements for delay times and visit metratracker.com for the location of your train.",
             "language": "en"
           }
         ]
@@ -396,6 +359,94 @@
         "translation": [
           {
             "text": "The Millennium Station Michigan Avenue elevator is permanently out of service. Customers can use the South Water elevator or Museum Campus elevator as alternate boarding stations.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-7533B533-4183-4623-B952-D7B2D88B5551",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "ME",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "Metra Electric All Trains will board from the North end of the Platform from 18th to 47th",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "MED All trains will board from the north end of the platform at 47th, 27th, 23rd McCormick Place and 18th Street.  Please be visible on the platform to the engineer, do not operate chains or gates, follow boarding instructions from the conductor.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-530EA9A8-BBE5-47FD-9E23-89752F9707C0",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-N",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=0\u0026Email=0\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPN Trains Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "UPN inbound and outbound trains may be delayed up to 50 minutes due to a disabled freight train near Waukegan. Please listen to platform announcements for delay times and visit metratracker.com for the location of your train.",
             "language": "en"
           }
         ]
