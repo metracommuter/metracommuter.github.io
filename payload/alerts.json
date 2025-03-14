@@ -1,6 +1,6 @@
 [
   {
-    "id": "DevAPI-B91E0694-0807-4FDD-967F-09ED72C2E340",
+    "id": "DevAPI-8108E361-B295-4A07-9184-2C62D1EE3237",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -11,7 +11,14 @@
           "agency_id": "METRA",
           "route_id": "UP-N",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "UP-N_UN346_V2_B",
+            "route_id": "UP-N",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -28,7 +35,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "UPN 342 Operational Change/Delayed",
+            "text": "UPN Train #346 - Delayed Departure",
             "language": "en"
           }
         ]
@@ -36,7 +43,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "UPN #342 scheduled to depart Waukegan at 1:30 PM, will originate from Kenosha and may be operating 35 to 45 minutes behind schedule due to a disabled freight train. Visit Metratracker.com for the location of your train.",
+            "text": "UPN train #346 scheduled to depart Waukegan at 2:30 pm will be delayed in departure due to a disabled freight. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
             "language": "en"
           }
         ]
@@ -125,6 +132,50 @@
         "translation": [
           {
             "text": "The Hazel Crest elevator is out of service. Customers can use Calumet or Harvey as alternate boarding stations. Updates will be provided.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-EE954614-C257-4E9E-9CFD-A87999B112F7",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "MD-N",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "MDN #2138 - Will Not Operate",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "MDN #2138 scheduled to depart Fox Lake at 2:02 PM, will not operate due to an earlier freight train striking a pedestrian. Train #2140 will accommodate passengers.",
             "language": "en"
           }
         ]
@@ -257,57 +308,6 @@
         "translation": [
           {
             "text": "The Millennium Station Michigan Avenue elevator is permanently out of service. Customers can use the South Water elevator or Museum Campus elevator as alternate boarding stations.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "DevAPI-1F70A873-8C7B-4657-A018-B303A7940CC0",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "UP-N",
-          "route_type": null,
-          "trip": {
-            "trip_id": "UP-N_UN331_V2_B",
-            "route_id": "UP-N",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "UPN Train #331 - Stopped",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "UPN train #331 scheduled to arrive Waukegan at 1:524 pm is currently stopped near Highland Park due to a disabled freight train. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
             "language": "en"
           }
         ]
