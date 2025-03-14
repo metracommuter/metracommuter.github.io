@@ -1,49 +1,5 @@
 [
   {
-    "id": "DevAPI-39B03213-613F-44EA-B812-057E9C1CBCE9",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "ME",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "ME Train #701 Delayed",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "ME train #701, scheduled to arrive University Park at 5:48 PM, may be operating 15 to 20 minutes behind schedule due to earlier switch problems. Visit MetraTracker.com for the location of your train.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
     "id": "DevAPI-973B71D6-E8FF-44E9-8CD6-19508F981403",
     "is_deleted": false,
     "trip_update": null,
@@ -132,7 +88,58 @@
     }
   },
   {
-    "id": "DevAPI-8C4DBF81-1D9B-4312-B77E-4A32E3D8241E",
+    "id": "DevAPI-AD78EF9E-11AC-4392-8382-2476853512D5",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "ME",
+          "route_type": null,
+          "trip": {
+            "trip_id": "ME_ME237_V2_B",
+            "route_id": "ME",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "MED Train 237 Is Stopped",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "Outbound train #237, scheduled to arrive Blue Island at 6:34 PM, is stopped near 63rd Street due to an earlier vehicle stuck on the tracks. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-529066D7-1D0C-48E5-8EA5-B2CEDCA27467",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -167,7 +174,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "MED Train 224 Delayed In Departure",
+            "text": "MED Train 224 Is On The Move",
             "language": "en"
           }
         ]
@@ -175,58 +182,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "Inbound train #224, scheduled to depart Blue Island at 5:35 PM, will be delayed in departure due to an earlier vehicle stuck on the tracks. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "DevAPI-0CDB1ED9-48AE-4FC8-A4EF-36E0D13E4792",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "NCS",
-          "route_type": null,
-          "trip": {
-            "trip_id": "NCS_NC109_V2_B",
-            "route_id": "NCS",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/NCS?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "NCS Train 109 Delayed",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "NCS train #109, scheduled to arrive Antioch at 6:07 PM, may be operating 10 to 15 minutes behind schedule due to freight train interference . Visit MetraTracker.com for the location of your train.",
+            "text": "Inbound train #224, scheduled to depart Blue Island at 5:35 PM, is on the move and may be operating 35 to 40 minutes behind schedule due to an earlier vehicle stuck on the tracks. Updated 6:10PM",
             "language": "en"
           }
         ]
