@@ -44,7 +44,7 @@
     }
   },
   {
-    "id": "DevAPI-D8377F43-B183-4ABF-8EB8-A7731DFA6B60",
+    "id": "DevAPI-3E5CAC5F-FF27-4061-ABAF-E828BE100C6E",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -53,7 +53,7 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "UP-N",
+          "route_id": "BNSF",
           "route_type": null,
           "trip": null,
           "stop_id": null
@@ -64,7 +64,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -72,7 +72,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "UPN 802 Delayed",
+            "text": "BNSF Train 2001 Stopped",
             "language": "en"
           }
         ]
@@ -80,7 +80,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "Train #802, scheduled to depart Kenosha at 5:49 a.m. and arrive Chicago at 7:30 a.m. is operating 15 to 20 minutes behind schedule due to crew shortage. Visit metratracker.com for the location of your train.",
+            "text": "BNSF train #2001, scheduled to arrive Aurora at 7:51 AM, is stopped near Route 59 due to freight train interference . The duration of this delay is unknown. Metra will provide updates as information becomes available.",
             "language": "en"
           }
         ]
@@ -176,6 +176,57 @@
     }
   },
   {
+    "id": "DevAPI-281AEE11-A27E-47A6-B857-DB2576046C2E",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "ME",
+          "route_type": null,
+          "trip": {
+            "trip_id": "ME_ME807_V6_D",
+            "route_id": "ME",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "ME Train 807 Delayed Departure",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "Metra Electric Outbound train number 807 scheduled to depart Millennium Station at 8:10 AM is delayed in departure due to track Construction . Metra will notify commuters when this train is moving.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "DevAPI-C3CD3937-8EF0-4875-B21C-483609B6C36B",
     "is_deleted": false,
     "trip_update": null,
@@ -213,6 +264,50 @@
         "translation": [
           {
             "text": "The Millennium Station Michigan Avenue elevator is permanently out of service. Customers can use the South Water elevator or Museum Campus elevator as alternate boarding stations.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-3A499669-F97A-497E-9E47-5E19457FF437",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "BNSF",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "BNSF Inbound and Outbound Train Movement Halted Near Route 59",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "Inbound and outbound train movement halted near Route 59 due to police activity.  The estimated time of delay is unknown.  We will update this information as soon as it becomes available.",
             "language": "en"
           }
         ]
