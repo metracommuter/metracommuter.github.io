@@ -88,6 +88,50 @@
     }
   },
   {
+    "id": "DevAPI-B0FBCD5D-0FC7-450E-9B82-C2CE5F11E5A6",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-NW",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPNW Train #717 Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "UPNW train #717, scheduled to arrive Harvard at 5:30 PM, may be operating 15 to 20 minutes behind schedule. Metra will provide updates as information becomes available.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "DevAPI-76F25839-CA21-40E3-861C-6A9A8517D6EC",
     "is_deleted": false,
     "trip_update": null,
@@ -220,7 +264,7 @@
     }
   },
   {
-    "id": "DevAPI-F29BC798-59BF-4509-9455-A90680D9133C",
+    "id": "DevAPI-0F8F785F-3A34-4290-AEDA-00CFC9E0E607",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -248,7 +292,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "UPN Train #820 Delayed Departure",
+            "text": "UPN Train #820 Delayed",
             "language": "en"
           }
         ]
@@ -256,7 +300,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "UPN train #820, scheduled to depart Waukegan at 4:10 PM, will be delayed in departure due to operational issues. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
+            "text": "UPN train #820, scheduled to depart Waukegan at 4:10 PM, is on the move and may be operating 20 to 25 minutes due to operational issues. Visit MetraTracker.com for the location of your train.",
             "language": "en"
           }
         ]
@@ -264,7 +308,7 @@
     }
   },
   {
-    "id": "DevAPI-CC7587AB-A1FF-4924-B02B-C90468E91C88",
+    "id": "DevAPI-F7D98A5E-1A41-4B8A-B0EB-C022AEDB352A",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -273,9 +317,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "BNSF",
+          "route_id": "RI",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "RI_RIMX03_V1_D",
+            "route_id": "RI",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -284,7 +335,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/RI?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -292,7 +343,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "BNSF Train 2024 Delayed",
+            "text": "RID MX03 - Delayed",
             "language": "en"
           }
         ]
@@ -300,7 +351,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "BNSF train #2024, scheduled to arrive Chicago Union Station at 4:30 PM, may be operating 15 to 20 minutes behind schedule. Metra will provide updates as information becomes available.",
+            "text": "RID train #MX03, scheduled to arrive Joliet at 5:00 PM, may be operating 15 to 20 minutes behind schedule due to High Ridership. Visit MetraTracker.com for the location of your train.",
             "language": "en"
           }
         ]
