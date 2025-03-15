@@ -88,50 +88,6 @@
     }
   },
   {
-    "id": "DevAPI-39F825D4-F082-4B38-82FF-D965638E87D3",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "ME",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "ME Train #8022 Delayed",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "Inbound train #8022, scheduled to arrive Chicago at 7:31 a.m., may be operating 20 minutes behind schedule due to track construction.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
     "id": "DevAPI-5275474F-341E-4258-9E06-483A095C7736",
     "is_deleted": false,
     "trip_update": null,
@@ -301,6 +257,57 @@
         "translation": [
           {
             "text": "The Millennium Station Michigan Avenue elevator is permanently out of service. Customers can use the South Water elevator or Museum Campus elevator as alternate boarding stations.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-A231B5C1-227A-4C7F-8D59-6D60B1C96BDD",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "ME",
+          "route_type": null,
+          "trip": {
+            "trip_id": "ME_ME8307_V6_D",
+            "route_id": "ME",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "ME Train 8307 Delayed Departure",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "Metra Electric Outbound train number 8307 scheduled to depart Millennium Station at 7:40 AM is delayed in departure due to track Construction . Metra will notify commuters when this train is moving.",
             "language": "en"
           }
         ]
