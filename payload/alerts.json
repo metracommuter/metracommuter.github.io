@@ -132,7 +132,7 @@
     }
   },
   {
-    "id": "DevAPI-298D9DCD-97B6-468D-AA02-E538CDB6F8A0",
+    "id": "DevAPI-2CD84829-B69B-4D4D-890D-95CF099BFD6C",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -167,7 +167,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "MED Train 818 Delayed in departure",
+            "text": "MED Train 818 On The Move",
             "language": "en"
           }
         ]
@@ -175,7 +175,51 @@
       "description_text": {
         "translation": [
           {
-            "text": "Inbound train #818, scheduled to depart University Park at 1:40 PM, will be delayed in departure due to track construction. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
+            "text": "Inbound train #818, scheduled to depart University Park at 1:40 PM, is on the move and may be operating 15 to 25 minutes behind schedule due to track construction. Update 1:58PM",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-4C082F90-E2C9-4B6E-AD5C-299CCB890764",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-NW",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPNW Train #716 Stopped",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "UPNW train #716, scheduled to arrive Ogilvie Transportation Center at 2:33 PM, is stopped near Dee Road due to  police activity. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
             "language": "en"
           }
         ]
@@ -220,6 +264,57 @@
         "translation": [
           {
             "text": "Attention Passengers, extra train #5903 scheduled to depart Chicago at 1:40 p.m. will make all stops to Elburn expect Kedzie. Visit MetraTracker.com for the location of your train.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-857EF98E-C0D7-436A-991C-083F35BBC774",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-W",
+          "route_type": null,
+          "trip": {
+            "trip_id": "UP-W_UW5903_V1_D",
+            "route_id": "UP-W",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-W?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPW Train #5903 Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "UPW train #5903, scheduled to arrive Elburn at 3:22 PM, may be operating 15 to 20 minutes behind schedule due to emergency track repairs. Visit MetraTracker.com for the location of your train.",
             "language": "en"
           }
         ]
