@@ -176,7 +176,7 @@
     }
   },
   {
-    "id": "DevAPI-E4012676-189B-4556-A182-408246C754C1",
+    "id": "DevAPI-B98972CE-A036-43BF-82EF-47EE0A48297C",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -185,9 +185,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "ME",
+          "route_id": "UP-N",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "UP-N_UN327_V2_C",
+            "route_id": "UP-N",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -196,7 +203,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -204,7 +211,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "MED 79th Street/Chatham is Back in Service",
+            "text": "UPN Train # 327 - Stopped",
             "language": "en"
           }
         ]
@@ -212,7 +219,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "The 79th Street/Chatham elevator is back in Service.",
+            "text": "UPN train #327, scheduled to arrive Waukegan, at 12:54 PM, remains stopped near Great Lakes due to mechanical problems. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
             "language": "en"
           }
         ]
@@ -345,57 +352,6 @@
         "translation": [
           {
             "text": "The Van Buren Michigan Street Station elevator is out of service. Customers can use Millennium Station South Water or Museum Campus as alternate boarding stations. Updates will be provided.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "DevAPI-39E892E2-0276-497A-99AD-CF0660584639",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "UP-N",
-          "route_type": null,
-          "trip": {
-            "trip_id": "UP-N_UN327_V2_C",
-            "route_id": "UP-N",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "UPN Train #327 - Stopped",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "UPN train #327, scheduled to arrive Waukegan at 12:54 PM, is stopped near Great Lakes due to mechanical problems. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
             "language": "en"
           }
         ]
