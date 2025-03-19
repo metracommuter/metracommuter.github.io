@@ -1,6 +1,6 @@
 [
   {
-    "id": "DevAPI-C0AA9D54-E808-4D07-AB2B-107F819D22DA",
+    "id": "DevAPI-B6C9E4C1-B228-4C13-92AB-88FEC765EC3C",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -28,7 +28,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "UPW Trains Stopped",
+            "text": "UPW Trains On The Move",
             "language": "en"
           }
         ]
@@ -36,7 +36,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "UPW inbound and outbound trains are currently stopped due to high wind warnings. The duration of this delay is unknown. Metra will provide updates as information becomes available. Visit Metratracker.com for the location of your train",
+            "text": "UPW inbound and outbound trains are on the move and may be operating up to 40 minutes behind schedule due to high wind warnings. Visit Metratracker.com for the location of your train.",
             "language": "en"
           }
         ]
@@ -125,6 +125,50 @@
         "translation": [
           {
             "text": "BNSF inbound and outbound trains may be operating up 25 minutes behind schedule due high wind warnings, Visit metratracker.com for the location of your train.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-89F85F06-CC49-4498-BA83-C300EAA4E6EA",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "MD-N",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "MDN Train #2148- Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "MDN train #2148, scheduled to arrive Chicago Union Station at 6:32 PM, may be operating 20 to 25 minutes behind schedule due to . Visit MetraTracker.com for the location of your train.",
             "language": "en"
           }
         ]
@@ -264,7 +308,7 @@
     }
   },
   {
-    "id": "DevAPI-173558E1-5B92-48E1-B2CA-A0277EEFF73A",
+    "id": "DevAPI-0973849A-E572-482F-BED3-E4B72B151F87",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -273,16 +317,9 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "SWS",
+          "route_id": "MD-N",
           "route_type": null,
-          "trip": {
-            "trip_id": "SWS_SW817_V2_C",
-            "route_id": "SWS",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
+          "trip": null,
           "stop_id": null
         }
       ],
@@ -291,7 +328,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/SWS?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -299,7 +336,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "SWS #817 On Time",
+            "text": "MDN Train #2135- Delayed",
             "language": "en"
           }
         ]
@@ -307,7 +344,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "Correction - SWS train #817, scheduled to depart Chicago Union Station at 4:42 PM, departed on time. Visit Metra tracker for more information.",
+            "text": "MDN train #2135, scheduled to arrive Fox Lake at 6:21 PM, may be operating 15 to 20 minutes behind schedule due to mechanical problems. Visit MetraTracker.com for the location of your train.",
             "language": "en"
           }
         ]
