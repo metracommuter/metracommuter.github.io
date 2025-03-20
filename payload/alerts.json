@@ -278,50 +278,6 @@
     }
   },
   {
-    "id": "DevAPI-53DAA52A-CCB7-4091-B4E5-F75896682C6E",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "UP-NW",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "UPNW Train 655 delayed",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "UPNW train #655, scheduled to arrive Harvard at 5:15 PM, may be operating 15 to 20 minutes behind schedule due to Dispatching errors . Visit MetraTracker.com for the location of your train.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
     "id": "DevAPI-C52DE04E-14DA-4F6A-AB11-36972D1BD489",
     "is_deleted": false,
     "trip_update": null,
@@ -366,7 +322,7 @@
     }
   },
   {
-    "id": "DevAPI-831ECB27-35AF-45F7-8331-CD823226814C",
+    "id": "DevAPI-967DACDE-F798-45B2-94E1-05E1EB3ED62D",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -375,9 +331,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "UP-NW",
+          "route_id": "UP-W",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "UP-W_UW55_V3_C",
+            "route_id": "UP-W",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -386,7 +349,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-W?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -394,7 +357,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "UPNW Train 657 Delayed",
+            "text": "UPW Train #55 - Delayed",
             "language": "en"
           }
         ]
@@ -402,7 +365,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "UPNW train #657, scheduled to arrive McHenry at 6:50 PM, may be operating 15 to 20 minutes behind schedule due to problems with the dispatching department. Visit MetraTracker.com for the location of your train.",
+            "text": "UPW train #55 scheduled to arrive Elburn at 7:00 pm may be operating 15 to 20 minutes behind schedule due to earlier high wind warnings. Visit Metratracker.com for the location of your train.",
             "language": "en"
           }
         ]
