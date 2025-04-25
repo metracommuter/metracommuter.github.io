@@ -1,6 +1,6 @@
 [
   {
-    "id": "DevAPI-D8C8FD39-0DB5-4CBD-98D0-107BC884D670",
+    "id": "DevAPI-97124E1F-4529-436E-BCDD-6BE9A2CE6825",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -9,9 +9,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "UP-NW",
+          "route_id": "UP-N",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "UP-N_UN337_V9_B",
+            "route_id": "UP-N",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -20,7 +27,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -28,7 +35,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "UPNW Inbound and Outbound Train Movement Halted at Clybourn",
+            "text": "UPN Train #337 - On The Move",
             "language": "en"
           }
         ]
@@ -36,7 +43,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "Inbound and outbound train movement is halted near Clybourn due to a pedestrian struck by train #627.  Extensive delays are anticipated.  We will update this information as soon as it becomes available",
+            "text": "UPN Train #337 scheduled to arrive Kenosha at 3:45 pm may be operating 20 to 30  minutes behind schedule due to Union Pacific Northwest train #627 striking a pedestrian. Visit metratracker.com for the location of your train.",
             "language": "en"
           }
         ]
@@ -132,6 +139,50 @@
         "translation": [
           {
             "text": "UPN train #335 scheduled to arrive Waukegan at 2:54 pm, may be operating 20 to 25 minutes behind schedule due to Union Pacific Northwest train #627 striking a pedestrian. Visit metratracker.com for the location of your train.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-5D30CDDA-4000-4F8A-A527-956810E9DA90",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-NW",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPNW Outbound Train Movement Remains Halted at Clybourn",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "Outbound train movement remains halted near Clybourn due to a pedestrian struck by train #627.  Extensive delays are anticipated. We will update this information as soon as it becomes available.",
             "language": "en"
           }
         ]
