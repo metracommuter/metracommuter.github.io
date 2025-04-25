@@ -285,50 +285,6 @@
     }
   },
   {
-    "id": "DevAPI-E2F3907F-4C0E-4274-8851-CE85DBBE52F9",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "UP-N",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "UPN train #357 will not operate",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "UPN train #357 scheduled to depart Ogilvie Transportation Center at 5:10pm, will not operate due to an earlier mechanical failure. Train #359 will be the next train to make all stops to Kenosha.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
     "id": "DevAPI-D0325216-6FC7-4D80-942C-9BBE66F240B2",
     "is_deleted": false,
     "trip_update": null,
@@ -556,6 +512,57 @@
     }
   },
   {
+    "id": "DevAPI-0B820B61-942F-4C4C-BF33-4847141A0F60",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-N",
+          "route_type": null,
+          "trip": {
+            "trip_id": "UP-N_UN363_V2_C",
+            "route_id": "UP-N",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPN Train #363 - Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "UPN train #363 scheduled to arrive Kenosha at 7:33 pm may be operating 15 to 20 minutes behind schedule due to an earlier disabled freight train. Visit metratracker.com for the location of your train",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "DevAPI-A5422A1C-8EF8-4CAB-B62C-75313FF2EAAB",
     "is_deleted": false,
     "trip_update": null,
@@ -593,94 +600,6 @@
         "translation": [
           {
             "text": "UPN train #358 scheduled to depart Waukegan at 5:00 pm is back on the move and operating with an extensive delay due to a freight train mechanical failure. Visit metratracker.com for the location of your train.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "DevAPI-A3497933-907C-42FC-86F1-100C2D89BD2E",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "MD-W",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/MD-W?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "MDW #2404 - Will Not Operate",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "MDW train #2404, scheduled to depart Franklin Park at 5:22 PM, will not operate due to mechanical problems. Train #2246, scheduled to depart Big Timber Road/Elgin at 5:22 PM will accommodate  passengers.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "DevAPI-313AB42A-927C-4709-B6E9-F26BA28BA461",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "MD-W",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/MD-W?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "MDW #2229 - Will Not Operate",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "MDW train #2229, scheduled to depart Chicago Union Station at 4:35 PM, will not operate due to mechanical problems. Train #2235, scheduled to depart Chicago Union Station at 5:10 PM will accommodate  passengers.",
             "language": "en"
           }
         ]
