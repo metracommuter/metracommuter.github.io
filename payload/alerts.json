@@ -1,6 +1,6 @@
 [
   {
-    "id": "DevAPI-E0AFCB3C-760A-4E13-82E2-CA1EED003BA8",
+    "id": "DevAPI-3598833B-DA03-460B-9619-0BD8648A818E",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -9,16 +9,9 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "UP-N",
+          "route_id": "BNSF",
           "route_type": null,
-          "trip": {
-            "trip_id": "UP-N_UN311_V2_C",
-            "route_id": "UP-N",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
+          "trip": null,
           "stop_id": null
         }
       ],
@@ -27,7 +20,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -35,7 +28,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "UPN 311 Stopped Near Peterson Ridge",
+            "text": "BNSF 1244 Operational Changes",
             "language": "en"
           }
         ]
@@ -43,7 +36,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "Train 311, scheduled to arrive Waukegan at 8:54 a.m., is stopped near Peterson Ridge due to police activity. Delay times are unknown.",
+            "text": "Train #1244, scheduled to arrive Chicago at 8:56 a.m. will not operate past LaGrange Road due to mechanical problems. Train #1304 will accommodate passengers. Visit MetraTracker.com for the location of your train.",
             "language": "en"
           }
         ]
@@ -95,7 +88,7 @@
     }
   },
   {
-    "id": "DevAPI-C11E2FA4-AE18-43A6-84E1-02302944024D",
+    "id": "DevAPI-4A1C7BA4-E812-4B9B-B2C0-A7A09A765E4C",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -104,11 +97,11 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "UP-NW",
+          "route_id": "UP-N",
           "route_type": null,
           "trip": {
-            "trip_id": "UP-NW_UNW634_V3_C",
-            "route_id": "UP-NW",
+            "trip_id": "UP-N_UN311_V2_C",
+            "route_id": "UP-N",
             "direction_id": null,
             "start_time": null,
             "start_date": null,
@@ -122,7 +115,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -130,7 +123,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "UPNW Train 634 Is Delayed",
+            "text": "UPN 311 On The Move/Operational Change",
             "language": "en"
           }
         ]
@@ -138,7 +131,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "Inbound train #634 scheduled to arrive Ogilvie Transportation Center at 8:32 AM, may be operating 15 to 25 minutes behind schedule due to freight train interference . Visit metratracker.com for the location of your train.",
+            "text": "Train 311, scheduled to arrive Waukegan at 8:54 a.m., is on the move extensively delayed. This train will express from Rogers Park to Winnetka then make its normal stops. Train #313 will accommodate passengers. Visit metratracker.com for train locations.",
             "language": "en"
           }
         ]
@@ -190,6 +183,57 @@
         "translation": [
           {
             "text": "Inbound Train 636 scheduled to arrive Chicago at 8:46 AM  is at capacity and will not stop at Mount Prospect, Cumberland and Des Plaines Stations. Train #638 will accommodate these stops. Updated at 8:31 AM",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-7E1CC714-1380-4543-9BC8-04B494876119",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-NW",
+          "route_type": null,
+          "trip": {
+            "trip_id": "UP-NW_UNW638_V3_C",
+            "route_id": "UP-NW",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPNW #638 Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "UPNW Inbound train #638 Scheduled to arrive Ogilvie Transportation Center at 9:13 AM may be operating 15 to 20 minutes behind schedule due to freight train interference",
             "language": "en"
           }
         ]
