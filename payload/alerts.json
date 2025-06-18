@@ -44,50 +44,6 @@
     }
   },
   {
-    "id": "DevAPI-EF70FD70-F22F-467C-A7B6-149CF38D40BA",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "ME",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "The Van Buren Street Station elevator is out of service.",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "The Van Buren Street station elevator is out of service. Customers can use South Water or McCormick Place as alternate boarding stations.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
     "id": "DevAPI-BA1CF7A8-058E-4F42-A50C-12B0891A95B9",
     "is_deleted": false,
     "trip_update": null,
@@ -257,6 +213,57 @@
         "translation": [
           {
             "text": "The LaSalle Street Station elevator is temporarily out of service. Recommended alternative accessible location is CTA elevator, located at LaSalle St. Stations\u0027 west exit. Metra will provide updated information once service has been restored",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-712DB028-1B9A-437E-BC69-B85CC26B578E",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "RI",
+          "route_type": null,
+          "trip": {
+            "trip_id": "RI_RI705_V1_H",
+            "route_id": "RI",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/RI?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "RID #705 Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "RID train #705 scheduled to arrive Joliet at 6:01 PM, may be operating 15 to 20 minutes behind schedule due to earlier freight train interference. Visit metratracker.com for the location of your train.",
             "language": "en"
           }
         ]
