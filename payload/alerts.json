@@ -44,7 +44,7 @@
     }
   },
   {
-    "id": "DevAPI-7CDB2E55-23CF-4288-B32D-6C7AE70D881B",
+    "id": "DevAPI-3D87EE3F-95FE-4A36-809B-51552C85436E",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -53,9 +53,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "UP-N",
+          "route_id": "ME",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "ME_ME216_V4_B",
+            "route_id": "ME",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -64,7 +71,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -72,7 +79,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "UPN Inbound and Outbound Trains Delayed",
+            "text": "Metra Electric #118 Delayed",
             "language": "en"
           }
         ]
@@ -80,7 +87,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "UPN inbound and outbound trains may be operating up to 40 minutes behind schedule due to mechanical problems involving train #312. Please visit MetraTracker.com for the location of your train.",
+            "text": "ME Inbound Train #118 due to arrive Millennium Station at 11:17 AM may be operating 15 to 20 minutes behind schedule due to track construction.",
             "language": "en"
           }
         ]
@@ -220,6 +227,57 @@
     }
   },
   {
+    "id": "DevAPI-18D9E4C1-C6EC-4F7B-B62F-D382EC97A390",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-N",
+          "route_type": null,
+          "trip": {
+            "trip_id": "UP-N_UN321_V9_B",
+            "route_id": "UP-N",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPN 321 Delayed 20 to 25 Minutes",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "Train 321, scheduled to arrive Kenosha at 11:45 a.m., is operating 20 to 25 minutes behind schedule due to earlier mechanical problems.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "DevAPI-6C3CC250-2E80-415F-89F3-C8C997068201",
     "is_deleted": false,
     "trip_update": null,
@@ -257,6 +315,50 @@
         "translation": [
           {
             "text": "The LaSalle Street Station elevator is temporarily out of service. Recommended alternative accessible location is CTA elevator, located at LaSalle St. Stations\u0027 west exit. Metra will provide updated information once service has been restored",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-346094D9-ED60-4253-A998-EBB5AF57B87A",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-N",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPN 323 Delayed Departure",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "Train 323, scheduled to arrive Waukegan at 11:54 a.m., is a delayed departure due to earlier mechanical problems. Delay times are unknown.",
             "language": "en"
           }
         ]
@@ -345,6 +447,50 @@
         "translation": [
           {
             "text": "To facilitate work for the redevelopment of the Michael Reese Hospital site, 27th street station will be closed June 20th and reopen June 30th. During this time passengers should utilize McCormick Place or 47th street stations. Updates will be provided.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-5C8EB398-A97B-42AF-B251-FC82C69C6151",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "NCS",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/NCS?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "NCS 114 Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "Train #114 scheduled to arrive Chicago Union Station at 10:49 a.m., may be operating 15 to 20 minutes behind schedule due to freight train interference. Visit MetraTracker.com for the location of your train.",
             "language": "en"
           }
         ]
