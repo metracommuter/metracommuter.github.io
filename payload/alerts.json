@@ -102,7 +102,7 @@
     }
   },
   {
-    "id": "DevAPI-DFE9287F-1360-4D43-A29A-3EEAF3A7B829",
+    "id": "DevAPI-35139200-8FEE-44DB-893E-F86620729395",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -111,16 +111,9 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "MD-N",
+          "route_id": "ME",
           "route_type": null,
-          "trip": {
-            "trip_id": "MD-N_MN2614_V7_E",
-            "route_id": "MD-N",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
+          "trip": null,
           "stop_id": null
         }
       ],
@@ -129,7 +122,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -137,7 +130,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "MDN Train #2614 Delayed Departure",
+            "text": "Metra Electric Trains Delayed",
             "language": "en"
           }
         ]
@@ -145,7 +138,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "MDN train #2614, scheduled to depart Fox Lake at 2:45 PM, will be delayed in departure due to track construction. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
+            "text": "Metra Electric inbound and Outbound trains movement has been resumed with extensive delays due to Electrical outage. Please visit MetraTracker.com for the location of your train.",
             "language": "en"
           }
         ]
@@ -241,7 +234,58 @@
     }
   },
   {
-    "id": "DevAPI-E909BABA-AB21-4CFB-962A-FF2BD35EED2F",
+    "id": "DevAPI-24079549-AB87-4C9E-AFFE-A45ED763D839",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-W",
+          "route_type": null,
+          "trip": {
+            "trip_id": "UP-W_UW512_V8_E",
+            "route_id": "UP-W",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-W?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPW Train #512 Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "UPW train #512 scheduled to arrive Ogilvie Transportation Center at 6:05 PM, may be operating 15 to 20 minutes behind schedule due to freight train interference . Visit metratracker.com for the location of your train.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-D61B9184-556B-46ED-8F1B-AC3BC11B6894",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -252,7 +296,14 @@
           "agency_id": "METRA",
           "route_id": "ME",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "ME_ME8324_V6_E",
+            "route_id": "ME",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -269,7 +320,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "Metra Electric Trains Delayed",
+            "text": "MED Train 8324 Will Not Operate",
             "language": "en"
           }
         ]
@@ -277,7 +328,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "Metra Electric inbound trains movement has been resumed with extensive delays. outbound trains remained stopped at Millennium Station due to Electrical outage. Metra will provide updates as information becomes available.",
+            "text": "Inbound train #8324, scheduled to depart 93rd Street/South Chicago at 4:39 PM, will not operate due to Electrical outage. Train #8326, scheduled to depart 93rd Street/South Chicago at 5:39 PM will accommodate passengers.",
             "language": "en"
           }
         ]
@@ -322,57 +373,6 @@
         "translation": [
           {
             "text": "The LaSalle Street Station elevator is temporarily out of service. Recommended alternative accessible location is CTA elevator, located at LaSalle St. Stations\u0027 west exit. Metra will provide updated information once service has been restored",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "DevAPI-8258C309-9C09-48D7-B0C4-8664A2199D2B",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "MD-N",
-          "route_type": null,
-          "trip": {
-            "trip_id": "MD-N_MN2614_V7_E",
-            "route_id": "MD-N",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "MDN Train #2614 Delayed (Update 2)",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "MDN train #2614, scheduled to depart Fox Lake at 2:45 PM, is on the move and will be operating 45 to 50 minutes behind schedule due to track construction. Metra will provide updates as information becomes available. (Updated 4:41pm)",
             "language": "en"
           }
         ]
