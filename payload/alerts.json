@@ -352,50 +352,6 @@
     }
   },
   {
-    "id": "DevAPI-AB8E9279-05AB-480C-AA2E-F63E0D9848B5",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "UP-N",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "UPN 310 Will Not Operate Past Fort Sheridan and Train 312 Will Not Operate",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "Train 310 will not operate past Fort Sheridan and train 312 will not operate at all due to a mechanical failure on train 310. Passengers were accommodated by trains 314 and 318. Visit Metratracker.com for the location of your train.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
     "id": "DevAPI-0BCCE907-4ED1-40DF-B043-BC0A36247B02",
     "is_deleted": false,
     "trip_update": null,
@@ -484,7 +440,7 @@
     }
   },
   {
-    "id": "DevAPI-6E079A72-9618-4344-9C05-70BD6AAAC939",
+    "id": "DevAPI-82C435DD-CBE9-48DA-9CC6-C2D22C1CAEF8",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -493,7 +449,7 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "UP-W",
+          "route_id": "ME",
           "route_type": null,
           "trip": null,
           "stop_id": null
@@ -504,7 +460,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-W?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -512,7 +468,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "UP-W Inbound and Outbound Trains Delayed",
+            "text": "ME All trains will ground load at 111th, 107th, 103rd, 95th, 91st, 87th, 83rd, 79th, and 75th Street.",
             "language": "en"
           }
         ]
@@ -520,7 +476,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "Inbound and outbound trains may be operating up to 40 minutes behind schedule due to switch failure. Visit Metra tracker.com for the location of your train.",
+            "text": "ME All trains will ground load at 111th, 107th, 103rd, 95th, 91st, 87th, 83rd, 79th, and 75th Street. Please wait visible to the engineer, do not operate chains or gates in ground load areas, follow train crew\u0027s instructions after the train stops",
             "language": "en"
           }
         ]
@@ -565,6 +521,57 @@
         "translation": [
           {
             "text": "Inbound trains may be operating up to 30 minutes delayed due to a mechanical failure on train 310. Trains may also have operational changes and operate out of sequence. Please visit metratracker.com for the location of your train.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-3F669FB8-7803-498B-9AEB-2CE1AC28992D",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "ME",
+          "route_type": null,
+          "trip": {
+            "trip_id": "ME_ME214_V3_C",
+            "route_id": "ME",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "MED #214 Will Not Operate",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "Train #214 scheduled to depart Blue Island at 8:06 AM, will not operate due to an operational incident. Train #226 will be next inbound train.",
             "language": "en"
           }
         ]
