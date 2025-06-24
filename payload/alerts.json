@@ -1,6 +1,6 @@
 [
   {
-    "id": "DevAPI-B5D685A5-94CC-40FF-929C-B2F68A6BB96F",
+    "id": "DevAPI-91881AED-37A7-4301-A7DC-F2378EC095AA",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -28,7 +28,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "ME Calumet Elevator Is Out Of Service",
+            "text": "ME Calumet Elevator Is Back In Service",
             "language": "en"
           }
         ]
@@ -36,7 +36,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "The Calumet elevator is out of service.  Customers can use Hazel Crest or Homewood as alternate boarding stations.",
+            "text": "The Calumet elevator Is Back In Service.",
             "language": "en"
           }
         ]
@@ -257,6 +257,57 @@
         "translation": [
           {
             "text": "The Grand/Cicero elevator is out of service.  Customers can use Western Avenue or Hanson Park as alternate boarding stations.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-0710792B-0DFF-49C4-BC12-B17209888203",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-NW",
+          "route_type": null,
+          "trip": {
+            "trip_id": "UP-NW_UNW619_V2_C",
+            "route_id": "UP-NW",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPNW Train 619 Stopped",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "UPNW train #6 19, scheduled to arrive Crystal Lake at 10:30 AM, is stopped near Barrington due to track construction. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
             "language": "en"
           }
         ]
