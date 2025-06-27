@@ -51,7 +51,7 @@
     }
   },
   {
-    "id": "DevAPI-007CCE60-6EDC-4754-B3E4-1B78928C48FF",
+    "id": "DevAPI-D1DF0EE3-37ED-411D-910F-E5FE04F3AC23",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -86,7 +86,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "SWS Train #822 Delayed Departure",
+            "text": "SWS Train #822 Delayed",
             "language": "en"
           }
         ]
@@ -94,7 +94,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "SWS  train #822, scheduled to depart 179th Street/Orland Park at 4:55 PM, is on the move and may be operating 45 to 50 minutes  due to a drawbridge malfunction .  Metra will provide updates as information becomes available.",
+            "text": "SWS train #822, scheduled to arrive Chicago Union Station at 5:55 PM, is on the move and may be operating 50 to 55 minutes behind schedule due to a drawbridge malfunction and freight train interference. Metra will provide updates as information becomes ava",
             "language": "en"
           }
         ]
@@ -153,7 +153,7 @@
     }
   },
   {
-    "id": "DevAPI-D77DF3AE-3802-4101-9E56-7A65660C0C12",
+    "id": "DevAPI-198457DF-0AA8-40B3-AD5F-C800A2CBD4AC",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -162,9 +162,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "MD-N",
+          "route_id": "UP-N",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "UP-N_UN366_V2_B",
+            "route_id": "UP-N",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -173,7 +180,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -181,7 +188,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "MDN Inbound and Outbound - Delayed",
+            "text": "UPN Train #366 - On The Move",
             "language": "en"
           }
         ]
@@ -189,7 +196,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "MDN inbound and outbound trains may be operating up to 30 minutes behind schedule due to earlier operational issues. Please visit MetraTracker.com for the location of your train.",
+            "text": "UPN train #366 scheduled to arrive Ogilvie Transportation Center at 7:50 PM, may be operating 20 to 30 minutes behind schedule due to mechanical problems. Visit metratracker.com for the location of your train.",
             "language": "en"
           }
         ]
@@ -278,57 +285,6 @@
         "translation": [
           {
             "text": "The Grand/Cicero South elevator is out of service.  Customers can use Western Avenue or Hanson Park as alternate boarding stations.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "DevAPI-A748B294-5772-44AB-BC2E-EEB913994890",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "UP-N",
-          "route_type": null,
-          "trip": {
-            "trip_id": "UP-N_UN366_V2_B",
-            "route_id": "UP-N",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "UPN Train #366 - Stopped",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "UPN train #366, scheduled to arrive Ogilvie Transportation Center at 7:50 PM, is stopped near Winthrop Harbor due to mechanical problems. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
             "language": "en"
           }
         ]
