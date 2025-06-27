@@ -88,7 +88,7 @@
     }
   },
   {
-    "id": "DevAPI-9960850B-2922-4C51-AE2F-BBECDEFB48B7",
+    "id": "DevAPI-014B2ABB-3EE6-4676-A078-752B94AF1548",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -97,7 +97,7 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "UP-N",
+          "route_id": "ME",
           "route_type": null,
           "trip": null,
           "stop_id": null
@@ -108,7 +108,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -116,7 +116,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "UPN 390 Delayed Departure",
+            "text": "Metra Electric All trains will board from the north end of the platform 11th Street to 47th Street",
             "language": "en"
           }
         ]
@@ -124,7 +124,58 @@
       "description_text": {
         "translation": [
           {
-            "text": "Train 390, scheduled to arrive Chicago at 6:55 a.m., will be a delayed departure due to mechanical problems. Delay times are unknown.",
+            "text": "All trains will board from the north end of the platform at 11th, 18th, McCormick Place, 27th and 47th Street. Please wait visible to the engineer, do not operate chains or gates in ground load areas, follow train crew\u0027s instructions after the train stops",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-CAA69DAF-189D-410C-9F66-CAC8457C0ACE",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-N",
+          "route_type": null,
+          "trip": {
+            "trip_id": "UP-N_UN390_V1_B",
+            "route_id": "UP-N",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPN 390 On The Move and Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "Train 390, scheduled to arrive Chicago at 6:55 a.m., is on the move and operating 20 to 25 minutes behind schedule due to mechanical problems.",
             "language": "en"
           }
         ]
