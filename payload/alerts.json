@@ -1,6 +1,6 @@
 [
   {
-    "id": "DevAPI-E6642674-19A0-426F-AB4E-07DCF1093098",
+    "id": "DevAPI-D831F7EA-36B6-4C3D-BFAF-4695E5A55E68",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -9,7 +9,7 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "ME",
+          "route_id": "BNSF",
           "route_type": null,
           "trip": null,
           "stop_id": null
@@ -20,7 +20,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -28,7 +28,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "The 51st/53rd Street/Hyde Park East elevator is out of service.",
+            "text": "BNSF Aurora Station Closing At 1am on July 3, 2025",
             "language": "en"
           }
         ]
@@ -36,7 +36,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "ME The 51st/53rd Street/Hyde Park East elevator is out of service. Customers can use McCormick Place or 55th/56th/57th Street as alternate boarding stations.",
+            "text": "On July 3, 2025, the Aurora Transportation Center will be closing at 1:00 AM. Customer should utilize the Route 59 station during this time. Please visit metra.com for train schedule information.",
             "language": "en"
           }
         ]
@@ -81,6 +81,50 @@
         "translation": [
           {
             "text": "The LaSalle Street Station elevator is temporarily out of service. Recommended alternative accessible location is CTA elevator, located at LaSalle St. Stations\u0027 west exit. Metra will provide updated information once service has been restored",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-83DFEB4F-BEF2-4A40-B46B-F4473AD33F0D",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "ME",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "ME The 51st/53rd Street/Hyde Park East elevator is back in service.",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "ME The 51st/53rd Street/Hyde Park East elevator is back in service.",
             "language": "en"
           }
         ]
@@ -697,6 +741,50 @@
         "translation": [
           {
             "text": "\u003Cp\u003ETo facilitate work for the redevelopment of the Michael Reese Hospital site, 27th street station will be closed June 20th and reopen June 30th. During this time passengers should utilize McCormick Place or 47th street stations. Updates will be provided.\u003C/p\u003E",
+            "language": "en-US"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "cms_alert1924",
+    "is_deleted": false,
+    "alert": {
+      "url": {
+        "translation": [
+          {
+            "text": "metrarail.com/riding-metra/service-updates?Source=0\u0026Website=1\u0026OnBoard=0\u0026Email=1\u0026Twitter=0"
+          }
+        ]
+      },
+      "informed_entity": [
+        {
+          "route_id": "MD-W"
+        }
+      ],
+      "active_period": [
+        {
+          "start": {
+            "low": "2025-06-30T06:00:00"
+          },
+          "end": {
+            "low": "2025-08-31T23:59:00"
+          }
+        }
+      ],
+      "header_text": {
+        "translation": [
+          {
+            "text": "Metra Alert MD-W - Wood Dale Parking Lot Resurfacing Project  - July through August, 2025  ",
+            "language": "en-US"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "\u003Cp\u003EThe Village of Wood Dale will be resurfacing parking\u0026nbsp;lots 2, 3, and 4. The project\u0026nbsp;will occur in two phases, starting the first week in July through the end of August. Please allow additional time when traveling to the station.\u0026nbsp;\u0026nbsp;\u003C/p\u003E",
             "language": "en-US"
           }
         ]
