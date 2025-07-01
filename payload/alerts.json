@@ -132,50 +132,6 @@
     }
   },
   {
-    "id": "DevAPI-9226C37B-D83B-4197-A062-5D75B1463324",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "ME",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "The 103rd St. Rosemoor Elevator Out Of Service",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "The 103rd Street/Rosemoor elevator is out of service.  Customers can use 79th Street/Cheltenham or 115th Street/Kensington as alternate boarding stations.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
     "id": "DevAPI-2256E369-10C3-40C9-BC5B-5AF170639F58",
     "is_deleted": false,
     "trip_update": null,
@@ -213,6 +169,57 @@
         "translation": [
           {
             "text": "The Museum Campus/11th St west elevator is out of service. Customers can use Millennium Station/South Water or McCormick Place as alternate boarding stations.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-5DDA35B5-5702-444C-B9CD-972B36A8B1A8",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "BNSF",
+          "route_type": null,
+          "trip": {
+            "trip_id": "BNSF_BN1296_V2_C",
+            "route_id": "BNSF",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "BNSF Train #1296 Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "BNSF train #1296 scheduled to arrive Chicago Union Station at 9:20 PM, may be operating 15 to 20 minutes behind schedule due to track construction. Visit metratracker.com for the location of your train.",
             "language": "en"
           }
         ]
