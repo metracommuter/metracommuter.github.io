@@ -88,6 +88,50 @@
     }
   },
   {
+    "id": "DevAPI-C386F25F-C353-44C0-A10F-262E0A2646D4",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "BNSF",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "BNSF Aurora Station Parking Lot Closing At 1am on July 3, 2025 (UPDATE)",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "On July 3, 2025, the Aurora Transportation Center parking lot will be closing at 1:00 AM. Customer should utilize the Route 59 station during this time. Please visit metra.com for train schedule information.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "DevAPI-F9901622-4883-4FF9-AF14-6AEC7E6D17CF",
     "is_deleted": false,
     "trip_update": null,
@@ -220,7 +264,7 @@
     }
   },
   {
-    "id": "DevAPI-C513C12A-188B-41AD-BEEF-49CFE3F318BB",
+    "id": "DevAPI-3C2A2BEF-EF4F-420E-BCAD-F4BC709AAAEA",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -229,9 +273,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "MD-W",
+          "route_id": "ME",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "ME_ME111_V2_B",
+            "route_id": "ME",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -240,7 +291,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/MD-W?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -248,7 +299,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "MDW #2201 On The Move/Operational Change",
+            "text": "MED Train 111 Is Delayed In Departure",
             "language": "en"
           }
         ]
@@ -256,7 +307,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "Train #2201 scheduled to depart Chicago at 5:40 AM, is on the move 30 to 35 minutes delayed due to freight train interference and will be expressing to Bensenville then resuming normal stops. Train #2203 will accommodate passengers.",
+            "text": "ME train #111, scheduled to depart Millennium Station at 7:30 AM, will be delayed in departure due to police activity. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
             "language": "en"
           }
         ]
