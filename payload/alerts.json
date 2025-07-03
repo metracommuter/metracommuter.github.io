@@ -176,50 +176,6 @@
     }
   },
   {
-    "id": "DevAPI-115FEB8B-8A89-489D-99F1-9E7979860A78",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "MD-W",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/MD-W?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "MDW Train #2200 Delayed",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "MDW train #2200 scheduled to arrive Chicago Union Station at 5:31 AM, is on the move and may be operating 30 to 40 minutes behind schedule due to freight train interference. Visit metratracker.com for the location of your train.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
     "id": "DevAPI-1EDD722D-B080-48AE-8B1E-69FF852E9939",
     "is_deleted": false,
     "trip_update": null,
@@ -741,6 +697,50 @@
         "translation": [
           {
             "text": "\u003Cp\u003EMetra will operate on a Sunday/Holiday schedule on Friday, July 4 (Independence Day).\u0026nbsp;\u003C/p\u003E",
+            "language": "en-US"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "cms_alert1927",
+    "is_deleted": false,
+    "alert": {
+      "url": {
+        "translation": [
+          {
+            "text": "metrarail.com/riding-metra/service-updates?Source=0\u0026Website=1\u0026OnBoard=0\u0026Email=1\u0026Twitter=0"
+          }
+        ]
+      },
+      "informed_entity": [
+        {
+          "agency_id": "METRA"
+        }
+      ],
+      "active_period": [
+        {
+          "start": {
+            "low": "2025-07-03T06:00:00"
+          },
+          "end": {
+            "low": "2025-07-06T22:00:00"
+          }
+        }
+      ],
+      "header_text": {
+        "translation": [
+          {
+            "text": "Metra Alert - NASCAR Service on Saturday, July 5, and Sunday, July 6",
+            "language": "en-US"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "\u003Cp\u003EOn Saturday, July 5, and Sunday, July 6, Metra will have extra trains\u0026nbsp;operating on the Rock Island Line, Union Pacific North, and Union Pacific West for passengers planning to attend the NASCAR Chicago Street Race.\u0026nbsp;For train schedule information click \u003Ca href=\u0022https://metra.com/stations-and-lines\u0022\u003Ehere\u003C/a\u003E.\u0026nbsp;\u003C/p\u003E\u003Cp\u003E\u0026nbsp;If trains are crowded this weekend, bicycles may not be allowed onboard. Customers should also expect slower boarding at stations due to increased passenger loads and train crews taking extra time to ensure everyone\u0026rsquo;s safety.\u003C/p\u003E",
             "language": "en-US"
           }
         ]
