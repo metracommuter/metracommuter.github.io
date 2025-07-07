@@ -1,6 +1,6 @@
 [
   {
-    "id": "DevAPI-72A33D57-C0A3-40F9-96F9-8BA95CC3EB5A",
+    "id": "DevAPI-1B8D8105-CB5B-41BA-9DFC-43E18690ACCF",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -9,16 +9,9 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "NCS",
+          "route_id": "UP-N",
           "route_type": null,
-          "trip": {
-            "trip_id": "NCS_NC113_V3_C",
-            "route_id": "NCS",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
+          "trip": null,
           "stop_id": null
         }
       ],
@@ -27,7 +20,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/NCS?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -35,7 +28,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "NCS Train #113 Delayed",
+            "text": "UPN Main Street Elevator Door Out of Service",
             "language": "en"
           }
         ]
@@ -43,7 +36,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "NCS train #113 scheduled to arrive Antioch at 6:28 PM, may be operating 15 to 20 minutes behind schedule due to  signal problems. Visit metratracker.com for the location of your train.",
+            "text": "The Main Street elevator door is out of service.  The Main Street elevator cannot be used at this time.  Customers can use Davis Street or Rogers Park as alternate boarding stations.",
             "language": "en"
           }
         ]
@@ -403,6 +396,57 @@
         "translation": [
           {
             "text": "MDW train #2237 scheduled to arrive Big Timber Road/Elgin at 6:34 PM, may be operating 15 to 25 minutes behind schedule due to earlier switch problems. Visit metratracker.com for the location of your train.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-0801350C-3614-4E0C-98CB-738435A84904",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "NCS",
+          "route_type": null,
+          "trip": {
+            "trip_id": "NCS_NC113_V3_C",
+            "route_id": "NCS",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/NCS?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "NCS Train #113 Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "NCS train #113 scheduled to arrive Antioch at 6:28 PM, may be operating 20 to 25 minutes behind schedule due to signal problems. Visit metratracker.com for the location of your train.",
             "language": "en"
           }
         ]
