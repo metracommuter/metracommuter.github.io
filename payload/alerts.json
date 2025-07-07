@@ -1,6 +1,6 @@
 [
   {
-    "id": "DevAPI-45D18817-CFC6-499C-92E1-4FA27FEE6B07",
+    "id": "DevAPI-72A33D57-C0A3-40F9-96F9-8BA95CC3EB5A",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -9,9 +9,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "MD-N",
+          "route_id": "NCS",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "NCS_NC113_V3_C",
+            "route_id": "NCS",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -20,7 +27,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/NCS?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -28,7 +35,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "MDN Outbound Delays",
+            "text": "NCS Train #113 Delayed",
             "language": "en"
           }
         ]
@@ -36,7 +43,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "Milwaukee District North outbound trains may be operating up to 25 minutes behind schedule due to switch problems. Visit metratracker.com for the location of your train.",
+            "text": "NCS train #113 scheduled to arrive Antioch at 6:28 PM, may be operating 15 to 20 minutes behind schedule due to  signal problems. Visit metratracker.com for the location of your train.",
             "language": "en"
           }
         ]
@@ -301,6 +308,50 @@
         "translation": [
           {
             "text": "The 103rd Street/ Rosemoor elevator is back in service.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-5353FF96-EC1B-434C-9F03-449A53A37E64",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "MD-N",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "MDN Outbound Delays",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "Milwaukee District North outbound trains may be operating up to 15 minutes behind schedule due to switch problems. Visit metratracker.com for the location of your train.",
             "language": "en"
           }
         ]
