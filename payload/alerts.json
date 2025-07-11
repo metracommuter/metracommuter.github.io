@@ -285,7 +285,7 @@
     }
   },
   {
-    "id": "DevAPI-EDC38B15-2DF0-49CC-AA69-9000985705B3",
+    "id": "DevAPI-6CEDA1A9-FC84-4884-8604-B0FF5AE02E07",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -320,7 +320,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "NCS 109 STOPPED",
+            "text": "NCS 109 ON THE MOVE",
             "language": "en"
           }
         ]
@@ -328,7 +328,102 @@
       "description_text": {
         "translation": [
           {
-            "text": "NCS  train #109, scheduled to arrive Antioch at 6:05 PM, is stopped near River Grove due to an operational incident. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
+            "text": "NCS train #109, scheduled to arrive Antioch at 6:05 PM, is on the move and maybe operating 25 to 35 minutes behind schedule due to earlier operational issues.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-942767B9-8CB0-4EC5-873A-9672FAF8AF99",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "ME",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "MED Train 330 will not operate",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "Inbound train #330, scheduled to depart 93rd Street/South Chicago at 4:45 PM, will not operate due to an operational incident. Train #332, scheduled to depart 93rd Street/South Chicago at 5:18 PM will accommodate  passengers.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-2764F912-76CE-414D-997E-AF543F2CF526",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "NCS",
+          "route_type": null,
+          "trip": {
+            "trip_id": "NCS_NC116_V3_B",
+            "route_id": "NCS",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/NCS?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "NCS 116 Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "NCS train #116, scheduled to arrive Chicago Union Station at 5:16 PM, may be operating 25 to 30 minutes behind schedule due to an operational incident. Visit metratracker.com for the location of your train.",
             "language": "en"
           }
         ]
@@ -373,57 +468,6 @@
         "translation": [
           {
             "text": "The Grand/Cicero South elevator is back in service.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "DevAPI-2E3883FC-9444-488E-B1A3-D4658D34F8F2",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "MD-W",
-          "route_type": null,
-          "trip": {
-            "trip_id": "MD-W_MW2223_V3_B",
-            "route_id": "MD-W",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/MD-W?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "MDW 2223 - Delayed",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "MDW train #2223 scheduled to arrive Big Timber Road/Elgin at 5:13 PM, may be operating 15 to 20 minutes behind schedule due to an operational incident. Visit metratracker.com for the location of your train.",
             "language": "en"
           }
         ]
@@ -526,57 +570,6 @@
     }
   },
   {
-    "id": "DevAPI-E000D2B3-D0F7-4263-AA30-4DEF0523B8F7",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "MD-W",
-          "route_type": null,
-          "trip": {
-            "trip_id": "MD-W_MW2242_V1_B",
-            "route_id": "MD-W",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/MD-W?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "MDW 2242 - Stopped",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "MDW train #2242 scheduled to arrive Chicago Union Station at 4:49 PM, is stopped near Western Avenue due to an operational incident. The duration of this delay is unknown. Visit metratracker.com for the location of your train.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
     "id": "DevAPI-71881008-2E8D-4EBD-BAD3-7765D8A983DE",
     "is_deleted": false,
     "trip_update": null,
@@ -614,57 +607,6 @@
         "translation": [
           {
             "text": "UPW train #37 scheduled to arrive Elburn at 4:11 PM, may be operating 25 to 30 minutes behind schedule due to an earlier vehicle stuck on the tracks. Visit metratracker.com for the location of your train.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "DevAPI-33C480CE-598A-4DA1-9A2A-866A6688BCEE",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "NCS",
-          "route_type": null,
-          "trip": {
-            "trip_id": "NCS_NC116_V3_B",
-            "route_id": "NCS",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/NCS?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "NCS 116 STOPPED",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "NCS train #116, scheduled to arrive Chicago Union Station at 5:16 PM, is stopped near River Grove due to an operational incident. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
             "language": "en"
           }
         ]
