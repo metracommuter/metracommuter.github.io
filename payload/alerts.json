@@ -88,7 +88,7 @@
     }
   },
   {
-    "id": "DevAPI-99944077-C4EE-40BF-A1AE-D3159D89F386",
+    "id": "DevAPI-9A7DD441-496A-4E25-A4A8-8C78DCBE5FB6",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -97,16 +97,9 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "UP-W",
+          "route_id": "UP-N",
           "route_type": null,
-          "trip": {
-            "trip_id": "UP-W_UW54_V2_D",
-            "route_id": "UP-W",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
+          "trip": null,
           "stop_id": null
         }
       ],
@@ -115,7 +108,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-W?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -123,7 +116,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "UPW Train #54 - Stopped",
+            "text": "UPN Main Street Elevator Door Out of Service",
             "language": "en"
           }
         ]
@@ -131,7 +124,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "UPW train #54, scheduled to arrive Ogilvie Transportation Center at 4:50 PM, is stopped near Elmhurst due to freight train interference . The duration of this delay is unknown. Metra will provide updates as information becomes available.",
+            "text": "The Main Street elevator door is out of service.  The Main Street elevator cannot be used at this time.  Customers can use Davis Street or Rogers Park as alternate boarding stations.",
             "language": "en"
           }
         ]
@@ -264,6 +257,57 @@
         "translation": [
           {
             "text": "ME train #328 scheduled to arrive Millennium Station at 04:47 PM, may be operating 20 to 25\nminutes behind schedule due to an earlier gate malfunction. Visit metratracker.com for the location of your train.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-211EE142-B079-4882-A784-A07A9FDDE7DB",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-W",
+          "route_type": null,
+          "trip": {
+            "trip_id": "UP-W_UW54_V2_D",
+            "route_id": "UP-W",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-W?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPW Train #54 - On The Move",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "UPW train #54 scheduled to arrive Ogilvie Transportation Center at 4:50 PM, may be operating 15 to 20 minutes behind schedule due to freight train interference . Visit metratracker.com for the location of your train.",
             "language": "en"
           }
         ]
