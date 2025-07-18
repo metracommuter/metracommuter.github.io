@@ -132,7 +132,7 @@
     }
   },
   {
-    "id": "DevAPI-A9C36272-9B1F-4B34-A25B-EFACF2B0D247",
+    "id": "DevAPI-78011B05-F154-46E3-BD84-31364AABA22E",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -167,7 +167,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "UPW Train #49 - Delayed",
+            "text": "UPW Train #49 - Stopped (Update)",
             "language": "en"
           }
         ]
@@ -176,6 +176,57 @@
         "translation": [
           {
             "text": "UPW train #49, scheduled to arrive Elburn at 6:30 PM, is stopped near Glen Ellyn due to mechanical problems. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-D553D8EE-524F-4F3C-A1CA-C1F05B384E00",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-W",
+          "route_type": null,
+          "trip": {
+            "trip_id": "UP-W_UW51_V2_B",
+            "route_id": "UP-W",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-W?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPW Train #51 - Stopped",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "UPW train #51, scheduled to arrive La Fox at 6:30 PM, is stopped near Glen Ellyn due to mechanical problems with train #49. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
             "language": "en"
           }
         ]
