@@ -1,49 +1,5 @@
 [
   {
-    "id": "DevAPI-1946891A-E6F3-4739-A6C2-075C309186EB",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "UP-NW",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "UPNW Train #627 Delayed",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "upnw train #627 scheduled to arrive Crystal Lake at 2:15 PM, may be operating 15 to 20 minutes behind schedule, due to track construction. Visit metra tracker.com for the location of your train.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
     "id": "DevAPI-EB88FD34-35F6-4684-A7BD-EE412532B977",
     "is_deleted": false,
     "trip_update": null,
@@ -88,7 +44,7 @@
     }
   },
   {
-    "id": "DevAPI-C09283D2-72B7-4A9C-B8D5-53AE471B549C",
+    "id": "DevAPI-0D56E4A7-A62F-4475-88AC-0AAD6604889B",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -97,9 +53,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "ME",
+          "route_id": "MD-N",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "MD-N_MN2138_V2_C",
+            "route_id": "MD-N",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -108,7 +71,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -116,7 +79,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "ME Train #324 Stopped Near 75th Street/Windsor",
+            "text": "MDN 2138 -Delayed",
             "language": "en"
           }
         ]
@@ -124,7 +87,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "ME train #324, scheduled to arrive Millennium Station at 2:45 PM, is stopped near 75th Street/Windsor Park due to an accident not involving the train. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
+            "text": "MDN train #2138 scheduled to arrive Chicago Union Station at 3:48 PM, may be operating 15 to 20 minutes behind schedule, due to track construction. Visit metra tracker.com for the location of your train.",
             "language": "en"
           }
         ]
@@ -264,6 +227,50 @@
         "translation": [
           {
             "text": "RID train #415, scheduled to arrive Joliet at 2:20 PM, is operating 25 to 30 minutes behind schedule due to earlier switch problems.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-CA8691B7-9868-4C24-88F8-9FA7942E1683",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "ME",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "ME Train #324 On the Move Operating 20 to 25 Minutes Behind Schedule",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "ME train #324 scheduled to arrive Millennium Station at 2:45 PM, is on the move and may be operating 20 to 25 minutes behind schedule, due to an accident not involving the train. Visit metratracker.com for the location of your train.",
             "language": "en"
           }
         ]
