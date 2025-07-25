@@ -51,7 +51,7 @@
     }
   },
   {
-    "id": "DevAPI-9F297185-2B9F-4A29-AFFD-AD1D7F315DDF",
+    "id": "DevAPI-0EE6EFB1-CA5F-4736-A80D-7AC03897D698",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -60,9 +60,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "MD-W",
+          "route_id": "UP-NW",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "UP-NW_UNW623_V2_B",
+            "route_id": "UP-NW",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -71,7 +78,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/MD-W?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -79,7 +86,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "MDW Train #2213 Delayed",
+            "text": "UPNW Train 623 On The Move",
             "language": "en"
           }
         ]
@@ -87,7 +94,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "MDW train #2213 scheduled to arrive Big Timber Road/Elgin at 11:52 AM, may be operating 15 to 25 minutes behind schedule due to track construction. Visit metratracker.com for the location of your train.",
+            "text": "UPNW train #623, scheduled to arrive Harvard at 12:40 PM, is on the move and may be delayed 30 to 35 minutes due to track construction.",
             "language": "en"
           }
         ]
@@ -359,57 +366,6 @@
         "translation": [
           {
             "text": "The Main Street elevator door is out of service.  The Main Street elevator cannot be used at this time.  Customers can use Davis Street or Rogers Park as alternate boarding stations.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "DevAPI-844549C0-8D62-4A21-BE0C-E1D7DDB59380",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "UP-NW",
-          "route_type": null,
-          "trip": {
-            "trip_id": "UP-NW_UNW623_V2_B",
-            "route_id": "UP-NW",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "UPNW Train 623 Stopped",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "UPNW train #623, scheduled to arrive Harvard at 12:40 PM, is stopped near Barrington due to track construction. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
             "language": "en"
           }
         ]
