@@ -1,50 +1,6 @@
 [
   {
-    "id": "DevAPI-082052D4-488F-43F4-AFE1-622B218E517A",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "UP-NW",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "UPNW Train #609 Will Not Operate",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "Train #609, scheduled to depart Chicago at 6:05 AM, will not operate due to a vehicle striking a bridge. Train #611, scheduled to depart Chicago at 6:35 AM will accommodate passengers. Train #611 is currently a delayed departure.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "DevAPI-9BE354F9-11B9-416B-B14E-B99C9A8FE1AD",
+    "id": "DevAPI-7F571DDF-4A47-4339-9A77-4156932A765A",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -55,7 +11,14 @@
           "agency_id": "METRA",
           "route_id": "UP-N",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "UP-N_UN392_V1_B",
+            "route_id": "UP-N",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -72,7 +35,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "UPN Inbound And Outbound Train Movement Has Been Restored Near Clybourn",
+            "text": "UPN #392 Will Not Operate",
             "language": "en"
           }
         ]
@@ -80,7 +43,58 @@
       "description_text": {
         "translation": [
           {
-            "text": "UPN Inbound and outbound train movement has been restored near Clybourn due to a vehicle striking a bridge. Extensive delays are anticipated. Updated 6:59 a.m.",
+            "text": "UPN  train #392, scheduled to depart Winnetka at 7:53 AM, will not operate due to a vehicle striking a bridge. Train #316, scheduled to depart Highland Park at 8:01 AM will accommodate  passengers.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-816F46AF-15AA-4A3F-B339-7DF9DD410B90",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-N",
+          "route_type": null,
+          "trip": {
+            "trip_id": "UP-N_UN391_V1_B",
+            "route_id": "UP-N",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPN #391 Will Not Operate",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "UPM train #391, scheduled to depart Ogilvie Transportation Center at 7:02 AM, will not operate due to a vehicle striking a bridge. Train #311, scheduled to depart Ogilvie Transportation Center at 7:32 AM will accommodate  passengers.",
             "language": "en"
           }
         ]
@@ -169,101 +183,6 @@
         "translation": [
           {
             "text": "Inbound and outbound train movement has been restored near Clybourn due to a vehicle striking a bridge.  Extensive delays are anticipated. Updated at 6:39 a.m.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "DevAPI-8360579C-A0FD-4114-9C6C-79D2CABC224E",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "NCS",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/NCS?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "NCS Rosemont Elevator Out of Service",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "The Rosemont elevator is out of service.  Customers can use Schiller Park or O\u0027Hare Transfer as alternate boarding stations.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "DevAPI-60327311-3C4E-4C3A-BFCA-392A4970207F",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "UP-N",
-          "route_type": null,
-          "trip": {
-            "trip_id": "UP-N_UN303_V2_B",
-            "route_id": "UP-N",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=0\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "UPN 303 Delayed Departure",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "Train 303, scheduled to arrive Kenosha at 7:15 a.m., is a delayed departure due to a vehicle striking a bridge. Delay times are unknown.",
             "language": "en"
           }
         ]
@@ -484,6 +403,182 @@
         "translation": [
           {
             "text": "The Museum Campus East 11th Street elevator is out of service. Customers can use Van Buren Street and McCormick Place as alternate boarding stations.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-C6A604E3-1D66-44E9-A15D-FEF94F1F1800",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-N",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPN Train #303 Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "Train #303, scheduled to arrive Kenosha at 7:15 a.m., is on the move and has incurred an extensive delay, due to a vehicle striking a bridge. Please visit metratracker.com for the location of this train.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-082052D4-488F-43F4-AFE1-622B218E517A",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-NW",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPNW Train #609 Will Not Operate",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "Train #609, scheduled to depart Chicago at 6:05 AM, will not operate due to a vehicle striking a bridge. Train #611, scheduled to depart Chicago at 6:35 AM will accommodate passengers. Train #611 is currently a delayed departure.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-9BE354F9-11B9-416B-B14E-B99C9A8FE1AD",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-N",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPN Inbound And Outbound Train Movement Has Been Restored Near Clybourn",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "UPN Inbound and outbound train movement has been restored near Clybourn due to a vehicle striking a bridge. Extensive delays are anticipated. Updated 6:59 a.m.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-8360579C-A0FD-4114-9C6C-79D2CABC224E",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "NCS",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/NCS?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "NCS Rosemont Elevator Out of Service",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "The Rosemont elevator is out of service.  Customers can use Schiller Park or O\u0027Hare Transfer as alternate boarding stations.",
             "language": "en"
           }
         ]
