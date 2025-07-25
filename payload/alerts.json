@@ -95,6 +95,50 @@
     }
   },
   {
+    "id": "DevAPI-94A8A237-AFFA-4ED3-AF44-95517CF8301D",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "MD-W",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-W?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "MDW Train #2211 Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "MDW train #2211 scheduled to arrive Big Timber Road/Elgin at 10:52 AM, may be operating 15 to 25 minutes behind schedule due to track construction. Visit metratracker.com for the location of your train.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "DevAPI-357F4B4B-D44A-4ACA-A14C-3E197967DFC9",
     "is_deleted": false,
     "trip_update": null,
@@ -271,7 +315,7 @@
     }
   },
   {
-    "id": "DevAPI-7B8E47B7-6846-4ADA-8988-B504252A95EE",
+    "id": "DevAPI-418DBCEB-5D8A-448F-9350-C342A781E4C4",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -280,9 +324,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "MD-W",
+          "route_id": "SWS",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "SWS_SW814_V2_B",
+            "route_id": "SWS",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -291,7 +342,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/MD-W?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/SWS?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -299,7 +350,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "MDW Train #2209 Delayed",
+            "text": "SWS #814 Delayed",
             "language": "en"
           }
         ]
@@ -307,7 +358,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "MDW train #2209 scheduled to arrive Big Timber Road/Elgin at 9:55 AM, may be operating 15 to 25 minutes behind schedule, due to speed restrictions. Visit metra tracker.com for the location of your train.",
+            "text": "SWS train #814 scheduled to arrive Chicago Union Station at 11:27 AM, may be operating 15 to 20 minutes behind schedule, due to mechanical problems. Visit metra tracker.com for the location of your train.",
             "language": "en"
           }
         ]
