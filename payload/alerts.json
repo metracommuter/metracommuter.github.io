@@ -227,50 +227,6 @@
     }
   },
   {
-    "id": "DevAPI-EC8FA710-59EE-4D76-99C4-1ED3EF23E35A",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "BNSF",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "BNSF train #1279 will not operate",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "BNS train #1279 scheduled to depart Chicago Union Station at 6:10 pm, will not operate due to a pedestrian being struck by train #1276. Train #1283 will be the next train to accommodate passengers to Aurora.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
     "id": "DevAPI-4CBA886A-717F-4A51-9AFF-902302CC5F1B",
     "is_deleted": false,
     "trip_update": null,
@@ -535,6 +491,57 @@
         "translation": [
           {
             "text": "BNSF train #1303 scheduled to depart Chicago Union station at 7:00 pm, will not operate due to a pedestrian being struck by train #1276. The next outbound train departing Chicago will accommodate passengers to Aurora once train traffic resumes.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-7B5323F0-8A24-4547-BEA0-7096258F9124",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "MD-N",
+          "route_type": null,
+          "trip": {
+            "trip_id": "MD-N_MN2156_V2_B",
+            "route_id": "MD-N",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "MDN 2156 - Stopped",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "MDN train #2156, scheduled to arrive Chicago Union Station at 9:05 PM, is stopped near Libertyville due to earlier positive train control issues on train 2147.  Metra will provide updates as information becomes available.",
             "language": "en"
           }
         ]
