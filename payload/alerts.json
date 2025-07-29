@@ -1,6 +1,50 @@
 [
   {
-    "id": "DevAPI-CC9F3F9E-3D2B-433E-9254-1612D08D464E",
+    "id": "DevAPI-5522CE84-45B6-49F3-859B-56985B7FC211",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "ME",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "ME  51st/53rd Street/Hyde Park East Elevator Out of Service",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "The 51st/53rd Street/Hyde Park east elevator is out of service. Customers can use 55th/56th/57th Street or McCormick Place as alternate boarding stations.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-5C2EB5E5-5AE9-4A53-BF5F-7CA1E99727E3",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -35,7 +79,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "SWS Train 819 Delayed Departure",
+            "text": "SWS Train 819 On The Move",
             "language": "en"
           }
         ]
@@ -43,7 +87,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "SWS train #819, scheduled to depart Chicago Union Station at 5:12 PM, will be delayed in departure due to  switch problems. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
+            "text": "SWS train #819, scheduled to depart Chicago Union Station at 5:12 PM, is on the move and may be delayed 35 to 40 minutes due to switch problems.  Visit Metra tracker.com for the location of your train.",
             "language": "en"
           }
         ]
@@ -95,7 +139,7 @@
     }
   },
   {
-    "id": "DevAPI-2037A52A-1DEE-4CB6-A95D-53F00F829398",
+    "id": "DevAPI-504466F2-FF54-4190-81AB-EE4F83899484",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -104,16 +148,9 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "SWS",
+          "route_id": "ME",
           "route_type": null,
-          "trip": {
-            "trip_id": "SWS_SW817_V2_C",
-            "route_id": "SWS",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
+          "trip": null,
           "stop_id": null
         }
       ],
@@ -122,7 +159,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/SWS?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -130,7 +167,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "SWS Train 817 On The Move",
+            "text": "ME Train #332 Operating 15 to 20 Minutes Behind Schedule Due to an Earlier Gate Malfunction",
             "language": "en"
           }
         ]
@@ -138,7 +175,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "SWS train #817, scheduled to depart Chicago Union Station at 4:42 PM, is on the move and may be delayed 20 to 25 minutes due to switch problems. Visit Metra tracker.com for the location of your train.",
+            "text": "ME train #332 scheduled to arrive Millennium Station at 6:18 PM, may be operating 15 to 20 minutes behind schedule, due to an earlier gate malfunction. Visit metra tracker.com for the location of your train.",
             "language": "en"
           }
         ]
@@ -227,6 +264,57 @@
         "translation": [
           {
             "text": "BNSF outbound trains may be operating up to 30 minutes behind schedule due to switch problems near Chicago Union Station. Visit metratracker.com for the location of your train.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-F7CA785C-2BE2-4114-B45C-37C90A7EC332",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "SWS",
+          "route_type": null,
+          "trip": {
+            "trip_id": "SWS_SW817_V2_C",
+            "route_id": "SWS",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/SWS?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "SWS Train 817 Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "SWS train #817, scheduled to depart Chicago Union Station at 4:42 PM, may be delayed 40 to 45 minutes due to switch problems. Visit Metra tracker.com for the location of your train.",
             "language": "en"
           }
         ]
