@@ -1,6 +1,6 @@
 [
   {
-    "id": "DevAPI-CEBC76B5-0186-4729-85A5-6B5E1DE0F891",
+    "id": "DevAPI-1BF94FA8-CEF1-4AF5-B20D-729D4B68A3BF",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -28,7 +28,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "HC Train #919 Stopped",
+            "text": "HC Train #919 is on the move",
             "language": "en"
           }
         ]
@@ -36,7 +36,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "HC train #9 19, scheduled to arrive Joliet at 6:36 PM, is stopped near Chicago Union Station due to following an Amtrak train. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
+            "text": "HC train #9 19, scheduled to arrive Joliet at 6:36 PM, is on the move and may be operating 15 to 20 minutes behind schedule due to following an Amtrak train. Metra will provide updates as information becomes available.",
             "language": "en"
           }
         ]
@@ -169,6 +169,57 @@
         "translation": [
           {
             "text": "The Museum Campus/11th St elevator is out of service.  Customers can use Van Buren Street or McCormick Place as alternate boarding stations.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-CD9F62C3-579E-412D-88B6-70FEDC253261",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-W",
+          "route_type": null,
+          "trip": {
+            "trip_id": "UP-W_UW45_V3_C",
+            "route_id": "UP-W",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-W?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPW Train #45 Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "UPW train #45 scheduled to arrive La Fox at 6:10 PM, may be operating 15 to 20 minutes behind schedule, due to freight train interference and track construction. Visit metratracker.com for the location of your train.",
             "language": "en"
           }
         ]
