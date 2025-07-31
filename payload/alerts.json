@@ -139,7 +139,7 @@
     }
   },
   {
-    "id": "DevAPI-E9BDC21A-CBF3-4996-8218-CCCE2A745987",
+    "id": "DevAPI-0A22266A-174A-4DE8-9572-0DADCCC4D438",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -167,7 +167,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "SWS Train #816 Remains Stopped",
+            "text": "SWS Train #816 Will Not Operate Past Chicago Ridge",
             "language": "en"
           }
         ]
@@ -175,7 +175,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "Train #816 scheduled to depart 179th Orland Park at 11:12 a.m., remains stopped at Chicago Ridge, due to a mechanical issue. Extensive delays are anticipated.  We will update this information as soon as it becomes available.  Updated at 12:29 p.m.",
+            "text": "Train #816 scheduled to depart 179th Orland Park at 11:12 a.m., will not operate past Chicago Ridge, due to a mechanical issue.  Train #818 will accommodate passengers.  Updated at 12:52 p.m.",
             "language": "en"
           }
         ]
@@ -264,6 +264,57 @@
         "translation": [
           {
             "text": "The Rosemont elevator is out of service.  Customers can use Schiller Park or O\u0027Hare Transfer as alternate boarding stations.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-15ED862C-CAC3-4C40-AFFA-EDC53D0FD315",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-N",
+          "route_type": null,
+          "trip": {
+            "trip_id": "UP-N_UN331_V2_D",
+            "route_id": "UP-N",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPN 331 Stopped Near Clybourn",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "Train 331, scheduled to arrive Waukegan at 1:54 p.m., is stopped near clybourn due to track construction. Delay times are unknown.",
             "language": "en"
           }
         ]
