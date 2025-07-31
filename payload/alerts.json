@@ -71,7 +71,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -227,50 +227,6 @@
     }
   },
   {
-    "id": "DevAPI-1DB41E1D-954E-44B1-BD9C-3D410980FB0A",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "BNSF",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "BNSF 1258 Delayed",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "Train #1258 scheduled to arrive Chicago at 1:20 p.m., may be operating 15 to 20 minutes behind schedule due to high ridership. Visit MetraTracker.com for the location of your train.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
     "id": "DevAPI-15ED862C-CAC3-4C40-AFFA-EDC53D0FD315",
     "is_deleted": false,
     "trip_update": null,
@@ -315,6 +271,57 @@
         "translation": [
           {
             "text": "Train 331, scheduled to arrive Waukegan at 1:54 p.m., is stopped near clybourn due to track construction. Delay times are unknown.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-557EDF11-7D80-4DAB-8AA6-322AA2F24121",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "BNSF",
+          "route_type": null,
+          "trip": {
+            "trip_id": "BNSF_BN1258_V2_D",
+            "route_id": "BNSF",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "BNSF 1258 STOPPED",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "BNSF train #1258, scheduled to arrive Chicago Union Station at 1:20 PM, is stopped near Hinsdale due to mechanical problems. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
             "language": "en"
           }
         ]
