@@ -139,7 +139,7 @@
     }
   },
   {
-    "id": "DevAPI-938A20A6-C81A-4A61-991C-B8A307B5C97F",
+    "id": "DevAPI-AFAA5F9B-CF3C-4708-B9F3-5708339112A5",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -148,7 +148,7 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "SWS",
+          "route_id": "NCS",
           "route_type": null,
           "trip": null,
           "stop_id": null
@@ -159,7 +159,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/SWS?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/NCS?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -167,7 +167,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "SWS Train #812 Moving",
+            "text": "NCS 114 Delayed",
             "language": "en"
           }
         ]
@@ -175,7 +175,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "Train #812 scheduled to arrive Chicago at 9:42 a.m., may be operating 48 minutes late due to a mechanical issue not involving Metra\u0027s trains.  Updated at 10:39 a.m.",
+            "text": "Train #114 scheduled to arrive Chicago at 10:49 a.m., may be operating 15 to 20 minutes behind schedule, due to freight train interference. Visit MetraTracker.com for the location of your train.",
             "language": "en"
           }
         ]
@@ -220,6 +220,57 @@
         "translation": [
           {
             "text": "The Rosemont elevator is out of service.  Customers can use Schiller Park or O\u0027Hare Transfer as alternate boarding stations.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-6A37E312-C7E9-40C7-B177-55C35834BBB1",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "MD-N",
+          "route_type": null,
+          "trip": {
+            "trip_id": "MD-N_MN2130_V3_D",
+            "route_id": "MD-N",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "MDN #2130 Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "MDN Inbound train #2130 due to arrive Chicago Union station at 11:48 AM may be operating 15 to 20 minutes behind schedule due to track construction.  Visit Metra Tracker.com for the location of your train.",
             "language": "en"
           }
         ]
