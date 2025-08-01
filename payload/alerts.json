@@ -88,7 +88,7 @@
     }
   },
   {
-    "id": "DevAPI-80583FA3-2B1C-4EB1-98F9-5DD72BD03702",
+    "id": "DevAPI-E2794B2F-42A2-467C-9C09-FAD720A5935E",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -108,7 +108,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/HC?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/HC?Twitter=0\u0026Email=0\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -116,7 +116,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "HC Train # 915 Stopped",
+            "text": "HC Train # 915 On The Move (Delayed)",
             "language": "en"
           }
         ]
@@ -124,7 +124,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "HC train #915, scheduled to arrive Joliet at 4:56 PM, is stopped near Summit due to freight train interference . The duration of this delay is unknown. Metra will provide updates as information becomes available.",
+            "text": "HC train #915 scheduled to arrive Joliet at 4:56 PM, may be operating 15 to 20 minutes behind schedule, due to freight train interference . Visit metratracker.com for the location of your train.",
             "language": "en"
           }
         ]
@@ -176,7 +176,7 @@
     }
   },
   {
-    "id": "DevAPI-2EDEA903-E409-46C3-9447-90F01B63E6D9",
+    "id": "DevAPI-A369D918-A277-4878-868D-C9500495F10D",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -185,9 +185,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "UP-N",
+          "route_id": "MD-N",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "MD-N_MN2142_V2_E",
+            "route_id": "MD-N",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -196,7 +203,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -204,7 +211,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "UPN Train #339 -Remains Stopped",
+            "text": "MDN 2142 - Delayed",
             "language": "en"
           }
         ]
@@ -212,7 +219,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "UPN train #339, scheduled to arrive Waukegan at 4:12 PM, remains stopped near Lake Forest due to police activity. Extensive delays are anticipated. Metra will provide updates as information becomes available.",
+            "text": "MDN train #2142 scheduled to arrive Chicago Union Station at 5:27 PM, may be operating 15 to 20 minutes behind schedule, due to track construction. Visit metratracker.com for the location of your train.",
             "language": "en"
           }
         ]
