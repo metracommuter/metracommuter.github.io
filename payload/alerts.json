@@ -1,49 +1,5 @@
 [
   {
-    "id": "DevAPI-A633281A-6D30-4B5B-9DB7-2953B62230E7",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "BNSF",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "BNSF 2020 - Expressing",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "BNSF train #2020, scheduled to arrive Chicago Union Station at 3:30 PM, will express from Brookfield to Chicago Union Station due to high ridership. Train #2024 will accommodate customers at intermediate stops.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
     "id": "DevAPI-E10D53D0-5063-4E0B-A2F6-1B0EF6674539",
     "is_deleted": false,
     "trip_update": null,
@@ -81,6 +37,57 @@
         "translation": [
           {
             "text": "The Rosemont elevator is out of service. Customers can use Schiller Park or O\u0027Hare Transfer as alternate boarding stations.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-EA2687B9-3A50-42AE-82A4-CD25BD7B53C7",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "BNSF",
+          "route_type": null,
+          "trip": {
+            "trip_id": "BNSF_BN2026_V1_F",
+            "route_id": "BNSF",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "BNSF 2026 - Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "BNSF train #2026 scheduled to arrive Chicago Union Station at 5:30 PM, may be operating 15 to 20 minutes behind schedule, due to high ridership. Visit metratracker.com for the location of your train.",
             "language": "en"
           }
         ]
