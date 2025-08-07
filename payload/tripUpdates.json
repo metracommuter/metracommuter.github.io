@@ -20,29 +20,13 @@
         {
           "stop_sequence": 34,
           "stop_id": "JOLIET",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-07T07:41:15.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-07T07:41:15.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
+          "arrival": null,
+          "departure": null,
+          "schedule_relationship": 2
         }
       ],
       "timestamp": {
-        "low": "2025-08-07T07:39:41.000Z",
+        "low": "2025-08-07T07:44:46.000Z",
         "high": 0,
         "unsigned": true
       },
@@ -76,7 +60,81 @@
           "stop_id": null,
           "current_status": 2,
           "timestamp": {
-            "low": "2025-08-07T07:39:25.000Z",
+            "low": "2025-08-07T07:44:45.000Z",
+            "high": 0,
+            "unsigned": true
+          },
+          "congestion_level": null,
+          "occupancy_status": null
+        },
+        "alert": null
+      }
+    },
+    "vehicle": null,
+    "alert": null
+  },
+  {
+    "id": "2",
+    "is_deleted": false,
+    "trip_update": {
+      "trip": {
+        "trip_id": "UP-N_UN377_V1_C",
+        "route_id": "UP-N",
+        "direction_id": null,
+        "start_time": "Invalid date",
+        "start_date": "20250806",
+        "schedule_relationship": 0
+      },
+      "vehicle": {
+        "id": "8515",
+        "label": "377",
+        "license_plate": null
+      },
+      "stop_time_update": [
+        {
+          "stop_sequence": 27,
+          "stop_id": "WAUKEGAN",
+          "arrival": null,
+          "departure": null,
+          "schedule_relationship": 2
+        }
+      ],
+      "timestamp": {
+        "low": "2025-08-07T07:44:54.000Z",
+        "high": 0,
+        "unsigned": true
+      },
+      "delay": null,
+      "position": {
+        "id": "130",
+        "is_deleted": false,
+        "trip_update": null,
+        "vehicle": {
+          "trip": {
+            "trip_id": "UP-N_UN377_V1_C",
+            "route_id": "UP-N",
+            "direction_id": null,
+            "start_time": "24:32:00",
+            "start_date": "20250806",
+            "schedule_relationship": 0
+          },
+          "vehicle": {
+            "id": "8515",
+            "label": "377",
+            "license_plate": null
+          },
+          "position": {
+            "latitude": 42.35920333862305,
+            "longitude": -87.82799530029297,
+            "bearing": 4,
+            "odometer": null,
+            "speed": null
+          },
+          "current_stop_sequence": null,
+          "stop_id": null,
+          "current_status": 2,
+          "timestamp": {
+            "low": "2025-08-07T07:44:38.000Z",
             "high": 0,
             "unsigned": true
           },
