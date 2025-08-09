@@ -12,11 +12,32 @@
         "schedule_relationship": 0
       },
       "vehicle": {
-        "id": null,
+        "id": "8402",
         "label": "711",
         "license_plate": null
       },
       "stop_time_update": [
+        {
+          "stop_sequence": 2,
+          "stop_id": "CLYBOURN",
+          "arrival": null,
+          "departure": null,
+          "schedule_relationship": 2
+        },
+        {
+          "stop_sequence": 3,
+          "stop_id": "IRVINGPK",
+          "arrival": null,
+          "departure": null,
+          "schedule_relationship": 2
+        },
+        {
+          "stop_sequence": 6,
+          "stop_id": "JEFFERSONP",
+          "arrival": null,
+          "departure": null,
+          "schedule_relationship": 2
+        },
         {
           "stop_sequence": 8,
           "stop_id": "NORWOODP",
@@ -124,11 +145,49 @@
         }
       ],
       "timestamp": {
-        "low": "2025-08-09T18:49:32.000Z",
+        "low": "2025-08-09T18:54:31.000Z",
         "high": 0,
         "unsigned": true
       },
-      "delay": null
+      "delay": null,
+      "position": {
+        "id": "129",
+        "is_deleted": false,
+        "trip_update": null,
+        "vehicle": {
+          "trip": {
+            "trip_id": "UP-NW_UNW711_V4_B",
+            "route_id": "UP-NW",
+            "direction_id": null,
+            "start_time": "13:30:00",
+            "start_date": "20250809",
+            "schedule_relationship": 0
+          },
+          "vehicle": {
+            "id": "8402",
+            "label": "711",
+            "license_plate": null
+          },
+          "position": {
+            "latitude": 41.88752746582031,
+            "longitude": -87.64083099365234,
+            "bearing": 357,
+            "odometer": null,
+            "speed": null
+          },
+          "current_stop_sequence": null,
+          "stop_id": null,
+          "current_status": 2,
+          "timestamp": {
+            "low": "2025-08-09T18:54:16.000Z",
+            "high": 0,
+            "unsigned": true
+          },
+          "congestion_level": null,
+          "occupancy_status": null
+        },
+        "alert": null
+      }
     },
     "vehicle": null,
     "alert": null
@@ -286,7 +345,7 @@
         }
       ],
       "timestamp": {
-        "low": "2025-08-09T18:49:32.000Z",
+        "low": "2025-08-09T18:54:32.000Z",
         "high": 0,
         "unsigned": true
       },
@@ -314,35 +373,12 @@
       },
       "stop_time_update": [
         {
-          "stop_sequence": 7,
-          "stop_id": "BERWYN",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:54:27.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:54:27.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
           "stop_sequence": 8,
           "stop_id": "HARLEM",
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:56:27.000Z",
+              "low": "2025-08-09T18:56:28.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -351,7 +387,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:56:27.000Z",
+              "low": "2025-08-09T18:56:28.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -365,7 +401,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:58:27.000Z",
+              "low": "2025-08-09T18:58:28.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -374,7 +410,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:58:27.000Z",
+              "low": "2025-08-09T18:58:28.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -388,7 +424,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:00:27.000Z",
+              "low": "2025-08-09T19:00:28.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -397,7 +433,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:00:27.000Z",
+              "low": "2025-08-09T19:00:28.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -411,7 +447,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:01:27.000Z",
+              "low": "2025-08-09T19:01:28.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -420,7 +456,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:01:27.000Z",
+              "low": "2025-08-09T19:01:28.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -434,7 +470,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:05:27.000Z",
+              "low": "2025-08-09T19:05:28.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -443,7 +479,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:05:27.000Z",
+              "low": "2025-08-09T19:05:28.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -457,7 +493,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:09:27.000Z",
+              "low": "2025-08-09T19:09:28.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -466,7 +502,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:09:27.000Z",
+              "low": "2025-08-09T19:09:28.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -480,7 +516,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:12:27.000Z",
+              "low": "2025-08-09T19:12:28.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -489,7 +525,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:12:27.000Z",
+              "low": "2025-08-09T19:12:28.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -503,7 +539,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:16:27.000Z",
+              "low": "2025-08-09T19:16:28.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -512,7 +548,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:16:27.000Z",
+              "low": "2025-08-09T19:16:28.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -526,7 +562,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:19:27.000Z",
+              "low": "2025-08-09T19:19:28.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -535,7 +571,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:19:27.000Z",
+              "low": "2025-08-09T19:19:28.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -549,7 +585,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:22:27.000Z",
+              "low": "2025-08-09T19:22:28.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -558,7 +594,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:22:27.000Z",
+              "low": "2025-08-09T19:22:28.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -572,7 +608,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:24:27.000Z",
+              "low": "2025-08-09T19:24:28.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -581,7 +617,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:24:27.000Z",
+              "low": "2025-08-09T19:24:28.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -595,7 +631,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:27:27.000Z",
+              "low": "2025-08-09T19:27:28.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -604,7 +640,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:27:27.000Z",
+              "low": "2025-08-09T19:27:28.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -618,7 +654,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:30:27.000Z",
+              "low": "2025-08-09T19:30:28.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -627,7 +663,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:30:27.000Z",
+              "low": "2025-08-09T19:30:28.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -641,7 +677,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:36:27.000Z",
+              "low": "2025-08-09T19:36:28.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -650,7 +686,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:36:27.000Z",
+              "low": "2025-08-09T19:36:28.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -664,7 +700,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:40:27.000Z",
+              "low": "2025-08-09T19:40:28.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -673,7 +709,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:40:27.000Z",
+              "low": "2025-08-09T19:40:28.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -687,7 +723,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T20:07:27.000Z",
+              "low": "2025-08-09T20:07:28.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -696,7 +732,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T20:07:27.000Z",
+              "low": "2025-08-09T20:07:28.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -706,7 +742,7 @@
         }
       ],
       "timestamp": {
-        "low": "2025-08-09T18:49:27.000Z",
+        "low": "2025-08-09T18:54:28.000Z",
         "high": 0,
         "unsigned": true
       },
@@ -730,8 +766,8 @@
             "license_plate": null
           },
           "position": {
-            "latitude": 41.844337463378906,
-            "longitude": -87.7447280883789,
+            "latitude": 41.83344268798828,
+            "longitude": -87.79298400878906,
             "bearing": 253,
             "odometer": null,
             "speed": null
@@ -740,7 +776,7 @@
           "stop_id": null,
           "current_status": 2,
           "timestamp": {
-            "low": "2025-08-09T18:49:27.000Z",
+            "low": "2025-08-09T18:54:27.000Z",
             "high": 0,
             "unsigned": true
           },
@@ -772,35 +808,12 @@
       },
       "stop_time_update": [
         {
-          "stop_sequence": 22,
-          "stop_id": "KENSINGTN",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:53:54.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:53:54.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
           "stop_sequence": 25,
           "stop_id": "RIVERDALE",
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:58:54.000Z",
+              "low": "2025-08-09T18:59:16.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -809,7 +822,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:58:54.000Z",
+              "low": "2025-08-09T18:59:16.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -823,7 +836,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:00:54.000Z",
+              "low": "2025-08-09T19:01:16.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -832,7 +845,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:00:54.000Z",
+              "low": "2025-08-09T19:01:16.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -846,7 +859,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:02:54.000Z",
+              "low": "2025-08-09T19:03:16.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -855,7 +868,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:02:54.000Z",
+              "low": "2025-08-09T19:03:16.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -869,7 +882,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:04:54.000Z",
+              "low": "2025-08-09T19:05:16.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -878,7 +891,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:04:54.000Z",
+              "low": "2025-08-09T19:05:16.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -892,7 +905,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:07:54.000Z",
+              "low": "2025-08-09T19:08:16.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -901,7 +914,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:07:54.000Z",
+              "low": "2025-08-09T19:08:16.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -915,7 +928,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:09:54.000Z",
+              "low": "2025-08-09T19:10:16.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -924,7 +937,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:09:54.000Z",
+              "low": "2025-08-09T19:10:16.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -938,7 +951,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:11:54.000Z",
+              "low": "2025-08-09T19:12:16.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -947,7 +960,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:11:54.000Z",
+              "low": "2025-08-09T19:12:16.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -961,7 +974,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:13:54.000Z",
+              "low": "2025-08-09T19:14:16.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -970,7 +983,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:13:54.000Z",
+              "low": "2025-08-09T19:14:16.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -984,7 +997,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:16:54.000Z",
+              "low": "2025-08-09T19:17:16.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -993,7 +1006,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:16:54.000Z",
+              "low": "2025-08-09T19:17:16.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1007,7 +1020,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:18:54.000Z",
+              "low": "2025-08-09T19:19:16.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1016,7 +1029,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:18:54.000Z",
+              "low": "2025-08-09T19:19:16.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1030,7 +1043,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:20:54.000Z",
+              "low": "2025-08-09T19:21:16.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1039,7 +1052,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:20:54.000Z",
+              "low": "2025-08-09T19:21:16.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1053,7 +1066,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:24:54.000Z",
+              "low": "2025-08-09T19:25:16.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1062,7 +1075,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:24:54.000Z",
+              "low": "2025-08-09T19:25:16.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1076,7 +1089,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:59:54.000Z",
+              "low": "2025-08-09T20:00:16.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1085,7 +1098,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:59:54.000Z",
+              "low": "2025-08-09T20:00:16.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1095,7 +1108,7 @@
         }
       ],
       "timestamp": {
-        "low": "2025-08-09T18:49:28.000Z",
+        "low": "2025-08-09T18:54:16.000Z",
         "high": 0,
         "unsigned": true
       },
@@ -1119,9 +1132,9 @@
             "license_plate": null
           },
           "position": {
-            "latitude": 41.72734832763672,
-            "longitude": -87.60247039794922,
-            "bearing": 184,
+            "latitude": 41.68608093261719,
+            "longitude": -87.61212921142578,
+            "bearing": 192,
             "odometer": null,
             "speed": null
           },
@@ -1129,7 +1142,7 @@
           "stop_id": null,
           "current_status": 2,
           "timestamp": {
-            "low": "2025-08-09T18:49:27.000Z",
+            "low": "2025-08-09T18:54:16.000Z",
             "high": 0,
             "unsigned": true
           },
@@ -1161,35 +1174,12 @@
       },
       "stop_time_update": [
         {
-          "stop_sequence": 20,
-          "stop_id": "PALATINE",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:52:49.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:52:49.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
           "stop_sequence": 21,
           "stop_id": "BARRINGTON",
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:00:49.000Z",
+              "low": "2025-08-09T19:01:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1198,7 +1188,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:00:49.000Z",
+              "low": "2025-08-09T19:01:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1212,7 +1202,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:08:49.000Z",
+              "low": "2025-08-09T19:09:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1221,7 +1211,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:08:49.000Z",
+              "low": "2025-08-09T19:09:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1235,7 +1225,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:11:49.000Z",
+              "low": "2025-08-09T19:12:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1244,7 +1234,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:11:49.000Z",
+              "low": "2025-08-09T19:12:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1258,7 +1248,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:16:49.000Z",
+              "low": "2025-08-09T19:17:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1267,7 +1257,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:16:49.000Z",
+              "low": "2025-08-09T19:17:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1281,7 +1271,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:19:49.000Z",
+              "low": "2025-08-09T19:20:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1290,7 +1280,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:19:49.000Z",
+              "low": "2025-08-09T19:20:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1304,7 +1294,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:29:49.000Z",
+              "low": "2025-08-09T19:30:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1313,7 +1303,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:29:49.000Z",
+              "low": "2025-08-09T19:30:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1327,7 +1317,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T20:08:49.000Z",
+              "low": "2025-08-09T20:09:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1336,7 +1326,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T20:08:49.000Z",
+              "low": "2025-08-09T20:09:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1346,7 +1336,7 @@
         }
       ],
       "timestamp": {
-        "low": "2025-08-09T18:49:25.000Z",
+        "low": "2025-08-09T18:54:24.000Z",
         "high": 0,
         "unsigned": true
       },
@@ -1370,8 +1360,8 @@
             "license_plate": null
           },
           "position": {
-            "latitude": 42.09782409667969,
-            "longitude": -88.0143051147461,
+            "latitude": 42.11773681640625,
+            "longitude": -88.05911254882812,
             "bearing": 301,
             "odometer": null,
             "speed": null
@@ -1380,7 +1370,7 @@
           "stop_id": null,
           "current_status": 2,
           "timestamp": {
-            "low": "2025-08-09T18:49:25.000Z",
+            "low": "2025-08-09T18:54:24.000Z",
             "high": 0,
             "unsigned": true
           },
@@ -1571,10 +1561,79 @@
             "uncertainty": 0
           },
           "schedule_relationship": 0
+        },
+        {
+          "stop_sequence": 33,
+          "stop_id": "KENSINGTN",
+          "arrival": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T20:22:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "departure": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T20:22:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "schedule_relationship": 0
+        },
+        {
+          "stop_sequence": 34,
+          "stop_id": "111TH-UP",
+          "arrival": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T20:23:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "departure": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T20:23:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "schedule_relationship": 0
+        },
+        {
+          "stop_sequence": 35,
+          "stop_id": "107TH-UP",
+          "arrival": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T20:24:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "departure": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T20:24:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "schedule_relationship": 0
         }
       ],
       "timestamp": {
-        "low": "2025-08-09T18:49:31.000Z",
+        "low": "2025-08-09T18:54:31.000Z",
         "high": 0,
         "unsigned": true
       },
@@ -1607,7 +1666,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:01:27.000Z",
+              "low": "2025-08-09T18:59:57.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1616,7 +1675,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:01:27.000Z",
+              "low": "2025-08-09T18:59:57.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1630,7 +1689,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:04:27.000Z",
+              "low": "2025-08-09T19:02:57.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1639,7 +1698,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:04:27.000Z",
+              "low": "2025-08-09T19:02:57.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1653,7 +1712,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:09:27.000Z",
+              "low": "2025-08-09T19:07:57.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1662,7 +1721,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:09:27.000Z",
+              "low": "2025-08-09T19:07:57.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1676,7 +1735,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:12:27.000Z",
+              "low": "2025-08-09T19:10:57.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1685,7 +1744,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:12:27.000Z",
+              "low": "2025-08-09T19:10:57.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1699,7 +1758,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:19:27.000Z",
+              "low": "2025-08-09T19:17:57.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1708,7 +1767,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:19:27.000Z",
+              "low": "2025-08-09T19:17:57.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1722,7 +1781,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:26:27.000Z",
+              "low": "2025-08-09T19:24:57.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1731,7 +1790,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:26:27.000Z",
+              "low": "2025-08-09T19:24:57.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1745,7 +1804,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:30:27.000Z",
+              "low": "2025-08-09T19:28:57.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1754,7 +1813,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:30:27.000Z",
+              "low": "2025-08-09T19:28:57.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1768,7 +1827,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:33:27.000Z",
+              "low": "2025-08-09T19:31:57.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1777,7 +1836,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:33:27.000Z",
+              "low": "2025-08-09T19:31:57.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1791,7 +1850,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:38:27.000Z",
+              "low": "2025-08-09T19:36:57.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1800,7 +1859,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:38:27.000Z",
+              "low": "2025-08-09T19:36:57.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1814,7 +1873,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:41:27.000Z",
+              "low": "2025-08-09T19:39:57.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1823,7 +1882,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:41:27.000Z",
+              "low": "2025-08-09T19:39:57.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1837,7 +1896,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:45:27.000Z",
+              "low": "2025-08-09T19:43:57.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1846,7 +1905,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:45:27.000Z",
+              "low": "2025-08-09T19:43:57.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1860,7 +1919,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:49:27.000Z",
+              "low": "2025-08-09T19:47:57.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1869,7 +1928,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:49:27.000Z",
+              "low": "2025-08-09T19:47:57.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1883,7 +1942,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:52:27.000Z",
+              "low": "2025-08-09T19:50:57.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1892,7 +1951,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:52:27.000Z",
+              "low": "2025-08-09T19:50:57.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1906,7 +1965,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:55:27.000Z",
+              "low": "2025-08-09T19:53:57.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1915,7 +1974,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:55:27.000Z",
+              "low": "2025-08-09T19:53:57.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1929,7 +1988,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:58:27.000Z",
+              "low": "2025-08-09T19:56:57.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1938,7 +1997,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:58:27.000Z",
+              "low": "2025-08-09T19:56:57.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1952,7 +2011,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T20:02:27.000Z",
+              "low": "2025-08-09T20:00:57.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1961,7 +2020,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T20:02:27.000Z",
+              "low": "2025-08-09T20:00:57.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1975,7 +2034,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T20:06:27.000Z",
+              "low": "2025-08-09T20:04:57.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1984,7 +2043,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T20:06:27.000Z",
+              "low": "2025-08-09T20:04:57.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -1998,7 +2057,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T20:13:27.000Z",
+              "low": "2025-08-09T20:11:57.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2007,7 +2066,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T20:13:27.000Z",
+              "low": "2025-08-09T20:11:57.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2021,7 +2080,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T20:44:27.000Z",
+              "low": "2025-08-09T20:42:57.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2030,7 +2089,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T20:44:27.000Z",
+              "low": "2025-08-09T20:42:57.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2040,7 +2099,7 @@
         }
       ],
       "timestamp": {
-        "low": "2025-08-09T18:49:27.000Z",
+        "low": "2025-08-09T18:54:27.000Z",
         "high": 0,
         "unsigned": true
       },
@@ -2064,9 +2123,9 @@
             "license_plate": null
           },
           "position": {
-            "latitude": 42.315574645996094,
-            "longitude": -88.4460220336914,
-            "bearing": 143,
+            "latitude": 42.276546478271484,
+            "longitude": -88.37828826904297,
+            "bearing": 125,
             "odometer": null,
             "speed": null
           },
@@ -2074,7 +2133,7 @@
           "stop_id": null,
           "current_status": 2,
           "timestamp": {
-            "low": "2025-08-09T18:49:26.000Z",
+            "low": "2025-08-09T18:54:26.000Z",
             "high": 0,
             "unsigned": true
           },
@@ -2089,96 +2148,6 @@
   },
   {
     "id": "8",
-    "is_deleted": false,
-    "trip_update": {
-      "trip": {
-        "trip_id": "UP-N_UN816_V10_B",
-        "route_id": "UP-N",
-        "direction_id": null,
-        "start_time": "12:10:00",
-        "start_date": "20250809",
-        "schedule_relationship": 0
-      },
-      "vehicle": {
-        "id": "8452",
-        "label": "816",
-        "license_plate": null
-      },
-      "stop_time_update": [
-        {
-          "stop_sequence": 30,
-          "stop_id": "OTC",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:51:06.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:51:06.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        }
-      ],
-      "timestamp": {
-        "low": "2025-08-09T18:49:24.000Z",
-        "high": 0,
-        "unsigned": true
-      },
-      "delay": null,
-      "position": {
-        "id": "79",
-        "is_deleted": false,
-        "trip_update": null,
-        "vehicle": {
-          "trip": {
-            "trip_id": "UP-N_UN816_V10_B",
-            "route_id": "UP-N",
-            "direction_id": null,
-            "start_time": "12:10:00",
-            "start_date": "20250809",
-            "schedule_relationship": 0
-          },
-          "vehicle": {
-            "id": "8452",
-            "label": "816",
-            "license_plate": null
-          },
-          "position": {
-            "latitude": 41.8888053894043,
-            "longitude": -87.64112854003906,
-            "bearing": 153,
-            "odometer": null,
-            "speed": null
-          },
-          "current_stop_sequence": null,
-          "stop_id": null,
-          "current_status": 2,
-          "timestamp": {
-            "low": "2025-08-09T18:49:24.000Z",
-            "high": 0,
-            "unsigned": true
-          },
-          "congestion_level": null,
-          "occupancy_status": null
-        },
-        "alert": null
-      }
-    },
-    "vehicle": null,
-    "alert": null
-  },
-  {
-    "id": "9",
     "is_deleted": false,
     "trip_update": {
       "trip": {
@@ -2201,7 +2170,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:54:39.000Z",
+              "low": "2025-08-09T18:54:40.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2210,7 +2179,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:54:39.000Z",
+              "low": "2025-08-09T18:54:40.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2224,7 +2193,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:27:39.000Z",
+              "low": "2025-08-09T19:27:40.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2233,7 +2202,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:27:39.000Z",
+              "low": "2025-08-09T19:27:40.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2243,7 +2212,7 @@
         }
       ],
       "timestamp": {
-        "low": "2025-08-09T18:49:28.000Z",
+        "low": "2025-08-09T18:54:27.000Z",
         "high": 0,
         "unsigned": true
       },
@@ -2267,9 +2236,9 @@
             "license_plate": null
           },
           "position": {
-            "latitude": 41.526676177978516,
-            "longitude": -87.89675903320312,
-            "bearing": 239,
+            "latitude": 41.51496505737305,
+            "longitude": -87.96218872070312,
+            "bearing": 259,
             "odometer": null,
             "speed": null
           },
@@ -2277,7 +2246,7 @@
           "stop_id": null,
           "current_status": 2,
           "timestamp": {
-            "low": "2025-08-09T18:49:28.000Z",
+            "low": "2025-08-09T18:54:27.000Z",
             "high": 0,
             "unsigned": true
           },
@@ -2291,7 +2260,7 @@
     "alert": null
   },
   {
-    "id": "10",
+    "id": "9",
     "is_deleted": false,
     "trip_update": {
       "trip": {
@@ -2540,7 +2509,7 @@
         }
       ],
       "timestamp": {
-        "low": "2025-08-09T18:49:28.000Z",
+        "low": "2025-08-09T18:54:27.000Z",
         "high": 0,
         "unsigned": true
       },
@@ -2550,7 +2519,7 @@
     "alert": null
   },
   {
-    "id": "11",
+    "id": "10",
     "is_deleted": false,
     "trip_update": {
       "trip": {
@@ -2568,58 +2537,12 @@
       },
       "stop_time_update": [
         {
-          "stop_sequence": 6,
-          "stop_id": "27TH-UP",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:50:23.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:50:23.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 7,
-          "stop_id": "47TH-UP",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:53:23.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:53:23.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
           "stop_sequence": 8,
           "stop_id": "51ST-53RD",
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:55:23.000Z",
+              "low": "2025-08-09T18:55:46.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2628,7 +2551,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:55:23.000Z",
+              "low": "2025-08-09T18:55:46.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2642,7 +2565,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:57:23.000Z",
+              "low": "2025-08-09T18:57:46.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2651,7 +2574,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:57:23.000Z",
+              "low": "2025-08-09T18:57:46.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2665,7 +2588,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:59:23.000Z",
+              "low": "2025-08-09T18:59:46.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2674,7 +2597,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:59:23.000Z",
+              "low": "2025-08-09T18:59:46.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2688,7 +2611,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:00:23.000Z",
+              "low": "2025-08-09T19:00:46.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2697,7 +2620,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:00:23.000Z",
+              "low": "2025-08-09T19:00:46.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2711,7 +2634,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:04:23.000Z",
+              "low": "2025-08-09T19:04:46.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2720,7 +2643,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:04:23.000Z",
+              "low": "2025-08-09T19:04:46.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2734,7 +2657,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:06:23.000Z",
+              "low": "2025-08-09T19:06:46.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2743,7 +2666,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:06:23.000Z",
+              "low": "2025-08-09T19:06:46.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2757,7 +2680,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:08:23.000Z",
+              "low": "2025-08-09T19:08:46.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2766,7 +2689,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:08:23.000Z",
+              "low": "2025-08-09T19:08:46.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2780,7 +2703,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:10:23.000Z",
+              "low": "2025-08-09T19:10:46.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2789,7 +2712,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:10:23.000Z",
+              "low": "2025-08-09T19:10:46.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2803,7 +2726,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:12:23.000Z",
+              "low": "2025-08-09T19:12:46.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2812,7 +2735,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:12:23.000Z",
+              "low": "2025-08-09T19:12:46.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2826,7 +2749,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:14:23.000Z",
+              "low": "2025-08-09T19:14:46.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2835,7 +2758,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:14:23.000Z",
+              "low": "2025-08-09T19:14:46.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2849,7 +2772,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:16:23.000Z",
+              "low": "2025-08-09T19:16:46.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2858,7 +2781,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:16:23.000Z",
+              "low": "2025-08-09T19:16:46.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2872,7 +2795,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:49:23.000Z",
+              "low": "2025-08-09T19:49:46.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2881,7 +2804,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:49:23.000Z",
+              "low": "2025-08-09T19:49:46.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -2891,7 +2814,7 @@
         }
       ],
       "timestamp": {
-        "low": "2025-08-09T18:49:23.000Z",
+        "low": "2025-08-09T18:54:29.000Z",
         "high": 0,
         "unsigned": true
       },
@@ -2915,9 +2838,9 @@
             "license_plate": null
           },
           "position": {
-            "latitude": 41.85087966918945,
-            "longitude": -87.61616516113281,
-            "bearing": 162,
+            "latitude": 41.80672836303711,
+            "longitude": -87.58924102783203,
+            "bearing": 150,
             "odometer": null,
             "speed": null
           },
@@ -2925,7 +2848,7 @@
           "stop_id": null,
           "current_status": 2,
           "timestamp": {
-            "low": "2025-08-09T18:49:22.000Z",
+            "low": "2025-08-09T18:54:29.000Z",
             "high": 0,
             "unsigned": true
           },
@@ -2939,7 +2862,7 @@
     "alert": null
   },
   {
-    "id": "12",
+    "id": "11",
     "is_deleted": false,
     "trip_update": {
       "trip": {
@@ -2957,58 +2880,12 @@
       },
       "stop_time_update": [
         {
-          "stop_sequence": 22,
-          "stop_id": "OLYMPIA",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:51:15.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:51:15.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 23,
-          "stop_id": "FLOSSMOOR",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:54:15.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:54:15.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
           "stop_sequence": 24,
           "stop_id": "HOMEWOOD",
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:56:15.000Z",
+              "low": "2025-08-09T18:56:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3017,7 +2894,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:56:15.000Z",
+              "low": "2025-08-09T18:56:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3031,7 +2908,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:58:15.000Z",
+              "low": "2025-08-09T18:58:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3040,7 +2917,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:58:15.000Z",
+              "low": "2025-08-09T18:58:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3054,7 +2931,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:00:15.000Z",
+              "low": "2025-08-09T19:00:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3063,7 +2940,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:00:15.000Z",
+              "low": "2025-08-09T19:00:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3077,7 +2954,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:03:15.000Z",
+              "low": "2025-08-09T19:03:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3086,7 +2963,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:03:15.000Z",
+              "low": "2025-08-09T19:03:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3100,7 +2977,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:05:15.000Z",
+              "low": "2025-08-09T19:05:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3109,7 +2986,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:05:15.000Z",
+              "low": "2025-08-09T19:05:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3123,7 +3000,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:07:15.000Z",
+              "low": "2025-08-09T19:07:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3132,7 +3009,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:07:15.000Z",
+              "low": "2025-08-09T19:07:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3146,7 +3023,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:09:15.000Z",
+              "low": "2025-08-09T19:09:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3155,7 +3032,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:09:15.000Z",
+              "low": "2025-08-09T19:09:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3169,7 +3046,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:14:15.000Z",
+              "low": "2025-08-09T19:14:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3178,7 +3055,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:14:15.000Z",
+              "low": "2025-08-09T19:14:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3192,7 +3069,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:15:15.000Z",
+              "low": "2025-08-09T19:15:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3201,7 +3078,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:15:15.000Z",
+              "low": "2025-08-09T19:15:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3215,7 +3092,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:16:15.000Z",
+              "low": "2025-08-09T19:16:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3224,7 +3101,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:16:15.000Z",
+              "low": "2025-08-09T19:16:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3238,7 +3115,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:17:15.000Z",
+              "low": "2025-08-09T19:17:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3247,7 +3124,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:17:15.000Z",
+              "low": "2025-08-09T19:17:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3261,7 +3138,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:21:15.000Z",
+              "low": "2025-08-09T19:21:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3270,7 +3147,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:21:15.000Z",
+              "low": "2025-08-09T19:21:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3284,7 +3161,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:23:15.000Z",
+              "low": "2025-08-09T19:23:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3293,7 +3170,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:23:15.000Z",
+              "low": "2025-08-09T19:23:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3307,7 +3184,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:24:15.000Z",
+              "low": "2025-08-09T19:24:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3316,7 +3193,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:24:15.000Z",
+              "low": "2025-08-09T19:24:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3330,7 +3207,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:26:15.000Z",
+              "low": "2025-08-09T19:26:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3339,7 +3216,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:26:15.000Z",
+              "low": "2025-08-09T19:26:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3353,7 +3230,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:29:15.000Z",
+              "low": "2025-08-09T19:29:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3362,7 +3239,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:29:15.000Z",
+              "low": "2025-08-09T19:29:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3376,7 +3253,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:30:15.000Z",
+              "low": "2025-08-09T19:30:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3385,7 +3262,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:30:15.000Z",
+              "low": "2025-08-09T19:30:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3399,7 +3276,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:32:15.000Z",
+              "low": "2025-08-09T19:32:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3408,7 +3285,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:32:15.000Z",
+              "low": "2025-08-09T19:32:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3422,7 +3299,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:34:15.000Z",
+              "low": "2025-08-09T19:34:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3431,7 +3308,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:34:15.000Z",
+              "low": "2025-08-09T19:34:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3445,7 +3322,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:35:15.000Z",
+              "low": "2025-08-09T19:35:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3454,7 +3331,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:35:15.000Z",
+              "low": "2025-08-09T19:35:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3468,7 +3345,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:38:15.000Z",
+              "low": "2025-08-09T19:38:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3477,7 +3354,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:38:15.000Z",
+              "low": "2025-08-09T19:38:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3491,7 +3368,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:39:15.000Z",
+              "low": "2025-08-09T19:39:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3500,7 +3377,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:39:15.000Z",
+              "low": "2025-08-09T19:39:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3514,7 +3391,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:40:15.000Z",
+              "low": "2025-08-09T19:40:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3523,7 +3400,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:40:15.000Z",
+              "low": "2025-08-09T19:40:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3537,7 +3414,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:43:15.000Z",
+              "low": "2025-08-09T19:43:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3546,7 +3423,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:43:15.000Z",
+              "low": "2025-08-09T19:43:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3560,7 +3437,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:45:15.000Z",
+              "low": "2025-08-09T19:45:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3569,7 +3446,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:45:15.000Z",
+              "low": "2025-08-09T19:45:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3583,7 +3460,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T20:21:15.000Z",
+              "low": "2025-08-09T20:21:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3592,7 +3469,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T20:21:15.000Z",
+              "low": "2025-08-09T20:21:30.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3602,7 +3479,7 @@
         }
       ],
       "timestamp": {
-        "low": "2025-08-09T18:49:31.000Z",
+        "low": "2025-08-09T18:54:30.000Z",
         "high": 0,
         "unsigned": true
       },
@@ -3626,8 +3503,8 @@
             "license_plate": null
           },
           "position": {
-            "latitude": 41.5081901550293,
-            "longitude": -87.6971435546875,
+            "latitude": 41.54518508911133,
+            "longitude": -87.67748260498047,
             "bearing": 21,
             "odometer": null,
             "speed": null
@@ -3636,7 +3513,7 @@
           "stop_id": null,
           "current_status": 2,
           "timestamp": {
-            "low": "2025-08-09T18:49:25.000Z",
+            "low": "2025-08-09T18:54:29.000Z",
             "high": 0,
             "unsigned": true
           },
@@ -3650,7 +3527,7 @@
     "alert": null
   },
   {
-    "id": "13",
+    "id": "12",
     "is_deleted": false,
     "trip_update": {
       "trip": {
@@ -3668,58 +3545,12 @@
       },
       "stop_time_update": [
         {
-          "stop_sequence": 48,
-          "stop_id": "47TH-UP",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:49:45.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:49:45.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 49,
-          "stop_id": "27TH-UP",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:52:45.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:52:45.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
           "stop_sequence": 50,
           "stop_id": "MCCORMICK",
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:53:45.000Z",
+              "low": "2025-08-09T18:54:53.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3728,7 +3559,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:53:45.000Z",
+              "low": "2025-08-09T18:54:53.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3742,7 +3573,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:54:45.000Z",
+              "low": "2025-08-09T18:55:53.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3751,7 +3582,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:54:45.000Z",
+              "low": "2025-08-09T18:55:53.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3765,7 +3596,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:57:45.000Z",
+              "low": "2025-08-09T18:58:53.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3774,7 +3605,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:57:45.000Z",
+              "low": "2025-08-09T18:58:53.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3788,7 +3619,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:59:45.000Z",
+              "low": "2025-08-09T19:00:53.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3797,7 +3628,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:59:45.000Z",
+              "low": "2025-08-09T19:00:53.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3811,7 +3642,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:32:45.000Z",
+              "low": "2025-08-09T19:33:53.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3820,7 +3651,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:32:45.000Z",
+              "low": "2025-08-09T19:33:53.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3830,7 +3661,7 @@
         }
       ],
       "timestamp": {
-        "low": "2025-08-09T18:49:28.000Z",
+        "low": "2025-08-09T18:54:30.000Z",
         "high": 0,
         "unsigned": true
       },
@@ -3854,9 +3685,9 @@
             "license_plate": null
           },
           "position": {
-            "latitude": 41.807525634765625,
-            "longitude": -87.58963775634766,
-            "bearing": 330,
+            "latitude": 41.84879684448242,
+            "longitude": -87.61528778076172,
+            "bearing": 347,
             "odometer": null,
             "speed": null
           },
@@ -3864,7 +3695,7 @@
           "stop_id": null,
           "current_status": 2,
           "timestamp": {
-            "low": "2025-08-09T18:49:28.000Z",
+            "low": "2025-08-09T18:54:29.000Z",
             "high": 0,
             "unsigned": true
           },
@@ -3878,7 +3709,7 @@
     "alert": null
   },
   {
-    "id": "14",
+    "id": "13",
     "is_deleted": false,
     "trip_update": {
       "trip": {
@@ -3896,35 +3727,12 @@
       },
       "stop_time_update": [
         {
-          "stop_sequence": 16,
-          "stop_id": "NGLENVIEW",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:53:19.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:53:19.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
           "stop_sequence": 17,
           "stop_id": "GLENVIEW",
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:56:19.000Z",
+              "low": "2025-08-09T18:56:49.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3933,7 +3741,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:56:19.000Z",
+              "low": "2025-08-09T18:56:49.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3947,7 +3755,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:59:19.000Z",
+              "low": "2025-08-09T18:59:49.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3956,7 +3764,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:59:19.000Z",
+              "low": "2025-08-09T18:59:49.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3970,7 +3778,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:02:19.000Z",
+              "low": "2025-08-09T19:02:49.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3979,7 +3787,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:02:19.000Z",
+              "low": "2025-08-09T19:02:49.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -3993,7 +3801,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:07:19.000Z",
+              "low": "2025-08-09T19:07:49.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -4002,7 +3810,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:07:19.000Z",
+              "low": "2025-08-09T19:07:49.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -4016,7 +3824,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:10:19.000Z",
+              "low": "2025-08-09T19:10:49.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -4025,7 +3833,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:10:19.000Z",
+              "low": "2025-08-09T19:10:49.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -4039,7 +3847,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:13:19.000Z",
+              "low": "2025-08-09T19:13:49.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -4048,7 +3856,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:13:19.000Z",
+              "low": "2025-08-09T19:13:49.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -4062,7 +3870,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:15:19.000Z",
+              "low": "2025-08-09T19:15:49.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -4071,7 +3879,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:15:19.000Z",
+              "low": "2025-08-09T19:15:49.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -4085,7 +3893,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:18:19.000Z",
+              "low": "2025-08-09T19:18:49.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -4094,7 +3902,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:18:19.000Z",
+              "low": "2025-08-09T19:18:49.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -4108,7 +3916,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:24:19.000Z",
+              "low": "2025-08-09T19:24:49.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -4117,7 +3925,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:24:19.000Z",
+              "low": "2025-08-09T19:24:49.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -4131,7 +3939,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T20:08:19.000Z",
+              "low": "2025-08-09T20:08:49.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -4140,7 +3948,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T20:08:19.000Z",
+              "low": "2025-08-09T20:08:49.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -4150,7 +3958,7 @@
         }
       ],
       "timestamp": {
-        "low": "2025-08-09T18:49:19.000Z",
+        "low": "2025-08-09T18:54:28.000Z",
         "high": 0,
         "unsigned": true
       },
@@ -4174,8 +3982,8 @@
             "license_plate": null
           },
           "position": {
-            "latitude": 42.1262092590332,
-            "longitude": -87.82750701904297,
+            "latitude": 42.091854095458984,
+            "longitude": -87.81341552734375,
             "bearing": 163,
             "odometer": null,
             "speed": null
@@ -4184,7 +3992,7 @@
           "stop_id": null,
           "current_status": 2,
           "timestamp": {
-            "low": "2025-08-09T18:49:18.000Z",
+            "low": "2025-08-09T18:54:28.000Z",
             "high": 0,
             "unsigned": true
           },
@@ -4198,7 +4006,7 @@
     "alert": null
   },
   {
-    "id": "15",
+    "id": "14",
     "is_deleted": false,
     "trip_update": {
       "trip": {
@@ -4216,35 +4024,12 @@
       },
       "stop_time_update": [
         {
-          "stop_sequence": 23,
-          "stop_id": "PRAIRIEXNG",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:55:32.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:55:32.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
           "stop_sequence": 27,
           "stop_id": "GRAYSLAKE",
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:59:32.000Z",
+              "low": "2025-08-09T18:58:27.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -4253,7 +4038,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:59:32.000Z",
+              "low": "2025-08-09T18:58:27.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -4267,7 +4052,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:03:32.000Z",
+              "low": "2025-08-09T19:02:27.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -4276,7 +4061,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:03:32.000Z",
+              "low": "2025-08-09T19:02:27.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -4290,7 +4075,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:06:32.000Z",
+              "low": "2025-08-09T19:05:27.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -4299,7 +4084,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:06:32.000Z",
+              "low": "2025-08-09T19:05:27.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -4313,7 +4098,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:09:32.000Z",
+              "low": "2025-08-09T19:08:27.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -4322,7 +4107,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:09:32.000Z",
+              "low": "2025-08-09T19:08:27.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -4336,7 +4121,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:49:32.000Z",
+              "low": "2025-08-09T19:48:27.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -4345,7 +4130,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:49:32.000Z",
+              "low": "2025-08-09T19:48:27.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -4355,7 +4140,7 @@
         }
       ],
       "timestamp": {
-        "low": "2025-08-09T18:49:32.000Z",
+        "low": "2025-08-09T18:54:27.000Z",
         "high": 0,
         "unsigned": true
       },
@@ -4379,9 +4164,9 @@
             "license_plate": null
           },
           "position": {
-            "latitude": 42.29163360595703,
-            "longitude": -87.957763671875,
-            "bearing": 299,
+            "latitude": 42.320587158203125,
+            "longitude": -88.01457214355469,
+            "bearing": 308,
             "odometer": null,
             "speed": null
           },
@@ -4389,7 +4174,7 @@
           "stop_id": null,
           "current_status": 2,
           "timestamp": {
-            "low": "2025-08-09T18:49:21.000Z",
+            "low": "2025-08-09T18:54:26.000Z",
             "high": 0,
             "unsigned": true
           },
@@ -4403,197 +4188,7 @@
     "alert": null
   },
   {
-    "id": "16",
-    "is_deleted": false,
-    "trip_update": {
-      "trip": {
-        "trip_id": "UP-W_UW507_V8_B",
-        "route_id": "UP-W",
-        "direction_id": null,
-        "start_time": "14:40:00",
-        "start_date": "20250809",
-        "schedule_relationship": 0
-      },
-      "vehicle": {
-        "id": "8411",
-        "label": null,
-        "license_plate": null
-      },
-      "stop_time_update": [
-        {
-          "stop_sequence": 1,
-          "stop_id": "OTC",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T19:40:00.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T19:40:00.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 6,
-          "stop_id": "OAKPARK",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T19:56:00.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T19:56:00.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 7,
-          "stop_id": "RIVRFOREST",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T19:58:00.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T19:58:00.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 10,
-          "stop_id": "MELROSEPK",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T20:02:00.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T20:02:00.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 12,
-          "stop_id": "BELLWOOD",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T20:05:00.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T20:05:00.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 13,
-          "stop_id": "BERKELEY",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T20:08:00.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T20:08:00.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 15,
-          "stop_id": "ELMHURST",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T20:12:00.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T20:12:00.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        }
-      ],
-      "timestamp": {
-        "low": "2025-08-09T18:42:22.000Z",
-        "high": 0,
-        "unsigned": true
-      },
-      "delay": null
-    },
-    "vehicle": null,
-    "alert": null
-  },
-  {
-    "id": "17",
+    "id": "15",
     "is_deleted": false,
     "trip_update": {
       "trip": {
@@ -4862,10 +4457,79 @@
             "uncertainty": 0
           },
           "schedule_relationship": 0
+        },
+        {
+          "stop_sequence": 13,
+          "stop_id": "75TH-UP",
+          "arrival": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T20:21:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "departure": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T20:21:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "schedule_relationship": 0
+        },
+        {
+          "stop_sequence": 14,
+          "stop_id": "79TH-UP",
+          "arrival": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T20:23:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "departure": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T20:23:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "schedule_relationship": 0
+        },
+        {
+          "stop_sequence": 15,
+          "stop_id": "83RD-UP",
+          "arrival": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T20:24:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "departure": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T20:24:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "schedule_relationship": 0
         }
       ],
       "timestamp": {
-        "low": "2025-08-09T18:49:28.000Z",
+        "low": "2025-08-09T18:54:30.000Z",
         "high": 0,
         "unsigned": true
       },
@@ -4875,7 +4539,7 @@
     "alert": null
   },
   {
-    "id": "18",
+    "id": "16",
     "is_deleted": false,
     "trip_update": {
       "trip": {
@@ -5048,7 +4712,7 @@
         }
       ],
       "timestamp": {
-        "low": "2025-08-09T18:49:32.000Z",
+        "low": "2025-08-09T18:54:27.000Z",
         "high": 0,
         "unsigned": true
       },
@@ -5058,7 +4722,7 @@
     "alert": null
   },
   {
-    "id": "19",
+    "id": "17",
     "is_deleted": false,
     "trip_update": {
       "trip": {
@@ -5076,35 +4740,12 @@
       },
       "stop_time_update": [
         {
-          "stop_sequence": 21,
-          "stop_id": "DESPLAINES",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:53:23.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:53:23.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
           "stop_sequence": 22,
           "stop_id": "DEEROAD",
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:57:23.000Z",
+              "low": "2025-08-09T18:58:21.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -5113,7 +4754,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:57:23.000Z",
+              "low": "2025-08-09T18:58:21.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -5127,7 +4768,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:00:23.000Z",
+              "low": "2025-08-09T19:01:21.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -5136,7 +4777,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:00:23.000Z",
+              "low": "2025-08-09T19:01:21.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -5150,7 +4791,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:03:23.000Z",
+              "low": "2025-08-09T19:04:21.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -5159,7 +4800,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:03:23.000Z",
+              "low": "2025-08-09T19:04:21.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -5173,7 +4814,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:06:23.000Z",
+              "low": "2025-08-09T19:07:21.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -5182,7 +4823,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:06:23.000Z",
+              "low": "2025-08-09T19:07:21.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -5196,7 +4837,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:10:23.000Z",
+              "low": "2025-08-09T19:11:21.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -5205,7 +4846,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:10:23.000Z",
+              "low": "2025-08-09T19:11:21.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -5219,7 +4860,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:14:23.000Z",
+              "low": "2025-08-09T19:15:21.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -5228,7 +4869,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:14:23.000Z",
+              "low": "2025-08-09T19:15:21.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -5242,7 +4883,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:21:23.000Z",
+              "low": "2025-08-09T19:22:21.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -5251,7 +4892,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:21:23.000Z",
+              "low": "2025-08-09T19:22:21.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -5265,7 +4906,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:52:23.000Z",
+              "low": "2025-08-09T19:53:21.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -5274,7 +4915,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:52:23.000Z",
+              "low": "2025-08-09T19:53:21.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -5284,7 +4925,7 @@
         }
       ],
       "timestamp": {
-        "low": "2025-08-09T18:49:23.000Z",
+        "low": "2025-08-09T18:54:21.000Z",
         "high": 0,
         "unsigned": true
       },
@@ -5308,9 +4949,9 @@
             "license_plate": null
           },
           "position": {
-            "latitude": 42.05219650268555,
-            "longitude": -87.91204071044922,
-            "bearing": 121,
+            "latitude": 42.04079818725586,
+            "longitude": -87.88648223876953,
+            "bearing": 120,
             "odometer": null,
             "speed": null
           },
@@ -5318,7 +4959,7 @@
           "stop_id": null,
           "current_status": 2,
           "timestamp": {
-            "low": "2025-08-09T18:49:22.000Z",
+            "low": "2025-08-09T18:54:21.000Z",
             "high": 0,
             "unsigned": true
           },
@@ -5332,7 +4973,7 @@
     "alert": null
   },
   {
-    "id": "20",
+    "id": "18",
     "is_deleted": false,
     "trip_update": {
       "trip": {
@@ -5647,10 +5288,33 @@
             "uncertainty": 0
           },
           "schedule_relationship": 0
+        },
+        {
+          "stop_sequence": 20,
+          "stop_id": "MAYWOOD",
+          "arrival": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T20:23:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "departure": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T20:23:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "schedule_relationship": 0
         }
       ],
       "timestamp": {
-        "low": "2025-08-09T18:49:30.000Z",
+        "low": "2025-08-09T18:54:21.000Z",
         "high": 0,
         "unsigned": true
       },
@@ -5660,7 +5324,7 @@
     "alert": null
   },
   {
-    "id": "21",
+    "id": "19",
     "is_deleted": false,
     "trip_update": {
       "trip": {
@@ -5768,10 +5432,33 @@
             "uncertainty": 0
           },
           "schedule_relationship": 0
+        },
+        {
+          "stop_sequence": 6,
+          "stop_id": "BELMONT",
+          "arrival": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T20:22:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "departure": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T20:22:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "schedule_relationship": 0
         }
       ],
       "timestamp": {
-        "low": "2025-08-09T18:49:28.000Z",
+        "low": "2025-08-09T18:54:26.000Z",
         "high": 0,
         "unsigned": true
       },
@@ -5781,7 +5468,7 @@
     "alert": null
   },
   {
-    "id": "22",
+    "id": "20",
     "is_deleted": false,
     "trip_update": {
       "trip": {
@@ -5833,7 +5520,7 @@
     "alert": null
   },
   {
-    "id": "23",
+    "id": "21",
     "is_deleted": false,
     "trip_update": {
       "trip": {
@@ -5851,35 +5538,12 @@
       },
       "stop_time_update": [
         {
-          "stop_sequence": 22,
-          "stop_id": "KENSINGTN",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:50:34.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:50:34.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
           "stop_sequence": 48,
           "stop_id": "STATEST",
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:53:34.000Z",
+              "low": "2025-08-09T18:55:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -5888,7 +5552,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:53:34.000Z",
+              "low": "2025-08-09T18:55:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -5902,7 +5566,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:55:34.000Z",
+              "low": "2025-08-09T18:57:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -5911,7 +5575,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:55:34.000Z",
+              "low": "2025-08-09T18:57:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -5925,7 +5589,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:57:34.000Z",
+              "low": "2025-08-09T18:59:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -5934,7 +5598,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:57:34.000Z",
+              "low": "2025-08-09T18:59:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -5948,7 +5612,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:58:34.000Z",
+              "low": "2025-08-09T19:00:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -5957,7 +5621,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:58:34.000Z",
+              "low": "2025-08-09T19:00:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -5971,7 +5635,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:00:34.000Z",
+              "low": "2025-08-09T19:02:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -5980,7 +5644,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:00:34.000Z",
+              "low": "2025-08-09T19:02:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -5994,7 +5658,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:02:34.000Z",
+              "low": "2025-08-09T19:04:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -6003,7 +5667,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:02:34.000Z",
+              "low": "2025-08-09T19:04:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -6017,7 +5681,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:34:34.000Z",
+              "low": "2025-08-09T19:36:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -6026,7 +5690,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:34:34.000Z",
+              "low": "2025-08-09T19:36:26.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -6036,7 +5700,7 @@
         }
       ],
       "timestamp": {
-        "low": "2025-08-09T18:49:31.000Z",
+        "low": "2025-08-09T18:54:31.000Z",
         "high": 0,
         "unsigned": true
       },
@@ -6060,9 +5724,9 @@
             "license_plate": null
           },
           "position": {
-            "latitude": 41.689613342285156,
-            "longitude": -87.61114501953125,
-            "bearing": 188,
+            "latitude": 41.67622375488281,
+            "longitude": -87.61437225341797,
+            "bearing": 190,
             "odometer": null,
             "speed": null
           },
@@ -6070,7 +5734,7 @@
           "stop_id": null,
           "current_status": 2,
           "timestamp": {
-            "low": "2025-08-09T18:49:27.000Z",
+            "low": "2025-08-09T18:54:15.000Z",
             "high": 0,
             "unsigned": true
           },
@@ -6084,59 +5748,7 @@
     "alert": null
   },
   {
-    "id": "24",
-    "is_deleted": false,
-    "trip_update": {
-      "trip": {
-        "trip_id": "UP-W_UW508_V8_B",
-        "route_id": "UP-W",
-        "direction_id": null,
-        "start_time": "12:25:00",
-        "start_date": "20250809",
-        "schedule_relationship": 0
-      },
-      "vehicle": {
-        "id": "8411",
-        "label": null,
-        "license_plate": null
-      },
-      "stop_time_update": [
-        {
-          "stop_sequence": 28,
-          "stop_id": "OTC",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:41:51.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:41:51.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        }
-      ],
-      "timestamp": {
-        "low": "2025-08-09T18:41:32.000Z",
-        "high": 0,
-        "unsigned": true
-      },
-      "delay": null
-    },
-    "vehicle": null,
-    "alert": null
-  },
-  {
-    "id": "25",
+    "id": "22",
     "is_deleted": false,
     "trip_update": {
       "trip": {
@@ -6156,29 +5768,13 @@
         {
           "stop_sequence": 32,
           "stop_id": "OTC",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T19:06:49.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T19:06:49.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
+          "arrival": null,
+          "departure": null,
+          "schedule_relationship": 2
         }
       ],
       "timestamp": {
-        "low": "2025-08-09T18:49:21.000Z",
+        "low": "2025-08-09T18:54:26.000Z",
         "high": 0,
         "unsigned": true
       },
@@ -6212,7 +5808,7 @@
           "stop_id": null,
           "current_status": 2,
           "timestamp": {
-            "low": "2025-08-09T18:49:20.000Z",
+            "low": "2025-08-09T18:54:25.000Z",
             "high": 0,
             "unsigned": true
           },
@@ -6226,7 +5822,7 @@
     "alert": null
   },
   {
-    "id": "26",
+    "id": "23",
     "is_deleted": false,
     "trip_update": {
       "trip": {
@@ -6249,7 +5845,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:16:28.000Z",
+              "low": "2025-08-09T19:02:10.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -6258,7 +5854,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:16:28.000Z",
+              "low": "2025-08-09T19:02:10.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -6268,7 +5864,7 @@
         }
       ],
       "timestamp": {
-        "low": "2025-08-09T18:49:28.000Z",
+        "low": "2025-08-09T18:54:26.000Z",
         "high": 0,
         "unsigned": true
       },
@@ -6292,9 +5888,9 @@
             "license_plate": null
           },
           "position": {
-            "latitude": 41.77787780761719,
-            "longitude": -88.20852661132812,
-            "bearing": 208,
+            "latitude": 41.769248962402344,
+            "longitude": -88.28225708007812,
+            "bearing": 263,
             "odometer": null,
             "speed": null
           },
@@ -6302,7 +5898,7 @@
           "stop_id": null,
           "current_status": 2,
           "timestamp": {
-            "low": "2025-08-09T18:49:28.000Z",
+            "low": "2025-08-09T18:54:25.000Z",
             "high": 0,
             "unsigned": true
           },
@@ -6316,7 +5912,7 @@
     "alert": null
   },
   {
-    "id": "27",
+    "id": "24",
     "is_deleted": false,
     "trip_update": {
       "trip": {
@@ -6339,7 +5935,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:58:30.000Z",
+              "low": "2025-08-09T18:57:58.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -6348,7 +5944,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:58:30.000Z",
+              "low": "2025-08-09T18:57:58.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -6362,7 +5958,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:08:30.000Z",
+              "low": "2025-08-09T19:07:58.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -6371,7 +5967,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:08:30.000Z",
+              "low": "2025-08-09T19:07:58.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -6381,7 +5977,7 @@
         }
       ],
       "timestamp": {
-        "low": "2025-08-09T18:49:30.000Z",
+        "low": "2025-08-09T18:54:21.000Z",
         "high": 0,
         "unsigned": true
       },
@@ -6405,9 +6001,9 @@
             "license_plate": null
           },
           "position": {
-            "latitude": 41.88157653808594,
-            "longitude": -88.30950927734375,
-            "bearing": 267,
+            "latitude": 41.883628845214844,
+            "longitude": -88.3718490600586,
+            "bearing": 276,
             "odometer": null,
             "speed": null
           },
@@ -6415,7 +6011,7 @@
           "stop_id": null,
           "current_status": 2,
           "timestamp": {
-            "low": "2025-08-09T18:49:29.000Z",
+            "low": "2025-08-09T18:54:21.000Z",
             "high": 0,
             "unsigned": true
           },
@@ -6429,7 +6025,7 @@
     "alert": null
   },
   {
-    "id": "28",
+    "id": "25",
     "is_deleted": false,
     "trip_update": {
       "trip": {
@@ -6447,81 +6043,12 @@
       },
       "stop_time_update": [
         {
-          "stop_sequence": 22,
-          "stop_id": "95TH-BEV",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:50:19.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:50:19.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 23,
-          "stop_id": "91ST-BEV",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:52:19.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:52:19.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 24,
-          "stop_id": "BRAINERD",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:54:19.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:54:19.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
           "stop_sequence": 29,
           "stop_id": "GRESHAM",
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:58:19.000Z",
+              "low": "2025-08-09T18:58:22.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -6530,7 +6057,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:58:19.000Z",
+              "low": "2025-08-09T18:58:22.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -6544,7 +6071,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:06:19.000Z",
+              "low": "2025-08-09T19:06:22.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -6553,7 +6080,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:06:19.000Z",
+              "low": "2025-08-09T19:06:22.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -6567,7 +6094,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:37:19.000Z",
+              "low": "2025-08-09T19:37:22.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -6576,7 +6103,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:37:19.000Z",
+              "low": "2025-08-09T19:37:22.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -6586,7 +6113,7 @@
         }
       ],
       "timestamp": {
-        "low": "2025-08-09T18:49:30.000Z",
+        "low": "2025-08-09T18:54:22.000Z",
         "high": 0,
         "unsigned": true
       },
@@ -6610,9 +6137,9 @@
             "license_plate": null
           },
           "position": {
-            "latitude": 41.718963623046875,
-            "longitude": -87.66748046875,
-            "bearing": 358,
+            "latitude": 41.732215881347656,
+            "longitude": -87.65895080566406,
+            "bearing": 89,
             "odometer": null,
             "speed": null
           },
@@ -6620,7 +6147,7 @@
           "stop_id": null,
           "current_status": 2,
           "timestamp": {
-            "low": "2025-08-09T18:49:29.000Z",
+            "low": "2025-08-09T18:54:21.000Z",
             "high": 0,
             "unsigned": true
           },
@@ -6634,7 +6161,7 @@
     "alert": null
   },
   {
-    "id": "29",
+    "id": "26",
     "is_deleted": false,
     "trip_update": {
       "trip": {
@@ -6652,58 +6179,12 @@
       },
       "stop_time_update": [
         {
-          "stop_sequence": 22,
-          "stop_id": "FTSHERIDAN",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:49:39.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:49:39.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 23,
-          "stop_id": "LKFOREST",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:53:39.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:53:39.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
           "stop_sequence": 24,
           "stop_id": "LAKEBLUFF",
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:57:39.000Z",
+              "low": "2025-08-09T18:58:27.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -6712,7 +6193,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:57:39.000Z",
+              "low": "2025-08-09T18:58:27.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -6726,7 +6207,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:01:39.000Z",
+              "low": "2025-08-09T19:02:27.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -6735,7 +6216,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:01:39.000Z",
+              "low": "2025-08-09T19:02:27.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -6749,7 +6230,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:06:39.000Z",
+              "low": "2025-08-09T19:07:27.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -6758,7 +6239,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:06:39.000Z",
+              "low": "2025-08-09T19:07:27.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -6772,7 +6253,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:10:39.000Z",
+              "low": "2025-08-09T19:11:27.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -6781,7 +6262,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:10:39.000Z",
+              "low": "2025-08-09T19:11:27.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -6795,7 +6276,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:19:39.000Z",
+              "low": "2025-08-09T19:20:27.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -6804,7 +6285,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:19:39.000Z",
+              "low": "2025-08-09T19:20:27.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -6818,7 +6299,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:23:39.000Z",
+              "low": "2025-08-09T19:24:27.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -6827,7 +6308,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:23:39.000Z",
+              "low": "2025-08-09T19:24:27.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -6841,7 +6322,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:35:39.000Z",
+              "low": "2025-08-09T19:36:27.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -6850,7 +6331,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:35:39.000Z",
+              "low": "2025-08-09T19:36:27.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -6860,7 +6341,7 @@
         }
       ],
       "timestamp": {
-        "low": "2025-08-09T18:49:21.000Z",
+        "low": "2025-08-09T18:54:27.000Z",
         "high": 0,
         "unsigned": true
       },
@@ -6884,9 +6365,9 @@
             "license_plate": null
           },
           "position": {
-            "latitude": 42.21513748168945,
-            "longitude": -87.81939697265625,
-            "bearing": 331,
+            "latitude": 42.25210189819336,
+            "longitude": -87.83963775634766,
+            "bearing": 353,
             "odometer": null,
             "speed": null
           },
@@ -6894,7 +6375,7 @@
           "stop_id": null,
           "current_status": 2,
           "timestamp": {
-            "low": "2025-08-09T18:49:21.000Z",
+            "low": "2025-08-09T18:54:27.000Z",
             "high": 0,
             "unsigned": true
           },
@@ -6908,7 +6389,7 @@
     "alert": null
   },
   {
-    "id": "30",
+    "id": "27",
     "is_deleted": false,
     "trip_update": {
       "trip": {
@@ -7016,10 +6497,33 @@
             "uncertainty": 0
           },
           "schedule_relationship": 0
+        },
+        {
+          "stop_sequence": 26,
+          "stop_id": "MIDLOTHIAN",
+          "arrival": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T20:21:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "departure": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T20:21:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "schedule_relationship": 0
         }
       ],
       "timestamp": {
-        "low": "2025-08-09T18:49:30.000Z",
+        "low": "2025-08-09T18:54:22.000Z",
         "high": 0,
         "unsigned": true
       },
@@ -7029,7 +6533,7 @@
     "alert": null
   },
   {
-    "id": "31",
+    "id": "28",
     "is_deleted": false,
     "trip_update": {
       "trip": {
@@ -7047,58 +6551,12 @@
       },
       "stop_time_update": [
         {
-          "stop_sequence": 14,
-          "stop_id": "SOUTHSHORE",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:50:45.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:50:45.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
-          "stop_sequence": 15,
-          "stop_id": "BRYNMAWR",
-          "arrival": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:52:45.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "departure": {
-            "delay": 0,
-            "time": {
-              "low": "2025-08-09T18:52:45.000Z",
-              "high": 0,
-              "unsigned": false
-            },
-            "uncertainty": 0
-          },
-          "schedule_relationship": 0
-        },
-        {
           "stop_sequence": 16,
           "stop_id": "STONYISLND",
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:54:45.000Z",
+              "low": "2025-08-09T18:55:07.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -7107,7 +6565,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:54:45.000Z",
+              "low": "2025-08-09T18:55:07.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -7121,7 +6579,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:57:45.000Z",
+              "low": "2025-08-09T18:58:07.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -7130,7 +6588,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:57:45.000Z",
+              "low": "2025-08-09T18:58:07.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -7144,7 +6602,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:58:45.000Z",
+              "low": "2025-08-09T18:59:07.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -7153,7 +6611,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T18:58:45.000Z",
+              "low": "2025-08-09T18:59:07.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -7167,7 +6625,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:00:45.000Z",
+              "low": "2025-08-09T19:01:07.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -7176,7 +6634,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:00:45.000Z",
+              "low": "2025-08-09T19:01:07.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -7190,7 +6648,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:02:45.000Z",
+              "low": "2025-08-09T19:03:07.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -7199,7 +6657,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:02:45.000Z",
+              "low": "2025-08-09T19:03:07.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -7213,7 +6671,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:03:45.000Z",
+              "low": "2025-08-09T19:04:07.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -7222,7 +6680,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:03:45.000Z",
+              "low": "2025-08-09T19:04:07.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -7236,7 +6694,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:06:45.000Z",
+              "low": "2025-08-09T19:07:07.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -7245,7 +6703,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:06:45.000Z",
+              "low": "2025-08-09T19:07:07.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -7259,7 +6717,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:07:45.000Z",
+              "low": "2025-08-09T19:08:07.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -7268,7 +6726,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:07:45.000Z",
+              "low": "2025-08-09T19:08:07.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -7282,7 +6740,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:08:45.000Z",
+              "low": "2025-08-09T19:09:07.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -7291,7 +6749,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:08:45.000Z",
+              "low": "2025-08-09T19:09:07.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -7305,7 +6763,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:11:45.000Z",
+              "low": "2025-08-09T19:12:07.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -7314,7 +6772,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:11:45.000Z",
+              "low": "2025-08-09T19:12:07.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -7328,7 +6786,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:13:45.000Z",
+              "low": "2025-08-09T19:14:07.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -7337,7 +6795,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:13:45.000Z",
+              "low": "2025-08-09T19:14:07.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -7351,7 +6809,7 @@
           "arrival": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:46:45.000Z",
+              "low": "2025-08-09T19:47:07.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -7360,7 +6818,7 @@
           "departure": {
             "delay": 0,
             "time": {
-              "low": "2025-08-09T19:46:45.000Z",
+              "low": "2025-08-09T19:47:07.000Z",
               "high": 0,
               "unsigned": false
             },
@@ -7370,7 +6828,7 @@
         }
       ],
       "timestamp": {
-        "low": "2025-08-09T18:49:27.000Z",
+        "low": "2025-08-09T18:54:30.000Z",
         "high": 0,
         "unsigned": true
       },
@@ -7394,9 +6852,9 @@
             "license_plate": null
           },
           "position": {
-            "latitude": 41.760498046875,
-            "longitude": -87.5614242553711,
-            "bearing": 325,
+            "latitude": 41.76609802246094,
+            "longitude": -87.58390045166016,
+            "bearing": 269,
             "odometer": null,
             "speed": null
           },
@@ -7404,7 +6862,465 @@
           "stop_id": null,
           "current_status": 2,
           "timestamp": {
-            "low": "2025-08-09T18:49:26.000Z",
+            "low": "2025-08-09T18:54:29.000Z",
+            "high": 0,
+            "unsigned": true
+          },
+          "congestion_level": null,
+          "occupancy_status": null
+        },
+        "alert": null
+      }
+    },
+    "vehicle": null,
+    "alert": null
+  },
+  {
+    "id": "29",
+    "is_deleted": false,
+    "trip_update": {
+      "trip": {
+        "trip_id": "MD-W_MW2716_V7_B",
+        "route_id": "MD-W",
+        "direction_id": null,
+        "start_time": "13:55:00",
+        "start_date": "20250809",
+        "schedule_relationship": 0
+      },
+      "vehicle": {
+        "id": "8608",
+        "label": "2716",
+        "license_plate": null
+      },
+      "stop_time_update": [
+        {
+          "stop_sequence": 2,
+          "stop_id": "ELGIN",
+          "arrival": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T18:55:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "departure": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T18:55:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "schedule_relationship": 0
+        },
+        {
+          "stop_sequence": 3,
+          "stop_id": "NATIONALS",
+          "arrival": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T18:57:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "departure": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T18:57:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "schedule_relationship": 0
+        },
+        {
+          "stop_sequence": 5,
+          "stop_id": "BARTLETT",
+          "arrival": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T19:05:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "departure": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T19:05:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "schedule_relationship": 0
+        },
+        {
+          "stop_sequence": 6,
+          "stop_id": "HANOVERP",
+          "arrival": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T19:08:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "departure": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T19:08:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "schedule_relationship": 0
+        },
+        {
+          "stop_sequence": 7,
+          "stop_id": "SCHAUM",
+          "arrival": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T19:12:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "departure": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T19:12:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "schedule_relationship": 0
+        },
+        {
+          "stop_sequence": 8,
+          "stop_id": "ROSELLE",
+          "arrival": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T19:17:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "departure": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T19:17:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "schedule_relationship": 0
+        },
+        {
+          "stop_sequence": 9,
+          "stop_id": "MEDINAH",
+          "arrival": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T19:19:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "departure": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T19:19:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "schedule_relationship": 0
+        },
+        {
+          "stop_sequence": 10,
+          "stop_id": "ITASCA",
+          "arrival": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T19:23:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "departure": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T19:23:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "schedule_relationship": 0
+        },
+        {
+          "stop_sequence": 11,
+          "stop_id": "WOODDALE",
+          "arrival": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T19:27:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "departure": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T19:27:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "schedule_relationship": 0
+        },
+        {
+          "stop_sequence": 12,
+          "stop_id": "BENSENVIL",
+          "arrival": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T19:31:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "departure": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T19:31:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "schedule_relationship": 0
+        },
+        {
+          "stop_sequence": 15,
+          "stop_id": "FRANKLIN",
+          "arrival": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T19:38:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "departure": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T19:38:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "schedule_relationship": 0
+        },
+        {
+          "stop_sequence": 17,
+          "stop_id": "RIVERGROVE",
+          "arrival": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T19:41:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "departure": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T19:41:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "schedule_relationship": 0
+        },
+        {
+          "stop_sequence": 18,
+          "stop_id": "ELMWOODPK",
+          "arrival": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T19:44:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "departure": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T19:44:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "schedule_relationship": 0
+        },
+        {
+          "stop_sequence": 19,
+          "stop_id": "MONTCLARE",
+          "arrival": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T19:46:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "departure": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T19:46:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "schedule_relationship": 0
+        },
+        {
+          "stop_sequence": 21,
+          "stop_id": "GALEWOOD",
+          "arrival": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T19:48:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "departure": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T19:48:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "schedule_relationship": 0
+        },
+        {
+          "stop_sequence": 25,
+          "stop_id": "WESTERNAVE",
+          "arrival": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T19:59:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "departure": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T19:59:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "schedule_relationship": 0
+        },
+        {
+          "stop_sequence": 28,
+          "stop_id": "CUS",
+          "arrival": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T20:12:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "departure": {
+            "delay": 0,
+            "time": {
+              "low": "2025-08-09T20:12:00.000Z",
+              "high": 0,
+              "unsigned": false
+            },
+            "uncertainty": 0
+          },
+          "schedule_relationship": 0
+        }
+      ],
+      "timestamp": {
+        "low": "2025-08-09T18:54:04.000Z",
+        "high": 0,
+        "unsigned": true
+      },
+      "delay": null,
+      "position": {
+        "id": "97",
+        "is_deleted": false,
+        "trip_update": null,
+        "vehicle": {
+          "trip": {
+            "trip_id": "MD-W_MW2716_V7_B",
+            "route_id": "MD-W",
+            "direction_id": null,
+            "start_time": "13:55:00",
+            "start_date": "20250809",
+            "schedule_relationship": 0
+          },
+          "vehicle": {
+            "id": "8608",
+            "label": "2716",
+            "license_plate": null
+          },
+          "position": {
+            "latitude": 42.034881591796875,
+            "longitude": -88.28514862060547,
+            "bearing": 327,
+            "odometer": null,
+            "speed": null
+          },
+          "current_stop_sequence": null,
+          "stop_id": null,
+          "current_status": 2,
+          "timestamp": {
+            "low": "2025-08-09T18:54:03.000Z",
             "high": 0,
             "unsigned": true
           },
