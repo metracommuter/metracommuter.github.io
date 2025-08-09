@@ -44,50 +44,6 @@
     }
   },
   {
-    "id": "DevAPI-22867499-D638-4BFF-9D08-8D3548804F11",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "ME",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "Metra Electric #8508 On the Move",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "ME train #8508, scheduled to arrive Millennium Station at 10:26 AM, is on the move and may be operating up to 20 minutes behind schedule due to signal problems. Updated at 10:24 AM",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
     "id": "DevAPI-B0ED6A6B-B32E-48F2-8E56-79E3B181EEE8",
     "is_deleted": false,
     "trip_update": null,
@@ -264,7 +220,7 @@
     }
   },
   {
-    "id": "DevAPI-73AFC60F-537A-49AD-BAD8-7227ACAD7DE1",
+    "id": "DevAPI-0DB76587-4FFC-480F-9B91-A7532B239EC3",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -273,9 +229,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "UP-NW",
+          "route_id": "ME",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "ME_ME811_V6_B",
+            "route_id": "ME",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -284,7 +247,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -292,7 +255,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "UP-NW 701 On the Move",
+            "text": "Metra Electric #811 Delayed",
             "language": "en"
           }
         ]
@@ -300,7 +263,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "Train #701, scheduled to depart Chicago at 8:30 a.m. and arrive Harvard at 10:20 a.m.  may be operating 40 to 45 minutes behind schedule due to track construction. Visit MetraTracker.com for the location of your train. Updated 9:28 a.m.",
+            "text": "Metra Electric train #811 scheduled to arrive University Park at 11:50 AM, may be operating 15 to 20 minutes behind schedule, due to signal problems. Visit metratracker.com for the location of your train.",
             "language": "en"
           }
         ]
