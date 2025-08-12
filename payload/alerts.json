@@ -1,6 +1,6 @@
 [
   {
-    "id": "DevAPI-A03561FE-E115-4065-AE55-4A747846AD5D",
+    "id": "DevAPI-3B149B66-B41B-45CE-92F5-881090E8BA2A",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -9,9 +9,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "UP-NW",
+          "route_id": "UP-N",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "UP-N_UN337_V9_C",
+            "route_id": "UP-N",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -20,7 +27,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -28,7 +35,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "UPNW Inbound and Outbound Trains On The Move",
+            "text": "UPN Train #337 Delayed",
             "language": "en"
           }
         ]
@@ -36,7 +43,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "UPNW inbound and outbound trains are on the move extensively delayed due to an accident not involving the train. Visit MetraTracker.com for the location of your",
+            "text": "UPN train #337 scheduled to arrive Kenosha at 4:05 PM, may be operating 15 to 25 minutes behind schedule, due to track construction. Visit metratracker.com for the location of your train.",
             "language": "en"
           }
         ]
@@ -264,6 +271,57 @@
     }
   },
   {
+    "id": "DevAPI-84952322-23FE-4E64-8E8D-15844025416E",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "SWS",
+          "route_type": null,
+          "trip": {
+            "trip_id": "SWS_SW811_V3_C",
+            "route_id": "SWS",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/SWS?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "SWS #811 Will Not Operate",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "SWS #811, scheduled to arrive 179th at 2:57pm, will not operate due to mechanical problems. Train #813 will be accommodating passengers.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "DevAPI-0B02F2E9-2D55-41CD-8633-BB8720336463",
     "is_deleted": false,
     "trip_update": null,
@@ -359,102 +417,7 @@
     }
   },
   {
-    "id": "DevAPI-133E0E87-E157-4B80-B033-C9335028869B",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "ME",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "ME Outbound Trains will ground load at 111th, 107th, 103rd, 95th, 91st, 87th, 83rd, 79th, and 75th Street.",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "ME outbound trains will ground load at 111th, 107th, 103rd, 95th, 91st, 87th, 83rd, 79th, and 75th Street. Please wait visible to the engineer, do not operate chains or gates in ground load areas, follow train crew\u0027s instructions after the train stops",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "DevAPI-E3400D80-1D8F-492E-959E-BA00F87D294F",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "SWS",
-          "route_type": null,
-          "trip": {
-            "trip_id": "SWS_SW811_V3_C",
-            "route_id": "SWS",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/SWS?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "SWS #811 Remains Stopped",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "SWS train #811, scheduled to arrive 179th Street/Orland Park at 2:57 PM, remains stopped near Chicago Union Station due to mechanical problems. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "DevAPI-F953BD52-CC88-4351-AA40-914B26E570E0",
+    "id": "DevAPI-0578EEE7-54B0-4DF3-8239-9878E8F9E0E9",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -497,7 +460,51 @@
       "description_text": {
         "translation": [
           {
-            "text": "UPN train #335 scheduled to arrive Waukegan at 3:14 PM, may be operating 30 to 40 minutes behind schedule, due to track construction. Visit metratracker.com for the location of your train.",
+            "text": "UPN train #335 scheduled to arrive Waukegan at 3:14 PM, may be operating 45 to 55 minutes behind schedule, due to track construction. Visit metratracker.com for the location of your train.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-133E0E87-E157-4B80-B033-C9335028869B",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "ME",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "ME Outbound Trains will ground load at 111th, 107th, 103rd, 95th, 91st, 87th, 83rd, 79th, and 75th Street.",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "ME outbound trains will ground load at 111th, 107th, 103rd, 95th, 91st, 87th, 83rd, 79th, and 75th Street. Please wait visible to the engineer, do not operate chains or gates in ground load areas, follow train crew\u0027s instructions after the train stops",
             "language": "en"
           }
         ]
