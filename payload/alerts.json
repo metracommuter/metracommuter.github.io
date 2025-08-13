@@ -44,7 +44,7 @@
     }
   },
   {
-    "id": "DevAPI-A8979E1D-C396-40B7-84DC-B535527A6B0C",
+    "id": "DevAPI-6FF9C564-2C5D-4826-BF0D-510F782ADF75",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -53,16 +53,9 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "UP-W",
+          "route_id": "MD-W",
           "route_type": null,
-          "trip": {
-            "trip_id": "UP-W_UW33_V2_C",
-            "route_id": "UP-W",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
+          "trip": null,
           "stop_id": null
         }
       ],
@@ -71,7 +64,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-W?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-W?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -79,7 +72,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "UPN 33 Stopped Near Kedzie",
+            "text": "MDW 2234- On The Move Delayed",
             "language": "en"
           }
         ]
@@ -87,7 +80,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "Train 33, scheduled to arrive Elburn at 2:08 p.m., is stopped near Kedzie due to switch problems. Delay times are unknown.",
+            "text": "MDW train #2234, scheduled to arrive Chicago Union Station at 12:45 PM, is  on the move and operating 6 to 10 minutes behind schedule due to switch problems. Metra will provide updates as information becomes available.",
             "language": "en"
           }
         ]
@@ -139,6 +132,50 @@
         "translation": [
           {
             "text": "Outbound train #121, scheduled to arrive University Park at 1:42 PM, is on the move and may be operating 15 to 20 minutes behind schedule due to signal problems. Visit metratracker.com for the location of your train.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-8A291940-5F9C-4132-BE44-958533D03744",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-W",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-W?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPW  Train #33 is on the move",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "Train # 33, scheduled to arrive Elburn at 2:08 p.m., is on the move and may be operating  20  to 25 minutes behind schedule due to switch problems.",
             "language": "en"
           }
         ]
@@ -315,50 +352,6 @@
         "translation": [
           {
             "text": "The Ivanhoe elevator is out of service.  Customers can use 115th Street/Kensington or 147th Street/Sibley as alternate boarding stations.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "DevAPI-16336182-971B-442B-A4CF-B1930A4049D0",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "MD-W",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/MD-W?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "MDW Train #2234 Stopped",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "MDW train #2234, scheduled to arrive Chicago Union Station at 12:45 PM, is stopped near Western Avenue due to switch problems. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
             "language": "en"
           }
         ]
