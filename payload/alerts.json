@@ -88,7 +88,7 @@
     }
   },
   {
-    "id": "DevAPI-05D92569-BAF7-4CFC-B334-C8ED07F97B5E",
+    "id": "DevAPI-C81132DA-37CC-4C05-B139-C2DD0440B3CF",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -97,11 +97,11 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "MD-N",
+          "route_id": "UP-NW",
           "route_type": null,
           "trip": {
-            "trip_id": "MD-N_MN2146_V2_C",
-            "route_id": "MD-N",
+            "trip_id": "UP-NW_UNW663_V3_C",
+            "route_id": "UP-NW",
             "direction_id": null,
             "start_time": null,
             "start_date": null,
@@ -115,7 +115,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -123,7 +123,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "MDN 2146 - Expressing (Updated)",
+            "text": "UPNW train #663 delayed",
             "language": "en"
           }
         ]
@@ -131,7 +131,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "MDN train #2146, scheduled to arrive Chicago Union Station at 6:12 PM, will express from Morton Grove to Western Avenue due to track construction. Train #2148 will accommodate customers at intermediate stops. (Update 5:57pm)",
+            "text": "UPNW train #663 scheduled to arrive Palatine at 7:01 PM, may be operating 15 to 20 minutes behind schedule, due to earlier mechanical problems. Visit metratracker.com for the location of your train.",
             "language": "en"
           }
         ]
@@ -183,6 +183,57 @@
     }
   },
   {
+    "id": "DevAPI-22C7C5E0-D0DB-403E-ACB1-CFD055850D63",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-NW",
+          "route_type": null,
+          "trip": {
+            "trip_id": "UP-NW_UNW663_V3_C",
+            "route_id": "UP-NW",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPNW Train 663 Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "UPNW train #663 scheduled to arrive Palatine at 7:01 PM, may be operating 20 to 25 minutes behind schedule, due to mechanical problems. Visit metratracker.com for the location of your train.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "DevAPI-278B5296-3044-4703-8FD3-1C8555B2C706",
     "is_deleted": false,
     "trip_update": null,
@@ -220,57 +271,6 @@
         "translation": [
           {
             "text": "The Ivanhoe elevator is out of service.  Customers can use 115th Street/Kensington or 147th Street/Sibley as alternate boarding stations.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "DevAPI-0A6EDEBD-5C08-4349-B1A0-D1B2CD498633",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "MD-N",
-          "route_type": null,
-          "trip": {
-            "trip_id": "MD-N_MN2146_V2_C",
-            "route_id": "MD-N",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "MDN 2146 - Delayed",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "MDN train #2146 scheduled to arrive Chicago Union Station at 6:12 PM, may be operating 15 to 20 minutes behind schedule, due to track construction. Visit metratracker.com for the location of your train.",
             "language": "en"
           }
         ]
