@@ -44,7 +44,7 @@
     }
   },
   {
-    "id": "DevAPI-D64C5F8B-3812-44ED-9C25-D7BDEB2B53B7",
+    "id": "DevAPI-5B6200A1-B09D-44F7-8887-A8166DFDCE40",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -53,7 +53,7 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "MD-W",
+          "route_id": "MD-N",
           "route_type": null,
           "trip": null,
           "stop_id": null
@@ -64,7 +64,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/MD-W?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -72,7 +72,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "MDW Train #2202 Stopped",
+            "text": "MDN Inbound Trains Delayed",
             "language": "en"
           }
         ]
@@ -80,7 +80,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "MDW train #2202, scheduled to arrive Chicago Union Station at 6:13 PM, is stopped near National Street/Elgin due to mechanical problems. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
+            "text": "MDN inbound trains may be operating up to 30 minutes behind schedule due to signal problems near Fox Lake. Please visit MetraTracker.com for the location of your train.",
             "language": "en"
           }
         ]
@@ -125,6 +125,50 @@
         "translation": [
           {
             "text": "On Thursday, August 14 through Saturday, August 16, the Gladstone Park station will not be ADA accessible due to construction. Customers can use Edison Park and Park Ridge as alternate boarding stations.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-ED2928E9-4509-4BC0-8BFD-53013549FBDF",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "MD-W",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-W?Twitter=1\u0026Email=1\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "MDW Train #2202 Will Not Operate Past National Street/Elgin.  Train #2204 Will Accommodate Passengers",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "Train #2202, scheduled to arrive Chicago at 6:13 PM, will not operate past National Street/Elgin due to mechanical problems. Train #2204, will accommodate passengers and will make additional stops between Franklin Park and Grand/Cicero. Updated at 5:25 AM",
             "language": "en"
           }
         ]
