@@ -1,6 +1,6 @@
 [
   {
-    "id": "DevAPI-A67D9517-F1FF-4A4F-BB90-BFDD2D9FDC06",
+    "id": "DevAPI-2DE43B8B-8DD3-415C-9D21-BD4774932CDC",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -11,15 +11,8 @@
           "agency_id": "METRA",
           "route_id": "SWS",
           "route_type": null,
-          "trip": {
-            "trip_id": "SWS_SW817_V2_C",
-            "route_id": "SWS",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
-          "stop_id": null
+          "trip": null,
+          "stop_id": "OAKLAWN"
         }
       ],
       "cause": 1,
@@ -27,7 +20,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/SWS?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "text": "http://metrarail.com/metra/en/home.html?Twitter=0\u0026Email=0\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -35,7 +28,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "SWS #817 Delayed Departure",
+            "text": "SWS #822 Platform #2",
             "language": "en"
           }
         ]
@@ -43,7 +36,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "SWS train #817, scheduled to depart Chicago Union Station at 4:42 PM, will be delayed in departure due to  positive train control issues. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
+            "text": "May I have your attention please, inbound train #822 scheduled to arrive Chicago Union Station at 5:55 PM, will arrive and board from platform 2. Safely make your way to platform 2 to board this train.",
             "language": "en"
           }
         ]
@@ -132,6 +125,57 @@
         "translation": [
           {
             "text": "MED train #331, scheduled to depart Millennium Station at 4:25PM will not operate due to police activity. Train #401 will be the next outbound train towards 93rd Street/South Chicago.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-C9AC4071-4AB3-463C-85D8-BB710616FBE6",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "SWS",
+          "route_type": null,
+          "trip": {
+            "trip_id": "SWS_SW817_V2_C",
+            "route_id": "SWS",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/SWS?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "SWS #817 Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "SWS train #817, scheduled to depart Chicago Union Station at 4:42 PM, is operating 30 to 35 minutes behind schedule due to earlier positive train control issues.",
             "language": "en"
           }
         ]
