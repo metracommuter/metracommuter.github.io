@@ -352,6 +352,50 @@
     }
   },
   {
+    "id": "DevAPI-FF5E0A45-DEA5-43AC-9B83-0AAF73FD5232",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-N",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPN outbound trains delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "UPN outbound trains are back on the move and may be operating up 30 minutes behind schedule due to a mechanical failure on train #357. Visit metratracker.com for the location of your train.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "DevAPI-9A70B44A-5686-428B-8B9A-EDFD14818682",
     "is_deleted": false,
     "trip_update": null,
@@ -440,7 +484,7 @@
     }
   },
   {
-    "id": "DevAPI-1470803E-688E-4DEB-A211-5FC0E3E35873",
+    "id": "DevAPI-5AE3F56A-EED1-4FCA-BBFB-288CCEA88B81",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -449,9 +493,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "UP-N",
+          "route_id": "SWS",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "SWS_SW824_V2_C",
+            "route_id": "SWS",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -460,7 +511,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/SWS?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -468,7 +519,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "UPN outbound trains stopped",
+            "text": "SWS #824 Delayed",
             "language": "en"
           }
         ]
@@ -476,7 +527,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "UPN outbound trains are stopped near Indian Hill due to a mechanical failure on train #357. Duration of the delay is unknown. Metra will provide updates as they become available.",
+            "text": "SWS train #824 scheduled to arrive Chicago Union Station at 7:20 PM, may be operating 15 to 20 minutes behind schedule, due to earlier signal problems. Visit metratracker.com for the location of your train.",
             "language": "en"
           }
         ]
@@ -484,7 +535,7 @@
     }
   },
   {
-    "id": "DevAPI-3562239B-0B1D-4E4A-B7F8-FBD584431C62",
+    "id": "DevAPI-FC6CC47A-356D-483C-9E47-6B87E94AC3C1",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -512,7 +563,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "UPW Outbound Trains on the Move",
+            "text": "UPW Trains Delayed",
             "language": "en"
           }
         ]
@@ -520,7 +571,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "Outbound trains may be operating up to 30 minutes behind schedule due to  signal problems. Please visit MetraTracker.com for the location of your train.",
+            "text": "UPW inbound and outbound trains may be operating up to 30 minutes behind schedule due to signal problems. Please visit MetraTracker.com for the location of your train.",
             "language": "en"
           }
         ]
