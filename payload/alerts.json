@@ -88,7 +88,7 @@
     }
   },
   {
-    "id": "DevAPI-E1A3C103-6093-4997-819C-37BB05000CF6",
+    "id": "DevAPI-529D39C6-DDAA-4EB9-AA68-E92EFCD0C044",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -124,7 +124,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "NCS train #117, scheduled to depart Chicago Union Station at 6:00 PM, will be delayed in departure due to an operational incident. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
+            "text": "NCS train #117, scheduled to depart Chicago Union Station at 6:00 PM, will be delayed in departure due to an operational incident. Extensive delay is anticipated. Metra will provide updates as information becomes available.",
             "language": "en"
           }
         ]
@@ -169,6 +169,50 @@
         "translation": [
           {
             "text": "On Wednesday, August 27, the Park Ridge station will not be ADA accessible due to construction. Customers can use Norwood Park and Dee Road as alternate boarding stations. We anticipate the work to be completed on Thursday, August 28, 2025.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-4C5CD636-48D0-466A-B524-2214E0BCB3C2",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "MD-N",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "MDN trains remain stopped",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "MDN inbound and outbound trains remain stopped near Chicago Union Station due to an operational incident. Extensive delays are anticipated. Metra will provide updates as they become available.",
             "language": "en"
           }
         ]
@@ -264,7 +308,7 @@
     }
   },
   {
-    "id": "DevAPI-800DE687-F9E3-4129-B9BC-AA1DCBE6603C",
+    "id": "DevAPI-697A84CB-F1C8-4322-82AD-5198EB4805C6",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -292,7 +336,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "UPNW Train #655 Stopped",
+            "text": "UPNW Train #655 Remains Stopped",
             "language": "en"
           }
         ]
@@ -300,7 +344,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "UPNW train #655, scheduled to arrive Harvard at 6:47 PM, is stopped near Barrington due to mechanical problems. The duration of this delay is unknown. Metra will provide updates as information becomes available",
+            "text": "UPNW train #655, scheduled to arrive Harvard at 6:47 PM, remains stopped near Barrington due to mechanical problems. Extensive delays are anticipated. Metra will provide updates as information becomes available",
             "language": "en"
           }
         ]
@@ -308,7 +352,7 @@
     }
   },
   {
-    "id": "DevAPI-327129F9-447C-4AD7-876A-F86DAA7D171D",
+    "id": "DevAPI-64E9CEE0-01B3-4746-9992-7F9019F38C49",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -319,7 +363,14 @@
           "agency_id": "METRA",
           "route_id": "UP-NW",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "UP-NW_UNW666_V3_C",
+            "route_id": "UP-NW",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -328,7 +379,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -336,7 +387,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "UPNW Train #643 Delayed",
+            "text": "UPNW train #666 stopped",
             "language": "en"
           }
         ]
@@ -344,7 +395,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "UPNW train #643 scheduled to arrive McHenry at 5:50 PM, may be operating 15 to 20 minutes behind schedule, due to track construction. Visit metratracker.com for the location of your train.",
+            "text": "UPNW train #666 scheduled to arrive Ogilvie Transportation Center at 7:29 pm, is stopped at near Barrington due to a mechanical failure on train #655. Duration of the delay is unknown. Metra will provide updates as they become available.",
             "language": "en"
           }
         ]
@@ -352,7 +403,7 @@
     }
   },
   {
-    "id": "DevAPI-3383A0F4-982C-4BDA-A688-FB0CD096A93E",
+    "id": "DevAPI-5EED3C84-8F63-4AC5-94A5-19EABFADEC80",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -380,7 +431,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "MDW trains stopped",
+            "text": "MDW trains remain stopped",
             "language": "en"
           }
         ]
@@ -388,7 +439,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "MDW inbound and outbound trains are stopped near Chicago Union Station due to an operational incident. Duration of the delay is unknown. Metra will provide updates as they become available.",
+            "text": "MDW inbound and outbound trains remain stopped near Chicago Union Station due to an operational incident. Extensive delays are anticipated. Metra will provide updates as they become available.",
             "language": "en"
           }
         ]
@@ -396,7 +447,7 @@
     }
   },
   {
-    "id": "DevAPI-FFB76F6C-F942-4361-972F-ED04D12A45EC",
+    "id": "DevAPI-812F0788-1479-45EB-B6EF-5C0741FE5CCF",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -405,7 +456,7 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "MD-N",
+          "route_id": "UP-NW",
           "route_type": null,
           "trip": null,
           "stop_id": null
@@ -416,7 +467,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -424,7 +475,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "MDN trains stopped",
+            "text": "UPNW Train #661 Stopped",
             "language": "en"
           }
         ]
@@ -432,7 +483,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "MDN inbound and outbound trains are stopped near Chicago Union Station due to an operational incident. Duration of the delay is unknown. Metra will provide updates as they become available.",
+            "text": "UPNW train #661, scheduled to arrive Harvard at 7:36 PM, is stopped near Barrington due to mechanical problems on Train #655. The duration of this delay is unknown. Metra will provide updates as information becomes available",
             "language": "en"
           }
         ]
