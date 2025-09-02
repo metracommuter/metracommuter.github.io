@@ -264,7 +264,7 @@
     }
   },
   {
-    "id": "DevAPI-4C337AB4-DFED-4A52-9C40-AA38646D56CD",
+    "id": "DevAPI-C0D35A76-F988-4F1F-AB26-960585C2EBF1",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -273,9 +273,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "UP-NW",
+          "route_id": "UP-N",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "UP-N_UN327_V2_AA",
+            "route_id": "UP-N",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -284,7 +291,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -292,7 +299,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "UPNW Train 623 Delayed",
+            "text": "UPN 327 Stopped Near Lake Forest",
             "language": "en"
           }
         ]
@@ -300,7 +307,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "UPNW train #623 scheduled to arrive Harvard at 12:25 PM, may be operating 30 to 35 minutes behind schedule, due to track construction. Visit metratracker.com for the location of your train.",
+            "text": "Train 327, scheduled to arrive Waukegan at 12:54 p.m., is stopped near Lake Forest due to track construction. Delay times are unknown.",
             "language": "en"
           }
         ]
@@ -396,6 +403,50 @@
         "translation": [
           {
             "text": "Train 334, scheduled to arrive Chicago at 12:50 p.m., is operating 22 to 27 minutes behind schedule due to track construction.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-2EF0EB93-05ED-4F9C-963A-A22D4C8B2757",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-NW",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPNW Train 623 Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "UPNW train #623 scheduled to arrive Harvard at 12:25 PM, may be operating 35 to 40 minutes behind schedule, due to track construction. Visit metratracker.com for the location of your train.",
             "language": "en"
           }
         ]
