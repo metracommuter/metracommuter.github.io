@@ -271,6 +271,50 @@
     }
   },
   {
+    "id": "DevAPI-FFA10D0D-F8F1-492B-93A8-7C3AE317BE96",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "MD-N",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "MDN Train #2614 is on the move",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "MDN train #2614, scheduled to arrive Chicago Union Station at 4:22 PM, is on the move and may be operating 40 to 45 minutes behind schedule due to track construction. Metra will provide updates as information becomes available.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "DevAPI-843B1734-741D-47CB-B21F-2251157E4344",
     "is_deleted": false,
     "trip_update": null,
@@ -315,7 +359,7 @@
     }
   },
   {
-    "id": "DevAPI-431B3E2E-91B8-4CA2-90C5-C4FC5117BB4E",
+    "id": "DevAPI-B32E7F54-0D56-4AF5-84BB-40FD6A378FDE",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -324,9 +368,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "MD-N",
+          "route_id": "UP-NW",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "UP-NW_UNW715_V9_A",
+            "route_id": "UP-NW",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -335,7 +386,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -343,7 +394,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "MDN Train #2612 Delayed",
+            "text": "UPNW Train 715 delayed",
             "language": "en"
           }
         ]
@@ -351,51 +402,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "MDN  train #2612 scheduled to arrive Chicago Union Station at 2:22 PM, may be operating 20 to 25 minutes behind schedule, due to track construction. Visit metratracker.com for the location of your train.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "DevAPI-83A9B50B-E2C1-4095-A76C-C76800FF4C20",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "MD-N",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "MDN Train #2614 Stopped",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "MDN train #2614, scheduled to arrive Chicago Union Station at 4:22 PM, is stopped near Deerfield due to track construction. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
+            "text": "UPNW train #715 scheduled to arrive Crystal Lake at 4:15 PM, may be operating 15 to 20 minutes behind schedule, due to speed restrictions. Visit metratracker.com for the location of your train.",
             "language": "en"
           }
         ]
