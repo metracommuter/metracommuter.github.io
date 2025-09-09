@@ -44,7 +44,7 @@
     }
   },
   {
-    "id": "DevAPI-EBBC2389-117B-49DD-AD54-C2C8279F356C",
+    "id": "DevAPI-38FAF0AB-FA6B-4FF0-9B13-F26E256A880C",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -53,9 +53,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "ME",
+          "route_id": "RI",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "RI_RI705_V1_B",
+            "route_id": "RI",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -64,7 +71,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/RI?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -72,7 +79,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "ME Train #330 Operating 15 to 20 Minutes Behind Schedule",
+            "text": "RID #705 Delayed",
             "language": "en"
           }
         ]
@@ -80,7 +87,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "ME train #330 scheduled to arrive Millennium Station at 5:45 PM, may be operating 15 to 20 minutes behind schedule, due to  signal problems. Visit metratracker.com for the location of your train.",
+            "text": "RID train #705, scheduled to arrive Joliet at 6:01 PM, is operating 15 to 20 minutes behind schedule due to earlier police activity.",
             "language": "en"
           }
         ]
@@ -169,6 +176,50 @@
         "translation": [
           {
             "text": "LaSalle Street station escalators on the East and West sides are out of service. Metra will provide updates as information becomes available.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-A0EE6BC9-AB9A-47ED-BD6C-AFE1196403FD",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-NW",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPNW Train #659 Delayed Departure",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "UPNW train #659, scheduled to depart Ogilvie Transportation Center at 5:35 PM, will be delayed in departure due to earlier track construction. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
             "language": "en"
           }
         ]
@@ -308,7 +359,7 @@
     }
   },
   {
-    "id": "DevAPI-4334DEF5-0E03-4657-9986-469360E28271",
+    "id": "DevAPI-BC2C7F84-02F0-4F39-BE49-96E57137CE8C",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -317,9 +368,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "NCS",
+          "route_id": "SWS",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "SWS_SW822_V3_B",
+            "route_id": "SWS",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -328,7 +386,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/NCS?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/SWS?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -336,7 +394,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "NCS Train #113 Delayed",
+            "text": "SWS #822 Delayed",
             "language": "en"
           }
         ]
@@ -344,7 +402,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "NCS train #113 scheduled to arrive Antioch at 6:28 PM, is on the move and operating 15 to 20 minutes behind schedule, due to switch problems. Visit metratracker.com for the location of your train.",
+            "text": "SWS train #822 scheduled to arrive Chicago Union Station at 5:55 PM, may be operating 15 to 20 minutes behind schedule, due to a gate malfunction. Visit metratracker.com for the location of your train.",
             "language": "en"
           }
         ]
