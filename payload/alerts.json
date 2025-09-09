@@ -88,7 +88,7 @@
     }
   },
   {
-    "id": "DevAPI-ECE4F259-F443-4825-9F99-082CD6C31ED1",
+    "id": "DevAPI-2E98F575-F37F-469A-91BB-D186C640D30F",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -97,9 +97,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "UP-NW",
+          "route_id": "UP-W",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "UP-W_UW42_V1_B",
+            "route_id": "UP-W",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -108,7 +115,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=0\u0026Email=0\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-W?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -116,7 +123,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "UPNW Train #644 Delayed",
+            "text": "UPW 42 Stopped Near Geneva",
             "language": "en"
           }
         ]
@@ -124,7 +131,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "UPNW train #644, scheduled to arrive Ogilvie Transportation Center at 11:10 AM, may be operating 15 to 20 minutes behind schedule due to track construction. Visit metratracker.com for the location of your train.",
+            "text": "Train 42, scheduled to arrive Chicago at 10:50 a.m., is stopped near Geneva due to a mechanical failure. Delay times are unknown.",
             "language": "en"
           }
         ]
@@ -213,6 +220,57 @@
         "translation": [
           {
             "text": "The LaSalle Street Station CTA elevator is temporarily out of service. Recommended alternative located at LaSalle St. Station west elevator and East Escalators. Metra will provide updated information once service has been restored.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-329192D8-A0A5-48A3-965D-3FAB0AA3E503",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-NW",
+          "route_type": null,
+          "trip": {
+            "trip_id": "UP-NW_UNW644_V2_B",
+            "route_id": "UP-NW",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=0\u0026Email=0\u0026SMS=0\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPNW Train #644 Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "UPNW train #644, scheduled to arrive Ogilvie Transportation Center at 11:10 AM, may be operating 20 to 30 minutes behind schedule due to track construction. Visit metratracker.com for the location of your train.",
             "language": "en"
           }
         ]
