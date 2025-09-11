@@ -88,50 +88,6 @@
     }
   },
   {
-    "id": "DevAPI-61C91D74-EA52-4C68-B007-71A33B924124",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "RI",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/RI?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "RID Trains are on the Move",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "RID inbound and outbound train are on the move and may be operating up to 35 minutes behind schedule due to earlier police activity. Visit MetraTracker.com for the location of your train.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
     "id": "DevAPI-C2278F62-CAF6-4412-B78D-723DEFBE35A9",
     "is_deleted": false,
     "trip_update": null,
@@ -169,6 +125,57 @@
         "translation": [
           {
             "text": "The Cumberland station will not be ADA accessible until Friday, September 12 at 8PM due to station construction. Customers can use Des Plaines and Mt. Prospect as alternate boarding stations.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-1F739C77-C6F2-4C1D-B8BB-F7A4F25179FC",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "RI",
+          "route_type": null,
+          "trip": {
+            "trip_id": "RI_RI303_V2_B",
+            "route_id": "RI",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/RI?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "RID #303 Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "RID train #303 scheduled to arrive 80th Avenue/Tinley Park at 5:20 PM, may be operating 15 to 20 minutes behind schedule, due to earlier police activity. Visit metratracker.com for the location of your train.",
             "language": "en"
           }
         ]
