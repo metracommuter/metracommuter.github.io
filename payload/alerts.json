@@ -51,57 +51,6 @@
     }
   },
   {
-    "id": "DevAPI-1D6DE33D-FC1C-46C1-B337-5E54F3FA9828",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "NCS",
-          "route_type": null,
-          "trip": {
-            "trip_id": "NCS_NC114_V3_B",
-            "route_id": "NCS",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/NCS?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "NCS Train 114 Delayed",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "NCS train #114 scheduled to arrive Chicago Union Station at 10:49 PM, may be operating 15 to 20 minutes behind schedule, due to speed restrictions. Visit metratracker.com for the location of your train.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
     "id": "DevAPI-096C9D70-D4D7-470D-A083-B91C3EA50290",
     "is_deleted": false,
     "trip_update": null,
@@ -417,6 +366,50 @@
     }
   },
   {
+    "id": "DevAPI-04DB4B21-DA04-4A4A-AE63-752F09F6B863",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "MD-W",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-W?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "MDW Inbound and Outbound Trains Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "MDW inbound and outbound trains may be operating up to 35 minutes behind schedule due to positive train control issues. Please visit MetraTracker.com for the location of your train.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "DevAPI-BF3B975F-9B02-48DC-95AC-1B36F877AF21",
     "is_deleted": false,
     "trip_update": null,
@@ -607,7 +600,7 @@
     }
   },
   {
-    "id": "DevAPI-A3BA2F1C-B080-49C4-B3A3-60939EFB28B4",
+    "id": "DevAPI-8B9F5099-4C35-4098-BC49-530F78996DE6",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -616,9 +609,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "MD-W",
+          "route_id": "UP-W",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "UP-W_UW29_V1_B",
+            "route_id": "UP-W",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -627,7 +627,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/MD-W?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-W?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -635,7 +635,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "MDW Train #2230 Delayed",
+            "text": "UPW 29 Stopped Near Kedzie",
             "language": "en"
           }
         ]
@@ -643,7 +643,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "MDW train #2230 scheduled to arrive Chicago Union Station at 10:45 AM, may be operating 15 to 25 minutes behind schedule, due to signal problems. Visit metratracker.com for the location of your train.",
+            "text": "Train 29, scheduled to arrive Elburn at 12:08 p.m., is stopped near Kedzie due to a vehicle striking a bridge. Delay times are unknown.",
             "language": "en"
           }
         ]
