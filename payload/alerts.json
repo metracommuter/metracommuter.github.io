@@ -44,50 +44,6 @@
     }
   },
   {
-    "id": "DevAPI-D4956FFD-850D-4825-A3DC-4F2113F22851",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "UP-W",
-          "route_type": null,
-          "trip": null,
-          "stop_id": "OAKPARK"
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "http://metrarail.com/metra/en/home.html?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "UPW 24 Platform Change At Oak Park",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "Train 24, scheduled to arrive Chicago at 7:50 a.m., will board from Platform 2. Please safely make your way to Platform 2.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
     "id": "DevAPI-E7F2AB8E-327E-4C19-B4E5-77466DA9CDD0",
     "is_deleted": false,
     "trip_update": null,
@@ -132,7 +88,7 @@
     }
   },
   {
-    "id": "DevAPI-135FA208-7938-42D5-BE44-64C67B33F614",
+    "id": "DevAPI-564CA1D0-D457-45B6-BE38-72BC86BDAF2E",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -141,11 +97,11 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "ME",
+          "route_id": "BNSF",
           "route_type": null,
           "trip": {
-            "trip_id": "ME_ME726_V3_B",
-            "route_id": "ME",
+            "trip_id": "BNSF_BN1215_V2_B",
+            "route_id": "BNSF",
             "direction_id": null,
             "start_time": null,
             "start_date": null,
@@ -159,7 +115,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -167,7 +123,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "MED Train 726 Is Delayed in Departure",
+            "text": "BNSF #1215 Operational Change/Expressing",
             "language": "en"
           }
         ]
@@ -175,7 +131,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "Inbound train #726, scheduled to depart Homewood at 7:15 AM, will be delayed in departure due to  positive train control issues. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
+            "text": "Train #1215, scheduled to arrive Main Street/Downers Grove at 7:54 AM, may be operating 15 to 20 minutes behind schedule. It will express from Cicero to LaGrange Road due to switch problems. Train #1217 will accommodate customers at intermediate stops.",
             "language": "en"
           }
         ]
@@ -227,6 +183,50 @@
     }
   },
   {
+    "id": "DevAPI-F0BC293E-3063-493D-85E0-CB3D0D58260B",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "BNSF",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "BNSF #1215 Operational Change/Expressing",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "BNSF #1215, scheduled to arrive Main Street/Downers Grove at 7:54 AM, is delayed 15 minutes and will express from Cicero to LaGrange Road due to switch problems. Train #1217 will accommodate customers at intermediate stops.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "DevAPI-5A5C4A15-D2C4-4829-B548-4564DD0E801A",
     "is_deleted": false,
     "trip_update": null,
@@ -264,6 +264,57 @@
         "translation": [
           {
             "text": "Beginning Thursday, September 11, the northeast staircase will be out of service for rehabilitation until Friday, September 26, 2025.\n\nPlease use the southeast staircase at Forest Glen Ave., to access Platform 1.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-FABEFCA9-D38F-4AC9-8A80-A47525754778",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "ME",
+          "route_type": null,
+          "trip": {
+            "trip_id": "ME_ME726_V3_B",
+            "route_id": "ME",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "MED Train 726 Is on the move",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "Inbound train #726, scheduled to depart Homewood at 7:15 AM, is on the move and may be operating 15 to 25 minutes behind schedule due to positive train control issues.",
             "language": "en"
           }
         ]
