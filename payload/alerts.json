@@ -1,6 +1,6 @@
 [
   {
-    "id": "DevAPI-8F787EF0-D147-4C60-9A21-397F19F25F7C",
+    "id": "DevAPI-0F6FD5A4-5205-467C-8E55-5D8B9BC90912",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -9,7 +9,7 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "UP-NW",
+          "route_id": "RI",
           "route_type": null,
           "trip": null,
           "stop_id": null
@@ -20,7 +20,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/RI?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -28,7 +28,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "UPNW Train #647 Delayed",
+            "text": "RID train #629 will not operate",
             "language": "en"
           }
         ]
@@ -36,7 +36,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "UPNW train #647 scheduled to arrive Ogilvie Transportation Center at 6:23 PM, may be operating 10 to 15 minutes behind schedule, due to track construction. Visit metratracker.com for the location of your train.",
+            "text": "RID train #629, scheduled to depart LaSalle Street Station at 6:10 PM, will not operate due to a pedestrian being struck by a train. Train #631, scheduled to depart LaSalle Street Station at 6:40 PM will accommodate  passengers.",
             "language": "en"
           }
         ]
@@ -88,7 +88,7 @@
     }
   },
   {
-    "id": "DevAPI-A3313952-913A-4F27-8664-A775833DD655",
+    "id": "DevAPI-8E2B88B5-73DB-4891-AAA4-44EC5F8D2730",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -99,14 +99,7 @@
           "agency_id": "METRA",
           "route_id": "RI",
           "route_type": null,
-          "trip": {
-            "trip_id": "RI_RI432_V7_C",
-            "route_id": "RI",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
+          "trip": null,
           "stop_id": null
         }
       ],
@@ -115,7 +108,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/RI?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/RI?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -123,7 +116,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "RID #432 Stopped",
+            "text": "RID Trains Stopped",
             "language": "en"
           }
         ]
@@ -131,7 +124,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "RID train #432, scheduled to arrive LaSalle Street Station at 6:24 PM, is stopped near New Lenox due to striking a pedestrian. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
+            "text": "Rock Island inbound and outbound trains are stopped near New Lenox due to train #432 striking a pedestrian. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
             "language": "en"
           }
         ]
@@ -183,6 +176,57 @@
     }
   },
   {
+    "id": "DevAPI-1F35BB02-B403-4106-9646-2287B4E4E035",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "RI",
+          "route_type": null,
+          "trip": {
+            "trip_id": "RI_RI430_V7_C",
+            "route_id": "RI",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/RI?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "RID #430 Stopped",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "RID  train #430, scheduled to arrive LaSalle Street Station at 5:40 PM, is stopped near 35th Street/Lou Jones/Bronzeville due to  police activity. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "DevAPI-A62F9708-1349-49A1-8806-D9D66CFE192F",
     "is_deleted": false,
     "trip_update": null,
@@ -227,6 +271,94 @@
     }
   },
   {
+    "id": "DevAPI-BD593AB5-030E-4970-84E0-8CCFEFCFE474",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-NW",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPNW Train #647 Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "UPNW train #647 scheduled to arrive Ogilvie Transportation Center at 6:23 PM, may be operating 15 to 20 minutes behind schedule, due to track construction. Visit metratracker.com for the location of your train.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-47AFA3D8-4111-43BC-B95C-0FCC6DFD3DC5",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "MD-N",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=0\u0026Email=0\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "MDN Train #2146 Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "MDN train #2146 scheduled to arrive Chicago Union Station at 6:12 PM, may be operating 15 to 20 minutes behind schedule, due to signal problems. Visit metratracker.com for the location of your train.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "DevAPI-8AE0C3D4-DD00-4324-945A-FFE186EFE457",
     "is_deleted": false,
     "trip_update": null,
@@ -264,50 +396,6 @@
         "translation": [
           {
             "text": "LaSalle Street station escalators on the East and West sides are out of service. Metra will provide updates as information becomes available.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "DevAPI-D44FC36B-FEDA-4A62-878B-6D56026484A2",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "MD-N",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "MDN Train #2146 Delayed",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "MDN train #2146 scheduled to arrive Chicago Union Station at 6:12 PM, may be operating 15 to 20 minutes behind schedule, due to signal problems. Visit metratracker.com for the location of your train.",
             "language": "en"
           }
         ]
