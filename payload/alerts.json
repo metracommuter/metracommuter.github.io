@@ -1,5 +1,49 @@
 [
   {
+    "id": "DevAPI-1579D55F-15AB-43F6-BDA8-7E6646269C5A",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "RI",
+          "route_type": null,
+          "trip": null,
+          "stop_id": "MIDLOTHIAN"
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "http://metrarail.com/metra/en/home.html?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "RID - Midlothian Station Platform Construction Notification",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "Beginning Saturday, September 20, the north half of Platform 1 (inbound platform) will be closed for rehabilitation until the end of November.\n\nPassengers must use the south half of Platform 1 to board the trains.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "DevAPI-7D3F64CF-DBFE-418C-9CB4-890A45742EC4",
     "is_deleted": false,
     "trip_update": null,
@@ -125,50 +169,6 @@
         "translation": [
           {
             "text": "The Cumberland station will not be ADA accessible until Tuesday, September 16 at 8PM due to station construction. Customers can use Des Plaines and Mt. Prospect as alternate boarding stations.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "DevAPI-3DB8847C-337C-4A0F-BF2A-7C83E4493B89",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "BNSF",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "BNSF 1208 Will Not Operate",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "Train #1208, scheduled to depart Fairview Avenue at 5:42 a.m., will not operate due to positive train control issues. Trains #1212 and #1214 will accommodate passengers. Visit MetraTracker.com for train location.",
             "language": "en"
           }
         ]
@@ -1181,6 +1181,50 @@
         "translation": [
           {
             "text": "\u003Cp\u003EOn October 6, 2025, 87th Street/Woodruff will reopen. \u0026nbsp;Please look and listen for announcements\u0026mdash; Some trains may not be able to board customers requiring accessibility between 9am and 4pm, Monday through Friday.\u003C/p\u003E",
+            "language": "en-US"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "cms_alert1988",
+    "is_deleted": false,
+    "alert": {
+      "url": {
+        "translation": [
+          {
+            "text": "metrarail.com/riding-metra/service-updates?Source=0\u0026Website=1\u0026OnBoard=0\u0026Email=1\u0026Twitter=1"
+          }
+        ]
+      },
+      "informed_entity": [
+        {
+          "route_id": "MD-W"
+        }
+      ],
+      "active_period": [
+        {
+          "start": {
+            "low": "2025-09-19T06:00:00"
+          },
+          "end": {
+            "low": "2025-09-20T12:00:00"
+          }
+        }
+      ],
+      "header_text": {
+        "translation": [
+          {
+            "text": "Metra Alert MD-W - Schaumburg Station - South Parking Lot Construction/Temporary Closure Update",
+            "language": "en-US"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "\u003Cp\u003EThe Schaumburg station south parking lot construction will be completed and\u0026nbsp;reopened for commuter use at 5:30am on Saturday, September 20.\u0026nbsp;\u0026nbsp;Commuters will be redirected to park in the north lot until completion. Please allow additional time when arriving to the station. Click \u003Ca href=\u0022https://assets.metra.com/s3fs-public/2025-09/SouthMetraLotClosure-002.pdf?VersionId=wxYs3FZgh9Sl74GZn2x15z9n2ZY_36dq\u0022\u003Ehere\u003C/a\u003E for detour directions.\u0026nbsp;\u003C/p\u003E",
             "language": "en-US"
           }
         ]
