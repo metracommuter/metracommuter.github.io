@@ -1,6 +1,6 @@
 [
   {
-    "id": "DevAPI-ECD13451-FA36-4A2D-B905-094A360EDEC4",
+    "id": "DevAPI-5736142F-D51B-4045-9272-78B0FDEAA197",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -9,9 +9,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "ME",
+          "route_id": "BNSF",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "BNSF_BN2024_V1_B",
+            "route_id": "BNSF",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -20,7 +27,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -28,7 +35,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "Metra Electric All trains will ground load at 111, 107, 103, 95, 91, 87, 83, 79, and 75 Street",
+            "text": "BNSF 2024 - On The Move Delayed",
             "language": "en"
           }
         ]
@@ -36,7 +43,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "All trains will ground load at 111, 107, 103, 95, 91, 87, 83, 79, and 75 Street. Do not operate chains or gates, follow train crew\u0027s instructions after the train stops. Stations will not be ADA accessible.",
+            "text": "BNSF train #2024, scheduled to depart Aurora at 3:05 PM, is on the move and may be operating 30 to 35 minutes behind schedule due to track construction. Metra will provide updates as information becomes available.",
             "language": "en"
           }
         ]
@@ -190,6 +197,50 @@
     }
   },
   {
+    "id": "DevAPI-FEA7B2BE-B2E0-41EC-A857-76F16C8782AC",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "MD-N",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "MDN Train #2611 Stopped",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "MDN Train #2611, scheduled to arrive Fox Lake at 4:12 PM, is stopped near Lake Forest due to track construction. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "DevAPI-11A8DA97-BC0C-4C4C-AD2F-8E6267080437",
     "is_deleted": false,
     "trip_update": null,
@@ -234,57 +285,6 @@
         "translation": [
           {
             "text": "MED train #8 20, scheduled to arrive Millennium Station at 3:43 PM, is on the move and may be delayed 10 to 15 minutes due to track construction.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "DevAPI-821F8BC6-D14B-4736-88CC-96DADE601223",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "BNSF",
-          "route_type": null,
-          "trip": {
-            "trip_id": "BNSF_BN2024_V1_B",
-            "route_id": "BNSF",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "BNSF 2024 - Delayed Departure",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "BNSF train #2024, scheduled to depart Aurora at 3:05 PM, will be delayed in departure due to track construction. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
             "language": "en"
           }
         ]
