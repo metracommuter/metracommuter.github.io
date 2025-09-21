@@ -1,6 +1,6 @@
 [
   {
-    "id": "DevAPI-3B9442FE-A68E-4B50-BB30-3CB62093ADCC",
+    "id": "DevAPI-961AB71D-E24D-44BD-B851-EC27D88BA5DB",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -9,16 +9,9 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "RI",
+          "route_id": "ME",
           "route_type": null,
-          "trip": {
-            "trip_id": "RI_RI314_V7_D",
-            "route_id": "RI",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
+          "trip": null,
           "stop_id": null
         }
       ],
@@ -27,7 +20,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/RI?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -35,7 +28,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "RID 314 - Stopped",
+            "text": "ME Train BX04 Operating 15 to 20 Minutes Behind Schedule Due to High Ridership",
             "language": "en"
           }
         ]
@@ -43,7 +36,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "RID train #314, scheduled to arrive LaSalle Street Station at 2:16 PM, is stopped near 35th Street/Lou Jones/Bronzeville due to  police activity. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
+            "text": "ME train #BX04 scheduled to arrive Millennium Station at 2:45 PM, may be operating 15 to 20 minutes behind schedule, due to high ridership. Visit metratracker.com for the location of your train.",
             "language": "en"
           }
         ]
@@ -139,6 +132,57 @@
         "translation": [
           {
             "text": "UPNW train #7166 scheduled to arrive Ogilvie Transportation Center at 2:23 PM, may be operating 15 to 20 minutes behind schedule, due to track construction. Visit metratracker.com for the location of your train.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-3F29B050-2C58-4388-B334-F4DFD3C0EB2C",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "RI",
+          "route_type": null,
+          "trip": {
+            "trip_id": "RI_RI314_V7_D",
+            "route_id": "RI",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/RI?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "RID 314 - On The Move Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "RID train #314, scheduled to arrive LaSalle Street Station at 2:16 PM, is on the move and may be operating 25 to 30 minutes behind schedule due to police activity. Metra will provide updates as information becomes available.",
             "language": "en"
           }
         ]
@@ -278,7 +322,7 @@
     }
   },
   {
-    "id": "DevAPI-8823865B-104A-43A7-ABE4-7CFB7D20275F",
+    "id": "DevAPI-124BBCFF-F9FC-450A-A1F5-9B25AF7D2255",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -306,7 +350,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "MDN Inbound and Outbound Trains Stopped",
+            "text": "MDN Inbound and Outbound Trains Remains Stopped",
             "language": "en"
           }
         ]
@@ -314,7 +358,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "MDN inbound and outbound train movement is halted near Libertyville due to an operational incident. Extensive delays are anticipated. Metra will provide updates as information becomes available. Visit MetraTracker.com for the location of your train.",
+            "text": "MDN inbound and outbound train movement is halted near Libertyville due to an operational incident. Extensive delays are anticipated, please seek alternate transportation. Metra will provide updates as information becomes available.",
             "language": "en"
           }
         ]
