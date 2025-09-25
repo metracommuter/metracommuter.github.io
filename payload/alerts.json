@@ -132,50 +132,6 @@
     }
   },
   {
-    "id": "DevAPI-7B18827D-A072-44FB-87CC-C417155AD60F",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "ME",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "ME Train #330 - Will Not Operate",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "ME train #330, scheduled to arrive Millennium Station at 5:25 PM, will not operate past 79th Street/Cheltenham due to a vehicle stuck on the tracks. Train #332 will accommodate passengers to Chicago.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
     "id": "DevAPI-97E17499-DADC-4591-91A9-5C31BAFFDF2E",
     "is_deleted": false,
     "trip_update": null,
@@ -264,7 +220,7 @@
     }
   },
   {
-    "id": "DevAPI-C4B3B8BF-4CEB-41F2-9CD2-EBEB34207935",
+    "id": "DevAPI-782EE525-536F-4983-9415-516F65B59130",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -292,7 +248,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "ME Train #341 Delayed Departure Due to an Earlier Vehicle Being Stuck on the Tracks",
+            "text": "ME Train #341 invalid tracking, operating on time",
             "language": "en"
           }
         ]
@@ -300,7 +256,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "ME train #341, scheduled to depart Millennium Station at 6:30 PM, will be delayed in departure due to an earlier vehicle being stuck on the tracks. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
+            "text": "Correction- Please disregard the previous service alert for ME train #341, scheduled to depart Millennium Station at 6:30 PM, train was experiencing invalid tracking and as a result a service alert was posted stating train was delayed.",
             "language": "en"
           }
         ]
@@ -389,6 +345,57 @@
         "translation": [
           {
             "text": "The Van Buren Station elevator is out of service. Customers can use Museum Campus/11th St or Millennium Station as alternate boarding stations.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-4AF37065-37A9-46AD-B3B3-302A3F955EB9",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-NW",
+          "route_type": null,
+          "trip": {
+            "trip_id": "UP-NW_UNW657_V4_B",
+            "route_id": "UP-NW",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPNW Train #657- Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "UPNW train #657 scheduled to arrive McHenry at 6:50 PM, may be operating 15 to 20 minutes behind schedule, due to speed restrictions. Visit metratracker.com for the location of your train.",
             "language": "en"
           }
         ]
