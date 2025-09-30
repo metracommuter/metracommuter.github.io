@@ -13,7 +13,7 @@
       },
       "vehicle": {
         "id": "1261",
-        "label": "150",
+        "label": null,
         "license_plate": null
       },
       "stop_time_update": [
@@ -26,33 +26,69 @@
         }
       ],
       "timestamp": {
-        "low": "2025-09-30T07:19:30.000Z",
+        "low": "2025-09-30T07:27:52.000Z",
+        "high": 0,
+        "unsigned": true
+      },
+      "delay": null
+    },
+    "vehicle": null,
+    "alert": null
+  },
+  {
+    "id": "2",
+    "is_deleted": false,
+    "trip_update": {
+      "trip": {
+        "trip_id": "MD-N_MN2159_V2_B",
+        "route_id": "MD-N",
+        "direction_id": null,
+        "start_time": "Invalid date",
+        "start_date": "20250929",
+        "schedule_relationship": 0
+      },
+      "vehicle": {
+        "id": "8524",
+        "label": "2159",
+        "license_plate": null
+      },
+      "stop_time_update": [
+        {
+          "stop_sequence": 31,
+          "stop_id": "FOXLAKE",
+          "arrival": null,
+          "departure": null,
+          "schedule_relationship": 2
+        }
+      ],
+      "timestamp": {
+        "low": "2025-09-30T07:29:27.000Z",
         "high": 0,
         "unsigned": true
       },
       "delay": null,
       "position": {
-        "id": "79",
+        "id": "134",
         "is_deleted": false,
         "trip_update": null,
         "vehicle": {
           "trip": {
-            "trip_id": "ME_ME150_V2_B",
-            "route_id": "ME",
+            "trip_id": "MD-N_MN2159_V2_B",
+            "route_id": "MD-N",
             "direction_id": null,
-            "start_time": "23:50:00",
+            "start_time": "24:32:00",
             "start_date": "20250929",
             "schedule_relationship": 0
           },
           "vehicle": {
-            "id": "1261",
-            "label": "150",
+            "id": "8524",
+            "label": "2159",
             "license_plate": null
           },
           "position": {
-            "latitude": 41.88450622558594,
-            "longitude": -87.62443542480469,
-            "bearing": 359,
+            "latitude": 42.39504623413086,
+            "longitude": -88.18074035644531,
+            "bearing": 148,
             "odometer": null,
             "speed": null
           },
@@ -60,7 +96,7 @@
           "stop_id": null,
           "current_status": 2,
           "timestamp": {
-            "low": "2025-09-30T07:19:30.000Z",
+            "low": "2025-09-30T07:29:27.000Z",
             "high": 0,
             "unsigned": true
           },
