@@ -1,5 +1,49 @@
 [
   {
+    "id": "DevAPI-E7199EC7-66D1-47FA-B0A6-FBF096E3E69F",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-W",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-W?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPW Inbound and Outbound Trains On The Move",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "UPW inbound and outbound trains are on the move delayed up to 50 minutes due to an earlier vehicle stuck on the tracks. Visit metratracker.com for the location of your train.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "DevAPI-0C9263E4-F914-427B-AE8A-B81622AC0F4C",
     "is_deleted": false,
     "trip_update": null,
@@ -81,50 +125,6 @@
         "translation": [
           {
             "text": "Monday through Friday, from 9AM to 4PM, the 103rd St,/Rosemoor station may not be fully ADA accessible due to nearby station construction.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "DevAPI-16F80334-F72D-4AD7-A007-96280ADFA737",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "UP-W",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-W?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "Inbound and Outbound Train Traffic Halted Near Geneva",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "All inbound and outbound train traffic will be stopped near Geneva due to a vehicle stuck on the tracks. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
             "language": "en"
           }
         ]
@@ -257,6 +257,57 @@
         "translation": [
           {
             "text": "MDW some inbound and outbound trains may be operating up to 15 minutes behind schedule due to positive train control issues. Please visit MetraTracker.com for the location of your train.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-ECCEC35D-79FE-4547-9E6D-F0733B5CD6BD",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-W",
+          "route_type": null,
+          "trip": {
+            "trip_id": "UP-W_UW22_V2_B",
+            "route_id": "UP-W",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-W?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPW #22 Operational Change/Expressing",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "UPW train #22, scheduled to arrive Ogilvie Transportation Center at 7:32 AM, will express from Geneva to Oak Park due to a vehicle stuck on the tracks . Train #24 will accommodate customers at intermediate stops.",
             "language": "en"
           }
         ]
