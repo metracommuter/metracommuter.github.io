@@ -132,50 +132,6 @@
     }
   },
   {
-    "id": "DevAPI-DEA43FFD-4DC4-42F4-B120-023982AE60DC",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "ME",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "ME Train #127 Delayed",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "ME train #127, scheduled to arrive University Park at 4:23 PM, may be operating 15 to 20 minutes behind schedule due to switch problems. Visit metratracker.com for the location of your train.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
     "id": "DevAPI-5C7726B6-9255-48FD-9808-F50E32850913",
     "is_deleted": false,
     "trip_update": null,
@@ -220,7 +176,7 @@
     }
   },
   {
-    "id": "DevAPI-460CE92F-329D-4179-9A84-87B016AD4E60",
+    "id": "DevAPI-811876A9-D5EC-41DA-AA74-6E45E0999404",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -229,9 +185,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "ME",
+          "route_id": "MD-W",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "MD-W_MW2225_V2_B",
+            "route_id": "MD-W",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -240,7 +203,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-W?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -248,7 +211,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "MED #628 - Will Not Operate",
+            "text": "MDW 2225 - On The Move Delayed",
             "language": "en"
           }
         ]
@@ -256,7 +219,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "Metra Electric train #628 scheduled to depart 115th Street/Kensington at 3:33pm, will not operate due to positive train control issues. Train #128 will make additional stops to accommodate passengers.",
+            "text": "MDW train #2225, scheduled to arrive Big Timber Road/Elgin at 5:26 PM, is on the move and may be operating 15 to 20 minutes behind schedule due to freight train interference. Metra will provide updates as information becomes available.",
             "language": "en"
           }
         ]
