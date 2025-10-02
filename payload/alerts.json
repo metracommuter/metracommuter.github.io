@@ -139,50 +139,6 @@
     }
   },
   {
-    "id": "DevAPI-C36D95DA-2A33-4E64-B11C-4C4D389B1AA4",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "SWS",
-          "route_type": null,
-          "trip": null,
-          "stop_id": "OAKLAWN"
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "http://metrarail.com/metra/en/home.html?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "SWS #824 - Platform #2 at Oak Lawn Patriot",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "May I have your attention please, inbound train #8 24 scheduled to arrive Chicago Union Station at 7:20 PM, will arrive and board from platform 2 at Oak Lawn Patriot. Safely make your way to platform 2 to board this train.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
     "id": "DevAPI-2B79D1D2-C20B-48CB-9257-B953E59FE519",
     "is_deleted": false,
     "trip_update": null,
@@ -264,6 +220,57 @@
         "translation": [
           {
             "text": "Monday through Friday, from 9AM to 4PM, the 103rd St,/Rosemoor station may not be fully ADA accessible due to nearby station construction.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-9A7D73FA-3C6E-43E2-B622-5C5E23C9C406",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-NW",
+          "route_type": null,
+          "trip": {
+            "trip_id": "UP-NW_UNW657_V4_B",
+            "route_id": "UP-NW",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPNW train #657 delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "UPNW train #657 scheduled to arrive McHenry at 6:50 PM, may be operating 15 to 20 minutes behind schedule, due to track construction. Visit metratracker.com for the location of your train.",
             "language": "en"
           }
         ]
