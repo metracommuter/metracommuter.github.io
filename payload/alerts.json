@@ -44,50 +44,6 @@
     }
   },
   {
-    "id": "DevAPI-42373ACA-95BE-4117-8472-3AB5F1347154",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "BNSF",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "BNSF Train 2004 Operational Change",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "BNSF train #2004, scheduled to arrive Chicago Union Station at 8:20 AM, will express from LaGrange Road to Chicago Union Station due to mechanical problems. Train #2006 will accommodate customers at intermediate stops.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
     "id": "DevAPI-A828F8F7-7AF8-4B52-AFD5-98FDA47CA81A",
     "is_deleted": false,
     "trip_update": null,
@@ -345,6 +301,57 @@
         "translation": [
           {
             "text": "Track construction will be taking place on the Metra Electric Saturday, Oct 4 through Sunday, Oct 5. Trains may incur delays enroute up to 30 minutes behind schedule passing through the work zone. Please listen to announcements for any platform changes.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-C0427A9C-104D-44B0-81C8-E39681D86F34",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-NW",
+          "route_type": null,
+          "trip": {
+            "trip_id": "UP-NW_UNW706_V6_B",
+            "route_id": "UP-NW",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPNW Train #706 Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "UPNW train #706, scheduled to arrive Ogilvie Transportation Center at 10:09 AM, may be operating 12 to 17 minutes behind schedule due to an operational incident. Visit metratracker.com for the location of your train.",
             "language": "en"
           }
         ]
