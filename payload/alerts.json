@@ -1,6 +1,6 @@
 [
   {
-    "id": "DevAPI-018A185D-0E65-43FE-8FBC-03BF8FAF19C4",
+    "id": "DevAPI-FBF08699-8FA0-48DF-8A75-E253DDDC5CFD",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -9,9 +9,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "ME",
+          "route_id": "RI",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "RI_RI230_V8_B",
+            "route_id": "RI",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -20,7 +27,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=0\u0026Email=0\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/RI?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -28,7 +35,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "Metra Electric - 103rd St./Rosemoor Station ADA Accessibility.",
+            "text": "RID 230 - Delayed Departure",
             "language": "en"
           }
         ]
@@ -36,7 +43,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "Monday through Friday, from 9AM to 4PM, the 103rd St,/Rosemoor station may not be fully ADA accessible due to nearby station construction.",
+            "text": "RID train #230, scheduled to depart Joliet at 8:30 PM, will be delayed in departure due to freight train interference. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
             "language": "en"
           }
         ]
@@ -81,57 +88,6 @@
         "translation": [
           {
             "text": "Track construction will be taking place on the Rock Island district Saturday, Oct 4 through Sunday, Oct 5. Trains may incur delays enroute up to 20 minutes behind schedule through the work zone. Please listen to announcements for any platform changes.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "DevAPI-A5517E49-9F11-4541-BB7B-4D84E36472D1",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "RI",
-          "route_type": null,
-          "trip": {
-            "trip_id": "RI_RI125_V7_B",
-            "route_id": "RI",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/RI?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "RID 125 - Stopped",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "RID train #125, scheduled to arrive Joliet at 8:00 PM, is stopped near Joliet due to freight train interference. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
             "language": "en"
           }
         ]
@@ -359,6 +315,94 @@
     }
   },
   {
+    "id": "DevAPI-018A185D-0E65-43FE-8FBC-03BF8FAF19C4",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "ME",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/ME?Twitter=0\u0026Email=0\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "Metra Electric - 103rd St./Rosemoor Station ADA Accessibility.",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "Monday through Friday, from 9AM to 4PM, the 103rd St,/Rosemoor station may not be fully ADA accessible due to nearby station construction.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-AB1A7D11-BBBA-466B-A52F-00AFD7B056D6",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-N",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPN Train #829 On The Move",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "UPN train #829 scheduled to arrive Kenosha at 9:15 PM, is on the move and operating 10 to 15 minutes behind schedule, due to an earlier medical emergency. Visit metratracker.com for the location of your train.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "DevAPI-09738A87-B963-495F-AAE6-A66E794B7D23",
     "is_deleted": false,
     "trip_update": null,
@@ -403,7 +447,7 @@
     }
   },
   {
-    "id": "DevAPI-3AC7F9A2-AAD4-4B00-B33E-850F71E857E7",
+    "id": "DevAPI-95EF0681-1C10-45CB-A4D7-1F97E6911B6E",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -412,9 +456,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "UP-N",
+          "route_id": "RI",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "RI_RI125_V7_B",
+            "route_id": "RI",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -423,7 +474,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/RI?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -431,7 +482,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "UPN Train #829 On The Move",
+            "text": "RID 125 - On The Move Delayed",
             "language": "en"
           }
         ]
@@ -439,51 +490,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "UPN train #829 scheduled to arrive Kenosha at 9:15 PM, is on the move and operating 10 to 15 minutes behind schedule, due to an earlier medical emergency. Visit metratracker.com for the location of your train.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "DevAPI-AF6F38B1-DC89-4CFD-B350-F298B953D951",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "UP-NW",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=0\u0026Email=0\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "UPNW - Track Constuction Saturday, October 4 through Sunday, October 5",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "Track construction will be taking place on the UP-Northwest Saturday, Oct 4 through Sunday, Oct 5. Trains may incur delays enroute up to 20 minutes behind schedule passing through the work zone. Please listen to announcements for any platform changes.",
+            "text": "RID train #125, scheduled to arrive Joliet at 8:00 PM, is on the move and may be operating 45 to 50 minutes behind schedule due to freight train interference. Metra will provide updates as information becomes available.",
             "language": "en"
           }
         ]
@@ -528,6 +535,50 @@
         "translation": [
           {
             "text": "Track construction will be taking place on the Milwaukee West district Saturday, Oct 4 through Sunday, Oct 5. Trains may incur delays enroute up to 15 minutes passing through the work zone. Please listen to platform announcements for any changes.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-AF6F38B1-DC89-4CFD-B350-F298B953D951",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-NW",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=0\u0026Email=0\u0026SMS=0\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPNW - Track Constuction Saturday, October 4 through Sunday, October 5",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "Track construction will be taking place on the UP-Northwest Saturday, Oct 4 through Sunday, Oct 5. Trains may incur delays enroute up to 20 minutes behind schedule passing through the work zone. Please listen to announcements for any platform changes.",
             "language": "en"
           }
         ]
