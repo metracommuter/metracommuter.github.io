@@ -88,50 +88,6 @@
     }
   },
   {
-    "id": "DevAPI-AB018E7B-51EF-4B53-BFDC-A62A90E2E81B",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "MD-N",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "MDN Train #2125 Delayed",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "MDN train #2125 scheduled to arrive Fox Lake at 5:23 PM, may be operating 20 to 25 minutes behind schedule, due to earlier freight train interference. Visit metratracker.com for the location of your train.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
     "id": "DevAPI-3E8F236D-FC63-4191-8609-DAA44AC754C5",
     "is_deleted": false,
     "trip_update": null,
@@ -257,6 +213,50 @@
         "translation": [
           {
             "text": "MDN train #2146 scheduled to arrive Chicago Union Station at 6:12 PM, may be operating 25 to 30 minutes behind schedule, due to freight train interference . Visit metratracker.com for the location of your train.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-BD0DD5EF-0A1F-49FB-A794-7157660EA3F1",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "MD-N",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "MDN train #2146 operational change",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "MDN train #2146, scheduled to arrive Chicago Union Station at 6:12 PM, will express from Glenview to Western Avenue due to earlier freight train interference. Train #2148 will accommodate customers at intermediate stops.",
             "language": "en"
           }
         ]
@@ -396,7 +396,7 @@
     }
   },
   {
-    "id": "DevAPI-3A8186E0-C9D7-4245-94D7-F5B8F0A5FB71",
+    "id": "DevAPI-C0C8A483-DE02-411E-9BE5-3C38778449A6",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -407,14 +407,7 @@
           "agency_id": "METRA",
           "route_id": "RI",
           "route_type": null,
-          "trip": {
-            "trip_id": "RI_RI303_V2_AA",
-            "route_id": "RI",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
+          "trip": null,
           "stop_id": null
         }
       ],
@@ -423,7 +416,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/RI?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/RI?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -431,7 +424,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "RID #303 Delayed",
+            "text": "RID #303 remains stopped",
             "language": "en"
           }
         ]
@@ -439,7 +432,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "RID train #303, scheduled to arrive 80th Avenue/Tinley Park at 5:20 PM, is stopped near Blue Island/Vermont Street due to mechanical problems. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
+            "text": "RID train #303, scheduled to arrive 80th Avenue/Tinley Park at 5:20 PM, remains stopped near Blue Island/Vermont Street due to mechanical problems. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
             "language": "en"
           }
         ]
