@@ -1,5 +1,49 @@
 [
   {
+    "id": "DevAPI-3F69C70B-D478-4708-BF74-D1FBD5C787AE",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "MD-W",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-W?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "MDW Trains On The Move/#2202 Operational Change",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "MDW inbound and outbound trains on the move. Train #2202 is delayed 40-45 minutes and will express from Bartlett to Franklin Park due to a vehicle on the tracks. Visit MetraTracker.com for the location of your train.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "DevAPI-775CF53C-FE57-4BC4-9577-6DE64F243122",
     "is_deleted": false,
     "trip_update": null,
@@ -44,7 +88,7 @@
     }
   },
   {
-    "id": "DevAPI-5FC785F3-2B91-494F-B5F8-5722FA543F33",
+    "id": "DevAPI-B769DC02-2679-44FB-A7E2-3B84F43E1E15",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -55,7 +99,14 @@
           "agency_id": "METRA",
           "route_id": "MD-W",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "MD-W_MW2202_V1_AA",
+            "route_id": "MD-W",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -64,7 +115,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/MD-W?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-W?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -72,7 +123,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "MDW Trains Halted Near Bartlett",
+            "text": "MDW #2202 Operational Change/Expressing",
             "language": "en"
           }
         ]
@@ -80,7 +131,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "MDW inbound and outbound train movement is halted near Bartlett due to a vehicle on the tracks. Delay times are unknown. Metra will provide updates as information becomes available. Visit MetraTracker.com for the location of your train.",
+            "text": "MDW #2202, scheduled to arrive Chicago Union Station at 6:13 AM, is expressing from Bartlett to Franklin Park due to a vehicle on the tracks. Train #2204 will accommodate customers at intermediate stops. Visit Metratracker.com for train location info.",
             "language": "en"
           }
         ]
