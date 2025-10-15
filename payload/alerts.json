@@ -44,7 +44,7 @@
     }
   },
   {
-    "id": "DevAPI-3DC4462F-BA18-45F4-91D2-56C255F514B4",
+    "id": "DevAPI-E0335EDE-E5BC-4B7C-9347-4FFA98F1F5A7",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -72,7 +72,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "NCS Train 102 is Delayed Departure",
+            "text": "NCS Train 102 Schedule Change",
             "language": "en"
           }
         ]
@@ -80,7 +80,51 @@
       "description_text": {
         "translation": [
           {
-            "text": "NCS train #102, scheduled to depart Antioch at 6:00 AM, will be delayed in departure due to mechanical problems. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
+            "text": "NCS  train #102, scheduled to arrive Chicago Union Station at 7:34 AM, will express from Antioch to Wheeling due to mechanical problems. Train #108 will accommodate customers at intermediate stops.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-06B1B1D1-9023-4276-858D-61AED68550BD",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "NCS",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/NCS?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "NCS Train 102 is Moving",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "NCS train #102 scheduled to arrive Chicago Union Station at 7:34 AM, may be operating 30 to 40 minutes behind schedule, due to mechanical problems. Visit metratracker.com for the location of your train.",
             "language": "en"
           }
         ]
