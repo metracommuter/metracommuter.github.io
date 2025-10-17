@@ -1,6 +1,6 @@
 [
   {
-    "id": "DevAPI-66DC59F6-F804-4220-A4BD-2B859BB54584",
+    "id": "DevAPI-0047C5A8-AA6B-4935-BC69-36EDC6BD27BB",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -9,11 +9,11 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "MD-N",
+          "route_id": "RI",
           "route_type": null,
           "trip": {
-            "trip_id": "MD-N_MN2136_V1_AA",
-            "route_id": "MD-N",
+            "trip_id": "RI_RI424_V7_AA",
+            "route_id": "RI",
             "direction_id": null,
             "start_time": null,
             "start_date": null,
@@ -27,7 +27,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/RI?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -35,7 +35,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "MDN Train #2136- Delayed",
+            "text": "RID #424 Delayed",
             "language": "en"
           }
         ]
@@ -43,7 +43,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "MDN train #2136 scheduled to arrive Chicago Union Station at 2:28 PM, may be operating 15 to 20 minutes behind schedule, due to track construction. Visit metratracker.com for the location of your train.",
+            "text": "RID train #424, scheduled to arrive LaSalle Street Station at 2:40 PM, is operating 20 to 25 minutes behind schedule due to track construction.",
             "language": "en"
           }
         ]
@@ -102,6 +102,57 @@
     }
   },
   {
+    "id": "DevAPI-202D0B98-62C6-4DCA-BF67-B86F6FAC1661",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "MD-N",
+          "route_type": null,
+          "trip": {
+            "trip_id": "MD-N_MN2138_V2_AA",
+            "route_id": "MD-N",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "MDN Train #2138- Stopped",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "MDN train #2138, scheduled to arrive Chicago Union Station at 3:28 PM, is stopped near Deerfield due to track construction. The duration of this delay is unknown. Metra will provide updates as information becomes available",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "DevAPI-7A737FAF-A2E1-4809-BF49-1F2F08CB07F6",
     "is_deleted": false,
     "trip_update": null,
@@ -146,57 +197,6 @@
     }
   },
   {
-    "id": "DevAPI-7FB6E4D4-CA66-46F6-8282-03A0202EF974",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "RI",
-          "route_type": null,
-          "trip": {
-            "trip_id": "RI_RI424_V7_AA",
-            "route_id": "RI",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/RI?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "RID #424 Stopped",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "RID train #424, scheduled to arrive LaSalle Street Station at 2:40 PM, is stopped near Blue Island/Vermont Street due to track construction. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
     "id": "DevAPI-409040B2-C0BC-4D49-A33D-973D70664E4E",
     "is_deleted": false,
     "trip_update": null,
@@ -234,6 +234,57 @@
         "translation": [
           {
             "text": "All trains will ground load at 111, 107, 103, 95, 91, 87, 83, 79, and 75 Street. Do not operate chains or gates, follow train crew\u0027s instructions after the train stops. Stations will not be ADA accessible.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-8E92014F-9B71-43DE-9EBD-3E497A673E51",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "MD-N",
+          "route_type": null,
+          "trip": {
+            "trip_id": "MD-N_MN2119_V2_AA",
+            "route_id": "MD-N",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "MDN Train #2119- Delayed",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "MDN train #2119 scheduled to arrive Grayslake at 2:57 PM, may be operating 20 to 25 minutes behind schedule, due to track construction. Visit metratracker.com for the location of your train.",
             "language": "en"
           }
         ]
@@ -1202,50 +1253,6 @@
         "translation": [
           {
             "text": "\u003Cp\u003EBeginning Monday, Sept. 22, the large gate boards located on the east and west walls at Ogilvie Transportation Center will be replaced and upgraded over the next few weeks. Throughout this project, atleast one gate board will remain operational at all times to ensure riders have access to train information. Metra will provide updates as information becomes available.\u0026nbsp;\u003C/p\u003E",
-            "language": "en-US"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "cms_alert1992",
-    "is_deleted": false,
-    "alert": {
-      "url": {
-        "translation": [
-          {
-            "text": "metrarail.com/riding-metra/service-updates?Source=0\u0026Website=1\u0026OnBoard=0\u0026Email=1\u0026Twitter=1"
-          }
-        ]
-      },
-      "informed_entity": [
-        {
-          "route_id": "ME"
-        }
-      ],
-      "active_period": [
-        {
-          "start": {
-            "low": "2025-10-03T06:39:00"
-          },
-          "end": {
-            "low": "2025-10-17T14:30:00"
-          }
-        }
-      ],
-      "header_text": {
-        "translation": [
-          {
-            "text": "Metra Alert ME - Richton Park North End Platform Construction",
-            "language": "en-US"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "\u003Cp\u003EThe north end of the platform at Richton Park will be under conctruction starting Friday, October 3 for approximately two week. Passengers must use the south end of the platform when boarding trains.\u0026nbsp;\u003C/p\u003E",
             "language": "en-US"
           }
         ]
