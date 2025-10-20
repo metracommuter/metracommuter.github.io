@@ -1,6 +1,6 @@
 [
   {
-    "id": "DevAPI-2A108CF4-97B3-47EF-9499-D8D3077F313C",
+    "id": "DevAPI-C6D39546-4911-41E6-9971-740FE49DF9E3",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -9,11 +9,11 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "SWS",
+          "route_id": "MD-W",
           "route_type": null,
           "trip": {
-            "trip_id": "SWS_SW807_V3_AA",
-            "route_id": "SWS",
+            "trip_id": "MD-W_MW2232_V1_AA",
+            "route_id": "MD-W",
             "direction_id": null,
             "start_time": null,
             "start_date": null,
@@ -27,7 +27,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/SWS?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-W?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -35,7 +35,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "SWS #807 delayed.",
+            "text": "MDW Train #2232 Delayed",
             "language": "en"
           }
         ]
@@ -43,7 +43,58 @@
       "description_text": {
         "translation": [
           {
-            "text": "SWS #807 Scheduled to arrive 179th Orland Park at 10:42 am is currently operating 15 to 20 minutes behind schedule due to freight train interference.",
+            "text": "MDW train #2232, scheduled to arrive Chicago Union Station at 11:45 AM, is operating 15 to 20 minutes behind schedule due to track construction. Visit metratracker.com for the location of your train.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-1939E681-4271-4C8D-B644-06E207D32120",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-N",
+          "route_type": null,
+          "trip": {
+            "trip_id": "UP-N_UN319_V2_AA",
+            "route_id": "UP-N",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPN 319 Delayed 17 to 22 Minutes",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "Train 319, scheduled to arrive Waukegan at 10:54 a.m., is delayed 17 to 22 minutes behind schedule due to track construction.",
             "language": "en"
           }
         ]
