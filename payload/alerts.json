@@ -95,50 +95,6 @@
     }
   },
   {
-    "id": "DevAPI-364890FC-79B9-4B40-AAC2-39F7F851B412",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "BNSF",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "BNSF #1227 Will Not Operate",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "BNSF #1227, scheduled to depart Chicago Union Station at 11:33 AM, will not operate due to mechanical problems. Train #1229 scheduled to depart Chicago Union Station at 12:33 PM, will accommodate passengers. Visit metratracker.com for train location info.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
     "id": "DevAPI-BB71432B-1525-4C4D-AC34-435150E8431B",
     "is_deleted": false,
     "trip_update": null,
@@ -220,57 +176,6 @@
         "translation": [
           {
             "text": "All trains will ground load at 111, 107, 103, 95, 91, 87, 83, 79, and 75 Street. Do not operate chains or gates, follow train crew\u0027s instructions after the train stops. Stations will not be ADA accessible.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "DevAPI-93472B97-E35E-4C50-B7AF-6788DE021637",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "UP-N",
-          "route_type": null,
-          "trip": {
-            "trip_id": "UP-N_UN321_V9_AA",
-            "route_id": "UP-N",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "UPN 321 Delayed 15 to 20 Minutes",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "Train 321, scheduled to arrive Kenosha at 11:45 a.m., is delayed 15 to 20 minutes due to track construction.",
             "language": "en"
           }
         ]
@@ -843,6 +748,50 @@
         "translation": [
           {
             "text": "\u003Cp\u003EOn Sunday, Nov. 2, Metra Electric trains will terminate and originate from the 18th Street Station due to the South Shore expansion project.\u0026nbsp;During this time, no service will be available at Museum Campus/11th Street and Van Buren Street stations.\u003C/p\u003E\u003Cp\u003EFor ADA customers and customers who have difficulty using stairs, Pace Paratransit vehicles will shuttle riders via the McCormick Place busway between the Millennium and McCormick Place Stations. All other customers wishing to travel to Millennium Station must transfer to a shuttle bus at the 18th Street Station. If you need help or have questions, please see Metra personnel for assistance.\u003C/p\u003E\u003Cp\u003EClick \u003Ca href=\u0022https://metra.com/newsroom/work-to-impact-metra-electric-south-shore-weekend-service-in-october-and-november\u0022\u003Ehere\u003C/a\u003E for more details.\u0026nbsp;\u003C/p\u003E",
+            "language": "en-US"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "cms_alert2017",
+    "is_deleted": false,
+    "alert": {
+      "url": {
+        "translation": [
+          {
+            "text": "metrarail.com/riding-metra/service-updates?Source=0\u0026Website=1\u0026OnBoard=0\u0026Email=1\u0026Twitter=0"
+          }
+        ]
+      },
+      "informed_entity": [
+        {
+          "route_id": "MD-N"
+        }
+      ],
+      "active_period": [
+        {
+          "start": {
+            "low": "2025-10-21T12:21:00"
+          },
+          "end": {
+            "low": "2025-12-22T18:00:00"
+          }
+        }
+      ],
+      "header_text": {
+        "translation": [
+          {
+            "text": "Metra Alert MD-N - Grayslake Platform Rehabilitation Project",
+            "language": "en-US"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "\u003Cp\u003EBeginning Saturday, October 25 through mid-December, the platform at Grayslake/Lake Street station will be replaced. Approximately 400 feet of the platform from the paid parking to the east end of the platform will be out of service. In addition, the staircase at the east end of the platform will also be out of service. Please\u0026nbsp;use caution near the work area during this time.\u0026nbsp;\u003C/p\u003E",
             "language": "en-US"
           }
         ]
