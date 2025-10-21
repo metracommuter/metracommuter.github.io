@@ -1,49 +1,5 @@
 [
   {
-    "id": "DevAPI-41B45AAB-A55B-4CE8-B62E-DC0B9D439476",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "UP-N",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "UPN 338 Delayed Departure",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "Train 338, scheduled to arrive Chicago at 1:50 p.m., will be a delayed departure due to track construction. Delay times are unknown.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
     "id": "DevAPI-ECEBE97D-D594-4D77-9C49-9506793C97A5",
     "is_deleted": false,
     "trip_update": null,
@@ -81,6 +37,57 @@
         "translation": [
           {
             "text": "Beginning Saturday, September 20, the north half of Platform 1 (inbound platform) will be closed for rehabilitation until the end of November.\n\nPassengers must use the south half of Platform 1 to board the trains.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-7F888CA2-4A4A-48F4-B74E-6E3E325DAD25",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "UP-N",
+          "route_type": null,
+          "trip": {
+            "trip_id": "UP-N_UN338_V2_AA",
+            "route_id": "UP-N",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "UPN 338 On The Move",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "Train 338, scheduled to arrive Chicago at 1:50 p.m., is on the move and operating 10 to 14 minutes behind schedule due to track construction.",
             "language": "en"
           }
         ]
