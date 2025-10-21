@@ -88,6 +88,50 @@
     }
   },
   {
+    "id": "DevAPI-A1E02251-2948-4036-885A-955062687CD2",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "BNSF",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "BNSF 1260 ANNULLED",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "BNSF train #1260, scheduled to depart Aurora at 1:05 PM, will not operate due to mechanical problems. Train #1262, scheduled to depart Aurora at 2:05 PM will accommodate  passengers.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "DevAPI-7F888CA2-4A4A-48F4-B74E-6E3E325DAD25",
     "is_deleted": false,
     "trip_update": null,
@@ -139,50 +183,6 @@
     }
   },
   {
-    "id": "DevAPI-54C4CF5D-EDC3-4D4F-8ECF-7E25C66CA0AB",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "BNSF",
-          "route_type": null,
-          "trip": null,
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "BNSF Train 1229 Delayed Departure",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "BNSF  train #1229, scheduled to depart Aurora at 12:33 PM, will be delayed in departure due to mechanical problems. The duration of this delay is unknown. Metra will provide updates as information becomes available.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
     "id": "DevAPI-349456C4-4295-4D83-9147-AB35D6DD43AF",
     "is_deleted": false,
     "trip_update": null,
@@ -220,6 +220,57 @@
         "translation": [
           {
             "text": "All trains will ground load at 111, 107, 103, 95, 91, 87, 83, 79, and 75 Street. Do not operate chains or gates, follow train crew\u0027s instructions after the train stops. Stations will not be ADA accessible.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-F1D5C2CA-09A0-4CEB-B935-DD7BC5AD16EE",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "BNSF",
+          "route_type": null,
+          "trip": {
+            "trip_id": "BNSF_BN1258_V2_AA",
+            "route_id": "BNSF",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/BNSF?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "BNSF 1258 DELAYED",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "BNSF train #1258 scheduled to arrive Chicago Union Station at 1:20 PM, may be operating 20 to 30 minutes behind schedule, due to mechanical problems. Visit metratracker.com for the location of your train.",
             "language": "en"
           }
         ]
