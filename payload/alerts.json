@@ -44,57 +44,6 @@
     }
   },
   {
-    "id": "DevAPI-510E50BF-FB44-4E19-95F3-0906B72DEF5D",
-    "is_deleted": false,
-    "trip_update": null,
-    "vehicle": null,
-    "alert": {
-      "active_period": [],
-      "informed_entity": [
-        {
-          "agency_id": "METRA",
-          "route_id": "UP-NW",
-          "route_type": null,
-          "trip": {
-            "trip_id": "UP-NW_UNW636_V4_AA",
-            "route_id": "UP-NW",
-            "direction_id": null,
-            "start_time": null,
-            "start_date": null,
-            "schedule_relationship": null
-          },
-          "stop_id": null
-        }
-      ],
-      "cause": 1,
-      "effect": 8,
-      "url": {
-        "translation": [
-          {
-            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
-            "language": "en"
-          }
-        ]
-      },
-      "header_text": {
-        "translation": [
-          {
-            "text": "UPNW #636 Operational Change/Additional Stops",
-            "language": "en"
-          }
-        ]
-      },
-      "description_text": {
-        "translation": [
-          {
-            "text": "UPNW #636, scheduled to depart McHenry at 7:24 AM, will make additional stops at Cary and Fox River Grove to accommodate passengers from train #634. Visit metratracker.com for the location of your train.",
-            "language": "en"
-          }
-        ]
-      }
-    }
-  },
-  {
     "id": "DevAPI-FDCF2E74-D9A9-474D-8D54-D81F22551BB6",
     "is_deleted": false,
     "trip_update": null,
@@ -146,7 +95,7 @@
     }
   },
   {
-    "id": "DevAPI-11AFCCF6-C81E-40A4-AE74-258F1BAF1B42",
+    "id": "DevAPI-D4AB678F-8514-4AA9-8DF9-8C7C7FB12079",
     "is_deleted": false,
     "trip_update": null,
     "vehicle": null,
@@ -155,9 +104,16 @@
       "informed_entity": [
         {
           "agency_id": "METRA",
-          "route_id": "MD-N",
+          "route_id": "UP-NW",
           "route_type": null,
-          "trip": null,
+          "trip": {
+            "trip_id": "UP-NW_UNW636_V4_AA",
+            "route_id": "UP-NW",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
           "stop_id": null
         }
       ],
@@ -166,7 +122,7 @@
       "url": {
         "translation": [
           {
-            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "text": "https://metrarail.com/maps-schedules/train-lines/UP-NW?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
             "language": "en"
           }
         ]
@@ -174,7 +130,7 @@
       "header_text": {
         "translation": [
           {
-            "text": "MDN Train #2118 Delayed",
+            "text": "UPNW #636 Operational Change (UPDATE)",
             "language": "en"
           }
         ]
@@ -182,7 +138,7 @@
       "description_text": {
         "translation": [
           {
-            "text": "MDN train #2118 scheduled to arrive Chicago Union Station at 8:34 AM, may be operating 15 to 25 minutes behind schedule, due to mechanical problems. Visit metratracker.com for the location of your train.",
+            "text": "UPNW #636, scheduled to depart McHenry at 7:24 AM, will make additional stops at Cary and Fox River Grove. This train will express from Arlington Park to Clybourn due to high ridership. Train #638 will accommodate passengers. (Updated at 8:13am)",
             "language": "en"
           }
         ]
@@ -227,6 +183,101 @@
         "translation": [
           {
             "text": "Train #101 scheduled to arrive Antioch at 8:55 a.m., may be operating 10 to 15 minutes behind schedule, due to operational issues. Visit metratracker.com for the location of your train.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-5BC8BD51-DCD3-4AD6-82A0-A1EBA9D96146",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "MD-N",
+          "route_type": null,
+          "trip": {
+            "trip_id": "MD-N_MN2120_V3_AA",
+            "route_id": "MD-N",
+            "direction_id": null,
+            "start_time": null,
+            "start_date": null,
+            "schedule_relationship": null
+          },
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=1\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "MDN #2120 Operational Change/Additional Stops",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "MDN #2120 scheduled to arrive Chicago Union Station at 8:39 AM, will make all stops from Morton Grove to Chicago Union Station to accommodate passengers from train #2118. Visit metratracker.com for the location of your train.",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "DevAPI-789E7363-A3F2-4880-824F-7D32BA43D564",
+    "is_deleted": false,
+    "trip_update": null,
+    "vehicle": null,
+    "alert": {
+      "active_period": [],
+      "informed_entity": [
+        {
+          "agency_id": "METRA",
+          "route_id": "MD-N",
+          "route_type": null,
+          "trip": null,
+          "stop_id": null
+        }
+      ],
+      "cause": 1,
+      "effect": 8,
+      "url": {
+        "translation": [
+          {
+            "text": "https://metrarail.com/maps-schedules/train-lines/MD-N?Twitter=1\u0026Email=1\u0026SMS=1\u0026Website=1\u0026OnBoard=0\u0026gtfsrt=1",
+            "language": "en"
+          }
+        ]
+      },
+      "header_text": {
+        "translation": [
+          {
+            "text": "MDN #2118 Delayed/Operational Change (UPDATE)",
+            "language": "en"
+          }
+        ]
+      },
+      "description_text": {
+        "translation": [
+          {
+            "text": "MDN train #2118 scheduled to arrive Chicago Union Station at 8:34 AM, may be operating 15 to 25 minutes behind schedule due to mechanical problems and will express from Morton Grove to Western Ave. Train #2120 will accommodate passengers.",
             "language": "en"
           }
         ]
