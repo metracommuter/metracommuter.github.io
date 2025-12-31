@@ -18,8 +18,16 @@
 		// Function to get user location and store it
 		window.getUserLocation = function() {
 			return new Promise((resolve, reject) => {
+				// Default coordinates (Chicago area)
+				const defaultLocation = {
+					latitude: 41.88206675125365,
+					longitude: -87.62781589291926
+				};
+				
 				if (!navigator.geolocation) {
-					reject(new Error("Geolocation is not supported by this browser."));
+					console.warn("Geolocation is not supported. Using default location.");
+					localStorage.setItem('userLocation', JSON.stringify(defaultLocation));
+					resolve(defaultLocation);
 					return;
 				}
 				
@@ -34,7 +42,9 @@
 					},
 					error => {
 						console.error("Error getting location:", error.message);
-						reject(error);
+						console.warn("Using default location due to error.");
+						localStorage.setItem('userLocation', JSON.stringify(defaultLocation));
+						resolve(defaultLocation);
 					},
 					{
 						enableHighAccuracy: true,
@@ -69,6 +79,32 @@
 	</div>
 	<script src="_framework/blazor.webassembly.js"></script>
 	<script>navigator.serviceWorker.register('service-worker.js');</script>
+	
+	<!-- Register PWA install prompt listener immediately (before Blazor loads) -->
+	<script>
+		// Store the deferred prompt globally so the module can access it
+		window.deferredPwaPrompt = null;
+		
+		window.addEventListener('beforeinstallprompt', (e) => {
+			// Prevent the mini-infobar from appearing on mobile
+			e.preventDefault();
+			// Stash the event so it can be triggered later
+			window.deferredPwaPrompt = e;
+			console.log('PWA install prompt available');
+			
+			// If Blazor is already loaded, notify it immediately
+			if (window.pwaInstallDotNetRef) {
+				window.pwaInstallDotNetRef.invokeMethodAsync('OnBeforeInstallPrompt');
+			}
+		});
+		
+		window.addEventListener('appinstalled', () => {
+			console.log('PWA was installed');
+			window.deferredPwaPrompt = null;
+			localStorage.removeItem('pwa-install-dismissed');
+		});
+	</script>
+	
 	<script>
 		window.scrollToTableRow = function (rowIndex) {
 			setTimeout(() => {
