@@ -1,4 +1,4 @@
-/* Manifest version: C1XXTHML */
+/* Manifest version: 3FSctpRq */
 // Caution! Be sure you understand the caveats before publishing an application with
 // offline support. See https://aka.ms/blazor-offline-considerations
 
@@ -20,12 +20,31 @@ const manifestUrlList = self.assetsManifest.assets.map(asset => new URL(asset.ur
 async function onInstall(event) {
     console.info('Service worker: Install');
 
+    const cache = await caches.open(cacheName);
+    
     // Fetch and cache all matching items from the assets manifest
-    const assetsRequests = self.assetsManifest.assets
+    const assetsToCache = self.assetsManifest.assets
         .filter(asset => offlineAssetsInclude.some(pattern => pattern.test(asset.url)))
-        .filter(asset => !offlineAssetsExclude.some(pattern => pattern.test(asset.url)))
-        .map(asset => new Request(asset.url, { integrity: asset.hash, cache: 'no-cache' }));
-    await caches.open(cacheName).then(cache => cache.addAll(assetsRequests));
+        .filter(asset => !offlineAssetsExclude.some(pattern => pattern.test(asset.url)));
+    
+    // Fetch each asset individually to handle integrity check failures gracefully
+    await Promise.all(assetsToCache.map(async (asset) => {
+        const url = new URL(asset.url, baseUrl).href;
+        try {
+            // Try fetching with integrity check first
+            const request = new Request(url, { integrity: asset.hash, cache: 'no-cache' });
+            await cache.add(request);
+        } catch (error) {
+            // If integrity check fails, fall back to fetching without integrity
+            console.warn(`Integrity check failed for ${asset.url}, falling back to fetch without integrity:`, error);
+            try {
+                const fallbackRequest = new Request(url, { cache: 'no-cache' });
+                await cache.add(fallbackRequest);
+            } catch (fallbackError) {
+                console.error(`Failed to cache ${asset.url} even without integrity check:`, fallbackError);
+            }
+        }
+    }));
 }
 
 async function onActivate(event) {
