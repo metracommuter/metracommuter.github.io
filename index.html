@@ -14,6 +14,8 @@
 	<link href="manifest.webmanifest" rel="manifest" />
 	<link rel="apple-touch-icon" sizes="512x512" href="icon-512.png" />
 	<link rel="apple-touch-icon" sizes="192x192" href="icon-192.png" />
+	<!-- Preload Blazor runtime so download starts while CSS and other resources load -->
+	<link rel="preload" href="_framework/blazor.webassembly.js" as="script" />
 	<script>
 		// Function to get user location and store it
 		window.getUserLocation = function() {
@@ -78,31 +80,104 @@
 		<span class="dismiss">🗙</span>
 	</div>
 	<script src="_framework/blazor.webassembly.js"></script>
-	<script>navigator.serviceWorker.register('service-worker.js');</script>
-	
-	<!-- Register PWA install prompt listener immediately (before Blazor loads) -->
 	<script>
-		// Store the deferred prompt globally so the module can access it
-		window.deferredPwaPrompt = null;
+		// Enhanced service worker registration with update detection
+		if ('serviceWorker' in navigator) {
+			window.addEventListener('load', () => {
+				navigator.serviceWorker.register('service-worker.js', { updateViaCache: 'none' })
+					.then(registration => {
+						console.log('Service Worker registered:', registration);
+						
+						// Check for updates immediately and then every 60 seconds
+						registration.update();
+						setInterval(() => {
+							console.log('Checking for service worker updates...');
+							registration.update();
+						}, 60000);
+						
+						// Listen for updates
+						registration.addEventListener('updatefound', () => {
+							const newWorker = registration.installing;
+							console.log('Service Worker update found');
+							
+							newWorker.addEventListener('statechange', () => {
+								if (newWorker.state === 'activated') {
+									// Check if there's a controller (an old service worker)
+									if (navigator.serviceWorker.controller) {
+										console.log('New service worker activated - reloading page');
+										// Show a notification to the user
+										showUpdateNotification();
+									}
+								}
+							});
+						});
+					})
+					.catch(error => {
+						console.error('Service Worker registration failed:', error);
+					});
+				
+				// Listen for controllerchange event - fired when a new service worker takes control
+				navigator.serviceWorker.addEventListener('controllerchange', () => {
+					// Only reload if we're not already showing the notification
+					if (!document.getElementById('sw-update-notification')) {
+						console.log('Service Worker controller changed - reloading page');
+						window.location.reload();
+					}
+				});
+			});
+		}
 		
-		window.addEventListener('beforeinstallprompt', (e) => {
-			// Prevent the mini-infobar from appearing on mobile
-			e.preventDefault();
-			// Stash the event so it can be triggered later
-			window.deferredPwaPrompt = e;
-			console.log('PWA install prompt available');
+		function showUpdateNotification() {
+			// Check if notification already exists
+			if (document.getElementById('sw-update-notification')) return;
 			
-			// If Blazor is already loaded, notify it immediately
-			if (window.pwaInstallDotNetRef) {
-				window.pwaInstallDotNetRef.invokeMethodAsync('OnBeforeInstallPrompt');
-			}
-		});
-		
-		window.addEventListener('appinstalled', () => {
-			console.log('PWA was installed');
-			window.deferredPwaPrompt = null;
-			localStorage.removeItem('pwa-install-dismissed');
-		});
+			const notification = document.createElement('div');
+			notification.id = 'sw-update-notification';
+			notification.style.cssText = `
+				position: fixed;
+				top: 20px;
+				left: 50%;
+				transform: translateX(-50%);
+				background: #0052a7;
+				color: white;
+				padding: 16px 24px;
+				border-radius: 8px;
+				box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+				z-index: 10000;
+				display: flex;
+				align-items: center;
+				gap: 16px;
+				font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+			`;
+			
+			notification.innerHTML = `
+				<div>
+					<strong>Update Available</strong>
+					<p style="margin: 4px 0 0 0; font-size: 14px;">A new version of the app is available with the latest schedule data.</p>
+				</div>
+				<button id="sw-update-reload" style="
+					background: white;
+					color: #0052a7;
+					border: none;
+					padding: 8px 16px;
+					border-radius: 4px;
+					font-weight: bold;
+					cursor: pointer;
+					white-space: nowrap;
+				">Reload Now</button>
+			`;
+			
+			document.body.appendChild(notification);
+			
+			document.getElementById('sw-update-reload').addEventListener('click', () => {
+				window.location.reload();
+			});
+			
+			// Auto-reload after 10 seconds if user doesn't click
+			setTimeout(() => {
+				window.location.reload();
+			}, 10000);
+		}
 	</script>
 	
 	<script>
