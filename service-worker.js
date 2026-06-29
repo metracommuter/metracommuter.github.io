@@ -1,4 +1,4 @@
-/* Manifest version: dDP2X5wy */
+/* Manifest version: Sg2ZrD26 */
 // Caution! Be sure you understand the caveats before publishing an application with
 // offline support. See https://aka.ms/blazor-offline-considerations
 // Service Worker Version: 2.0.0 - Updated to bypass cache for real-time payload data
